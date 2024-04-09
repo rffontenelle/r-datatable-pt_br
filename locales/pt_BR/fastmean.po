@@ -27,4 +27,4 @@ msgstr "fastmean recebeu o tipo %s, não numérico ou lógico."
 #: fastmean.c:83 fastmean.c:111
 #, c-format
 msgid "Internal error: type '%s' not caught earlier in fastmean"
-msgstr ""
+msgstr "Erro interno: tipo \"%s\" não capturado mais cedo no fastmean"
