@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: nafill 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: nafill.c:87
+#, c-format
+msgid "%s: took %.3fs\n"
+msgstr ""
+
+#: nafill.c:103
+msgid "nan_is_na must be TRUE or FALSE"
+msgstr ""
+
+#: nafill.c:110
+msgid ""
+"'x' argument is atomic vector, in-place update is supported only for list/"
+"data.table"
+msgstr ""
+
+#: nafill.c:112 nafill.c:123
+msgid "'x' argument must be numeric type, or list/data.table of numeric types"
+msgstr ""
+
+#: nafill.c:170
+#, c-format
+msgid ""
+"Internal error: invalid %s argument in %s function should have been caught "
+"earlier. Please report to the data.table issue tracker."
+msgstr ""
+
+#: nafill.c:179
+msgid "fill must be a vector of length 1 or a list of length of x"
+msgstr ""
+
+#: nafill.c:187
+msgid "internal error: 'fill' should be recycled as list already"
+msgstr ""
+
+#: nafill.c:226
+#, c-format
+msgid "%s: parallel processing of %d column(s) took %.3fs\n"
+msgstr ""

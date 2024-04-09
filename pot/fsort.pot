@@ -1,0 +1,87 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: fsort 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: fsort.c:105
+#, c-format
+msgid "%s must be TRUE or FALSE"
+msgstr ""
+
+#: fsort.c:107
+msgid "x must be a vector of type double currently"
+msgstr ""
+
+#: fsort.c:118
+#, c-format
+msgid "nth=%d, nBatch=%d\n"
+msgstr ""
+
+#: fsort.c:152
+#, c-format
+msgid "Range = [%g,%g]\n"
+msgstr ""
+
+#: fsort.c:153
+msgid "Cannot yet handle negatives."
+msgstr ""
+
+#: fsort.c:168
+#, c-format
+msgid "maxBit=%d; MSBNbits=%d; shift=%d; MSBsize=%zu\n"
+msgstr ""
+
+#: fsort.c:174
+#, c-format
+msgid ""
+"counts is %dMB (%d pages per nBatch=%d, batchSize=%<PRIu64>, lastBatchSize="
+"%<PRIu64>)\n"
+msgstr ""
+
+#: fsort.c:228
+msgid "Internal error: counts[nBatch-1][MSBsize-1] != length(x)"
+msgstr ""
+
+#: fsort.c:244
+msgid "Top 20 MSB counts: "
+msgstr ""
+
+#: fsort.c:244
+#, c-format
+msgid "%<PRId64> "
+msgstr ""
+
+#: fsort.c:244
+msgid "\n"
+msgstr ""
+
+#: fsort.c:245
+msgid "Reduced MSBsize from %zu to "
+msgstr ""
+
+#: fsort.c:249
+msgid "%zu by excluding 0 and 1 counts\n"
+msgstr ""
+
+#: fsort.c:315
+#, c-format
+msgid ""
+"OpenMP %d did not assign threads to iterations monotonically. Please search "
+"Stack Overflow for this message."
+msgstr ""
+
+#: fsort.c:317
+msgid "Unable to allocate working memory"
+msgstr ""
+
+#: fsort.c:327
+#, c-format
+msgid "%d: %.3f (%4.1f%%)\n"
+msgstr ""
