@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ijoin 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ijoin.c:22 ijoin.c:243
+msgid ""
+"Internal error: invalid value for 'mult'; this should have been caught "
+"before. please report to data.table issue tracker"
+msgstr ""
+
+#: ijoin.c:29 ijoin.c:250
+msgid ""
+"Internal error: invalid value for 'type'; this should have been caught "
+"before. please report to data.table issue tracker"
+msgstr ""
+
+#: ijoin.c:56 ijoin.c:121
+#, c-format
+msgid "Internal error: unknown type in mult=%d in lookup: %d"
+msgstr ""
+
+#: ijoin.c:124 ijoin.c:215
+#, c-format
+msgid "Internal error: unknown mult in lookup: %d"
+msgstr ""
+
+#: ijoin.c:128
+#, c-format
+msgid "First pass on calculating lengths in lookup ... done in %8.3f seconds\n"
+msgstr ""
+
+#: ijoin.c:141
+#, c-format
+msgid "Second pass on allocation in lookup ... done in %8.3f seconds\n"
+msgstr ""
+
+#: ijoin.c:160
+#, c-format
+msgid "Internal error: unknown type lookup should have been caught earlier: %d"
+msgstr ""
+
+#: ijoin.c:212
+#, c-format
+msgid ""
+"Internal error: unknown type in mult=%d in lookup should have been caught "
+"earlier: %d"
+msgstr ""
+
+#: ijoin.c:220
+#, c-format
+msgid "Final step in generating lookup ... done in %8.3f seconds\n"
+msgstr ""
+
+#: ijoin.c:325
+#, c-format
+msgid "Internal error: unknown type in mult=ALL in overlaps: %d"
+msgstr ""
+
+#: ijoin.c:330
+#, c-format
+msgid ""
+"First pass on calculating lengths in overlaps ... done in %8.3f seconds\n"
+msgstr ""
+
+#: ijoin.c:466 ijoin.c:573 ijoin.c:722
+#, c-format
+msgid "Internal error: unknown type in mult=%d in overlaps: %d"
+msgstr ""
+
+#: ijoin.c:725
+#, c-format
+msgid "Internal error: unknown mult in overlaps: %d"
+msgstr ""
+
+#: ijoin.c:729
+#, c-format
+msgid "Final step, fetching indices in overlaps ... done in %8.3f seconds\n"
+msgstr ""
