@@ -10,4 +10,14 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - run: echo Hello World
+      - uses: actions/checkout@v4
+      - run: |
+          pip install translate-toolkit
+          sudo apt install gettext tree -y
+      - run: |
+          cd tm
+          bash update-tm.sh
+      - run: tree r18r
+      - run: tree r-project
+      - run: cat rx-studio-compendium.po
+      - run: cat rx-studio-terms.po
