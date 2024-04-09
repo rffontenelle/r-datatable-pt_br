@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: openmp-utils 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: openmp-utils.c:23
+#, c-format
+msgid ""
+"Ignoring invalid %s==\"%s\". Not an integer >= 1. Please remove any "
+"characters that are not a digit [0-9]. See ?data.table::setDTthreads."
+msgstr ""
+
+#: openmp-utils.c:44
+#, c-format
+msgid ""
+"Ignoring invalid R_DATATABLE_NUM_PROCS_PERCENT==%d. If used it must be an "
+"integer between 2 and 100. Default is 50. See ?setDTtheads."
+msgstr ""
+
+#: openmp-utils.c:79
+#, c-format
+msgid "%s must be TRUE or FALSE"
+msgstr ""
+
+#: openmp-utils.c:82
+msgid ""
+"This installation of data.table has not been compiled with OpenMP support.\n"
+msgstr ""
+
+#: openmp-utils.c:84
+#, c-format
+msgid "  OpenMP version (_OPENMP)       %d\n"
+msgstr ""
+
+#: openmp-utils.c:89
+#, c-format
+msgid "  omp_get_num_procs()            %d\n"
+msgstr ""
+
+#: openmp-utils.c:90
+#, c-format
+msgid "  R_DATATABLE_NUM_PROCS_PERCENT  %s\n"
+msgstr ""
+
+#: openmp-utils.c:91
+#, c-format
+msgid "  R_DATATABLE_NUM_THREADS        %s\n"
+msgstr ""
+
+#: openmp-utils.c:92
+#, c-format
+msgid "  R_DATATABLE_THROTTLE           %s\n"
+msgstr ""
+
+#: openmp-utils.c:93
+#, c-format
+msgid "  omp_get_thread_limit()         %d\n"
+msgstr ""
+
+#: openmp-utils.c:94
+#, c-format
+msgid "  omp_get_max_threads()          %d\n"
+msgstr ""
+
+#: openmp-utils.c:95
+#, c-format
+msgid "  OMP_THREAD_LIMIT               %s\n"
+msgstr ""
+
+#: openmp-utils.c:96
+#, c-format
+msgid "  OMP_NUM_THREADS                %s\n"
+msgstr ""
+
+#: openmp-utils.c:97
+#, c-format
+msgid "  RestoreAfterFork               %s\n"
+msgstr ""
+
+#: openmp-utils.c:98
+#, c-format
+msgid ""
+"  data.table is using %d threads with throttle==%d. See ?setDTthreads.\n"
+msgstr ""
+
+#: openmp-utils.c:106
+msgid ""
+"restore_after_fork= must be TRUE, FALSE, or NULL (default). "
+"getDTthreads(verbose=TRUE) reports the current setting.\n"
+msgstr ""
+
+#: openmp-utils.c:112
+msgid "'throttle' must be a single number, non-NA, and >=1"
+msgstr ""
+
+#: openmp-utils.c:126
+msgid ""
+"threads= must be either NULL or a single number >= 0. See ?setDTthreads."
+msgstr ""
+
+#: openmp-utils.c:130
+msgid "Internal error: percent= must be TRUE or FALSE at C level"
+msgstr ""
+
+#: openmp-utils.c:133
+#, c-format
+msgid ""
+"Internal error: threads==%d should be between 2 and 100 (percent=TRUE at C "
+"level)."
+msgstr ""

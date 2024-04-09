@@ -1,0 +1,240 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: forder 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: forder.c:107
+#, c-format
+msgid "Failed to realloc thread private group size buffer to %d*4bytes"
+msgstr ""
+
+#: forder.c:121
+#, c-format
+msgid "Failed to realloc group size result to %d*4bytes"
+msgstr ""
+
+#: forder.c:255
+#, c-format
+msgid ""
+"Logical error. counts[0]=%d in cradix but should have been decremented to 0. "
+"radix=%d"
+msgstr ""
+
+#: forder.c:270
+msgid "Failed to alloc cradix_counts"
+msgstr ""
+
+#: forder.c:272
+msgid "Failed to alloc cradix_tmp"
+msgstr ""
+
+#: forder.c:283
+#, c-format
+msgid ""
+"Internal error: ustr isn't empty when starting range_str: ustr_n=%d, "
+"ustr_alloc=%d"
+msgstr ""
+
+#: forder.c:284
+msgid "Internal error: ustr_maxlen isn't 0 when starting range_str"
+msgstr ""
+
+#: forder.c:304
+#, c-format
+msgid "Unable to realloc %d * %d bytes in range_str"
+msgstr ""
+
+#: forder.c:322
+msgid "Failed to alloc ustr3 when converting strings to UTF8"
+msgstr ""
+
+#: forder.c:340
+msgid "Failed to alloc tl when converting strings to UTF8"
+msgstr ""
+
+#: forder.c:369
+msgid "Must an integer or numeric vector length 1"
+msgstr ""
+
+#: forder.c:370
+msgid "Must be 2, 1 or 0"
+msgstr ""
+
+#: forder.c:404
+msgid "Unknown non-finite value; not NA, NaN, -Inf or +Inf"
+msgstr ""
+
+#: forder.c:426
+msgid ""
+"Internal error: input is not either a list of columns, or an atomic vector."
+msgstr ""
+
+#: forder.c:428
+msgid ""
+"Internal error: input is an atomic vector (not a list of columns) but by= is "
+"not NULL"
+msgstr ""
+
+#: forder.c:430
+msgid ""
+"Input is an atomic vector (not a list of columns) but order= is not a length "
+"1 integer"
+msgstr ""
+
+#: forder.c:432
+#, c-format
+msgid "forder.c received a vector type '%s' length %d\n"
+msgstr ""
+
+#: forder.c:440
+#, c-format
+msgid "forder.c received %d rows and %d columns\n"
+msgstr ""
+
+#: forder.c:443
+msgid "Internal error: DT is an empty list() of 0 columns"
+msgstr ""
+
+#: forder.c:445
+#, c-format
+msgid ""
+"Internal error: DT has %d columns but 'by' is either not integer or is "
+"length 0"
+msgstr ""
+
+#: forder.c:447
+#, c-format
+msgid ""
+"Either order= is not integer or its length (%d) is different to by='s length "
+"(%d)"
+msgstr ""
+
+#: forder.c:453
+#, c-format
+msgid "internal error: 'by' value %d out of range [1,%d]"
+msgstr ""
+
+#: forder.c:455
+#, c-format
+msgid ""
+"Column %d is length %d which differs from length of column 1 (%d), are you "
+"attempting to order by a list column?\n"
+msgstr ""
+
+#: forder.c:459 forder.c:462
+#, c-format
+msgid "%s must be TRUE or FALSE"
+msgstr ""
+
+#: forder.c:465
+msgid "At least one of retGrp= or sort= must be TRUE"
+msgstr ""
+
+#: forder.c:467
+msgid "na.last must be logical TRUE, FALSE or NA of length 1"
+msgstr ""
+
+#: forder.c:495 forder.c:599
+#, c-format
+msgid "Unable to allocate %<PRIu64> bytes of working memory"
+msgstr ""
+
+#: forder.c:511
+#, c-format
+msgid "Item %d of order (ascending/descending) is %d. Must be +1 or -1."
+msgstr ""
+
+#: forder.c:537
+#, c-format
+msgid ""
+"\n"
+"*** Column %d passed to forder is a date stored as an 8 byte double but no "
+"fractions are present. Please consider a 4 byte integer date such as IDate "
+"to save space and time.\n"
+msgstr ""
+
+#: forder.c:553
+#, c-format
+msgid "Column %d passed to [f]order is type '%s', not yet supported."
+msgstr ""
+
+#: forder.c:706
+msgid "Internal error: column not supported, not caught earlier"
+msgstr ""
+
+#: forder.c:714
+#, c-format
+msgid "nradix=%d\n"
+msgstr ""
+
+#: forder.c:721
+#, c-format
+msgid ""
+"Failed to allocate TMP or UGRP or they weren't cache line aligned: nth=%d"
+msgstr ""
+
+#: forder.c:727
+msgid "Could not allocate (very tiny) group size thread buffers"
+msgstr ""
+
+#: forder.c:788
+#, c-format
+msgid "Timing block %2d%s = %8.3f   %8d\n"
+msgstr ""
+
+#: forder.c:791
+#, c-format
+msgid "stat[%03d]==%20<PRIu64>\n"
+msgstr ""
+
+#: forder.c:1047
+#, c-format
+msgid "Failed to allocate parallel counts. my_n=%d, nBatch=%d"
+msgstr ""
+
+#: forder.c:1156
+#, c-format
+msgid "Unable to allocate TMP for my_n=%d items in parallel batch counting"
+msgstr ""
+
+#: forder.c:1264
+msgid "Internal error: issorted 'by' must be NULL or integer vector"
+msgstr ""
+
+#: forder.c:1268 forder.c:1319
+#, c-format
+msgid "issorted 'by' [%d] out of range [1,%d]"
+msgstr ""
+
+#: forder.c:1273
+msgid "is.sorted does not work on list columns"
+msgstr ""
+
+#: forder.c:1306 forder.c:1336 forder.c:1370
+#, c-format
+msgid "type '%s' is not yet supported"
+msgstr ""
+
+#: forder.c:1383
+msgid "x must be either NULL or an integer vector"
+msgstr ""
+
+#: forder.c:1385
+msgid "nrow must be integer vector length 1"
+msgstr ""
+
+#: forder.c:1387
+#, c-format
+msgid "nrow==%d but must be >=0"
+msgstr ""
+
+#: forder.c:1404
+msgid "x must be type 'double'"
+msgstr ""

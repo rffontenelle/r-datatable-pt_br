@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: init 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: init.c:163
+msgid ""
+"Pointers are %zu bytes, greater than 8. We have not tested on any "
+"architecture greater than 64bit yet."
+msgstr ""
+
+#: init.c:177
+msgid "... failed. Please forward this message to maintainer('data.table')."
+msgstr ""
+
+#: init.c:178
+#, c-format
+msgid "Checking NA_INTEGER [%d] == INT_MIN [%d] %s"
+msgstr ""
+
+#: init.c:179
+#, c-format
+msgid "Checking NA_INTEGER [%d] == NA_LOGICAL [%d] %s"
+msgstr ""
+
+#: init.c:180 init.c:181 init.c:183 init.c:186 init.c:187 init.c:188 init.c:189 init.c:190 init.c:191 init.c:192
+#, c-format
+msgid "Checking sizeof(%s) [%zu] is %d %s"
+msgstr ""
+
+#: init.c:184
+#, c-format
+msgid "Checking sizeof(pointer) [%zu] is 4 or 8 %s"
+msgstr ""
+
+#: init.c:185
+#, c-format
+msgid "Checking sizeof(SEXP) [%zu] == sizeof(pointer) [%zu] %s"
+msgstr ""
+
+#: init.c:195
+#, c-format
+msgid "Checking LENGTH(allocVector(INTSXP,2)) [%d] is 2 %s"
+msgstr ""
+
+#: init.c:197
+#, c-format
+msgid "Checking TRUELENGTH(allocVector(INTSXP,2)) [%lld] is 0 %s"
+msgstr ""
+
+#: init.c:204
+#, c-format
+msgid "Checking memset(&i,0,sizeof(int)); i == (int)0 %s"
+msgstr ""
+
+#: init.c:207
+#, c-format
+msgid "Checking memset(&ui, 0, sizeof(unsigned int)); ui == (unsigned int)0 %s"
+msgstr ""
+
+#: init.c:210
+#, c-format
+msgid "Checking memset(&d, 0, sizeof(double)); d == (double)0.0 %s"
+msgstr ""
+
+#: init.c:213
+#, c-format
+msgid "Checking memset(&ld, 0, sizeof(long double)); ld == (long double)0.0 %s"
+msgstr ""
+
+#: init.c:216
+msgid "The ascii character '/' is not just before '0'"
+msgstr ""
+
+#: init.c:217
+msgid "The C expression (uint_fast8_t)('/'-'0')<10 is true. Should be false."
+msgstr ""
+
+#: init.c:218
+msgid "The ascii character ':' is not just after '9'"
+msgstr ""
+
+#: init.c:219
+msgid "The C expression (uint_fast8_t)('9'-':')<10 is true. Should be false."
+msgstr ""
+
+#: init.c:224
+#, c-format
+msgid "Conversion of NA_INT64 via double failed %<PRId64>!=%<PRId64>"
+msgstr ""
+
+#: init.c:228
+msgid "NA_INT64_D (negative -0.0) is not == 0.0."
+msgstr ""
+
+#: init.c:229
+msgid "NA_INT64_D (negative -0.0) is not ==-0.0."
+msgstr ""
+
+#: init.c:230
+msgid "ISNAN(NA_INT64_D) is TRUE but should not be"
+msgstr ""
+
+#: init.c:231
+msgid "isnan(NA_INT64_D) is TRUE but should not be"
+msgstr ""
+
+#: init.c:264
+#, c-format
+msgid "PRINTNAME(install(\"integer64\")) has returned %s not %s"
+msgstr ""
+
+#: init.c:318
+msgid "verbose option must be length 1 non-NA logical or integer"
+msgstr ""
+
+#: init.c:349
+msgid ".Last.value in namespace is not a length 1 integer"
+msgstr ""
