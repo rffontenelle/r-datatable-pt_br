@@ -22,7 +22,7 @@ msgstr "narm deve ser TRUE ou FALSE"
 #: fastmean.c:45
 #, c-format
 msgid "fastmean was passed type %s, not numeric or logical"
-msgstr ""
+msgstr "fastmean recebeu o tipo %s, não numérico ou lógico."
 
 #: fastmean.c:83 fastmean.c:111
 #, c-format
