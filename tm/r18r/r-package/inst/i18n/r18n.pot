@@ -1,0 +1,23 @@
+# Copyright (C) 2022 NA
+msgid ""
+msgstr ""
+"Project-Id-Version: r18r 1.0\n"
+"POT-Creation-Date: 2022-06-15\n"
+"PO-Revision-Date: 2022-06-15 15:43:03\n"
+"Last-Translator: NA\n"
+"Language-Team: NA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Example comment
+msgid "Text to be translated"
+msgstr ""
+
+#. The best programming language all around!
+msgid "R"
+msgstr ""
+
+msgid "OK"
+msgstr ""
+

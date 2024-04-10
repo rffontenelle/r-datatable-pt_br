@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE martif PUBLIC "ISO 12200:1999A//DTD MARTIF core (DXFcdV04)//EN" "TBXcdv04.dtd">
+<martif type="TBX" xml:lang="en">
+    <martifHeader>
+        <fileDesc>
+            <sourceDesc>
+                <p>Translate Toolkit</p>
+            </sourceDesc>
+        </fileDesc>
+    </martifHeader>
+    <text>
+        <body>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>path</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>caminho</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Workspace</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>Ambiente de trabalho</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>WARNING</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>ALERTA</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>numeric-alike</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>numéricos ou similares</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>character string</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>string</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>match</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>corresponder</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>non-directory</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>não diretório</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>namespace</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>namespace</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>splice</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>juntar</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>defunct</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>extinto</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>handlers</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>gerenciador</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>stack</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>stack</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>cache</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>cache</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>timestamp</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>timestamp</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>deprecated</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>extinto, obsoleto, descontinuado</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>callback</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>callback</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>missing</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>ausente</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>attach</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>anexar</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>vignettes</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>vignettes</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>sysdata</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>sysdata</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>lazydata</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>lazydata</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>registerS3methods</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>registerS3methods</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>run</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>executar</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>LaTeX</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term/></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>BibTeX</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term/></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>users</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>usuários(as)</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>user</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>usuário(a)</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>argument</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>argumento</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>attribute</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>atributo</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>logical</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>lógico</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>gzip</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>gzip</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>xz</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>xz</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>PDF</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term/></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>HTML</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term/></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>invalid</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>inválido</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>No</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>Nenhum</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>command</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>comando</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>found</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>encontrado</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>bzip2</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>bzip2</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>failed</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>falha em</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>create</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>criar</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>directory</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>diretório</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>digit</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>dígito</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>starts with</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>começa com</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>contains</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>contém</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>connection</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>conexão</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>file</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>arquivo</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>size</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>tamanho</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>limited</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>limitado</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>vignette</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>vignette</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>zip file</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>arquivo zip</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>tarball</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term/></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>field</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>campo</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>non-interactively</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>de forma não interativa</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>missing value</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term>valor faltante</term></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>missing values</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term/></tig></langSet>
+            </termEntry>
+            <termEntry>
+                <langSet xml:lang="en"><tig><term>Quartz</term></tig></langSet>
+                <langSet xml:lang="pt_BR"><tig><term/></tig></langSet>
+            </termEntry>
+        </body>
+    </text>
+</martif>

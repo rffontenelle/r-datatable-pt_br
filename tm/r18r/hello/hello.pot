@@ -1,0 +1,15 @@
+# Copyright (C) 2022 NA
+msgid ""
+msgstr ""
+"Project-Id-Version: hello 1.0\n"
+"POT-Creation-Date: 2022-06-15\n"
+"PO-Revision-Date: 2022-06-16 01:24:16\n"
+"Last-Translator: NA\n"
+"Language-Team: NA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Hello, world!"
+msgstr ""
+
