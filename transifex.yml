@@ -9,4 +9,4 @@ filters:
     file_format: PO
     source_file: tm/tm-rx-studio.pot
     source_language: en
-    translation_files_expression: 'tm/<lang>.po'
+    translation_files_expression: 'tm/tm-<lang>.po'
