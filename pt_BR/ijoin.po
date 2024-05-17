@@ -92,14 +92,16 @@ msgstr ""
 #: ijoin.c:466 ijoin.c:573 ijoin.c:722
 #, c-format
 msgid "Internal error: unknown type in mult=%d in overlaps: %d"
-msgstr ""
+msgstr "Erro interno: tipo desconhecido em mult=%d em sobreposições: %d"
 
 #: ijoin.c:725
 #, c-format
 msgid "Internal error: unknown mult in overlaps: %d"
-msgstr ""
+msgstr "Erro interno: mult desconhecido em sobreposições: %d"
 
 #: ijoin.c:729
 #, c-format
 msgid "Final step, fetching indices in overlaps ... done in %8.3f seconds\n"
 msgstr ""
+"Etapa final, busca de índices em sobreposições ... realizada em %8.3f "
+"segundos\n"
