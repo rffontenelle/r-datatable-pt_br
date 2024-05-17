@@ -1,0 +1,105 @@
+# 
+# Translators:
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: ijoin 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ijoin.c:22 ijoin.c:243
+msgid ""
+"Internal error: invalid value for 'mult'; this should have been caught "
+"before. please report to data.table issue tracker"
+msgstr ""
+"Erro interno: valor inválido para 'mult'; isso deveria ter sido detectado "
+"antes. informe ao rastreador de problemas do data.table"
+
+#: ijoin.c:29 ijoin.c:250
+msgid ""
+"Internal error: invalid value for 'type'; this should have been caught "
+"before. please report to data.table issue tracker"
+msgstr ""
+"Erro interno: valor inválido para 'type'; isso deveria ter sido detectado "
+"antes. informe ao rastreador de problemas do data.table"
+
+#: ijoin.c:56 ijoin.c:121
+#, c-format
+msgid "Internal error: unknown type in mult=%d in lookup: %d"
+msgstr "Erro interno: tipo desconhecido em mult=%d na pesquisa: %d"
+
+#: ijoin.c:124 ijoin.c:215
+#, c-format
+msgid "Internal error: unknown mult in lookup: %d"
+msgstr "Erro interno: mult desconhecido na pesquisa: %d"
+
+#: ijoin.c:128
+#, c-format
+msgid "First pass on calculating lengths in lookup ... done in %8.3f seconds\n"
+msgstr ""
+"Primeira passagem no cálculo de comprimentos na pesquisa. .. realizada em "
+"%8.3f segundos\n"
+
+#: ijoin.c:141
+#, c-format
+msgid "Second pass on allocation in lookup ... done in %8.3f seconds\n"
+msgstr ""
+"Segunda passagem na alocação na pesquisa. .. realizada em %8.3f segundos\n"
+
+#: ijoin.c:160
+#, c-format
+msgid ""
+"Internal error: unknown type lookup should have been caught earlier: %d"
+msgstr ""
+"Erro interno: a pesquisa de type desconhecido deveria ter sido detectada "
+"anteriormente: %d"
+
+#: ijoin.c:212
+#, c-format
+msgid ""
+"Internal error: unknown type in mult=%d in lookup should have been caught "
+"earlier: %d"
+msgstr ""
+"Erro interno: type desconhecido na pesquisa de mult=%d deveria ter sido "
+"detectado anteriormente: %d"
+
+#: ijoin.c:220
+#, c-format
+msgid "Final step in generating lookup ... done in %8.3f seconds\n"
+msgstr "Etapa final na geração da pesquisa... realizada em %8.3f segundos\n"
+
+#: ijoin.c:325
+#, c-format
+msgid "Internal error: unknown type in mult=ALL in overlaps: %d"
+msgstr "Erro interno: tipo desconhecido em mult=ALL em sobreposições: %d"
+
+#: ijoin.c:330
+#, c-format
+msgid ""
+"First pass on calculating lengths in overlaps ... done in %8.3f seconds\n"
+msgstr ""
+"Primeira passagem no cálculo de comprimentos em sobreposições ... realizada "
+"em %8.3f segundos\n"
+
+#: ijoin.c:466 ijoin.c:573 ijoin.c:722
+#, c-format
+msgid "Internal error: unknown type in mult=%d in overlaps: %d"
+msgstr ""
+
+#: ijoin.c:725
+#, c-format
+msgid "Internal error: unknown mult in overlaps: %d"
+msgstr ""
+
+#: ijoin.c:729
+#, c-format
+msgid "Final step, fetching indices in overlaps ... done in %8.3f seconds\n"
+msgstr ""
