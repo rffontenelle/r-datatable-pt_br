@@ -43,7 +43,7 @@ msgstr "O item %d do lower (%d) é maior que o item %d do upper (%d)"
 #: between.c:82
 #, c-format
 msgid "between parallel processing of integer took %8.3fs\n"
-msgstr "processamento paralelo de between de números inteiros %8.3fs\n"
+msgstr "processamento paralelo de between de integer levou %8.3fs\n"
 
 #: between.c:88
 msgid "x is integer64 but lower and/or upper are not."
@@ -59,18 +59,20 @@ msgstr ""
 #: between.c:112
 #, c-format
 msgid "between parallel processing of integer64 took %8.3fs\n"
-msgstr "processamento paralelo de between de números integer64 %8.3fs\n"
+msgstr "processamento paralelo de between de integer64 levou %8.3fs\n"
 
 #: between.c:115
 msgid ""
 "x is not integer64 but lower and/or upper is integer64. Please align "
 "classes."
 msgstr ""
+"x não é integer64, mas lower e/ou upper é integer64. Por favor, alinhe as "
+"classes."
 
 #: between.c:122
 #, c-format
 msgid "Item %d of lower (%f) is greater than item %d of upper (%f)"
-msgstr ""
+msgstr "O item %d do lower (%f) é maior que o item %d do upper (%f)"
 
 #: between.c:140
 #, c-format
