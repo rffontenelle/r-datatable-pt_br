@@ -54,14 +54,16 @@ msgid ""
 "Invalid formula. Cast formula should be of the form LHS ~ RHS, for e.g., a +"
 " b ~ c."
 msgstr ""
+"Fórmula inválida. A fórmula do cast deveria ter o formato LHS ~ RHS (lado "
+"esquerdo ~ lado direito), p. ex. a + b ~ c."
 
 #: fcast.R:36
 msgid "data.table to cast must have unique column names"
-msgstr ""
+msgstr "a data.table a ser convertida deve ter nomes de coluna únicos"
 
 #: fcast.R:60
 msgid "value.var values %s are not found in 'data'."
-msgstr ""
+msgstr "os valores de value.var  %s não se encontram em 'data'"
 
 #: fcast.R:76
 msgid ""
