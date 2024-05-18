@@ -23,7 +23,7 @@ msgid ""
 "longest."
 msgstr ""
 "Comprimentos de vetor incompatíveis: length(x)==%d length(lower)==%d "
-"length(upper)==%d.  Cada um deve ter comprimento 1 ou o comprimento mais "
+"length(upper)==%d. Cada um deve ter comprimento 1 ou o comprimento mais "
 "longo."
 
 #: between.c:16 between.c:22
