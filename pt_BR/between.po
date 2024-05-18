@@ -38,27 +38,28 @@ msgstr "NAbounds deve ser TRUE ou NA"
 #: between.c:64
 #, c-format
 msgid "Item %d of lower (%d) is greater than item %d of upper (%d)"
-msgstr ""
+msgstr "O item %d do lower (%d) é maior que o item %d do upper (%d)"
 
 #: between.c:82
 #, c-format
 msgid "between parallel processing of integer took %8.3fs\n"
-msgstr ""
+msgstr "processamento paralelo de between de números inteiros %8.3fs\n"
 
 #: between.c:88
 msgid "x is integer64 but lower and/or upper are not."
-msgstr ""
+msgstr "x é integer64, mas lower e/ou upper não são."
 
 #: between.c:95
 #, c-format
 msgid ""
 "Item %d of lower (%<PRId64>) is greater than item %d of upper (%<PRId64>)"
 msgstr ""
+"O item %d do lower (%<PRId64>) é maior que o item %d do upper (%<PRId64>)"
 
 #: between.c:112
 #, c-format
 msgid "between parallel processing of integer64 took %8.3fs\n"
-msgstr ""
+msgstr "processamento paralelo de between de números integer64 %8.3fs\n"
 
 #: between.c:115
 msgid ""
