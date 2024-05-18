@@ -17,7 +17,7 @@ msgstr ""
 
 #: fcast.R:7
 msgid "Using '%s' as value column. Use 'value.var' to override"
-msgstr "Usando '%s'como coluna do valor. Use 'value.var' para sobrescrever"
+msgstr "Usando '%s'como coluna do valor. Use 'value.var' para contornar"
 
 #: fcast.R:20
 msgid ""
@@ -104,8 +104,8 @@ msgstr ""
 "Funções de agregação deveriam receber vetores e retornar valores únicos "
 "(comprimento 1). No entanto, o retorno da(s) função(ões) tem comprimento != "
 "1. Esse valor terá que ser usado para preencher quaisquer combinações "
-"faltantes, e portanto deve ter comprimento = 1. Ou  contorne isso definindo "
-"o argumento 'fill' explicitamente, ou modifique sua função para lidar com "
+"faltantes, e portanto deve ter comprimento = 1. Ou contorne isso definindo o"
+" argumento 'fill' explicitamente, ou modifique sua função para lidar com "
 "esse caso apropriadamente."
 
 #: fcast.R:222
