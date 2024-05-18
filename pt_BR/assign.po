@@ -212,12 +212,12 @@ msgstr ""
 #: assign.c:340
 #, c-format
 msgid "i[%d] is %d which is out of range [1,nrow=%d]"
-msgstr ""
+msgstr "i[%d] é %d, o qual está fora do intevalo [1,nrow=%d]"
 
 #: assign.c:343
 #, c-format
 msgid "Assigning to %d row subset of %d rows\n"
-msgstr "Atribuindo para %d linha que é subconjunto de %d linhas\n"
+msgstr "Atribuindo para a linha %d que é subconjunto de %d linhas\n"
 
 #: assign.c:351
 #, c-format
