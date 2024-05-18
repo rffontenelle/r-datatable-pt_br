@@ -79,19 +79,19 @@ msgstr "'data' deve ser uma data.table."
 
 #: fcast.R:111
 msgid "'drop' must be logical TRUE/FALSE"
-msgstr ""
+msgstr "'drop' deve ser lógico TRUE/FALSE"
 
 #: fcast.R:128
 msgid "Column [%s] not found or of unknown type."
-msgstr ""
+msgstr "Coluna [%s] não encontrada ou de tipo desconhecido."
 
 #: fcast.R:143
 msgid "Columns specified in formula can not be of type list"
-msgstr ""
+msgstr "Colunas especificadas na formula não podem ser do tipo lista"
 
 #: fcast.R:159
 msgid "Aggregate function missing, defaulting to 'length'"
-msgstr ""
+msgstr "Função de agregação faltante faltante, usando 'length'por padrão"
 
 #: fcast.R:165
 msgid ""
@@ -101,7 +101,13 @@ msgid ""
 "Either override by setting the 'fill' argument explicitly or modify your "
 "function to handle this case appropriately."
 msgstr ""
+"Funções de agregação deveriam receber vetores e retornar valores únicos "
+"(comprimento 1). No entanto, o retorno da(s) função(ões) tem comprimento != "
+"1. Esse valor terá que ser usado para preencher quaisquer combinações "
+"faltantes, e portanto deve ter comprimento = 1. Ou  contorne isso definindo "
+"o argumento 'fill' explicitamente, ou modifique sua função para lidar com "
+"esse caso apropriadamente."
 
 #: fcast.R:222
 msgid "Internal error -- empty rhsnames in dcast; please report"
-msgstr ""
+msgstr "Erro interno -- rhsnames vazio em dcast; favor relatar"
