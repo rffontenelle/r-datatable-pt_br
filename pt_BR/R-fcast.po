@@ -70,10 +70,12 @@ msgid ""
 "When 'fun.aggregate' and 'value.var' are both lists, 'value.var' must be "
 "either of length =1 or =length(fun.aggregate)."
 msgstr ""
+"Quando tanto 'fun.aggregate' quanto 'value.var' são listas, o comprimento de"
+" 'value.var' deve ser ou =1 ou  =length(fun.aggregate)."
 
 #: fcast.R:109
 msgid "'data' must be a data.table."
-msgstr ""
+msgstr "'data' deve ser uma data.table."
 
 #: fcast.R:111
 msgid "'drop' must be logical TRUE/FALSE"
