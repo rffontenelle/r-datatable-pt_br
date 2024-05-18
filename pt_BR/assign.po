@@ -36,20 +36,21 @@ msgid ""
 "disk or you've already run setDT(), please report to data.table issue "
 "tracker.\n"
 msgstr ""
-".internal.selfref ptr é NULL. Isso é esperado e normal para um data.table "
-"carregado do disco. Lembre-se de sempre executar setDT() imediatamente após "
-"o carregamento para evitar comportamento inesperado. Se esta tabela não foi "
-"carregada do disco ou você já executou setDT(), informe ao rastreador de "
+"ptr de .internal.selfref é NULL. Isso é esperado e normal para um data.table"
+" carregado do disco. Lembre-se de sempre executar setDT() imediatamente após"
+" o carregamento para evitar comportamento inesperado. Se esta tabela não foi"
+" carregada do disco ou você já executou setDT(), informe ao rastreador de "
 "problemas do data.table.\n"
 
 #: assign.c:124
 msgid "Internal error: .internal.selfref ptr is neither NULL nor R_NilValue"
-msgstr ""
+msgstr "Erro interno: ptr de .internal.selfref não é NULL nem R_NilValue"
 
 #: assign.c:126
 msgid ""
 "Internal error: .internal.selfref tag is neither NULL nor a character vector"
 msgstr ""
+"Erro interno: tag de .internal.selfref não é NULL nem um vetor de caracteres"
 
 #: assign.c:179
 msgid "Internal error: length(names)>0 but <length(dt)"
@@ -148,15 +149,15 @@ msgstr "getOption('datatable.alloc')==%d. Deve ser >=0 e não NA."
 #: assign.c:250
 #, c-format
 msgid "%s must be TRUE or FALSE"
-msgstr ""
+msgstr "%s deve ser TRUE ou FALSE"
 
 #: assign.c:298
 msgid "assign has been passed a NULL dt"
-msgstr ""
+msgstr "à atribuição foi passado um dt NULL"
 
 #: assign.c:299
 msgid "dt passed to assign isn't type VECSXP"
-msgstr ""
+msgstr "dt passado para a atribuição não é do tipo VECSXP"
 
 #: assign.c:301
 msgid ""
@@ -194,8 +195,8 @@ msgid ""
 "Coerced i from numeric to integer. Please pass integer for efficiency; e.g.,"
 " 2L rather than 2"
 msgstr ""
-"Coagido i de numérico para inteiro. Por favor, passe um número inteiro para "
-"obter eficiência; por exemplo, 2L em vez de 2"
+"Foi feita coerção de i de numérico para inteiro. Por favor, passe um número "
+"inteiro para obter eficiência; por exemplo, 2L em vez de 2"
 
 #: assign.c:334
 #, c-format
