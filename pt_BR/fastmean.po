@@ -1,0 +1,30 @@
+# 
+# Translators:
+# Leonardo Fontenelle, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: fastmean 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Leonardo Fontenelle, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: fastmean.c:39
+msgid "narm should be TRUE or FALSE"
+msgstr "narm deve ser TRUE ou FALSE"
+
+#: fastmean.c:45
+#, c-format
+msgid "fastmean was passed type %s, not numeric or logical"
+msgstr "fastmean recebeu o tipo %s, não numérico ou lógico"
+
+#: fastmean.c:83 fastmean.c:111
+#, c-format
+msgid "Internal error: type '%s' not caught earlier in fastmean"
+msgstr "Erro interno: tipo %s não capturado mais cedo no fastmean"
