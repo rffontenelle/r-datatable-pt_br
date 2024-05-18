@@ -21,4 +21,4 @@ msgstr "'fromLast' deve ser TRUE ou FALSE"
 
 #: duplicated.R:105
 msgid "x must be an atomic vector or data.frames/data.tables"
-msgstr ""
+msgstr "x deve ser um vetor atômico ou data.frames/data.tables"
