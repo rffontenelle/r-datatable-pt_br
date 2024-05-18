@@ -205,6 +205,9 @@ msgid ""
 " a logical subset, simply wrap with which(), and take the which() outside "
 "the loop if possible for efficiency."
 msgstr ""
+"i é do tipo '%s'. Deve ser inteiro ou é feita coerção de numérico com aviso."
+" Se i for um subconjunto lógico, simplesmente envolva which() e coloque "
+"which() fora do loop, se possível, para maior eficiência."
 
 #: assign.c:340
 #, c-format
