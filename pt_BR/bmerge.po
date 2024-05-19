@@ -93,16 +93,21 @@ msgid ""
 "Internal error: invalid value for 'mult'. please report to data.table issue "
 "tracker"
 msgstr ""
+"Erro interno: valor inválido para 'mult'. informe ao rastreador de problemas"
+" do data.table"
 
 #: bmerge.c:106
 msgid ""
 "Internal error: opArg is not an integer vector of length equal to length(on)"
 msgstr ""
+"Erro interno: opArg não é um vetor de inteiros de comprimento igual a "
+"length(on)"
 
 #: bmerge.c:111
 #, c-format
 msgid "Internal error in bmerge_r for x.'%s'. Unrecognized value op[col]=%d"
 msgstr ""
+"Erro interno em bmerge_r para x.'%s'. Valor não reconhecido op[col]=%d"
 
 #: bmerge.c:114
 msgid "Only '==' operator is supported for columns of type character."
