@@ -55,15 +55,20 @@ msgid ""
 "POSIXlt column type detected and converted to POSIXct. We do not recommend "
 "use of POSIXlt at all because it uses 40 bytes to store one date."
 msgstr ""
+"Tipo de coluna POSIXlt detectado e convertido em POSIXct. Não recomendamos o"
+" uso do POSIXlt porque ele usa 40 bytes para armazenar uma data."
 
 #: as.data.table.R:181
 msgid "Item %d has %d rows but longest item has %d; recycled with remainder."
 msgstr ""
+"O item %d possui %d linhas, mas o item mais longo possui %d; reciclado com o"
+" restante."
 
 #: as.data.table.R:196
 msgid "A column may not be called .SD. That has special meaning."
 msgstr ""
+"Uma coluna não pode ser chamada de .SD. Isso tem um significado especial."
 
 #: as.data.table.R:210
 msgid "class must be length 1"
-msgstr ""
+msgstr "class deve ter comprimento 1"
