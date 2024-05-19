@@ -1,0 +1,69 @@
+# 
+# Translators:
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: as.data.table 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:22-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: as.data.table.R:86
+msgid ""
+"as.data.table.array method should only be called for arrays with 3+ "
+"dimensions; use the matrix method for 2-dimensional arrays"
+msgstr ""
+"O método as.data.table.array só deve ser chamado para arrays com mais de 3 "
+"dimensões ou mais; use o método matrix para arrays de 2 dimensões"
+
+#: as.data.table.R:88
+msgid ""
+"Argument 'value.name' must be scalar character, non-NA and at least one "
+"character"
+msgstr ""
+"O argumento 'value.name' deve ser um caractere escalar, não-NA e ter pelo "
+"menos um caractere"
+
+#: as.data.table.R:90
+msgid "Argument 'sorted' must be scalar logical and non-NA"
+msgstr "O argumento 'sorted' deve ser lógico escalar e não-NA"
+
+#: as.data.table.R:92
+msgid "Argument 'na.rm' must be scalar logical and non-NA"
+msgstr "O argumento 'na.rm' deve ser lógico escalar e não-NA"
+
+#: as.data.table.R:94
+msgid "Please provide either 'key' or 'sorted', but not both."
+msgstr "Forneça 'key'ou 'sorted', mas não ambos."
+
+#: as.data.table.R:108
+msgid ""
+"Argument 'value.name' should not overlap with column names in result: %s"
+msgstr ""
+"O argumento 'value.name' não deve se sobrepor aos nomes das colunas no "
+"resultado: %s"
+
+#: as.data.table.R:140
+msgid ""
+"POSIXlt column type detected and converted to POSIXct. We do not recommend "
+"use of POSIXlt at all because it uses 40 bytes to store one date."
+msgstr ""
+
+#: as.data.table.R:181
+msgid "Item %d has %d rows but longest item has %d; recycled with remainder."
+msgstr ""
+
+#: as.data.table.R:196
+msgid "A column may not be called .SD. That has special meaning."
+msgstr ""
+
+#: as.data.table.R:210
+msgid "class must be length 1"
+msgstr ""
