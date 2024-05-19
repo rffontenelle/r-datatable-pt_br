@@ -46,37 +46,45 @@ msgstr ""
 #: between.R:36
 msgid "trying to use integer64 class when 'bit64' package is not installed"
 msgstr ""
+"tentando usar a classe integer64 quando o pacote 'bit64' não está instalado"
 
 #: between.R:47
 msgid ""
 "optimised between not available for this data type, fallback to slow R "
 "routine"
 msgstr ""
+"between otimizado não disponível para este tipo de dados, recorrendo à "
+"rotina lenta do R"
 
 #: between.R:48
 msgid ""
 "Not yet implemented NAbounds=TRUE for this non-numeric and non-character "
 "type"
 msgstr ""
+"Ainda não implementado NAbounds=TRUE para este tipo não numérico e não "
+"caractere"
 
 #: between.R:49
 msgid "Some lower>upper for this non-numeric and non-character type"
-msgstr ""
+msgstr "Alguns lower>upper para este tipo não numérico e não caractere"
 
 #: between.R:63
 #, c-format
 msgid "Perhaps you meant %s?"
-msgstr ""
+msgstr "Talvez você quis dizer %s?"
 
 #: between.R:64
 msgid ""
 "RHS has length() %d; expecting length 2. %sThe first element should be the "
 "lower bound(s); the second element should be the upper bound(s)."
 msgstr ""
+"O lado direito (RHS) tem length() %d; esperando comprimento 2. %sO primeiro "
+"elemento deve ser os limites inferiores (lower); o segundo elemento deve ser"
+" os limites superiores (upper)."
 
 #: between.R:77
 msgid "forderv(query) took ..."
-msgstr ""
+msgstr "forderv(query) levou ..."
 
 #: between.R:85
 msgid "Generating final logical vector ..."
