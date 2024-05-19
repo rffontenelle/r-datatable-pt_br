@@ -78,21 +78,25 @@ msgstr "O item %d do lower (%f) é maior que o item %d do upper (%f)"
 #, c-format
 msgid "between parallel processing of double with open bounds took %8.3fs\n"
 msgstr ""
+"processamento paralelo de between de double com limites abertos levou "
+"%8.3fs\n"
 
 #: between.c:157
 #, c-format
 msgid "between parallel processing of double with closed bounds took %8.3fs\n"
 msgstr ""
+"processamento paralelo de between de double com limites fechados levou "
+"%8.3fs\n"
 
 #: between.c:172
 #, c-format
 msgid "Item %d of lower ('%s') is greater than item %d of upper ('%s')"
-msgstr ""
+msgstr "O item %d do lower ('%s') é maior que o item %d do upper ('%s')"
 
 #: between.c:187
 #, c-format
 msgid "between non-parallel processing of character took %8.3fs\n"
-msgstr ""
+msgstr "processamento não paralelo de between de character levou %8.3fs\n"
 
 #: between.c:190
 #, c-format
@@ -100,3 +104,5 @@ msgid ""
 "Internal error: between.c unsupported type '%s' should have been caught at R"
 " level"
 msgstr ""
+"Erro interno: o tipo '%s' sem suporte no between.c deveria ter sido "
+"detectado a nível de R"
