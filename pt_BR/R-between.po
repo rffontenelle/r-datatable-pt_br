@@ -88,8 +88,8 @@ msgstr "forderv(query) levou ..."
 
 #: between.R:85
 msgid "Generating final logical vector ..."
-msgstr ""
+msgstr "Gerando o vetor lógico final..."
 
 #: between.R:87
 msgid "done in %s"
-msgstr ""
+msgstr "concluído em %s"
