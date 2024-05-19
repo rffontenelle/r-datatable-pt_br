@@ -60,31 +60,33 @@ msgstr "typeof x.%s (%s) != typeof i.%s (%s)"
 #: bmerge.c:70 bmerge.c:380
 #, c-format
 msgid "Type '%s' is not supported for joining/merging"
-msgstr ""
+msgstr "Tipo '%s' não é suportado para junção/combinação"
 
 #: bmerge.c:76
 msgid "roll is character but not 'nearest'"
-msgstr ""
+msgstr "roll é caractere, mas não é 'nearest'"
 
 #: bmerge.c:77
 msgid "roll='nearest' can't be applied to a character column, yet."
 msgstr ""
+"roll='nearest' ainda não pode ser aplicado a uma coluna de caracteres."
 
 #: bmerge.c:80
 msgid "Internal error: roll is not character or double"
-msgstr ""
+msgstr "Erro interno: roll não é caractere ou double"
 
 #: bmerge.c:85
 msgid "rollends must be a length 2 logical vector"
-msgstr ""
+msgstr "rollends deve ser um vetor lógico de comprimento 2"
 
 #: bmerge.c:92
 msgid "Internal error: nomatchArg must be NULL or length-1 logical/integer"
 msgstr ""
+"Erro interno: nomatchArg deve ser NULL ou inteiro/lógico de comprimento 1"
 
 #: bmerge.c:95
 msgid "Internal error: nomatchArg must be NULL, NA, NA_integer_ or 0L"
-msgstr ""
+msgstr "Erro interno: nomatchArg deve ser NULL, NA, NA_integer_ ou 0L"
 
 #: bmerge.c:102
 msgid ""
