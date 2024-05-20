@@ -64,6 +64,8 @@ msgstr "Tipos de junção incompatíveis: %s (%s) e %s (%s)"
 #: bmerge.R:96
 msgid "Coercing %s column %s%s to type integer64 to match type of %s."
 msgstr ""
+"Fazendo coerção da coluna de %s %s%s para o tipo caractere para corresponder"
+" ao tipo de %s."
 
 #: bmerge.R:98
 msgid ""
