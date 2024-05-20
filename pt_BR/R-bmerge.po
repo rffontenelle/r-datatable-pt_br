@@ -27,33 +27,39 @@ msgstr ""
 
 #: bmerge.R:54
 msgid "Matching %s factor levels to %s factor levels."
-msgstr ""
+msgstr "Correspondendo os níveis de fator %s com os níveis de fator %s."
 
 #: bmerge.R:59
 msgid "Coercing factor column %s to type character to match type of %s."
 msgstr ""
+"Fazendo coerção da coluna de fator %s para o tipo caractere para "
+"corresponder ao tipo de %s."
 
 #: bmerge.R:64
 msgid "Matching character column %s to factor levels in %s."
-msgstr ""
+msgstr "Correspondendo a coluna de caracteres %s aos níveis de fator em %s."
 
 #: bmerge.R:71
 msgid ""
 "Incompatible join types: %s (%s) and %s (%s). Factor columns must join to "
 "factor or character columns."
 msgstr ""
+"Tipos de junção incompatíveis: %s (%s) e %s (%s). Colunas de fator devem "
+"unir-se a colunas de caractere ou de fator."
 
 #: bmerge.R:74
 msgid "%s has same type (%s) as %s. No coercion needed."
-msgstr ""
+msgstr "%s tem o mesmo tipo (%s) que %s. Não é necessário fazer coerção."
 
 #: bmerge.R:81 bmerge.R:86
 msgid "Coercing all-NA %s (%s) to type %s to match type of %s."
 msgstr ""
+"Fazendo coerção de all-NA %s (%s) para o tipo %s para corresponder ao tipo "
+"de %s."
 
 #: bmerge.R:90
 msgid "Incompatible join types: %s (%s) and %s (%s)"
-msgstr ""
+msgstr "Tipos de junção incompatíveis: %s (%s) e %s (%s)"
 
 #: bmerge.R:96
 msgid "Coercing %s column %s%s to type integer64 to match type of %s."
