@@ -72,31 +72,39 @@ msgid ""
 "Incompatible join types: %s is type integer64 but %s is type double and "
 "contains fractions"
 msgstr ""
+"Tipos de junção incompatíveis: %s é do tipo integer64, mas %s é do tipo "
+"duplo e contém frações"
 
 #: bmerge.R:105
 msgid ""
 "Coercing double column %s (which contains no fractions) to type integer to "
 "match type of %s"
 msgstr ""
+"Fazendo coerção na coluna de double %s (que não contém frações) para tipo "
+"inteiro para corresponder ao tipo de %s"
 
 #: bmerge.R:111
 msgid ""
 "Coercing integer column %s to type double to match type of %s which contains"
 " fractions."
 msgstr ""
+"Fazendo coerção da coluna inteira %s para tipo double para corresponder ao "
+"tipo %s que contém frações."
 
 #: bmerge.R:115
 msgid ""
 "Coercing integer column %s to type double for join to match type of %s."
 msgstr ""
+"Fazendo coerção da coluna de inteiro %s para o tipo double para junção para "
+"corresponder ao tipo de %s."
 
 #: bmerge.R:131
 msgid "on= matches existing key, using key"
-msgstr ""
+msgstr "on= corresponde a uma chave existente, usando chave"
 
 #: bmerge.R:136
 msgid "on= matches existing index, using index"
-msgstr ""
+msgstr "on= corresponde a um índice existente, usando índice"
 
 #: bmerge.R:141
 msgid "Calculated ad hoc index in %s"
