@@ -1,0 +1,48 @@
+# 
+# Translators:
+# Italo Santos, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: xts 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Italo Santos, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: xts.R:3
+msgid "keep.rownames must be length 1"
+msgstr "keep.rownames deve ter comprimento 1"
+
+#: xts.R:4
+msgid "keep.rownames must not be NA"
+msgstr "keep.rownames não deve ser NA"
+
+#: xts.R:10
+msgid ""
+"Input xts object should not have '%s' column because it would result in "
+"duplicate column names. Rename '%s' column in xts or use `keep.rownames` to "
+"change the index column name."
+msgstr ""
+"O objeto xts de entrada não deve ter a coluna '%s' porque resultaria em "
+"nomes de colunas duplicados. Renomeie a coluna '%s' no xts ou use "
+"`keep.rownames` para alterar o nome da coluna de índice."
+
+#: xts.R:20
+msgid ""
+"data.table must have a time based column in first position, use "
+"`setcolorder` function to change the order, or see ?timeBased for supported "
+"types"
+msgstr ""
+"data.table deve ter uma coluna baseada em tempo na primeira posição, use a "
+"função `setcolorder` para alterar a ordem, ou veja ?timeBased para os tipos "
+"suportados."
+
+#: xts.R:24
+msgid "Following columns are not numeric and will be omitted: %s"
+msgstr "As seguintes colunas não são numéricas e serão omitidas: %s"
