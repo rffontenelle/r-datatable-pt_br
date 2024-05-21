@@ -1,0 +1,28 @@
+# 
+# Translators:
+# Italo Santos, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: tables 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Italo Santos, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: tables.R:31
+msgid "No objects of class data.table exist in %s"
+msgstr "Não existem objetos da classe data.table em %s"
+
+#: tables.R:46
+msgid "order.col='%s' not a column name of info"
+msgstr "order.col='%s' não é um nome de coluna de info"
+
+#: tables.R:59
+msgid "Total: %sMB using %s"
+msgstr "Total: %sMB usando %s"
