@@ -1,0 +1,29 @@
+# 
+# Translators:
+# Italo Santos, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: snprintf 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Italo Santos, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: snprintf.c:192 snprintf.c:195 snprintf.c:198 snprintf.c:201 snprintf.c:204
+#: snprintf.c:207 snprintf.c:210 snprintf.c:213 snprintf.c:216 snprintf.c:220
+#: snprintf.c:223 snprintf.c:226 snprintf.c:229 snprintf.c:232 snprintf.c:235
+#: snprintf.c:238 snprintf.c:241 snprintf.c:244
+#, c-format
+msgid "dt_win_snprintf test %d failed: %s"
+msgstr "teste %d dt_win_snprintf falhou: %s"
+
+#: snprintf.c:217
+#, c-format
+msgid "dt_win_snprintf test %d failed: %d"
+msgstr "teste %d dt_win_snprintf falhou: %d"
