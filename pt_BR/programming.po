@@ -1,0 +1,29 @@
+# 
+# Translators:
+# Italo Santos, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: programming 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Italo Santos, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: programming.c:16
+#, c-format
+msgid ""
+"Attempting to substitute '%s' element with object of type '%s' but it has to"
+" be 'symbol' type when substituting name of the call argument, functions "
+"'as.name' and 'I' can be used to work out proper substitution, see "
+"?substitute2 examples."
+msgstr ""
+"Tentativa de substituir o elemento '%s' com um objeto do tipo '%s', mas ele "
+"precisa ser do tipo 'symbol' quando substituir o nome do argumento da "
+"chamada. As funções 'as.name' e 'I' podem ser usadas para determinar a "
+"substituição adequada. Veja os exemplos em ?substitute2."
