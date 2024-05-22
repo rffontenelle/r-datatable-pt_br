@@ -1,0 +1,46 @@
+# 
+# Translators:
+# Italo Santos, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: transpose 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Italo Santos, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: transpose.c:9
+msgid "l must be a list."
+msgstr "l deve ser uma lista."
+
+#: transpose.c:13
+msgid "ignore.empty should be logical TRUE/FALSE."
+msgstr "ignore.empty deve ser lógico TRUE/FALSE."
+
+#: transpose.c:16
+msgid ""
+"keep.names should be either NULL, or the name of the first column of the "
+"result in which to place the names of the input"
+msgstr ""
+"keep.names deve ser NULL ou o nome da primeira coluna do resultado no qual e"
+" colocado os nomes da entrada."
+
+#: transpose.c:19
+msgid "fill must be a length 1 vector, such as the default NA"
+msgstr "fill deve ser um vetor de comprimento 1, como o padrão NA"
+
+#: transpose.c:28
+#, c-format
+msgid "Item %d of list input is not an atomic vector"
+msgstr "Item %d da entrada da lista não é um vetor atômico"
+
+#: transpose.c:88
+#, c-format
+msgid "Unsupported column type '%s'"
+msgstr "Tipo de coluna não suportado '%s'"
