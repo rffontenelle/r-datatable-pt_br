@@ -17,7 +17,7 @@ msgstr ""
 
 #: data.table.R:63
 msgid "key argument of data.table() must be character"
-msgstr "argumento de chave do data.table() deve ser do tipo caractere"
+msgstr "o argumento key do data.table() deve ser caractere"
 
 #: data.table.R:132
 msgid "Object '%s' not found. Perhaps you intended %s"
@@ -67,36 +67,42 @@ msgstr ""
 
 #: data.table.R:209
 msgid "mult argument can only be 'first', 'last' or 'all'"
-msgstr ""
+msgstr "o argumento mult só pode ser 'first', 'last' ou 'all'"
 
 #: data.table.R:211
 msgid ""
 "roll must be a single TRUE, FALSE, positive/negative integer/double "
 "including +Inf and -Inf or 'nearest'"
 msgstr ""
+"roll deve ser TRUE, FALSE, número inteiro/duplo positivo/negativo, incluindo"
+" +Inf e -Inf ou 'nearest'"
 
 #: data.table.R:213
 msgid ""
 "roll is '%s' (type character). Only valid character value is 'nearest'."
 msgstr ""
+"roll é '%s' (tipo caractere). Somente o valor de caractere válido é "
+"'nearest'."
 
 #: data.table.R:218
 msgid "rollends must be a logical vector"
-msgstr ""
+msgstr "rollends deve ser um vetor lógico"
 
 #: data.table.R:219
 msgid "rollends must be length 1 or 2"
-msgstr ""
+msgstr "rollends deve ter comprimento 1 ou 2"
 
 #: data.table.R:227
 msgid ""
 "nomatch= must be either NA or NULL (or 0 for backwards compatibility which "
 "is the same as NULL but please use NULL)"
 msgstr ""
+"nomatch= deve ser NA ou NULL (ou 0 para compatibilidade com versões "
+"anteriores, que é igual a NULL, mas use NULL)"
 
 #: data.table.R:230
 msgid "which= must be a logical vector length 1. Either FALSE, TRUE or NA."
-msgstr ""
+msgstr "which= deve ser um vetor lógico de comprimento 1. FALSE, TRUE ou NA."
 
 #: data.table.R:231
 msgid ""
@@ -104,22 +110,29 @@ msgid ""
 "need row numbers or the result of j, but only one type of result can be "
 "returned."
 msgstr ""
+"which==%s (significando números de linha de retorno), mas j também é "
+"fornecido. Você precisa de números de linha ou do resultado de j, mas apenas"
+" um tipo de resultado pode ser retornado."
 
 #: data.table.R:232
 msgid ""
 "which=NA with nomatch=0|NULL would always return an empty vector. Please "
 "change or remove either which or nomatch."
 msgstr ""
+"which=NA com nomatch=0|NULL sempre retornaria um vetor vazio. Altere ou "
+"remova which ou nomatch."
 
 #: data.table.R:233
 msgid "j must be provided when with=FALSE"
-msgstr ""
+msgstr "j deve ser fornecido quando with=FALSE"
 
 #: data.table.R:273
 msgid ""
 "The symbol .. is invalid. The .. prefix must be followed by at least one "
 "character."
 msgstr ""
+"O símbolo .. é inválido. O prefixo .. deve ser seguido por pelo menos um "
+"caractere."
 
 #: data.table.R:276
 #, c-format
@@ -127,23 +140,29 @@ msgid ""
 "Variable '..%s' does exist in calling scope though, so please just removed "
 "the .. prefix from that variable name in calling scope."
 msgstr ""
+"A variável '..%s' existe no escopo de chamada, portanto, apenas remova o "
+"prefixo .. desse nome de variável no escopo de chamada."
 
 #: data.table.R:280
 msgid ""
 "Variable '%s' is not found in calling scope. Looking in calling scope "
 "because you used the .. prefix.%s"
 msgstr ""
+"A variável '%s' não foi encontrada no escopo de chamada. Procurando no "
+"escopo de chamada porque você usou .. como prefixo.%s"
 
 #: data.table.R:282
 msgid ""
 "Both '%1$s' and '..%1$s' exist in calling scope. Please remove the '..%1$s' "
 "variable in calling scope for clarity."
 msgstr ""
+"Tanto '%1$s' quanto '..%1$s' existem no escopo de chamada. Remova a variável"
+" '..%1$s' na chamada do escopo para maior clareza."
 
 #: data.table.R:288
 msgid ""
 "Internal error:  DT[, ..var] should be dealt with by the branch above now."
-msgstr ""
+msgstr "Erro interno: DT[, ..var] deve ser resolvido pelo branch acima agora."
 
 #: data.table.R:290
 msgid ""
