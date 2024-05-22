@@ -25,18 +25,21 @@ msgid ""
 "them as character vector rather than a name, then wrap each into 'I' call: "
 "%s"
 msgstr ""
+"Objetos de caracteres fornecidos na entrada não são objetos escalares, se "
+"você precisar deles como vetor de caracteres em vez de um nome, então "
+"envolva cada um 'I' na chamada: %s"
 
 #: programming.R:50
 msgid "'env' must not be missing"
-msgstr ""
+msgstr "'env' não deve estar ausente"
 
 #: programming.R:56
 msgid "'env' must be a list or an environment"
-msgstr ""
+msgstr "'env' deve ser uma lista ou um ambiente"
 
 #: programming.R:63
 msgid "'env' argument does not have names"
-msgstr ""
+msgstr "'env' argumento não tem nomes"
 
 #: programming.R:65
 msgid "'env' argument has zero char names"
