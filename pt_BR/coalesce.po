@@ -1,0 +1,93 @@
+# 
+# Translators:
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: coalesce 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: coalesce.c:5
+msgid "Internal error in coalesce.c: input is list(...) at R level"
+msgstr "Erro interno em coalesce.c: a entrada é list(...) no nível R"
+
+#: coalesce.c:7
+msgid ""
+"Internal error in coalesce.c: argument 'inplaceArg' must be TRUE or FALSE"
+msgstr ""
+"Erro interno em coalesce.c: o argumento 'inplaceArg' deve ser TRUE ou FALSE"
+
+#: coalesce.c:16
+msgid ""
+"The first argument is a list, data.table or data.frame. In this case there "
+"should be no other arguments provided."
+msgstr ""
+"O primeiro argumento é uma lista, data.table ou data.frame. Neste caso, não "
+"deve haver outros argumentos fornecidos."
+
+#: coalesce.c:32
+#, c-format
+msgid ""
+"Item 1 is a factor but item %d is not a factor. When factors are involved, "
+"all items must be factor."
+msgstr ""
+"O item 1 é um fator, mas o item %d não é. Quando fatores estão envolvidos, "
+"todos os itens devem ser fatores."
+
+#: coalesce.c:34
+#, c-format
+msgid ""
+"Item %d is a factor but its levels are not identical to the first item's "
+"levels."
+msgstr ""
+"O item %d é um fator, mas seus níveis não são idênticos aos níveis do "
+"primeiro item."
+
+#: coalesce.c:38
+#, c-format
+msgid ""
+"Item %d is a factor but item 1 is not a factor. When factors are involved, "
+"all items must be factor."
+msgstr ""
+"O item %d é um fator, mas o item 1 não é. Quando fatores estão envolvidos, "
+"todos os itens devem ser fatores."
+
+#: coalesce.c:41
+#, c-format
+msgid ""
+"Item %d is type %s but the first item is type %s. Please coerce before "
+"coalescing."
+msgstr ""
+"O item %d é do tipo %s, mas o primeiro item é do tipo %s. Por favor, faça "
+"coerção antes de coalescer."
+
+#: coalesce.c:43
+#, c-format
+msgid "Item %d has a different class than item 1."
+msgstr "O item %d tem uma classe diferente do item 1."
+
+#: coalesce.c:46
+#, c-format
+msgid ""
+"Item %d is length %d but the first item is length %d. Only singletons are "
+"recycled."
+msgstr ""
+"O item %d tem comprimento %d, mas o primeiro item tem comprimento %d. Apenas"
+" singletons são reciclados."
+
+#: coalesce.c:50
+msgid "coalesce copied first item (inplace=FALSE)\n"
+msgstr "coalesce copiou o primeiro item (inplace=FALSE)\n"
+
+#: coalesce.c:166
+#, c-format
+msgid "Type '%s' is not supported"
+msgstr "Tipo '%s' não é suportado"
