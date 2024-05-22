@@ -1,0 +1,51 @@
+# 
+# Translators:
+# Italo Santos, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: programming 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Italo Santos, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: programming.R:14 programming.R:40
+msgid "'x' must be a list"
+msgstr "'x' deve ser uma lista"
+
+#: programming.R:22
+msgid ""
+"Character objects provided in the input are not scalar objects, if you need "
+"them as character vector rather than a name, then wrap each into 'I' call: "
+"%s"
+msgstr ""
+
+#: programming.R:50
+msgid "'env' must not be missing"
+msgstr ""
+
+#: programming.R:56
+msgid "'env' must be a list or an environment"
+msgstr ""
+
+#: programming.R:63
+msgid "'env' argument does not have names"
+msgstr ""
+
+#: programming.R:65
+msgid "'env' argument has zero char names"
+msgstr ""
+
+#: programming.R:67
+msgid "'env' argument has NA names"
+msgstr ""
+
+#: programming.R:69
+msgid "'env' argument has duplicated names"
+msgstr ""
