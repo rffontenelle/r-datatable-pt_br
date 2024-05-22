@@ -43,12 +43,12 @@ msgstr "'env' argumento não tem nomes"
 
 #: programming.R:65
 msgid "'env' argument has zero char names"
-msgstr ""
+msgstr "'env' argumento tem zero nomes de caracteres"
 
 #: programming.R:67
 msgid "'env' argument has NA names"
-msgstr ""
+msgstr "'env' argumento tem nomes NA"
 
 #: programming.R:69
 msgid "'env' argument has duplicated names"
-msgstr ""
+msgstr "'env' argumento tem nomes duplicados"
