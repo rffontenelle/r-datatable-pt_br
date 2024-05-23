@@ -272,35 +272,43 @@ msgstr ""
 #: data.table.R:465
 msgid "Attempting to do natural join but no common columns in provided tables"
 msgstr ""
+"Tentando fazer junção natural, mas não há colunas comuns nas tabelas "
+"fornecidas"
 
 #: data.table.R:468
 msgid "Joining but 'x' has no key, natural join using all 'x' columns"
 msgstr ""
+"Junção sendo que 'x' não tem chave, então fazendo junção natural usando "
+"todas as colunas de 'x'"
 
 #: data.table.R:470
 msgid "Joining but 'x' has no key, natural join using: %s"
 msgstr ""
+"Junção sendo que 'x' não tem chave, então fazendo junção natural usando: %s"
 
 #: data.table.R:499
 msgid ""
 "not-join called with 'by=.EACHI'; Replacing !i with i=setdiff_(x,i) ..."
 msgstr ""
+"não-junção chamado com 'by=.EACHI'; substituindo !i por i=setdiff_(x,i) ..."
 
 #: data.table.R:502
 msgid "done in %s"
-msgstr ""
+msgstr "concluído em %s"
 
 #: data.table.R:529
 msgid "Constructing irows for '!byjoin || nqbyjoin' ..."
-msgstr ""
+msgstr "Construindo irows para '!byjoin || nqbyjoin' ..."
 
 #: data.table.R:543
 msgid "Internal error. Cannot by=.EACHI when joining to an index, yet"
 msgstr ""
+"Erro interno. Ainda não é possível usar by=.EACHI ao fazer junção em um "
+"índice"
 
 #: data.table.R:546
 msgid "Internal error. irows has length in by=.EACHI"
-msgstr ""
+msgstr "Erro interno. irows tem comprimento em by=.EACHI"
 
 #: data.table.R:568
 msgid "Reorder irows for 'mult==\"all\" && !allGrp1' ..."
