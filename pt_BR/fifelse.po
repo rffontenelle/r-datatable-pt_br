@@ -53,8 +53,8 @@ msgid ""
 "'no' is of type %s but '%s' is %s. Please make all arguments have the same "
 "type."
 msgstr ""
-"'no' é do tipo %s mas '%s' é %s. Favor fazer todos os argumentos terem o "
-"mesmo tipo."
+"'no' é do tipo %s mas '%s' é %s. Favor garantir que todos os argumentos "
+"tenham o mesmo tipo."
 
 #: fifelse.c:52
 #, c-format
@@ -62,45 +62,49 @@ msgid ""
 "'na' is of type %s but '%s' is %s. Please make all arguments have the same "
 "type."
 msgstr ""
-"'na' é do tupo %s mas '%s' é %s. Favor fazer todos os argumentos terem o "
-"mesmo tipo."
+"'na' é do tupo %s mas '%s' é %s. Favor garantir que todos os argumentos "
+"tenham o mesmo tipo."
 
 #: fifelse.c:57
 msgid ""
 "'yes' has different class than 'no'. Please make sure that both arguments "
 "have the same class."
 msgstr ""
-"'yes' tem classes diferentes que 'no'. Favor fazer todos os argumentos terem"
-" a mesma classe."
+"'yes' tem classes diferentes que 'no'. Favor garantir que ambos os "
+"argumentos tenham a mesma classe."
 
 #: fifelse.c:62
 msgid ""
 "'yes' has different class than 'na'. Please make sure that both arguments "
 "have the same class."
 msgstr ""
+"'yes' tem classe diferente de 'na'. Favor garantir que ambos os argumentos "
+"tenham a mesma classe."
 
 #: fifelse.c:67
 msgid ""
 "'no' has different class than 'na'. Please make sure that both arguments "
 "have the same class."
 msgstr ""
+"'no' tem classe diferente de 'na'. Favor garantir que ambos os argumentos "
+"tenham a mesma classe."
 
 #: fifelse.c:74
 msgid "'yes' and 'no' are both type factor but their levels are different."
-msgstr ""
+msgstr "'yes' e 'no' são ambos do tipo fator mas seus níveis são diferentes."
 
 #: fifelse.c:79
 msgid "'yes' and 'na' are both type factor but their levels are different."
-msgstr ""
+msgstr "'yes' e 'na' são ambos do tipo fator mas seus níveis são diferentes."
 
 #: fifelse.c:84
 msgid "'no' and 'na' are both type factor but their levels are different."
-msgstr ""
+msgstr "'no' e 'na' são ambos do tipo fator mas seus níveis são diferentes."
 
 #: fifelse.c:193 fifelse.c:391
 #, c-format
 msgid "Type '%s' is not supported"
-msgstr ""
+msgstr "Sem suporte ao tipo '%s'"
 
 #: fifelse.c:207
 #, c-format
@@ -109,16 +113,21 @@ msgid ""
 "consisting of logical condition, resulting value pairs (in that order). Note"
 " that the default argument must be named explicitly, e.g., default=0"
 msgstr ""
+"%d entradas recebidas; favor fornecer um número par de argumentos em ..., "
+"consistindo pares de condição lógica e valor resultante (nessa ordem). Note "
+"que o argumento padrão deve ser nomeado explicitamente, p.ex., default=0"
 
 #: fifelse.c:218 fifelse.c:258
 msgid ""
 "S4 class objects (except nanotime) are not supported. Please see "
 "https://github.com/Rdatatable/data.table/issues/4131."
 msgstr ""
+"Sem suporte a objetos de classe S4 (exceto nanotime). Favor ver "
+"https://github.com/Rdatatable/data.table/issues/4131."
 
 #: fifelse.c:229
 msgid "Length of 'default' must be 1."
-msgstr ""
+msgstr "Comprimento de 'default' deve ser 1."
 
 #: fifelse.c:236
 #, c-format
@@ -126,18 +135,24 @@ msgid ""
 "Resulting value is of type %s but 'default' is of type %s. Please make sure "
 "that both arguments have the same type."
 msgstr ""
+"Valor resultante é do tipo %s mas 'default' é do tipo %s. Favor garantir que"
+" ambos os argumentos tenham o mesmo tipo."
 
 #: fifelse.c:240
 msgid ""
 "Resulting value has different class than 'default'. Please make sure that "
 "both arguments have the same class."
 msgstr ""
+"Valores resultantes têm classe diferente de 'default'. Favor garantir que "
+"ambos os argumentos tenham a mesma classe."
 
 #: fifelse.c:246
 msgid ""
 "Resulting value and 'default' are both type factor but their levels are "
 "different."
 msgstr ""
+"Valor resultante e 'default' são ambos do tipo fator mas seus níveis são "
+"diferentes."
 
 #: fifelse.c:261
 #, c-format
