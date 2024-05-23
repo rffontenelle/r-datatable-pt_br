@@ -385,10 +385,12 @@ msgstr "coluna(s) não encontrada(s): %s"
 msgid ""
 "Item %d of j is %d which is outside the column number range [1,ncol=%d]"
 msgstr ""
+"O item %d de j é %d, o qual está fora do intervalo de números de colunas "
+"[1,ncol=%d]"
 
 #: data.table.R:749
 msgid "j mixes positives and negatives"
-msgstr ""
+msgstr "j mistura positivos e negativos"
 
 #: data.table.R:757
 msgid ""
