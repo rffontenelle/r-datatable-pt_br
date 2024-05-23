@@ -830,7 +830,7 @@ msgstr "Erro interno: byindex não encontrado"
 
 #: data.table.R:1724
 msgid "lapply optimization changed j from '%s' to '%s'"
-msgstr "a timização de lapply mudou j de '%s' para '%s'"
+msgstr "a otimização de lapply mudou j de '%s' para '%s'"
 
 #: data.table.R:1726
 msgid "lapply optimization is on, j unchanged as '%s'"
@@ -838,13 +838,15 @@ msgstr "a otimização de lapply está ativada, j inalterado como '%s'"
 
 #: data.table.R:1736 data.table.R:1821
 msgid "GForce optimized j to '%s' (see ?GForce)"
-msgstr ""
+msgstr "GForce otimizou j para '%s' (veja ?GForce)"
 
 #: data.table.R:1822
 msgid ""
 "GForce is on, but not activated for this query; left j unchanged (see "
 "?GForce)"
 msgstr ""
+"O GForce está ativado, mas não disponível para esta consulta; deixou j "
+"inalterado (veja ?GForce)"
 
 #: data.table.R:1841
 msgid ""
@@ -852,26 +854,32 @@ msgid ""
 "'na.rm' like that otherwise if you do mean(x,TRUE) the TRUE is taken to mean"
 " 'trim' which is the 2nd argument of mean. 'trim' is not yet optimized."
 msgstr ""
+"Não foi possível otimizar a chamada de mean() e pode ser muito lento. Você "
+"deve nomear 'na.rm' desta forma, caso contrário, se você usar mean(x,TRUE), "
+"o TRUE resultará em fazer um média truncada, pois 'trim' é o 2º argumento de"
+" mean. 'trim' ainda não está otimizado."
 
 #: data.table.R:1845
 msgid "Old mean optimization changed j from '%s' to '%s'"
-msgstr ""
+msgstr "A otimização antiga de média mudou j de '%s' para '%s'"
 
 #: data.table.R:1847
 msgid "Old mean optimization is on, left j unchanged."
-msgstr ""
+msgstr "A otimização antiga de média está ativada, j deixado inalterado."
 
 #: data.table.R:1857
 msgid "All optimizations are turned off"
-msgstr ""
+msgstr "Todas as otimizações estão desativadas"
 
 #: data.table.R:1858
 msgid "Optimization is on but left j unchanged (single plain symbol): '%s'"
 msgstr ""
+"A otimização está ativada, mas j deixado inalterado (único símbolo simples):"
+" '%s'"
 
 #: data.table.R:1878
 msgid "Internal error: length(irows)!=length(o__)"
-msgstr ""
+msgstr "Erro interno: length(irows)!=length(o__)"
 
 #: data.table.R:1887
 msgid "Making each group and running j (GForce %s) ..."
