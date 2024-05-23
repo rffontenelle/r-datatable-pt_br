@@ -536,6 +536,13 @@ msgid ""
 "call; (2) explicitly provide missing defaults for each branch in all cases; "
 "or (3) use the same name for each branch and re-name it in a follow-up call."
 msgstr ""
+"Diferentes branches da expressão j produziram diferentes colunas nomeadas "
+"automaticamente: %s; usando a maioria dos \"últimos\" nomes. Se isso foi "
+"intencional (por exemplo, você sabe que apenas um branch será usado em uma "
+"determinada consulta porque o branch é controlado por um argumento de "
+"função). Por favor, (1) retire esse branch da chamada; (2) forneça "
+"explicitamente os padrões ausentes para cada branch em todos os casos; ou "
+"(3) use o mesmo nome para cada branch e renomeie-o em uma chamada seguinte."
 
 #: data.table.R:1031
 msgid ""
@@ -544,50 +551,58 @@ msgid ""
 "inclusion/exclusion of the column. However, these conditions were not met "
 "for: %s"
 msgstr ""
+"Quando .SDcols é uma função, ela é aplicada a cada coluna; a saída desta "
+"função deve ser um escalar booleano não ausente sinalizando "
+"inclusão/exclusão da coluna. No entanto, estas condições não foram cumpridas"
+" para: %s"
 
 #: data.table.R:1037
 msgid ".SDcols missing at the following indices: %s"
-msgstr ""
+msgstr ".SDcols ausentes nos seguintes índices: %s"
 
 #: data.table.R:1039
 msgid ".SDcols is a logical vector length %d but there are %d columns"
-msgstr ""
+msgstr ".SDcols tem um vetor lógico de comprimento %d, mas existem %d colunas"
 
 #: data.table.R:1045
 msgid ".SDcols is numeric but has both +ve and -ve indices"
-msgstr ""
+msgstr ".SDcols é numérico, mas possui índices +ve e -ve"
 
 #: data.table.R:1047
 msgid ".SDcols is numeric but out of bounds [1, %d] at: %s"
-msgstr ""
+msgstr ".SDcols é numérico, mas está fora dos limites [1, %d] em: %s"
 
 #: data.table.R:1051
 msgid ".SDcols should be column numbers or names"
-msgstr ""
+msgstr ".SDcols devem ser números ou nomes de colunas"
 
 #: data.table.R:1053
 msgid "Some items of .SDcols are not column names: %s"
-msgstr ""
+msgstr "Alguns itens de .SDcols não são nomes de colunas: %s"
 
 #: data.table.R:1066
 msgid ""
 "'(m)get' found in j. ansvars being set to all columns. Use .SDcols or a single j=eval(macro) instead. Both will detect the columns used which is important for efficiency.\n"
 "Old ansvars: %s"
 msgstr ""
+"'(m)get' encontrado em j. ansvars sendo definido para todas as colunas. Use .SDcols ou um único j=eval(macro) em vez disso. Ambos detectarão as colunas utilizadas, o que é importante para a eficiência.\n"
+"ansvars antigo: %s"
 
 #: data.table.R:1086
 msgid "New ansvars: %s"
-msgstr ""
+msgstr "Novo ansvars: %s"
 
 #: data.table.R:1095
 msgid ""
 "This j doesn't use .SD but .SDcols has been supplied. Ignoring .SDcols. See "
 "?data.table."
 msgstr ""
+"Este j não usa .SD, mas .SDcols foi fornecido. Ignorando .SDcols. Consulte "
+"?data.table."
 
 #: data.table.R:1098
 msgid "Detected that j uses these columns: %s"
-msgstr ""
+msgstr "Detectado que j usa estas colunas: %s"
 
 #: data.table.R:1111
 msgid ""
@@ -595,33 +610,46 @@ msgid ""
 "tortuously flexible way to modify by group. Use := in j directly to modify "
 "by group by reference."
 msgstr ""
+".SD está travado. O uso de := em .SD j está reservado para possível uso "
+"futuro; uma maneira tortuosamente flexível de modificar por grupo. Use := in"
+" j diretamente para modificar por grupo por referência."
 
 #: data.table.R:1119 data.table.R:1131
 msgid "In %s(col1=val1, col2=val2, ...) form, all arguments must be named."
 msgstr ""
+"Na forma %s(col1=val1, col2=val2, ...), todos os argumentos devem ser "
+"nomeados."
 
 #: data.table.R:1136
 msgid ""
 "LHS of := must be a symbol, or an atomic vector (column names or positions)."
 msgstr ""
+"LHS de := deve ser um símbolo ou um vetor atômico (nomes de colunas ou "
+"posições)."
 
 #: data.table.R:1141
 msgid ""
 "LHS of := appears to be column positions but are outside [1,ncol] range. New"
 " columns can only be added by name."
 msgstr ""
+"LHS de := parecem ser posições de coluna, mas estão fora do intervalo "
+"[1,ncol]. Novas colunas só podem ser adicionadas por nome."
 
 #: data.table.R:1144
 msgid ""
 "LHS of := isn't column names ('character') or positions ('integer' or "
 "'numeric')"
 msgstr ""
+"LHS de := não são nomes de colunas ('character') ou posições ('integer' ou "
+"'numeric')"
 
 #: data.table.R:1160
 msgid ""
 "No rows match i. No new columns to add so not evaluating RHS of :=\n"
 "Assigning to 0 row subset of %d rows"
 msgstr ""
+"Nenhuma linha corresponde a i. Não há novas colunas para adicionar, portanto não será avaliado RHS de :=\n"
+"Atribuindo a 0 subconjunto de linhas com %d linhas"
 
 #: data.table.R:1175
 msgid ""
