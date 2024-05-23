@@ -268,6 +268,13 @@ msgid ""
 "and i (i.e., a natural join). Keyed joins might have further speed benefits "
 "on very large data due to x being sorted in RAM."
 msgstr ""
+"Quando i é um data.table (ou vetor de caracteres), as colunas a serem "
+"juntada devem ser especificadas usando o argumento 'on=' (consulte "
+"?data.table), por meio de chaveamento de x (ou seja, ordenado e marcado como"
+" ordenado, consulte ?setkey) ou de compartilhamento de nomes de colunas "
+"entre x e i (ou seja, uma junção natural). As junções chaveadas podem ter "
+"benefícios adicionais de velocidade em dados muito grandes devido ao fato de"
+" x ser ordenado na RAM."
 
 #: data.table.R:465
 msgid "Attempting to do natural join but no common columns in provided tables"
@@ -290,7 +297,7 @@ msgstr ""
 msgid ""
 "not-join called with 'by=.EACHI'; Replacing !i with i=setdiff_(x,i) ..."
 msgstr ""
-"não-junção chamado com 'by=.EACHI'; substituindo !i por i=setdiff_(x,i) ..."
+"notjoin chamado com 'by=.EACHI'; substituindo !i por i=setdiff_(x,i) ..."
 
 #: data.table.R:502
 msgid "done in %s"
@@ -446,6 +453,8 @@ msgid ""
 "i clause present but columns used in by not detected. Having to subset all "
 "columns before evaluating 'by': '%s'"
 msgstr ""
+"cláusula i presente, mas colunas usadas em by não detectadas. Necessário "
+"dividir em subconjuntos todas as colunas antes de avaliar 'by': '%s'"
 
 #: data.table.R:887
 msgid ""
@@ -453,12 +462,18 @@ msgid ""
 "by=list(...) if you can. Otherwise, by=eval%s should work. This is for "
 "efficiency so data.table can detect which columns are needed."
 msgstr ""
+"'by' parece avaliar nomes de colunas, mas não é c() ou key(). Use "
+"by=list(...) se puder. Caso contrário, by=eval%s deve funcionar. Isso é para"
+" maior eficiência, para que data.table possa detectar quais colunas são "
+"necessárias."
 
 #: data.table.R:898
 msgid ""
 "'by' or 'keyby' must evaluate to a vector or a list of vectors (where 'list'"
 " includes data.table and data.frame which are lists, too)"
 msgstr ""
+"'by' ou 'keyby' deve ser avaliado como um vetor ou uma lista de vetores "
+"(onde 'list' inclui data.table e data.frame que também são listas)"
 
 #: data.table.R:902
 msgid ""
@@ -468,6 +483,12 @@ msgid ""
 "consider converting the column to a supported type, e.g. by=sapply(list_col,"
 " toString), whilst taking care to maintain distinctness in the process."
 msgstr ""
+"A coluna ou expressão %d de 'by' ou 'keyby' é do tipo '%s' e não é suportada"
+" atualmente. Se você tiver um caso de uso atraente, adicione-o a "
+"https://github.com/Rdatatable/data.table/issues/1597. Como solução "
+"alternativa, considere converter a coluna em um tipo compatível, por "
+"exemplo. by=sapply(list_col, toString), tomando cuidado para manter a "
+"distinção no processo."
 
 #: data.table.R:906
 msgid ""
@@ -475,6 +496,9 @@ msgid ""
 "%d; the same length as there are rows in x (after subsetting if i is "
 "provided)."
 msgstr ""
+"Os itens na lista 'by' ou 'keyby' têm comprimento(s) %s. Cada um deve ter "
+"comprimento %d; o mesmo comprimento que há linhas em x (após dividir em "
+"subconjuntos se i for fornecido)."
 
 #: data.table.R:925
 msgid ""
