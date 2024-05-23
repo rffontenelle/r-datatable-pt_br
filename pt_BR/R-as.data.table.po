@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Rafael Fontenelle <rffontenelle@gmail.com>, 2024
+# Leonardo Fontenelle, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: as.data.table 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:22-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2024\n"
+"Last-Translator: Leonardo Fontenelle, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,7 +42,7 @@ msgstr "O argumento 'na.rm' deve ser lógico escalar e não-NA"
 
 #: as.data.table.R:94
 msgid "Please provide either 'key' or 'sorted', but not both."
-msgstr "Forneça 'key'ou 'sorted', mas não ambos."
+msgstr "Favor fornecer ou 'key'ou 'sorted', mas não ambos."
 
 #: as.data.table.R:108
 msgid ""
@@ -67,7 +68,8 @@ msgstr ""
 #: as.data.table.R:196
 msgid "A column may not be called .SD. That has special meaning."
 msgstr ""
-"Uma coluna não pode ser chamada de .SD. Isso tem um significado especial."
+"Uma coluna não pode ser chamada de .SD. Esse nome tem um significado "
+"especial."
 
 #: as.data.table.R:210
 msgid "class must be length 1"
