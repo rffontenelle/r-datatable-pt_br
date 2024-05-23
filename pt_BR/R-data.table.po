@@ -224,6 +224,8 @@ msgstr ""
 #, c-format
 msgid "'%s' is not found in calling scope and it is not a column name either"
 msgstr ""
+"'%s' não foi encontrado no escopo de chamada e também não é um nome de "
+"coluna"
 
 #: data.table.R:419
 #, c-format
@@ -233,12 +235,18 @@ msgid ""
 "contains row numbers of itself to select, try DT[(col)], DT[DT$col], or "
 "DT[col==TRUE} is particularly clear and is optimized"
 msgstr ""
+"'%s' não foi encontrado no escopo de chamada, mas é uma coluna do tipo %s. "
+"Se você deseja selecionar linhas onde essa coluna contém TRUE, ou talvez "
+"onde essa coluna contenha números de linha para selecionar, tente DT[(col)],"
+" DT[DT$col] ou DT[col==TRUE} é particularmente claro e é otimizado"
 
 #: data.table.R:422
 msgid ""
 "%s. When the first argument inside DT[...] is a single symbol (e.g. "
 "DT[var]), data.table looks for var in calling scope."
 msgstr ""
+"%s. Quando o primeiro argumento dentro de DT[...] é um único símbolo (por "
+"exemplo, DT[var]), data.table procura por var na chamada do escopo."
 
 #: data.table.R:434
 msgid ""
@@ -247,6 +255,10 @@ msgid ""
 " to data.table issue tracker if you'd like this, or add your comments to FR "
 "#657."
 msgstr ""
+"i é um tipo inválido (matriz). Talvez no futuro uma matriz de 2 colunas "
+"possa retornar uma lista de elementos de DT (no espírito de A[B] no FAQ "
+"2.14). Por favor, relate no rastreador de problemas do data.table se desejar"
+" ou adicione seus comentários ao FR #657."
 
 #: data.table.R:457
 msgid ""
