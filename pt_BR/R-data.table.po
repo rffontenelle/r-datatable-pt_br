@@ -883,11 +883,11 @@ msgstr "Erro interno: length(irows)!=length(o__)"
 
 #: data.table.R:1887
 msgid "Making each group and running j (GForce %s) ..."
-msgstr ""
+msgstr "Fazendo cada grupo e executando j (GForce %s)..."
 
 #: data.table.R:1983
 msgid "setkey() after the := with keyby= ..."
-msgstr ""
+msgstr "setkey() após := com keyby= ..."
 
 #: data.table.R:1987
 msgid ""
@@ -896,14 +896,18 @@ msgid ""
 "some expressions. To avoid this warning, use by= instead, or provide "
 "existing column names to keyby=."
 msgstr ""
+"O setkey() normalmente executado por keyby= foi ignorado (como se by= fosse "
+"usado) porque := está sendo usado junto com keyby= mas keyby= contém algumas"
+" expressões. Para evitar esse aviso, use by= ou forneça nomes de colunas "
+"existentes para keyby=."
 
 #: data.table.R:2002
 msgid "Internal error: jvnames is length %d but ans is %d and bynames is %d"
-msgstr ""
+msgstr "Erro interno: jvnames tem comprimento %d, mas ans é %d e bynames é %d"
 
 #: data.table.R:2010
 msgid "setkey() afterwards for keyby=.EACHI ..."
-msgstr ""
+msgstr "setkey() depois para keyby=.EACHI ..."
 
 #: data.table.R:2072
 msgid "rownames and rownames.value cannot both be used at the same time"
