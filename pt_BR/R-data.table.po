@@ -397,16 +397,21 @@ msgid ""
 "When with=FALSE, j-argument should be of type logical/character/integer "
 "indicating the columns to select."
 msgstr ""
+"Quando with=FALSE, o argumento j deve ser do tipo lógico/caractere/inteiro "
+"indicando as colunas a serem selecionadas."
 
 #: data.table.R:771
 msgid ""
 "'by' contains .I but only the following are currently supported: by=.I, "
 "by=.(.I), by=c(.I), by=list(.I)"
 msgstr ""
+"'by' contém .I, mas apenas o seguinte é suportado atualmente: by=.I, "
+"by=.(.I), by=c(.I), by=list(.I)"
 
 #: data.table.R:795
 msgid "by=c(...), key(...) or names(...) must evaluate to 'character'"
 msgstr ""
+"by=c(...), key(...) ou names(...) devem ser avaliados para 'character'"
 
 #: data.table.R:805
 msgid ""
@@ -415,14 +420,19 @@ msgid ""
 "commas), or pass a vector length 1 containing comma separated column names. "
 "See ?data.table for other possibilities."
 msgstr ""
+"'by' é um vetor de caracteres de comprimento %d, mas um ou mais itens "
+"incluem uma vírgula. Passe um vetor de nomes de colunas (que pode conter "
+"espaços, mas sem vírgulas) ou passe um vetor de comprimento 1 contendo nomes"
+" de colunas separados por vírgulas. Consulte ?data.table para outras "
+"possibilidades."
 
 #: data.table.R:839
 msgid "by index '%s' but that index has 0 length. Ignoring."
-msgstr ""
+msgstr "pelo índice '%s', mas esse índice tem comprimento 0. Ignorando."
 
 #: data.table.R:853
 msgid "Internal error: irows isn't integer"
-msgstr ""
+msgstr "Erro interno: irows não é inteiro"
 
 #: data.table.R:862
 msgid ""
