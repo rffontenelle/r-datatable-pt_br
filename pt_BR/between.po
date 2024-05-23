@@ -97,7 +97,7 @@ msgstr "O item %d do lower ('%s') é maior que o item %d do upper ('%s')"
 #: between.c:187
 #, c-format
 msgid "between non-parallel processing of character took %8.3fs\n"
-msgstr "processamento não paralelo de between de character levou %8.3fs\n"
+msgstr "processamento não paralelo de between de caractere levou %8.3fs\n"
 
 #: between.c:190
 #, c-format
