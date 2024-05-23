@@ -911,13 +911,15 @@ msgstr "setkey() depois para keyby=.EACHI ..."
 
 #: data.table.R:2072
 msgid "rownames and rownames.value cannot both be used at the same time"
-msgstr ""
+msgstr "rownames e rownames.value não podem ser usados ao mesmo tempo"
 
 #: data.table.R:2077
 msgid ""
 "length(rownames)==%d but nrow(DT)==%d. The rownames argument specifies a "
 "single column name or number. Consider rownames.value= instead."
 msgstr ""
+"length(rownames)==%d, mas nrow(DT)==%d. O argumento rownames especifica um "
+"único nome ou número de coluna. Considere usar rownames.value= em vez disso."
 
 #: data.table.R:2081
 msgid ""
