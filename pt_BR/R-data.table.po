@@ -438,6 +438,8 @@ msgstr "Erro interno: irows não é inteiro"
 msgid ""
 "i clause present and columns used in by detected, only these subset: %s"
 msgstr ""
+"cláusula i presente e colunas usadas em by detectadas, apenas esses "
+"subconjuntos: %s"
 
 #: data.table.R:865
 msgid ""
