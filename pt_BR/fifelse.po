@@ -157,7 +157,7 @@ msgstr ""
 #: fifelse.c:261
 #, c-format
 msgid "Argument #%d must be logical."
-msgstr ""
+msgstr "Argumento #%d deve ser lógico."
 
 #: fifelse.c:265
 #, c-format
@@ -165,6 +165,8 @@ msgid ""
 "Argument #%d has a different length than argument #1. Please make sure all "
 "logical conditions have the same length."
 msgstr ""
+"Argumento #%d tem um comprimento diferente do argumento #1. Favor garantir "
+"que todas as condições lógicas tenham o mesmo comprimento."
 
 #: fifelse.c:270
 #, c-format
@@ -172,6 +174,8 @@ msgid ""
 "Argument #%d is of type %s, however argument #2 is of type %s. Please make "
 "sure all output values have the same type."
 msgstr ""
+"Argumento #%d é do tipo %s, mas argumento #2 é do tipo %s. Favor garantir "
+"que todos os valores de saída sejam do mesmo tipo."
 
 #: fifelse.c:275
 #, c-format
@@ -179,15 +183,21 @@ msgid ""
 "Argument #%d has different class than argument #2, Please make sure all "
 "output values have the same class."
 msgstr ""
+"Argumento #%d tem classe diferente do argumento #1. Favor garantir que todos"
+" os valores de saída tenham a mesma classe."
 
 #: fifelse.c:281
 #, c-format
 msgid ""
 "Argument #2 and argument #%d are both factor but their levels are different."
 msgstr ""
+"Argumento #2 e argumento #%d são ambos fatores mas seus níveis são "
+"diferentes"
 
 #: fifelse.c:288
 #, c-format
 msgid ""
 "Length of output value #%d must either be 1 or length of logical condition."
 msgstr ""
+"O comprimento do valor de saída #%d deve ser 1 ou o comprimento da "
+"comprimento da condição lógica."
