@@ -312,25 +312,27 @@ msgstr "Erro interno. irows tem comprimento em by=.EACHI"
 
 #: data.table.R:568
 msgid "Reorder irows for 'mult==\"all\" && !allGrp1' ..."
-msgstr ""
+msgstr "Reordenar irows para 'mult==\"all\" && !allGrp1' ..."
 
 #: data.table.R:580
 msgid "Reordering %d rows after bmerge done in ..."
-msgstr ""
+msgstr "Reordenando %d linhas após bmerge feito em ..."
 
 #: data.table.R:597
 msgid "logical error. i is not a data.table, but 'on' argument is provided."
-msgstr ""
+msgstr "erro lógico. i não é um data.table, mas o argumento 'on' é fornecido."
 
 #: data.table.R:601
 msgid "i has evaluated to type %s. Expecting logical, integer or double."
-msgstr ""
+msgstr "i é avaliado para o tipo %s. Esperava lógico, inteiro ou duplo."
 
 #: data.table.R:605
 msgid ""
 "internal error: notjoin and which=NA (non-matches), huh? please provide "
 "reproducible example to issue tracker"
 msgstr ""
+"erro interno: notjoin e which=NA (não correspondências). Mas hein? Por "
+"favor, forneça um exemplo reproduzível no rastreador de problemas"
 
 #: data.table.R:623
 msgid ""
@@ -339,14 +341,18 @@ msgid ""
 "rare convenience. Explicitly use rep(...,length=.N) if you really need to "
 "recycle."
 msgstr ""
+"i é avaliado como um vetor lógico de comprimento %d, mas há %d linhas. A "
+"reciclagem do i lógico não é mais permitida, pois mais esconde bugs do que "
+"vale a rara conveniência. Use explicitamente rep(...,length=.N) se você "
+"realmente precisar reciclar."
 
 #: data.table.R:639
 msgid "Internal error: notjoin but byjoin or !integer or nomatch==NA"
-msgstr ""
+msgstr "Erro interno: notjoin, mas byjoin ou !integer ou nomatch==NA"
 
 #: data.table.R:641
 msgid "Inverting irows for notjoin done in ..."
-msgstr ""
+msgstr "Inversão de irows por notjoin feita em ..."
 
 #: data.table.R:699
 msgid ""
