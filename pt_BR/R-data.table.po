@@ -505,14 +505,17 @@ msgid ""
 "by-expression '%s' is not named, and the auto-generated name '%s' clashed "
 "with variable(s) in j. Therefore assigning the entire by-expression as name."
 msgstr ""
+"a expressão by '%s' não é nomeada e o nome gerado automaticamente '%s' entra"
+" em conflito com variáveis em j. Portanto, atribuindo toda a expressão by "
+"como nome."
 
 #: data.table.R:940
 msgid "Internal error: drop_dot passed %d items"
-msgstr ""
+msgstr "Erro interno: drop_dot passou %d itens"
 
 #: data.table.R:959
 msgid "Item %d of the .() or list() passed to j is missing"
-msgstr ""
+msgstr "O item %d de .() ou list() passado para j está ausente"
 
 #: data.table.R:965
 msgid ""
@@ -520,6 +523,9 @@ msgid ""
 "sure this warning is in error, please put the branching logic outside of [ "
 "for efficiency"
 msgstr ""
+"j não pode ser avaliado com o mesmo número de colunas para cada grupo; se "
+"você tiver certeza de que este aviso está errado, coloque a lógica de "
+"branching fora de [ para eficiência"
 
 #: data.table.R:967
 msgid ""
