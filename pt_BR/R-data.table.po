@@ -1022,49 +1022,57 @@ msgstr "o argumento x deve ser um data.table"
 
 #: data.table.R:2468
 msgid "group length is 0 but data nrow > 0"
-msgstr ""
+msgstr "o comprimento do grupo é 0, mas os dados têm nrow > 0"
 
 #: data.table.R:2470
 msgid ""
 "passing 'f' argument together with 'by' is not allowed, use 'by' when split "
 "by column in data.table and 'f' when split by external factor"
 msgstr ""
+"passar o argumento 'f' junto com 'by' não é permitido, use 'by' quando "
+"dividido por coluna no data.table e 'f' quando dividido por fator externo"
 
 #: data.table.R:2474
 msgid "Either 'by' or 'f' argument must be supplied"
-msgstr ""
+msgstr "O argumento 'by' ou 'f' deve ser fornecido"
 
 #: data.table.R:2476
 msgid "Column '.ll.tech.split' is reserved for split.data.table processing"
 msgstr ""
+"A coluna '.ll.tech.split' é reservada para processamento split.data.table"
 
 #: data.table.R:2477
 msgid "Column '.nm.tech.split' is reserved for split.data.table processing"
 msgstr ""
+"A coluna '.nm.tech.split' é reservada para processamento split.data.table"
 
 #: data.table.R:2478
 msgid "Argument 'by' must refer to column names in x"
-msgstr ""
+msgstr "O argumento 'by' deve se referir aos nomes das colunas em x"
 
 #: data.table.R:2479
 msgid ""
 "Argument 'by' must refer only to atomic-type columns, but the following "
 "columns are non-atomic: %s"
 msgstr ""
+"O argumento 'by' deve referir-se apenas a colunas do tipo atômico, mas as "
+"seguintes colunas não são atômicas: %s"
 
 #: data.table.R:2524
 msgid "Processing split.data.table with: %s"
-msgstr ""
+msgstr "Processando split.data.table com: %s"
 
 #: data.table.R:2609
 msgid ""
 "x is not a data.table|frame. Shallow copy is a copy of the vector of column "
 "pointers (only), so is only meaningful for data.table|frame"
 msgstr ""
+"x não é um data.table|frame. A cópia rasa é uma cópia do vetor de ponteiros "
+"de coluna (apenas), portanto, só é significativa para data.table|frame"
 
 #: data.table.R:2618
 msgid "setalloccol attempting to modify `*tmp*`"
-msgstr ""
+msgstr "setalloccol tentando modificar `*tmp*`"
 
 #: data.table.R:2653
 msgid ""
@@ -1073,42 +1081,46 @@ msgid ""
 "copy. You will need to assign the result back to a variable. See issue "
 "#1281."
 msgstr ""
+"A entrada é um tipo lógico de comprimento 1 que aponta para o mesmo endereço"
+" que o valor global de R. Portanto, o atributo não foi definido por "
+"referência, mas sim por uma cópia. Você precisará atribuir o resultado de "
+"volta a uma variável. Consulte o issue #1281."
 
 #: data.table.R:2668
 msgid "x is not a data.table or data.frame"
-msgstr ""
+msgstr "x não é um data.table ou data.frame"
 
 #: data.table.R:2670
 msgid "x has %d columns but its names are length %d"
-msgstr ""
+msgstr "x tem %d colunas, mas seus nomes têm comprimento %d"
 
 #: data.table.R:2677
 msgid "Passed a vector of type '%s'. Needs to be type 'character'."
-msgstr ""
+msgstr "Passou um vetor do tipo '%s'. Precisa ser do tipo 'character'."
 
 #: data.table.R:2690
 msgid "'new' is not a character vector or a function"
-msgstr ""
+msgstr "'new' não é um vetor de caracteres ou uma função"
 
 #: data.table.R:2692
 msgid "NA in 'new' at positions %s"
-msgstr ""
+msgstr "NA em 'new' nas posições %s"
 
 #: data.table.R:2693
 msgid "Some duplicates exist in 'old': %s"
-msgstr ""
+msgstr "Existem algumas duplicatas em 'old': %s"
 
 #: data.table.R:2695
 msgid "'old' is type %s but should be integer, double or character"
-msgstr ""
+msgstr "'old' é do tipo %s, mas deve ser inteiro, double ou caractere"
 
 #: data.table.R:2696
 msgid "'old' is length %d but 'new' is length %d"
-msgstr ""
+msgstr "'old' tem comprimento %d, mas 'new' tem comprimento %d"
 
 #: data.table.R:2697
 msgid "NA (or out of bounds) in 'old' at positions %s"
-msgstr ""
+msgstr "NA (ou fora dos limites) em 'old' nas posições %s"
 
 #: data.table.R:2700
 msgid ""
