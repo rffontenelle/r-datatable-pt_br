@@ -73,12 +73,16 @@ msgid ""
 "input has specific integer rownames but their length (%<PRId64>) != nrow "
 "(%<PRId64>)"
 msgstr ""
+"entrada tem rownames inteiros específicos, mas seu length (%<PRId64>) != "
+"nrow (%<PRId64>)."
 
 #: fwriteR.c:282
 msgid ""
 "No list columns are present. Setting sep2='' otherwise quote='auto' would "
 "quote fields containing sep2.\n"
 msgstr ""
+"Nenhuma coluna de lista está presente. Definindo sep2='' caso contrário, "
+"quote='auto' citaria campos contendo sep2.\n"
 
 #: fwriteR.c:286
 #, c-format
@@ -86,6 +90,8 @@ msgid ""
 "If quote='auto', fields will be quoted if the field contains either sep "
 "('%c') or sep2 ('%c') because column %d is a list column.\n"
 msgstr ""
+"Se quote='auto', os campos serão citados se o campo contiver sep ('%c') ou "
+"sep2 ('%c'), pois a coluna %d é uma coluna de lista.\n"
 
 #: fwriteR.c:290
 #, c-format
@@ -93,3 +99,5 @@ msgid ""
 "sep ('%c'), sep2 ('%c') and dec ('%c') must all be different. Column %d is a"
 " list column."
 msgstr ""
+"sep ('%c'), sep2 ('%c') e dec ('%c') devem ser todos diferentes. Coluna %d é"
+" uma coluna de lista."
