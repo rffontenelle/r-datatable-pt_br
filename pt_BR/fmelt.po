@@ -79,50 +79,66 @@ msgid ""
 "this case are columns [%s]. Consider providing at least one of 'id' or "
 "'measure' vars in future."
 msgstr ""
+"id.vars e measure.vars são adivinhadas internamente quando ambas são 'NULL'."
+" Todas as colunas de tipo não numérico/inteiro/lógico são consideradas "
+"id.vars, o que nesse caso são as colunas [%s]. Considere fornecer ao menos "
+"argumento dentre id.vars and measure.vars no futuro."
 
 #: fmelt.c:245
 msgid ""
 "'measure.vars' is missing. Assigning all columns other than 'id.vars' "
 "columns as 'measure.vars'.\n"
 msgstr ""
+"'measure.vars' está faltando. Atribuindo para 'measure.vars' todas as "
+"colunas que não estão em 'id.vars'.\n"
 
 #: fmelt.c:247
 #, c-format
 msgid "Assigned 'measure.vars' are [%s].\n"
-msgstr ""
+msgstr "'measure.vars' atribuídas são [%s].\n"
 
 #: fmelt.c:258
 msgid ""
 "'id.vars' is missing. Assigning all columns other than 'measure.vars' "
 "columns as 'id.vars'.\n"
 msgstr ""
+"'id.vars' está faltando. Atribuindo todas as colunas como 'id.vars' exceto "
+"aquelas em 'measure.vars'.\n"
 
 #: fmelt.c:259
 #, c-format
 msgid "Assigned 'id.vars' are [%s].\n"
-msgstr ""
+msgstr "'id.vars' atribuídas são [%s].\n"
 
 #: fmelt.c:311
 msgid ""
 "When 'measure.vars' is a list, 'value.name' must be a character vector of "
 "length =1 or =length(measure.vars)."
 msgstr ""
+"Quando 'measure.vars' é uma lista, 'value.name' deve ser um vetor de "
+"caracteres de comprimento =1 ou =length(measure.vars)."
 
 #: fmelt.c:312
 msgid ""
 "When 'measure.vars' is either not specified or a character/integer vector, "
 "'value.name' must be a character vector of length =1."
 msgstr ""
+"Quando 'measure.vars' ou não está especificada ou é um vetor de "
+"caracteres/inteiros, 'value.name' deve ser um vetor de caracteres de "
+"comprimento =1."
 
 #: fmelt.c:315
 msgid "'variable.name' must be a character/integer vector of length 1."
 msgstr ""
+"'variable.name' deve ser um vetor de caracteres/inteiros de comprimento 1."
 
 #: fmelt.c:368
 msgid ""
 "variable_table attribute of measure.vars should be a data table with at "
 "least one column"
 msgstr ""
+"atributo variable_table de measure.vars deveria ser uma data.table com ao "
+"menos uma coluna"
 
 #: fmelt.c:373
 #, c-format
@@ -130,23 +146,32 @@ msgid ""
 "variable_table attribute of measure.vars should be a data table with same "
 "number of rows as max length of measure.vars vectors =%d"
 msgstr ""
+"atributo variable_table de measure.vars deveria ser uma data.table com o "
+"mesmo número de linhas que o comprimento máximo dos vetores measure.vars = "
+"%d"
 
 #: fmelt.c:377
 msgid ""
 "variable_table attribute of measure.vars should be either NULL or a data "
 "table"
 msgstr ""
+"atributo variable_table de measure.vars deveria ser ou NULL ou uma "
+"data.table"
 
 #: fmelt.c:394
 msgid ""
 "Internal error: combineFactorLevels in fmelt.c expects all-character input"
 msgstr ""
+"Erro interno: combineFactorLevels em fmelt.c espera entrada inteiramente de "
+"caracteres"
 
 #: fmelt.c:397
 msgid ""
 "Internal error: combineFactorLevels in fmelt.c expects a character target to"
 " factorize"
 msgstr ""
+"Erro interno: combineFactorLevels em fmelt.c espera alvo de caracteres para "
+"fatorizar"
 
 #: fmelt.c:460
 #, c-format
