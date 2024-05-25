@@ -1,0 +1,95 @@
+# 
+# Translators:
+# Italo Santos, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: fwriteR 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Italo Santos, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: fwriteR.c:46
+msgid "Internal error: col passed to getMaxCategLen is missing levels"
+msgstr "Erro interno: col passado para getMaxCategLen está faltando níveis"
+
+#: fwriteR.c:80
+msgid "Internal error: getMaxListItemLen should have caught this up front."
+msgstr ""
+"Erro interno: getMaxListItemLen deveria ter capturado isso inicialmente."
+
+#: fwriteR.c:103
+#, c-format
+msgid ""
+"Row %<PRId64> of list column is type '%s' - not yet implemented. fwrite() "
+"can write list columns containing items which are atomic vectors of type "
+"logical, integer, integer64, double, complex and character."
+msgstr ""
+"Linha %<PRId64> da coluna de lista é do tipo '%s' - ainda não implementado. "
+"fwrite() pode escrever colunas de lista contendo itens que são vetores "
+"atômicos dos tipos logical, integer, integer64, double, complex e character."
+
+#: fwriteR.c:108
+#, c-format
+msgid ""
+"Internal error: row %<PRId64> of list column has no max length method "
+"implemented"
+msgstr ""
+"Erro interno: linha %<PRId64> da coluna de lista não tem método de "
+"comprimento máximo implementado"
+
+#: fwriteR.c:176
+msgid ""
+"fwrite must be passed an object of type list; e.g. data.frame, data.table"
+msgstr ""
+"fwrite deve receber um objeto do tipo list; por exemplo, data.frame, "
+"data.table"
+
+#: fwriteR.c:186
+msgid "fwrite was passed an empty list of no columns. Nothing to write."
+msgstr "fwrite recebeu uma lista vazia sem colunas. Nada a escrever."
+
+#: fwriteR.c:241
+#, c-format
+msgid ""
+"Column %d's length (%d) is not the same as column 1's length (%<PRId64>)"
+msgstr ""
+"Coluna %d's length (%d) não é o mesmo que o da coluna 1's length (%<PRId64>)"
+
+#: fwriteR.c:245
+#, c-format
+msgid "Column %d's type is '%s' - not yet implemented in fwrite."
+msgstr "Coluna %d's é do tipo '%s' - ainda não implementado no fwrite."
+
+#: fwriteR.c:267
+#, c-format
+msgid ""
+"input has specific integer rownames but their length (%<PRId64>) != nrow "
+"(%<PRId64>)"
+msgstr ""
+
+#: fwriteR.c:282
+msgid ""
+"No list columns are present. Setting sep2='' otherwise quote='auto' would "
+"quote fields containing sep2.\n"
+msgstr ""
+
+#: fwriteR.c:286
+#, c-format
+msgid ""
+"If quote='auto', fields will be quoted if the field contains either sep "
+"('%c') or sep2 ('%c') because column %d is a list column.\n"
+msgstr ""
+
+#: fwriteR.c:290
+#, c-format
+msgid ""
+"sep ('%c'), sep2 ('%c') and dec ('%c') must all be different. Column %d is a"
+" list column."
+msgstr ""
