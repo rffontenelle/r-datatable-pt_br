@@ -45,7 +45,7 @@ msgstr ""
 "reshape2 foi substituído e não está mais em desenvolvimento ativo, e que "
 "esse redirecionamento agora é obsoleto. Para continuar usando métodos melt "
 "de reshape2 enquanto ambos os pacotes estão anexados, p.ex. melt.list, você "
-"pode prefixar com o espaço de nomes, p.e. reshape2::%1$s(%3$s). Na próxima "
+"pode prefixar com o namespace, p.ex. reshape2::%1$s(%3$s). Na próxima "
 "versão, este aviso se tornará um erro."
 
 #: fmelt.R:28
@@ -85,45 +85,51 @@ msgid ""
 "both sep and pattern arguments used; must use either sep or pattern (not "
 "both)"
 msgstr ""
+"ambos os argumentos sep e pattern usados; deve usar ou sep, ou pattern (não "
+"os dois)"
 
 #: fmelt.R:77
 msgid "multiple.keyword must be a character string with nchar>0"
-msgstr ""
+msgstr "multiple.keyword deve ser uma string de caracteres com nchar>0"
 
 #: fmelt.R:80
 msgid "cols must be a character vector of column names"
-msgstr ""
+msgstr "cols deve ser um vetor de caracteres de nomes de coluna"
 
 #: fmelt.R:88
 msgid "in measurev, %s must be named, problems: %s"
-msgstr ""
+msgstr "em measurev, %s deve ser nomeado, problemas: %s"
 
 #: fmelt.R:94
 msgid "%s should be uniquely named, problems: %s"
-msgstr ""
+msgstr "%s deveria receber nomes únicos, problemas: %s"
 
 #: fmelt.R:99
 msgid "number of %s =%d must be same as %s =%d"
-msgstr ""
+msgstr "número de %s=%d deve ser o mesmo de %s=%d"
 
 #: fmelt.R:106
 msgid "pattern must be character string"
-msgstr ""
+msgstr "pattern deve ser uma string de caracteres"
 
 #: fmelt.R:111
 msgid ""
 "pattern did not match any cols, so nothing would be melted; fix by changing "
 "pattern"
 msgstr ""
+"pattern não coincidiu com nenhuma coluna, então nada será processado; "
+"corrija mudando o padrão"
 
 #: fmelt.R:115
 msgid ""
 "pattern must contain at least one capture group (parenthesized sub-pattern)"
 msgstr ""
+"pattern deve conter pelo menos um grupo de captura (subpadrão entre "
+"parênteses)"
 
 #: fmelt.R:123
 msgid "sep must be character string"
-msgstr ""
+msgstr "sep deve ser uma string de caracteres"
 
 #: fmelt.R:129
 msgid ""
