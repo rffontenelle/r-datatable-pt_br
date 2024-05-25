@@ -1,0 +1,71 @@
+# 
+# Translators:
+# Italo Santos, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: vecseq 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Italo Santos, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: vecseq.c:13
+msgid "x must be an integer vector"
+msgstr "x deve ser um vetor de inteiros"
+
+#: vecseq.c:14
+msgid "len must be an integer vector"
+msgstr "len deve ser um vetor de inteiros"
+
+#: vecseq.c:15
+msgid "x and len must be the same length"
+msgstr "x e len devem ter o mesmo comprimento"
+
+#: vecseq.c:21
+msgid ""
+"Join results in more than 2^31 rows (internal vecseq reached physical "
+"limit). Very likely misspecified join. Check for duplicate key values in i "
+"each of which join to the same group in x over and over again. If that's ok,"
+" try by=.EACHI to run j for each group to avoid the large allocation. "
+"Otherwise, please search for this error message in the FAQ, Wiki, Stack "
+"Overflow and data.table issue tracker for advice."
+msgstr ""
+"A junção resulta em mais de 2^31 linhas (vecseq interno atingiu o limite "
+"físico). Muito provavelmente, a junção foi especificada incorretamente. "
+"Verifique se há valores de chave duplicados em i, cada um dos quais se junta"
+" ao mesmo grupo em x repetidamente. Se estiver correto, tente by=.EACHI para"
+" executar j para cada grupo e evitar uma grande alocação. Caso contrário, "
+"por favor, procure esta mensagem de erro no FAQ, Wiki, Stack Overflow e "
+"rastreador de problemas do data.table para obter conselhos."
+
+#: vecseq.c:25
+msgid "clamp must be a double vector length 1"
+msgstr "clamp deve ser um vetor duplo de comprimento 1"
+
+#: vecseq.c:27
+msgid "clamp must be positive"
+msgstr "clamp deve ser positivo"
+
+#: vecseq.c:28
+#, c-format
+msgid ""
+"Join results in %d rows; more than %d = nrow(x)+nrow(i). Check for duplicate"
+" key values in i each of which join to the same group in x over and over "
+"again. If that's ok, try by=.EACHI to run j for each group to avoid the "
+"large allocation. If you are sure you wish to proceed, rerun with "
+"allow.cartesian=TRUE. Otherwise, please search for this error message in the"
+" FAQ, Wiki, Stack Overflow and data.table issue tracker for advice."
+msgstr ""
+"A junção resulta em %d mais linhas do que %d = nrow(x) + nrow(i). Verifique "
+"se há valores de chave duplicados em i, cada um dos quais se junta ao mesmo "
+"grupo em x repetidamente. Se estiver correto, tente by=.EACHI para executar "
+"j para cada grupo e evitar uma grande alocação. Se tiver certeza de que "
+"deseja continuar, execute novamente com allow.cartesian=TRUE. Caso "
+"contrário, procure esta mensagem de erro no FAQ, Wiki, Stack Overflow e "
+"rastreador de problemas do data.table para obter conselhos."
