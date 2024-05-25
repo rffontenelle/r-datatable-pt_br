@@ -73,46 +73,49 @@ msgstr "argumento que especifica colunas recebeu coluna(s) duplicadas."
 #: utils.c:229
 #, c-format
 msgid "Internal error: type '%s' not supported in %s"
-msgstr ""
+msgstr "Erro interno: tipo '%s' não suportado em %s"
 
 #: utils.c:234
 #, c-format
 msgid "Internal error: copyAsPlain returning ALTREP for type '%s'"
-msgstr ""
+msgstr "Erro interno: copyAsPlain retornando ALTREP para o tipo'%s'"
 
 #: utils.c:278
 #, c-format
 msgid "Found and copied %d column%s with a shared memory address\n"
 msgstr ""
+"Encontrada e copiada %d coluna%s com um endereço de memória compartilhado\n"
 
 #: utils.c:358
 msgid "'x' is not atomic"
-msgstr ""
+msgstr "'x' não é atômico"
 
 #: utils.c:360
 msgid "'x' must not be matrix or array"
-msgstr ""
+msgstr "'x' não deve ser uma matriz ou array"
 
 #: utils.c:362
 msgid "input must not be matrix or array"
-msgstr ""
+msgstr "entrada não deve ser uma matriz ou array"
 
 #: utils.c:366
 #, c-format
 msgid "copy=false and input already of expected type and class %s[%s]\n"
-msgstr ""
+msgstr "copy=false e a entrada já é do tipo e classe esperados %s[%s]\n"
 
 #: utils.c:373
 #, c-format
 msgid "Coercing %s[%s] into %s[%s]\n"
-msgstr ""
+msgstr "Faça coerção %s[%s] em %s[%s]\n"
 
 #: utils.c:376
 #, c-format
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #: utils.c:389
 #, c-format
 msgid "zlib header files were not found when data.table was compiled"
 msgstr ""
+"arquivos de cabeçalho zlib não foram encontrados quando o data.table foi "
+"compilado"
