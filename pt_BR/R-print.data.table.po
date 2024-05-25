@@ -1,0 +1,58 @@
+# 
+# Translators:
+# Italo Santos, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: print.data.table 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Italo Santos, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: print.data.table.R:17
+msgid "Valid options for col.names are 'auto', 'top', and 'none'"
+msgstr "As opções válidas para col.names são 'auto', 'top', e 'none'"
+
+#: print.data.table.R:19
+msgid "Valid options for trunc.cols are TRUE and FALSE"
+msgstr "Opções válidas para trunc.cols são TRUE e FALSE"
+
+#: print.data.table.R:21
+msgid "Column classes will be suppressed when col.names is 'none'"
+msgstr "As classes de colunas serão suprimidas quando col.names for 'none'"
+
+#: print.data.table.R:48
+msgid "Key: <%s>"
+msgstr "Chave: <%s>"
+
+#: print.data.table.R:58
+msgid "Null data.%s (0 rows and 0 cols)"
+msgstr "Dados nulos.%s (0 linhas e 0 colunas)"
+
+#: print.data.table.R:60
+msgid "Empty data.%s (%d rows and %d cols)"
+msgstr "Dados vazios.%s (%d linhas e %d colunas)"
+
+#: print.data.table.R:146
+msgid ""
+"Internal structure doesn't seem to be a list. Possibly corrupt data.table."
+msgstr ""
+"A estrutura interna não parece ser uma lista. Possivelmente data.table "
+"corrompida."
+
+#: print.data.table.R:270
+msgid "%d variable(s) not shown: %s"
+msgstr "%d variável(is) não mostrada:%s"
+
+#: print.data.table.R:51
+msgid "Index: %s\n"
+msgid_plural "Indices: %s\n"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
