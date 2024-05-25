@@ -181,59 +181,67 @@ msgid ""
 " type '%s' will be coerced too. Check DETAILS in ?melt.data.table for more "
 "on coercion.\n"
 msgstr ""
+"'measure.vars' [%s] não são todas do mesmo tipo. Por ordem de hierarquia, a "
+"coluna de valores dos dados resultantes será do tipo '%s'. Será feita "
+"coerção de todas as variáveis que não já forem do tipo '%s'. Verifique os "
+"detalhes (DETAILS) em ?melt.data.table para mais sobre coerção.\n"
 
 #: fmelt.c:572
 #, c-format
 msgid "Unknown column type '%s' for column '%s'."
-msgstr ""
+msgstr "Tipo de coluna desconhecido ('%s') para coluna '%s'."
 
 #: fmelt.c:593
 #, c-format
 msgid "Internal error: fmelt.c:getvarcols %d %d"
-msgstr ""
+msgstr "Erro interno: fmelt.c:getvarcols %d %d"
 
 #: fmelt.c:679
 #, c-format
 msgid "variable_table does not support column type '%s' for column '%s'."
 msgstr ""
+"variable_table não tem suporte o tipo de coluna '%s' para a coluna '%s'."
 
 #: fmelt.c:773
 #, c-format
 msgid "Unknown column type '%s' for column '%s' in 'data'"
-msgstr ""
+msgstr "Tipo de coluna '%s' desconhecido para a coluna '%s' em 'data'."
 
 #: fmelt.c:784
 msgid "Input is not of type VECSXP, expected a data.table, data.frame or list"
 msgstr ""
+"Entrada não é do tipo VECSXP, esperava-se uma data.table, data.frame ou "
+"lista"
 
 #: fmelt.c:785
 msgid "Argument 'value.factor' should be logical TRUE/FALSE"
-msgstr ""
+msgstr "Argumento 'value.factor' deveria ser lógico TRUE/FALSE"
 
 #: fmelt.c:786
 msgid "Argument 'variable.factor' should be logical TRUE/FALSE"
-msgstr ""
+msgstr "Argumento 'variable.factor' deveria ser lógico TRUE/FALSE"
 
 #: fmelt.c:787
 msgid "Argument 'na.rm' should be logical TRUE/FALSE."
-msgstr ""
+msgstr "Argumento 'na.rm' deveria ser lógico TRUE/FALSE"
 
 #: fmelt.c:788
 msgid "Argument 'variable.name' must be a character vector"
-msgstr ""
+msgstr "Argumento 'variable.name' deve ser um vetor de caracteres"
 
 #: fmelt.c:789
 msgid "Argument 'value.name' must be a character vector"
-msgstr ""
+msgstr "Argumento 'value.name' deve ser um vetor de caracteres"
 
 #: fmelt.c:790
 msgid "Argument 'verbose' should be logical TRUE/FALSE"
-msgstr ""
+msgstr "Argumento 'verbose' deveria ser lógico TRUE/FALSE"
 
 #: fmelt.c:794
 msgid "ncol(data) is 0. Nothing to melt. Returning original data.table."
 msgstr ""
+"ncol(data) é 0. Nada para processar. Retornando a data.table original."
 
 #: fmelt.c:799
 msgid "names(data) is NULL. Please report to data.table-help"
-msgstr ""
+msgstr "names(data) é NULL. Favor relatar para data.table-help"
