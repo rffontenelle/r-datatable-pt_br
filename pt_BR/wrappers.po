@@ -1,0 +1,58 @@
+# 
+# Translators:
+# Italo Santos, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: wrappers 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Italo Santos, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: wrappers.c:11
+msgid "Attribute name must be a character vector of length 1"
+msgstr "O nome do atributo deve ser um vetor de caracteres de comprimento 1"
+
+#: wrappers.c:16
+msgid ""
+"Internal structure doesn't seem to be a list. Can't set class to be "
+"'data.table' or 'data.frame'. Use 'as.data.table()' or 'as.data.frame()' "
+"methods instead."
+msgstr ""
+"A estrutura interna não parece ser uma lista. Não é possível definir a "
+"classe como 'data.table' ou 'data.frame'. Use os métodos 'as.data.table()' "
+"ou'as.data.frame()' em vez disso."
+
+#: wrappers.c:66
+msgid "First argument to setlistelt must be a list()"
+msgstr "O primeiro argumento para setlistelt deve ser list()"
+
+#: wrappers.c:67
+msgid "Second argument to setlistelt must a length 1 integer vector"
+msgstr ""
+"O segundo argumento para setlistelt deve ser um vetor de inteiros de "
+"comprimento 1"
+
+#: wrappers.c:69
+#, c-format
+msgid "i (%d) is outside the range of items [1,%d]"
+msgstr "i (%d) está fora do intervalo de items [1,%d]"
+
+#: wrappers.c:91
+msgid "x isn't a VECSXP"
+msgstr "x não é um VECSXP"
+
+#: wrappers.c:106
+#, c-format
+msgid ""
+"dim.data.table expects a data.table as input (which is a list), but seems to"
+" be of type %s"
+msgstr ""
+"dim.data.table espera uma data.table como entrada (que é uma lista), mas "
+"parece ser do tipo %s"
