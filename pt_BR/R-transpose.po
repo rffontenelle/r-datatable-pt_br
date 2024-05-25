@@ -94,4 +94,4 @@ msgstr ""
 
 #: transpose.R:88
 msgid "length(names) (= %d) is not equal to length(%s) (= %d)."
-msgstr ""
+msgstr "length(names) (= %d) não é igual a length(%s) (= %d)."
