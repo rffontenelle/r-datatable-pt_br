@@ -1,0 +1,75 @@
+# 
+# Translators:
+# Italo Santos, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: fwrite 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Italo Santos, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: fwrite.R:19
+msgid "Argument 'encoding' must be '', 'UTF-8' or 'native'."
+msgstr "Argumento 'encoding' deve ser '', 'UTF-8' ou 'native'."
+
+#: fwrite.R:24
+msgid "dateTimeAs must be a single string"
+msgstr "dateTimeAs deve ser uma única string"
+
+#: fwrite.R:26
+msgid "dateTimeAs must be 'ISO','squash','epoch' or 'write.csv'"
+msgstr "dateTimeAs deve ser 'ISO','squash','epoch' ou 'write.csv'"
+
+#: fwrite.R:28
+msgid "logicalAsInt has been renamed logical01. Use logical01 only, not both."
+msgstr ""
+"logicalAsInt foi renomeado para logical01. Use apenas logical01, não ambos."
+
+#: fwrite.R:30
+msgid ""
+"logicalAsInt has been renamed logical01 for consistency with fread. It works"
+" fine for now but please change to logical01 at your convenience so we can "
+"remove logicalAsInt in future."
+msgstr ""
+"logicalAsInt foi renomeado para logical01 para consistência com fread. "
+"Funciona bem por enquanto, mas por favor, mude para logical01 quando "
+"possível para que possamos remover logicalAsInt no futuro."
+
+#: fwrite.R:40
+msgid "x being coerced from class: matrix to data.table"
+msgstr "x foi feita coerção da classe: matrix para data.table"
+
+#: fwrite.R:66
+msgid "Appending to existing file so setting bom=FALSE and yaml=FALSE"
+msgstr ""
+"Anexando ao arquivo existente, portanto, definindo bom=FALSE e yaml=FALSE"
+
+#: fwrite.R:79
+#, c-format
+msgid ""
+"If you intended to overwrite the file at %s with an empty one, please use "
+"file.remove first."
+msgstr ""
+"Se você pretendia sobrescrever o arquivo em %s com um vazio, por favor, use "
+"file.remove primeiro."
+
+#: fwrite.R:80
+msgid "Input has no columns; doing nothing.%s"
+msgstr "Entrada não tem colunas; não há nada a fazer.%s"
+
+#: fwrite.R:83
+msgid "Input has no columns; creating an empty file at '%s' and exiting."
+msgstr "Entrada não tem colunas; criando um arquivo vazio em '%s' e saindo."
+
+#: fwrite.R:90
+msgid ""
+"'data.table' relies on the package 'yaml' to write the file header; please "
+"add this to your library with install.packages('yaml') and try again."
+msgstr ""
