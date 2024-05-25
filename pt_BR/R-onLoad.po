@@ -96,4 +96,4 @@ msgstr ""
 
 #: onLoad.R:121
 msgid "Unexpected base R behaviour: DF[2,2]<- has not copied address(DF)"
-msgstr ""
+msgstr "Comportamento inesperado do R base: DF[2,2]<- não copiou address(DF)"
