@@ -222,7 +222,7 @@ msgstr "Atribuindo para a linha %d que é subconjunto de %d linhas\n"
 #: assign.c:351
 #, c-format
 msgid "Added %d new column%s initialized with all-NA\n"
-msgstr ""
+msgstr "Adicionada(s) %d nova(s) coluna%s inicializada toda com NA\n"
 
 #: assign.c:356
 msgid "length(LHS)==0; no columns to delete or assign RHS to."
