@@ -1,0 +1,54 @@
+# 
+# Translators:
+# Italo Santos, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: IDateTime 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Italo Santos, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: IDateTime.R:101
+msgid ""
+"Internal error -- difftime objects may not be added to IDate, but Ops "
+"dispatch should have intervened to prevent this"
+msgstr ""
+"Erro interno -- objetos difftime não podem ser adicionados a IDate, mas a "
+"Ops dispatch deveria ter intervindo para evitar isso"
+
+#: IDateTime.R:107
+msgid "binary + is not defined for \"IDate\" objects"
+msgstr "binário + não está definida para objetos \"IDate\""
+
+#: IDateTime.R:114
+msgid "can only subtract from \"IDate\" objects"
+msgstr "pode apenas subtrair objetos de \"IDate\""
+
+#: IDateTime.R:117
+msgid "Internal error: storage mode of IDate is somehow no longer integer"
+msgstr ""
+"Erro interno: o modo de armazenamento do IDate de alguma forma não é mais "
+"inteiro"
+
+#: IDateTime.R:119
+msgid "unary - is not defined for \"IDate\" objects"
+msgstr "unário - não está definido para objetos \"IDate\""
+
+#: IDateTime.R:121
+msgid ""
+"Internal error -- difftime objects may not be subtracted from IDate, but Ops"
+" dispatch should have intervened to prevent this"
+msgstr ""
+"Erro interno -- objetos difftime não podem ser subtraidos de IDate, mas a "
+"Ops dispatch deveria ter intervindo para evitar isso"
+
+#: IDateTime.R:309
+msgid "Valid options for ms are 'truncate', 'nearest', and 'ceil'."
+msgstr "Opções válidas para ms são 'truncate', 'nearest', e 'ceil'."
