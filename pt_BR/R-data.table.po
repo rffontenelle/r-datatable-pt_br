@@ -1006,19 +1006,19 @@ msgstr "data.tables não tem rownames"
 
 #: data.table.R:2300 data.table.R:2678
 msgid "Can't assign %d names to a %d-column data.table"
-msgstr ""
+msgstr "Não é possível atribuir %d nomes a um data.table de %d colunas"
 
 #: data.table.R:2379
 msgid "'subset' must evaluate to logical"
-msgstr ""
+msgstr "'subset' deve ser avaliado para tipo lógico"
 
 #: data.table.R:2422
 msgid "Argument 'invert' must be logical TRUE/FALSE"
-msgstr ""
+msgstr "Argumento 'invert' deve ser lógico TRUE/FALSE"
 
 #: data.table.R:2463
 msgid "x argument must be a data.table"
-msgstr ""
+msgstr "o argumento x deve ser um data.table"
 
 #: data.table.R:2468
 msgid "group length is 0 but data nrow > 0"
