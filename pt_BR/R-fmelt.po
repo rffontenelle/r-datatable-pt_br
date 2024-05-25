@@ -1,0 +1,191 @@
+# 
+# Translators:
+# Leonardo Fontenelle, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: fmelt 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Leonardo Fontenelle, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: fmelt.R:16
+msgid ""
+"The %1$s generic in data.table has been passed a %2$s, but data.table::%1$s "
+"currently only has a method for data.tables. Please confirm your input is a "
+"data.table, with setDT(%3$s) or as.data.table(%3$s). If you intend to use a "
+"method from reshape2, try installing that package first, but do note that "
+"reshape2 is superseded and is no longer actively developed."
+msgstr ""
+"Um %2$s foi passado para o genérico %1$s em data.table, mas atualmente "
+"data.table::%1$s só tem um método para data.tables. Favor garantir que a "
+"entrada seja uma data.table, com setDT(%3$s) ou as.data.table(%3$s). Se você"
+" pretende usar um método de reshape2, tente instalar aquele pacote primeiro,"
+" mas note que reshape2 foi substituído e não está mais em desenvolvimento "
+"ativo"
+
+#: fmelt.R:17
+msgid ""
+"The %1$s generic in data.table has been passed a %2$s and will attempt to "
+"redirect to the relevant reshape2 method; please note that reshape2 is "
+"superseded and is no longer actively developed, and this redirection is now "
+"deprecated. To continue using melt methods from reshape2 while both "
+"libraries are attached, e.g. melt.list, you can prepend the namespace, i.e. "
+"reshape2::%1$s(%3$s). In the next version, this warning will become an "
+"error."
+msgstr ""
+"Um %2$s foi passado para o genérico %1$s em data.table, que vai tentar "
+"redirecionar para o método relevante no pacote reshape2; favor notar que "
+"reshape2 foi substituído e não está mais em desenvolvimento ativo, e que "
+"esse redirecionamento agora é obsoleto. Para continuar usando métodos melt "
+"de reshape2 enquanto ambos os pacotes estão anexados, p.ex. melt.list, você "
+"pode prefixar com o espaço de nomes, p.e. reshape2::%1$s(%3$s). Na próxima "
+"versão, este aviso se tornará um erro."
+
+#: fmelt.R:28
+msgid "Input patterns must be of type character."
+msgstr "Padrões de entrada devem ser do tipo caracter."
+
+#: fmelt.R:32
+msgid "Pattern(s) not found: [%s]"
+msgstr "Padrão(ões) não encontrado(s): [%s]"
+
+#: fmelt.R:46
+msgid ""
+"each ... argument to measure must be either a symbol without argument name, "
+"or a function with argument name, problems: %s"
+msgstr ""
+"cada argumento ... para measure deve ser ou um símbolo sem nome de "
+"argumento, ou uma função com nome de argumento, problemas: %s"
+
+#: fmelt.R:54
+msgid ""
+"group names specified in ... conflict with measure argument names; please "
+"fix by changing group names: %s"
+msgstr ""
+"nomes de grupo especificados em ... conflitam com nomes de argumento de "
+"measures; favor consertar trocando os nomes de grupo: %s"
+
+#: fmelt.R:60
+msgid ""
+"each ... argument to measure must be a function with at least one argument, "
+"problem: %s"
+msgstr ""
+"cada argumento ... para measure deve ser uma função com ao menos um "
+"argumento, problema: %s"
+
+#: fmelt.R:74
+msgid ""
+"both sep and pattern arguments used; must use either sep or pattern (not "
+"both)"
+msgstr ""
+
+#: fmelt.R:77
+msgid "multiple.keyword must be a character string with nchar>0"
+msgstr ""
+
+#: fmelt.R:80
+msgid "cols must be a character vector of column names"
+msgstr ""
+
+#: fmelt.R:88
+msgid "in measurev, %s must be named, problems: %s"
+msgstr ""
+
+#: fmelt.R:94
+msgid "%s should be uniquely named, problems: %s"
+msgstr ""
+
+#: fmelt.R:99
+msgid "number of %s =%d must be same as %s =%d"
+msgstr ""
+
+#: fmelt.R:106
+msgid "pattern must be character string"
+msgstr ""
+
+#: fmelt.R:111
+msgid ""
+"pattern did not match any cols, so nothing would be melted; fix by changing "
+"pattern"
+msgstr ""
+
+#: fmelt.R:115
+msgid ""
+"pattern must contain at least one capture group (parenthesized sub-pattern)"
+msgstr ""
+
+#: fmelt.R:123
+msgid "sep must be character string"
+msgstr ""
+
+#: fmelt.R:129
+msgid ""
+"each column name results in only one item after splitting using sep, which "
+"means that all columns would be melted; to fix please either specify melt on"
+" all columns directly without using measure, or use a different sep/pattern "
+"specification"
+msgstr ""
+
+#: fmelt.R:138
+msgid ""
+"number of unique column IDs =%d is less than number of melted columns =%d; "
+"fix by changing pattern/sep"
+msgstr ""
+
+#: fmelt.R:148
+msgid ""
+"in the measurev fun.list, each non-NULL element must be a function with at "
+"least one argument, problem: %s"
+msgstr ""
+
+#: fmelt.R:152
+msgid ""
+"each conversion function must return an atomic vector with same length as "
+"its first argument, problem: %s"
+msgstr ""
+
+#: fmelt.R:155
+msgid "%s conversion function returned vector of all NA"
+msgstr ""
+
+#: fmelt.R:161
+msgid ""
+"number of unique groups after applying type conversion functions less than "
+"number of groups, change type conversion"
+msgstr ""
+
+#: fmelt.R:166
+msgid ""
+"%s column class=%s after applying conversion function, but must be character"
+msgstr ""
+
+#: fmelt.R:170
+msgid "%s is the only group; fix by creating at least one more group"
+msgstr ""
+
+#: fmelt.R:193
+msgid "'data' must be a data.table"
+msgstr ""
+
+#: fmelt.R:212
+msgid ""
+"'value.name' provided in both 'measure.vars' and 'value.name argument'; "
+"value provided in 'measure.vars' is given precedence."
+msgstr ""
+
+#: fmelt.R:215
+msgid "Please provide a name to each element of 'measure.vars'."
+msgstr ""
+
+#: fmelt.R:226
+msgid ""
+"Duplicate column names found in molten data.table. Setting unique names "
+"using 'make.names'"
+msgstr ""
