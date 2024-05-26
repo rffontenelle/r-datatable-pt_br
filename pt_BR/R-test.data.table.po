@@ -147,16 +147,18 @@ msgstr "Teste %s produziu saída, mas não deveria:"
 
 #: test.data.table.R:400
 msgid "Expected absent (case insensitive): <<%s>>"
-msgstr ""
+msgstr "Esperado ausente (não sensível a maiúsculas/minúsculas): <<%s>>"
 
 #: test.data.table.R:413
 msgid "Test %s ran without errors but selfrefok(%s) is FALSE"
-msgstr ""
+msgstr "Teste %s foi executado sem erros, mas selfrefok(%s) é FALSE"
 
 #: test.data.table.R:438
 msgid "Test %s ran without errors but failed check that x equals y:"
 msgstr ""
+"Teste %s foi executado sem erros, mas falhou na verificação de que x é igual"
+" a y:"
 
 #: test.data.table.R:443
 msgid "First %d of %d (type '%s'):"
-msgstr ""
+msgstr "Primeiro %d de %d (tipo '%s'):"
