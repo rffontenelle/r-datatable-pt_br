@@ -62,15 +62,16 @@ msgstr "Elementos listados em `by.y` devem ser nomes de colunas válidos em y."
 
 #: merge.R:51
 msgid "A non-empty vector of column names for `by` is required."
-msgstr ""
+msgstr "É necessário um vetor não vazio de nomes de colunas para  `by`. "
 
 #: merge.R:53
 msgid "Elements listed in `by` must be valid column names in x and y"
 msgstr ""
+"Os elementos listados em `by` devem ser nomes de colunas válidos em x e y."
 
 #: merge.R:61
 msgid "Unknown argument '%s' has been passed."
-msgstr ""
+msgstr "Argumento desconhecido '%s' foi passado."
 
 #: merge.R:64
 msgid "Passed %d unknown and unnamed arguments."
