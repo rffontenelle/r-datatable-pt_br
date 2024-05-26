@@ -81,25 +81,29 @@ msgstr "Contagem de tempos não corresponde: %d vs %d"
 
 #: test.data.table.R:201
 msgid "10 longest running tests took %ds (%d%% of %ds)"
-msgstr ""
+msgstr " 10 testes mais longos levaram %ds (%d%% de %ds)"
 
 #: test.data.table.R:206
 msgid "10 largest RAM increases (MB); see plot for cumulative effect (if any)"
 msgstr ""
+"10 maiores aumentos de RAM (MB); veja o gráfico para efeito cumulativo (se "
+"houver)"
 
 #: test.data.table.R:216
 msgid "All %d tests (last %.8g) in %s completed ok in %s"
-msgstr ""
+msgstr "Todos %d testes (duraram %.8g) em %s concluídos com sucesso em %s"
 
 #: test.data.table.R:312
 msgid ""
 "Test %s is invalid: when error= is provided it does not make sense to pass y"
 " as well"
 msgstr ""
+"Teste %s é inválido: quando error= é fornecido, não faz sentido passar y "
+"também"
 
 #: test.data.table.R:347
 msgid "Test id %s is not in increasing order"
-msgstr ""
+msgstr "ID do teste %s não está em ordem crescente"
 
 #: test.data.table.R:364
 msgid ""
@@ -107,6 +111,9 @@ msgid ""
 "%s\n"
 "%s"
 msgstr ""
+"Teste %s produziu %d %ss, mas esperava-se %d\n"
+"%s\n"
+"%s"
 
 #: test.data.table.R:372
 msgid ""
@@ -114,26 +121,29 @@ msgid ""
 "Expected: %s\n"
 "Observed: %s"
 msgstr ""
+"Teste %s não produziu o correto %s:\n"
+"Esperado: %s\n"
+"Observado: %s"
 
 #: test.data.table.R:381
 msgid "Output captured before unexpected warning/error/message:"
-msgstr ""
+msgstr "Saída capturada antes do aviso/erro/mensagem inesperado:"
 
 #: test.data.table.R:391
 msgid "Test %s did not produce correct output:"
-msgstr ""
+msgstr "Teste %s não produziu a saída correta:"
 
 #: test.data.table.R:392
 msgid "Expected: <<%s>>"
-msgstr ""
+msgstr "Esperado: <<%s>>"
 
 #: test.data.table.R:393 test.data.table.R:401
 msgid "Observed: <<%s>>"
-msgstr ""
+msgstr "Observado: <<%s>>"
 
 #: test.data.table.R:399
 msgid "Test %s produced output but should not have:"
-msgstr ""
+msgstr "Teste %s produziu saída, mas não deveria:"
 
 #: test.data.table.R:400
 msgid "Expected absent (case insensitive): <<%s>>"
