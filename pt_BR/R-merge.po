@@ -75,8 +75,8 @@ msgstr "Argumento desconhecido '%s' foi passado."
 
 #: merge.R:64
 msgid "Passed %d unknown and unnamed arguments."
-msgstr ""
+msgstr "Passado %d argumentos desconhecidos e sem nome."
 
 #: merge.R:128
 msgid "column names %s are duplicated in the result"
-msgstr ""
+msgstr "nomes das colunas %s estão duplicados no resultado"
