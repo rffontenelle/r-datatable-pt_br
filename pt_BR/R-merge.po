@@ -1,0 +1,81 @@
+# 
+# Translators:
+# Italo Santos, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: merge 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Italo Santos, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: merge.R:4
+msgid "Argument 'sort' should be logical TRUE/FALSE"
+msgstr "Argumento 'sort' deve ser lógico TRUE/FALSE"
+
+#: merge.R:6
+msgid "Argument 'no.dups' should be logical TRUE/FALSE"
+msgstr "Argumento 'no.dups' deve ser lógico TRUE/FALSE"
+
+#: merge.R:18
+msgid "Neither of the input data.tables to join have columns."
+msgstr "Nenhuma das data.tables de entrada para junção tem colunas."
+
+#: merge.R:20 merge.R:22
+msgid "Input data.table '%s' has no columns."
+msgstr "Entrada do data.table '%s' não tem colunas."
+
+#: merge.R:26 merge.R:27
+msgid ""
+"%s has some duplicated column name(s): %s. Please remove or rename the "
+"duplicate(s) and try again."
+msgstr ""
+"%s tem alguns nome(s) de colunas duplicados: %s. Por favor, remova ou "
+"renomeie os duplicado(s) e tente novamente."
+
+#: merge.R:31
+msgid "`by.x` and `by.y` must be of same length."
+msgstr "`by.x` e `by.y` devem ter o mesmo comprimento."
+
+#: merge.R:33
+msgid "Supplied both `by` and `by.x/by.y`. `by` argument will be ignored."
+msgstr "Fornecidos ambos `by` e `by.x/by.y`. Argumento `by` será ignorado."
+
+#: merge.R:36
+msgid "A non-empty vector of column names is required for `by.x` and `by.y`."
+msgstr ""
+"Um vetor não vazio de nomes de colunas é necessário para `by.x` e `by.y`."
+
+#: merge.R:38
+msgid "Elements listed in `by.x` must be valid column names in x."
+msgstr "Elementos listados em `by.x` devem ser nomes de colunas válidos em x."
+
+#: merge.R:40
+msgid "Elements listed in `by.y` must be valid column names in y."
+msgstr "Elementos listados em `by.y` devem ser nomes de colunas válidos em y."
+
+#: merge.R:51
+msgid "A non-empty vector of column names for `by` is required."
+msgstr ""
+
+#: merge.R:53
+msgid "Elements listed in `by` must be valid column names in x and y"
+msgstr ""
+
+#: merge.R:61
+msgid "Unknown argument '%s' has been passed."
+msgstr ""
+
+#: merge.R:64
+msgid "Passed %d unknown and unnamed arguments."
+msgstr ""
+
+#: merge.R:128
+msgid "column names %s are duplicated in the result"
+msgstr ""
