@@ -66,12 +66,16 @@ msgid ""
 "When using `id=TRUE` the 'x' data.table must not have a column named "
 "'grouping'."
 msgstr ""
+"Ao usar `id=TRUE` o 'x' data.table não deve ter uma coluna chamada "
+"'grouping'."
 
 #: groupingsets.R:66
 msgid ""
 "Character vectors in 'sets' list must not have duplicated column names "
 "within a single grouping set."
 msgstr ""
+"Vetores de caracteres na lista 'sets' não devem ter nomes de colunas "
+"duplicados dentro de um único conjunto de agrupamento."
 
 #: groupingsets.R:68
 msgid ""
@@ -80,26 +84,39 @@ msgid ""
 "grouping by A,B and B,A will produce the same aggregations. Use "
 "`sets=unique(lapply(sets, sort))` to eliminate duplicates."
 msgstr ""
+"'sets' contém um elemento duplicado (isto é, equivalente até a ordenação) no"
+" índice %d; assim, haverá linhas duplicadas na saída -- note que agrupar por"
+" A,B e B,A produzirá as mesmas agregações. Use `sets=unique(lapply(sets, "
+"sort))` para eliminar duplicados."
 
 #: groupingsets.R:73
 msgid ""
 "Expression passed to grouping sets function must not update by reference. "
 "Use ':=' on results of your grouping function."
 msgstr ""
+"Expressão passada para a função de conjuntos de agrupamento não deve "
+"atualizar por referência. Use ':=' nos resultados da sua função de "
+"agrupamento."
 
 #: groupingsets.R:80
 msgid ""
 "When using `id=TRUE` the 'j' expression must not evaluate to a column named "
 "'grouping'."
 msgstr ""
+"Ao usar `id=TRUE`, a expressão 'j' não deve avaliar para uma coluna chamada "
+"'grouping'."
 
 #: groupingsets.R:82
 msgid ""
 "There exists duplicated column names in the results, ensure the column "
 "passed/evaluated in `j` and those in `by` are not overlapping."
 msgstr ""
+"Existem nomes de colunas duplicados nos resultados, certifique-se de que a "
+"coluna passada/avaliada em `j` e as em `by` não se sobreponham."
 
 #: groupingsets.R:92
 msgid ""
 "Using integer64 class columns require to have 'bit64' package installed."
 msgstr ""
+"Utilizando colunas da classe integer64 requer a instalação do pacote "
+"'bit64'."
