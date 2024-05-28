@@ -138,3 +138,5 @@ msgstr ""
 #: setops.R:266
 msgid "Internal error: factor type mismatch should have been caught earlier"
 msgstr ""
+"Erro interno: a incompatibilidade de tipo fator deveria ter sido detectada "
+"anteriormente"
