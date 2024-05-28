@@ -1233,8 +1233,8 @@ msgid ""
 msgstr ""
 "Não é possível converter '%1$s' em data.table por referência porque o "
 "vínculo está travado. É muito provável que '%1$s' resida em um pacote (ou "
-"ambiente) que esteja bloqueado para evitar a modificação de seus  vínculos "
-"de variáveis. Tente copiar o objeto para o seu ambiente atual, ex: var <- "
+"ambiente) que esteja travado para evitar a modificação de seus vínculos de "
+"variáveis. Tente copiar o objeto para o seu ambiente atual, ex: var <- "
 "copy(var) e depois usar setDT novamente."
 
 #: data.table.R:2908
@@ -1264,85 +1264,106 @@ msgid ""
 "All elements in argument 'x' to 'setDT' must be of same length, but the profile of input lengths (length:frequency) is: %s\n"
 "The first entry with fewer than %d entries is %d."
 msgstr ""
+"Todos os elementos no argumento 'x' para 'setDT' devem ter o mesmo comprimento, mas o perfil dos comprimentos de entrada (comprimento:frequência) é: %s\n"
+"A primeira entrada com menos de %d entradas é %d."
 
 #: data.table.R:2963
 msgid ""
 "Argument 'x' to 'setDT' should be a 'list', 'data.frame' or 'data.table'"
 msgstr ""
+"O argumento 'x' para 'setDT' deve ser uma 'list', 'data.frame' ou "
+"'data.table'"
 
 #: data.table.R:2978
 msgid "Item '%s' not found in names of input list"
-msgstr ""
+msgstr "Item '%s' não encontrado nos nomes da lista de entradas"
 
 #: data.table.R:3003 data.table.R:3028
 msgid "'prefix' must be NULL or a character vector of length 1."
-msgstr ""
+msgstr "'prefix' deve ser NULL ou um vetor de caracteres de comprimento 1."
 
 #: data.table.R:3006 data.table.R:3031
 msgid "x is a single vector, non-NULL 'cols' doesn't make sense."
-msgstr ""
+msgstr "x é um único vetor, 'cols' não NULL não faz sentido."
 
 #: data.table.R:3010 data.table.R:3035
 msgid "x is a list, 'cols' cannot be 0-length."
-msgstr ""
+msgstr "x é uma lista, 'cols' não pode ter comprimento 0."
 
 #: data.table.R:3144
 msgid ""
 "RHS of %s is length %d which is not 1 or nrow (%d). For robustness, no "
 "recycling is allowed (other than of length 1 RHS). Consider %%in%% instead."
 msgstr ""
+"Lado direito (RHS) de %s tem comprimento %d que não é 1 ou nrow (%d). Para "
+"maior robustez, nenhuma reciclagem é permitida (exceto em lado direito de "
+"comprimento 1). Considere %%in%% em vez disso."
 
 #: data.table.R:3172
 msgid ""
 "Internal error in .isFastSubsettable. Please report to data.table developers"
 msgstr ""
+"Erro interno em .isFastSubsettable. Por favor, relate aos desenvolvedores do"
+" data.table"
 
 #: data.table.R:3176
 msgid ""
 "Subsetting optimization disabled because the cross-product of RHS values "
 "exceeds 1e4, causing memory problems."
 msgstr ""
+"A otimização da divisão em subconjuntos foi desativada porque o produto "
+"vetorial dos valores do lado direito (RHS) excede 1e4, causando problemas de"
+" memória."
 
 #: data.table.R:3194
 msgid "Optimized subsetting with key %s"
-msgstr ""
+msgstr "Divisão de subconjunto otimizada com chave %s"
 
 #: data.table.R:3213 data.table.R:3223
 msgid "Optimized subsetting with index '%s'"
-msgstr ""
+msgstr "Divisão de subconjunto otimizada com índice '%s'"
 
 #: data.table.R:3219
 msgid "Creating new index '%s'"
-msgstr ""
+msgstr "Criando novo índice '%s'"
 
 #: data.table.R:3220
 msgid "Creating index %s done in ..."
-msgstr ""
+msgstr "Criação do índice %s feita em ..."
 
 #: data.table.R:3259
 msgid ""
 "'on' argument should be a named atomic vector of column names indicating "
 "which columns in 'i' should be joined with which columns in 'x'."
 msgstr ""
+"O argumento 'on' deve ser um vetor atômico nomeado de nomes de colunas "
+"indicando quais colunas em 'i' devem ser unidas a quais colunas em 'x'."
 
 #: data.table.R:3300
 msgid ""
 "Found more than one operator in one 'on' statement: %s. Please specify a "
 "single operator."
 msgstr ""
+"Encontrado mais de um operador em uma instrução 'on': %s. Especifique um "
+"único operador."
 
 #: data.table.R:3323
 msgid ""
 "'on' contains no column name: %s. Each 'on' clause must contain one or two "
 "column names."
 msgstr ""
+"'on' não contém nome de coluna: %s. Cada cláusula 'on' deve conter um ou "
+"dois nomes de coluna."
 
 #: data.table.R:3325
 msgid ""
 "'on' contains more than 2 column names: %s. Each 'on' clause must contain "
 "one or two column names."
 msgstr ""
+"'on' contém mais de 2 nomes de colunas: %s. Cada cláusula 'on' deve conter "
+"um ou dois nomes de coluna."
 
 #: data.table.R:3330
 msgid "Invalid join operators %s. Only allowed operators are %s."
 msgstr ""
+"Operadores de junção inválidos %s. Somente operadores permitidos são %s."
