@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Italo Santos, 2024
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: fwriteR 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:23-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Italo Santos, 2024\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -22,7 +23,7 @@ msgstr "Erro interno: col passado para getMaxCategLen está faltando níveis"
 #: fwriteR.c:80
 msgid "Internal error: getMaxListItemLen should have caught this up front."
 msgstr ""
-"Erro interno: getMaxListItemLen deveria ter capturado isso inicialmente."
+"Erro interno: getMaxListItemLen deveria ter capturado isso antecipadamente."
 
 #: fwriteR.c:103
 #, c-format
@@ -59,13 +60,12 @@ msgstr "fwrite recebeu uma lista vazia sem colunas. Nada a escrever."
 #, c-format
 msgid ""
 "Column %d's length (%d) is not the same as column 1's length (%<PRId64>)"
-msgstr ""
-"Coluna %d's length (%d) não é o mesmo que o da coluna 1's length (%<PRId64>)"
+msgstr "Coluna %d tem tamanho (%d) diferente da coluna 1 (%<PRId64>)"
 
 #: fwriteR.c:245
 #, c-format
 msgid "Column %d's type is '%s' - not yet implemented in fwrite."
-msgstr "Coluna %d's é do tipo '%s' - ainda não implementado no fwrite."
+msgstr "Coluna %d é do tipo '%s' - ainda não implementado no fwrite."
 
 #: fwriteR.c:267
 #, c-format
