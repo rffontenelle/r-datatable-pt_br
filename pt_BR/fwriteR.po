@@ -18,7 +18,8 @@ msgstr ""
 
 #: fwriteR.c:46
 msgid "Internal error: col passed to getMaxCategLen is missing levels"
-msgstr "Erro interno: col passado para getMaxCategLen está faltando níveis"
+msgstr ""
+"Erro interno: col passado para getMaxCategLen está com níveis faltantes"
 
 #: fwriteR.c:80
 msgid "Internal error: getMaxListItemLen should have caught this up front."
