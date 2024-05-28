@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Italo Santos, 2024
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: fwrite 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:23-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Italo Santos, 2024\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,7 +40,7 @@ msgid ""
 "remove logicalAsInt in future."
 msgstr ""
 "logicalAsInt foi renomeado para logical01 para consistência com fread. "
-"Funciona bem por enquanto, mas por favor, mude para logical01 quando "
+"Funciona bem por enquanto, mas, por favor, mude para logical01 quando "
 "possível para que possamos remover logicalAsInt no futuro."
 
 #: fwrite.R:40
