@@ -351,7 +351,7 @@ msgstr ""
 #: assign.c:433
 #, c-format
 msgid "Column '%s' does not exist to remove"
-msgstr "A coluna \"%s\" não existe para ser removida"
+msgstr "A coluna '%s' não existe para ser removida"
 
 #: assign.c:441
 #, c-format
@@ -364,8 +364,8 @@ msgid ""
 "Can't assign to column '%s' (type 'factor') a value of type '%s' (not "
 "character, factor, integer or numeric)"
 msgstr ""
-"Não é possível atribuir para a coluna \"%s\" (tipo \"factor\") um valor de "
-"tipo \"%s\" (não um character, factor, integer ou numeric)"
+"Não é possível atribuir para a coluna '%s' (tipo 'factor') um valor de tipo "
+"'%s' (não um caractere, fator, inteiro ou numérico)"
 
 #: assign.c:452
 #, c-format
