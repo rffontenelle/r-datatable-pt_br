@@ -1216,10 +1216,12 @@ msgstr "rownames com comprimento incorreto; esperava %d nomes, obteve %d"
 #: data.table.R:2865
 msgid "All elements in argument 'x' to 'setDF' must be of same length"
 msgstr ""
+"Todos os elementos no argumento 'x' para 'setDF' devem ter o mesmo "
+"comprimento"
 
 #: data.table.R:2894
 msgid "Cannot find symbol %s"
-msgstr ""
+msgstr "Não foi possível encontrar o símbolo %s"
 
 #: data.table.R:2901
 msgid ""
@@ -1229,6 +1231,11 @@ msgid ""
 "object to your current environment, ex: var <- copy(var) and then using "
 "setDT again."
 msgstr ""
+"Não é possível converter '%1$s' em data.table por referência porque o "
+"vínculo está travado. É muito provável que '%1$s' resida em um pacote (ou "
+"ambiente) que esteja bloqueado para evitar a modificação de seus  vínculos "
+"de variáveis. Tente copiar o objeto para o seu ambiente atual, ex: var <- "
+"copy(var) e depois usar setDT novamente."
 
 #: data.table.R:2908
 msgid ""
@@ -1237,6 +1244,10 @@ msgid ""
 "joining may fail. Please consider as.data.table() instead which will create "
 "a new column for each embedded column."
 msgstr ""
+"Algumas colunas são do tipo multicolunas (como uma coluna de matriz): %s. "
+"setDT manterá essas colunas como estão, mas operações subsequentes, como "
+"agrupamento e junção, poderão falhar. Considere usar as.data.table(), que "
+"criará uma nova coluna para cada coluna incorporada."
 
 #: data.table.R:2940
 msgid ""
@@ -1244,6 +1255,9 @@ msgid ""
 "and run setDT again. We do not recommend use of POSIXlt at all because it "
 "uses 40 bytes to store one date."
 msgstr ""
+"A coluna %d é do tipo POSIXlt. Por favor, converta-o para POSIXct usando "
+"as.POSIXct e execute setDT novamente. Não recomendamos o uso de POSIXlt "
+"porque ele usa 40 bytes para armazenar uma data."
 
 #: data.table.R:2946
 msgid ""
