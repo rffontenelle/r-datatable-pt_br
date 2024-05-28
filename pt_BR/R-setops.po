@@ -73,7 +73,7 @@ msgstr "Item %d de x é '%s', mas o item correspondente de y é '%s'."
 
 #: setops.R:55
 msgid "None of the datasets should contain a column named '.seqn'"
-msgstr ""
+msgstr "Nenhum dos conjuntos de dados deve conter uma coluna chamada '.seqn'"
 
 #: setops.R:146
 msgid "Internal error: ncol(current)==ncol(target) was checked above"
@@ -83,44 +83,57 @@ msgstr "Erro interno: ncol(current)==ncol(target) foi verificado acima"
 #, c-format
 msgid "Datasets have different %s. 'target': %s. 'current': %s."
 msgstr ""
+"Conjuntos de dados têm diferente %s. 'target': %s. 'current': %s.\n"
+" "
 
 #: setops.R:161 setops.R:162
 #, c-format
 msgid "has no key"
-msgstr ""
+msgstr "não tem chave"
 
 #: setops.R:172 setops.R:173
 #, c-format
 msgid "has no index"
-msgstr ""
+msgstr "não tem índice"
 
 #: setops.R:190
 msgid "None of the datasets to compare should contain a column named '.seqn'"
 msgstr ""
+"Nenhum dos conjuntos de dados a serem comparados deve conter uma coluna "
+"chamada '.seqn'"
 
 #: setops.R:193
 msgid ""
 "Datasets to compare with 'ignore.row.order' must not have unsupported column"
 " types: %s"
 msgstr ""
+"Conjuntos de dados a serem comparados com 'ignore.row.order' não devem ter "
+"tipos de colunas não suportados:%s"
 
 #: setops.R:195
 msgid ""
 "Argument 'tolerance' was forced to lowest accepted value "
 "`sqrt(.Machine$double.eps)` from provided %s"
 msgstr ""
+"Argumento 'tolerance' foi forçado ao valor mínimo aceito de "
+"`sqrt(.Machine$double.eps)` a partir do fornecido %s"
 
 #: setops.R:208
 msgid ""
 "Duplicate rows in datasets, numeric columns and ignore.row.order cannot be "
 "used with non 0 tolerance argument"
 msgstr ""
+"Linhas duplicadas nos conjuntos de dados, colunas numéricas e "
+"ignore.row.order não podem ser usadas com argumento de tolerância diferente "
+"de 0"
 
 #: setops.R:222
 msgid ""
 "Factor columns and ignore.row.order cannot be used with non 0 tolerance "
 "argument"
 msgstr ""
+"Colunas de fator e ignore.row.order não podem ser usadas com argumento de "
+"tolerância diferente de 0"
 
 #: setops.R:266
 msgid "Internal error: factor type mismatch should have been caught earlier"
