@@ -45,7 +45,7 @@ msgstr ""
 
 #: fwrite.R:40
 msgid "x being coerced from class: matrix to data.table"
-msgstr "x foi feita coerção da classe: matrix para data.table"
+msgstr "fazendo coerção de x da classe matrix para data.table"
 
 #: fwrite.R:66
 msgid "Appending to existing file so setting bom=FALSE and yaml=FALSE"
