@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Italo Santos, 2024
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: IDateTime 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:23-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Italo Santos, 2024\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +30,7 @@ msgstr "binário + não está definida para objetos \"IDate\""
 
 #: IDateTime.R:114
 msgid "can only subtract from \"IDate\" objects"
-msgstr "pode apenas subtrair objetos de \"IDate\""
+msgstr "pode apenas subtrair de objetos \"IDate\""
 
 #: IDateTime.R:117
 msgid "Internal error: storage mode of IDate is somehow no longer integer"
