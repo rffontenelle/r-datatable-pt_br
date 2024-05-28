@@ -1,0 +1,131 @@
+# 
+# Translators:
+# Italo Santos, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: openmp-utils 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Italo Santos, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: openmp-utils.c:23
+#, c-format
+msgid ""
+"Ignoring invalid %s==\"%s\". Not an integer >= 1. Please remove any "
+"characters that are not a digit [0-9]. See ?data.table::setDTthreads."
+msgstr ""
+"Ignorando inválido %s==\"%s\". Não é um inteiro >= 1. Por favor, remova "
+"quaisquer caracteres que não sejam um dígito [0-9]. Veja "
+"?data.table::setDTthreads."
+
+#: openmp-utils.c:44
+#, c-format
+msgid ""
+"Ignoring invalid R_DATATABLE_NUM_PROCS_PERCENT==%d. If used it must be an "
+"integer between 2 and 100. Default is 50. See ?setDTtheads."
+msgstr ""
+"Ignorando inválido R_DATATABLE_NUM_PROCS_PERCENT==%d. Se usado, deve ser um "
+"inteiro entre 2 e 100. O padrão é 50. Veja ?setDTthreads."
+
+#: openmp-utils.c:79
+#, c-format
+msgid "%s must be TRUE or FALSE"
+msgstr "%s deve ser TRUE ou FALSE"
+
+#: openmp-utils.c:82
+msgid ""
+"This installation of data.table has not been compiled with OpenMP support.\n"
+msgstr "Esta instalação do data.table não foi compilada com suporte a OpenMP.\n"
+
+#: openmp-utils.c:84
+#, c-format
+msgid "  OpenMP version (_OPENMP)       %d\n"
+msgstr "  Versão do OpenMP (_OPENMP)       %d\n"
+
+#: openmp-utils.c:89
+#, c-format
+msgid "  omp_get_num_procs()            %d\n"
+msgstr "  omp_get_num_procs()            %d\n"
+
+#: openmp-utils.c:90
+#, c-format
+msgid "  R_DATATABLE_NUM_PROCS_PERCENT  %s\n"
+msgstr "  R_DATATABLE_NUM_PROCS_PERCENT  %s\n"
+
+#: openmp-utils.c:91
+#, c-format
+msgid "  R_DATATABLE_NUM_THREADS        %s\n"
+msgstr "  R_DATATABLE_NUM_THREADS        %s\n"
+
+#: openmp-utils.c:92
+#, c-format
+msgid "  R_DATATABLE_THROTTLE           %s\n"
+msgstr "  R_DATATABLE_THROTTLE           %s\n"
+
+#: openmp-utils.c:93
+#, c-format
+msgid "  omp_get_thread_limit()         %d\n"
+msgstr "  omp_get_thread_limit()         %d\n"
+
+#: openmp-utils.c:94
+#, c-format
+msgid "  omp_get_max_threads()          %d\n"
+msgstr "  omp_get_max_threads()          %d\n"
+
+#: openmp-utils.c:95
+#, c-format
+msgid "  OMP_THREAD_LIMIT               %s\n"
+msgstr "  OMP_THREAD_LIMIT               %s\n"
+
+#: openmp-utils.c:96
+#, c-format
+msgid "  OMP_NUM_THREADS                %s\n"
+msgstr "  OMP_NUM_THREADS                %s\n"
+
+#: openmp-utils.c:97
+#, c-format
+msgid "  RestoreAfterFork               %s\n"
+msgstr "  RestoreAfterFork               %s\n"
+
+#: openmp-utils.c:98
+#, c-format
+msgid "  data.table is using %d threads with throttle==%d. See ?setDTthreads.\n"
+msgstr ""
+"  data.table está usando %d threads com throttle==%d. Veja ?setDTthreads.\n"
+
+#: openmp-utils.c:106
+msgid ""
+"restore_after_fork= must be TRUE, FALSE, or NULL (default). "
+"getDTthreads(verbose=TRUE) reports the current setting.\n"
+msgstr ""
+"restore_after_fork= deve ser TRUE, FALSE, ou NULL (padrão). "
+"getDTthreads(verbose=TRUE) relata a configuração atual.\n"
+
+#: openmp-utils.c:112
+msgid "'throttle' must be a single number, non-NA, and >=1"
+msgstr "'throttle' deve ser um único número, non-NA e >=1"
+
+#: openmp-utils.c:126
+msgid ""
+"threads= must be either NULL or a single number >= 0. See ?setDTthreads."
+msgstr "threads= deve ser NULL ou um único número >= 0. Veja ?setDTthreads."
+
+#: openmp-utils.c:130
+msgid "Internal error: percent= must be TRUE or FALSE at C level"
+msgstr "Erro interno: percent= deve ser TRUE ou FALSE no nível C"
+
+#: openmp-utils.c:133
+#, c-format
+msgid ""
+"Internal error: threads==%d should be between 2 and 100 (percent=TRUE at C "
+"level)."
+msgstr ""
+"Erro interno: threads==%d deve estar entre 2 e 100 (percent=TRUE no nível "
+"C)."
