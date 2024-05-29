@@ -222,6 +222,10 @@ msgid ""
 "factor levels should be an ordered subset of the first longest. A regular "
 "factor will be created for this column."
 msgstr ""
+"Coluna %d do item %d é um fator ordenado, mas o nível %d ['%s'] está ausente"
+" nos níveis ordenados da coluna %d do item %d. Cada conjunto de níveis de "
+"fator ordenado deve ser um subconjunto ordenado do primeiro e mais longo. Um"
+" fator regular será criado para esta coluna."
 
 #: rbindlist.c:389
 #, c-format
@@ -230,6 +234,9 @@ msgid ""
 "'%s'<'%s' in the ordered levels from column %d of item %d. A regular factor "
 "will be created for this column due to this ambiguity."
 msgstr ""
+"Coluna %d do item %d é um fator ordenado com '%s'<'%s' em seus níveis. Mas "
+"'%s'<'%s' nos níveis ordenados da coluna %d do item %d. Um fator regular "
+"será criado para esta coluna devido a essa ambiguidade."
 
 #: rbindlist.c:434
 #, c-format
@@ -237,8 +244,10 @@ msgid ""
 "Failed to allocate working memory for %d factor levels of result column %d "
 "when reading item %d of item %d"
 msgstr ""
+"Falha ao alocar memória de trabalho para %d níveis de fator da coluna de "
+"resultado %d ao ler o item %d do item %d"
 
 #: rbindlist.c:524
 #, c-format
 msgid "Column %d of item %d: %s"
-msgstr ""
+msgstr "Coluna %d do item %d: %s"
