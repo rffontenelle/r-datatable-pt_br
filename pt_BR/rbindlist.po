@@ -60,6 +60,8 @@ msgid ""
 "Column %d of item %d is length %d inconsistent with column %d which is "
 "length %d. Only length-1 columns are recycled."
 msgstr ""
+"Coluna %d do item %d tem comprimento %d inconsistente com a coluna %d que "
+"tem comprimento %d. Apenas colunas de length-1 são recicladas."
 
 #: rbindlist.c:57
 #, c-format
@@ -67,6 +69,9 @@ msgid ""
 "Column %d ['%s'] of item %d is length 0. This (and %d other%s like it) has "
 "been filled with NA (NULL for list columns) to make each item uniform."
 msgstr ""
+"Coluna %d ['%s'] do item %d tem comprimento 0. Esta (e %d outras%s "
+"semelhantes) foi preenchida com NA (NULL para colunas de lista) para tornar "
+"cada item uniforme."
 
 #: rbindlist.c:61
 #, c-format
@@ -74,10 +79,12 @@ msgid ""
 "Total rows in the list is %<PRId64> which is larger than the maximum number "
 "of rows, currently %d"
 msgstr ""
+"Total de linhas na lista é %<PRId64> o que é maior que o número máximo de "
+"linhas, atualmente %d"
 
 #: rbindlist.c:62
 msgid "use.names=TRUE but no item of input list has any names"
-msgstr ""
+msgstr "use.names=TRUE, mas nenhum item da lista de entrada possui nomes"
 
 #: rbindlist.c:70
 #, c-format
@@ -85,22 +92,26 @@ msgid ""
 "Failed to allocate upper bound of %<PRId64> unique column names "
 "[sum(lapply(l,ncol))]"
 msgstr ""
+"Falha ao alocar o limite superior de %<PRId64> nomes de colunas exclusivos "
+"[sum(lapply(l,ncol))]"
 
 #: rbindlist.c:101
 #, c-format
 msgid "Failed to allocate nuniq=%d items working memory in rbindlist.c"
-msgstr ""
+msgstr "Falha ao alocar nuniq=%d itens de memória de trabalho em rbindlist.c"
 
 #: rbindlist.c:135
 #, c-format
 msgid "Failed to allocate ncol=%d items working memory in rbindlist.c"
-msgstr ""
+msgstr "Falha ao alocar ncol=%d itens de memória de trabalho em rbindlist.c"
 
 #: rbindlist.c:190
 msgid ""
 "Internal error: usenames==NA but fill=TRUE. usenames should have been set to"
 " TRUE earlier with warning."
 msgstr ""
+"Erro interno: usenames==NA, mas fill=TRUE. usenames deveria ter sido "
+"definido como TRUE anteriormente com um aviso."
 
 #: rbindlist.c:195
 msgid ""
@@ -108,12 +119,17 @@ msgid ""
 " if use.names=FALSE for  backwards compatibility. See news item 5 in v1.12.2"
 " for options to control this message."
 msgstr ""
+" use.names='check' (padrão a partir da v1.12.2) emite esta mensagem e "
+"prossegue como se use.names=FALSE para compatibilidade retroativa. Veja o "
+"item 5 das notícias em v1.12.2 para opções de controle desta mensagem."
 
 #: rbindlist.c:205
 msgid ""
 "Internal error: could not find the first column name not present in earlier "
 "item"
 msgstr ""
+"Erro interno: não foi possível encontrar o primeiro nome de coluna ausente "
+"no item anterior"
 
 #: rbindlist.c:209
 #, c-format
