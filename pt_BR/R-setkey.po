@@ -184,20 +184,27 @@ msgid ""
 "cols is a character vector of zero length. Use NULL instead, or wrap with "
 "suppressWarnings() to avoid this warning."
 msgstr ""
+"cols é um vetor de caracteres de comprimento zero. Use NULL em vez disso, ou"
+" envolva com suppressWarnings() para evitar este aviso."
 
 #: setkey.R:285
 msgid ""
 "Column '%s' is type '%s' which is not supported for ordering currently."
 msgstr ""
+"Coluna '%s' é do tipo '%s', que atualmente não é suportado para ordenação."
 
 #: setkey.R:329
 msgid ""
 "'sorted' is TRUE but element %d is non-atomic, which can't be sorted; try "
 "setting sorted = FALSE"
 msgstr ""
+"'sorted' é TRUE, mas o elemento %d é não atômico, o que não pode ser "
+"ordenado; tente definir sorted = FALSE"
 
 #: setkey.R:344
 msgid ""
 "Cross product of elements provided to CJ() would result in %.0f rows which "
 "exceeds .Machine$integer.max == %d"
 msgstr ""
+"Produto cruzado dos elementos fornecidos a CJ() resultaria em %.0f linhas "
+"que excedem .Machine$integer.max == %d"
