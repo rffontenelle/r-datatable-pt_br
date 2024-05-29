@@ -105,68 +105,79 @@ msgstr "setkey nas colunas %s usando o índice existente '%s'"
 
 #: setkey.R:102
 msgid "reorder took %s"
-msgstr ""
+msgstr "reorder levou %s"
 
 #: setkey.R:104
 msgid "x is already ordered by these columns, no need to call reorder"
 msgstr ""
+"x já está ordenado por essas colunas, não há necessidade de chamar reorder"
 
 #: setkey.R:125
 msgid "Internal error: index '%s' exists but is invalid"
-msgstr ""
+msgstr "Erro interno: o índice '%s' existe, mas é inválido"
 
 #: setkey.R:157
 msgid "x is vector but 'by' is supplied"
-msgstr ""
+msgstr "x é um vetor, mas 'by' foi fornecido"
 
 #: setkey.R:167
 msgid "x is a single vector, non-NULL 'by' doesn't make sense"
-msgstr ""
+msgstr "x é um único vetor, 'by' não NULL não faz sentido."
 
 #: setkey.R:199
 msgid "Attempting to order a 0-column data.table or data.frame."
-msgstr ""
+msgstr "Tentativa de ordenar um data.table ou data.frame com 0 colunas."
 
 #: setkey.R:204
 msgid ""
 "The first item passed to [f]order is a plain list but there are more items. "
 "It should be a data.table or data.frame."
 msgstr ""
+"O primeiro item passado para [f]order é uma lista simples, mas há mais "
+"itens. Deve ser um data.table ou data.frame."
 
 #: setkey.R:221
 msgid "Internal code should not be being called on type double"
-msgstr ""
+msgstr "Código interno não deveria estar sendo chamado em um tipo double"
 
 #: setkey.R:229
 msgid ""
 "Input is not a vector of type double. New parallel sort has only been done "
 "for double vectors so far. Using one thread."
 msgstr ""
+"Entrada não é um vetor do tipo double. A nova ordenação paralela só foi "
+"feita para vetores do tipo double até agora. Usando uma thread."
 
 #: setkey.R:230
 msgid ""
 "New parallel sort has not been implemented for decreasing=TRUE so far. Using"
 " one thread."
 msgstr ""
+"A nova ordenação paralela ainda não foi implementada para decreasing=TRUE "
+"ate o momento. Usando uma thread."
 
 #: setkey.R:231
 msgid ""
 "New parallel sort has not been implemented for vectors containing NA values "
 "so far. Using one thread."
 msgstr ""
+"A nova ordenação paralela ainda não foi implementada para vetores contendo "
+"valores NA até o momento. Usando uma thread."
 
 #: setkey.R:243 setkey.R:269
 msgid "x must be a data.frame or data.table"
-msgstr ""
+msgstr "x deve ser um data.frame ou data.table"
 
 #: setkey.R:271
 msgid "na.last must be logical TRUE/FALSE"
-msgstr ""
+msgstr "na.last deve ser lógico TRUE/FALSE"
 
 #: setkey.R:272
 msgid ""
 "cols is not a character vector. Please see further information in ?setorder."
 msgstr ""
+"cols não é um vetor de caracteres. Por favor, veja mais informações em "
+"?setorder."
 
 #: setkey.R:274
 msgid ""
