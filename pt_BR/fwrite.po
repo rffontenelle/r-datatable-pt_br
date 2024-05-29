@@ -120,21 +120,21 @@ msgstr "Não foi possível alocar %zu MiB para o zbuffer: %s"
 #: fwrite.c:772
 #, c-format
 msgid "Compress gzip error: %d"
-msgstr ""
+msgstr "Erro ao comprimir gzip: %d"
 
 #: fwrite.c:773 fwrite.c:781
 #, c-format
 msgid "%s: '%s'"
-msgstr ""
+msgstr "%s: '%s'"
 
 #: fwrite.c:778
 #, c-format
 msgid "done in %.3fs\n"
-msgstr ""
+msgstr "concluído em %.3fs\n"
 
 #: fwrite.c:780
 msgid "No data rows present (nrow==0)\n"
-msgstr ""
+msgstr "Nenhuma linha de dados presente (nrow==0)\n"
 
 #: fwrite.c:798
 #, c-format
@@ -142,11 +142,13 @@ msgid ""
 "Writing %<PRId64> rows in %d batches of %d rows (each buffer size %dMB, "
 "showProgress=%d, nth=%d)\n"
 msgstr ""
+"Escrevendo %<PRId64> linhas em %d lotes de %d linhas (cada buffer de  "
+"tamanho%dMB, showProgress=%d, nth=%d)\n"
 
 #: fwrite.c:814
 #, c-format
 msgid "zbuffSize=%d returned from deflateBound\n"
-msgstr ""
+msgstr "zbuffSize=%d retornado de deflateBound\n"
 
 #: fwrite.c:823
 #, c-format
@@ -154,6 +156,8 @@ msgid ""
 "Unable to allocate %zu MB * %d thread buffers; '%d: %s'. Please read ?fwrite"
 " for nThread, buffMB and verbose options."
 msgstr ""
+"Não foi possível alocar %zu MB * %d buffers de thread; '%d: %s'. Por favor, "
+"leia ?fwrite para as opções nThread, buffMB e verbose."
 
 #: fwrite.c:834
 #, c-format
@@ -161,6 +165,8 @@ msgid ""
 "Unable to allocate %zu MB * %d thread compressed buffers; '%d: %s'. Please "
 "read ?fwrite for nThread, buffMB and verbose options."
 msgstr ""
+"Não foi possível alocar %zu MB * %d buffers comprimidos de thread; '%d: %s'."
+" Por favor, leia ?fwrite para as opções nThread, buffMB e verbose."
 
 #: fwrite.c:1009
 #, c-format
@@ -168,15 +174,21 @@ msgid ""
 "zlib %s (zlib.h %s) deflate() returned error %d with z_stream->msg==\"%s\" "
 "Z_FINISH=%d Z_BLOCK=%d. %s"
 msgstr ""
+"zlib %s (zlib.h %s) deflate() retornou erro %d com z_stream->msg==\"%s\" "
+"Z_FINISH=%d Z_BLOCK=%d. %s"
 
 #: fwrite.c:1011
 msgid ""
 "Please include the full output above and below this message in your "
 "data.table bug report."
 msgstr ""
+"Por favor, inclua a saída completa acima e abaixo desta mensagem no seu "
+"relatório de bug do data.table."
 
 #: fwrite.c:1012
 msgid ""
 "Please retry fwrite() with verbose=TRUE and include the full output with "
 "your data.table bug report."
 msgstr ""
+"Por favor, tente novamente fwrite() com verbose=TRUE e inclua a saída "
+"completa no seu relatório de bug do data.table."
