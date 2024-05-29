@@ -99,13 +99,13 @@ msgstr "%s não é significativo para fatores."
 #: gsumm.c:350
 #, c-format
 msgid "This gsum (narm=%s) took ... "
-msgstr ""
+msgstr "Este gsum (narm=%s) levou ..."
 
 #: gsumm.c:351 gsumm.c:585 gsumm.c:731 gsumm.c:866 gsumm.c:918 gsumm.c:1021
 #: gsumm.c:1117
 #, c-format
 msgid "nrow [%d] != length(x) [%d] in %s"
-msgstr ""
+msgstr "nrow [%d] != length(x) [%d] em %s"
 
 #: gsumm.c:405
 msgid ""
@@ -113,6 +113,9 @@ msgid ""
 "hold so the result has been coerced to 'numeric' automatically for "
 "convenience."
 msgstr ""
+"A soma de uma coluna de inteiros para um grupo foi maior do que o tipo "
+"'integer' pode suportar, então o resultado foi feita coerção para 'numeric' "
+"automaticamente por conveniência."
 
 #: gsumm.c:566 gsumm.c:838 gsumm.c:904 gsumm.c:1090 gsumm.c:1161
 #, c-format
@@ -120,17 +123,21 @@ msgid ""
 "Type '%s' is not supported by GForce %s. Either add the prefix %s or turn "
 "off GForce optimization using options(datatable.optimize=1)"
 msgstr ""
+"Tipo '%s' não é suportado pelo GForce %s. Adicione o prefixo %s ou desative "
+"a otimização GForce usando options(datatable.optimize=1)"
 
 #: gsumm.c:584
 #, c-format
 msgid "This gmean took (narm=%s) ... "
-msgstr ""
+msgstr "Este gmean levou (narm=%s) ..."
 
 #: gsumm.c:619 gsumm.c:676
 #, c-format
 msgid ""
 "Unable to allocate %d * %zu bytes for non-NA counts in gmean na.rm=TRUE"
 msgstr ""
+"Não foi possível alocar %d * %zu bytes para contagens não-NA em gmean "
+"na.rm=TRUE"
 
 #: gsumm.c:712
 #, c-format
@@ -139,6 +146,9 @@ msgid ""
 "base::mean(.) or turn off GForce optimization using "
 "options(datatable.optimize=1)"
 msgstr ""
+"Tipo '%s' não é suportado pelo GForce mean (gmean). Adicione o prefixo "
+"base::mean(.) ou desative a otimização GForce usando "
+"options(datatable.optimize=1)"
 
 #: gsumm.c:724
 msgid ""
@@ -148,10 +158,15 @@ msgid ""
 "options(datatable.optimize=1). More likely, you may be looking for "
 "'DT[,lapply(.SD,min),by=,.SDcols=]'"
 msgstr ""
+"GForce min/max só pode ser aplicado a colunas, não a .SD ou similar. Para "
+"encontrar min/max de todos os itens em uma lista, como .SD, adicione o "
+"prefixo base::min(.SD) ou desative a otimização GForce usando "
+"options(datatable.optimize=1). Mais provavelmente, você pode estar "
+"procurando por 'DT[,lapply(.SD,min),by=,.SDcols=]'"
 
 #: gsumm.c:835
 msgid "Type 'complex' has no well-defined min/max"
-msgstr ""
+msgstr "Tipo 'complex' não tem min/max bem definidos"
 
 #: gsumm.c:861
 msgid ""
@@ -161,10 +176,15 @@ msgid ""
 "options(datatable.optimize=1). More likely, you may be looking for "
 "'DT[,lapply(.SD,median),by=,.SDcols=]'"
 msgstr ""
+"GForce median só pode ser aplicado a colunas, não a .SD ou similar. Para "
+"encontrar a mediana de todos os itens em uma lista como .SD, adicione o "
+"prefixo stats::median(.SD) ou desative a otimização GForce usando "
+"options(datatable.optimize=1). Mais provavelmente, você pode estar "
+"procurando por 'DT[,lapply(.SD,median),by=,.SDcols=]'"
 
 #: gsumm.c:919
 msgid "Internal error: gfirstlast headw should only be true when w>1"
-msgstr ""
+msgstr "Erro interno: gfirstlast headw só deve ser true quando w>1"
 
 #: gsumm.c:965
 #, c-format
