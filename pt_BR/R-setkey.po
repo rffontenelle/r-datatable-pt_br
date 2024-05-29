@@ -1,0 +1,192 @@
+# 
+# Translators:
+# Italo Santos, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: setkey 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Italo Santos, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: setkey.R:3
+msgid ""
+"x may no longer be the character name of the data.table. The possibility was"
+" undocumented and has been removed."
+msgstr ""
+"x pode não ser mais o nome do data.table do tipo caractere. A possibilidade "
+"não era documentada e foi removida."
+
+#: setkey.R:23
+msgid ""
+"key(x)<-value is deprecated and not supported. Please change to use setkey()"
+" with perhaps copy(). Has been warning since 2012."
+msgstr ""
+"key(x)<-value está obsoleto e não é suportado. Por favor, mude para usar "
+"setkey() com talvez copy(). Tem sido um aviso desde 2012."
+
+#: setkey.R:39
+msgid "x is not a data.table"
+msgstr "x não é um data.table"
+
+#: setkey.R:40
+msgid ""
+"cols is not a character vector. Please see further information in ?setkey."
+msgstr ""
+"cols não é um vetor de caracteres. Por favor, veja mais informações em "
+"?setkey."
+
+#: setkey.R:41
+msgid ""
+"Setting a physical key on .SD is reserved for possible future use; to modify"
+" the original data's order by group. Try setindex() instead. Or, "
+"set*(copy(.SD)) as a (slow) last resort."
+msgstr ""
+"Definir uma chave física em .SD está reservado para possível uso futuro; "
+"para modificar a ordem dos dados originais por grupo. Tente setindex() em "
+"vez disso. Ou, set*(copy(.SD)) como último recurso (lento)."
+
+#: setkey.R:43
+msgid ""
+"cols is a character vector of zero length. Removed the key, but use NULL "
+"instead, or wrap with suppressWarnings() to avoid this warning."
+msgstr ""
+"cols é um vetor de caracteres de comprimento zero. A chave foi removida, mas"
+" use NULL em vez disso, ou envolva com suppressWarnings() para evitar este "
+"aviso."
+
+#: setkey.R:47
+msgid "cols is the empty string. Use NULL to remove the key."
+msgstr "cols é uma string vazia. Use NULL para remover a chave."
+
+#: setkey.R:48 setkey.R:277
+msgid "cols contains some blanks."
+msgstr "cols contém alguns espaços em branco."
+
+#: setkey.R:51 setkey.R:281
+msgid "some columns are not in the data.table: %s"
+msgstr "algumas colunas não estão no data.table: %s"
+
+#: setkey.R:73 setkey.R:282
+msgid ""
+"x contains a column called '.xi'. Conflicts with internal use by data.table."
+msgstr ""
+"x contém uma coluna chamada '.xi'. Conflita com o uso interno do data.table."
+
+#: setkey.R:76
+msgid ""
+"Column '%s' is type '%s' which is not supported as a key column type, "
+"currently."
+msgstr ""
+"Coluna '%s' é do tipo '%s', que atualmente não é suportado como tipo de "
+"coluna chave."
+
+#: setkey.R:78 setkey.R:287
+msgid ""
+"Internal error. 'cols' should be character at this point in setkey; please "
+"report."
+msgstr ""
+"Erro interno. 'cols' deve ser do tipo caractere neste ponto em setkey; por "
+"favor, reporte."
+
+#: setkey.R:85
+msgid "forder took %.03f sec"
+msgstr "forder levou %.03f segundos"
+
+#: setkey.R:90
+msgid "setkey on columns %s using existing index '%s'"
+msgstr "setkey nas colunas %s usando o índice existente '%s'"
+
+#: setkey.R:102
+msgid "reorder took %s"
+msgstr ""
+
+#: setkey.R:104
+msgid "x is already ordered by these columns, no need to call reorder"
+msgstr ""
+
+#: setkey.R:125
+msgid "Internal error: index '%s' exists but is invalid"
+msgstr ""
+
+#: setkey.R:157
+msgid "x is vector but 'by' is supplied"
+msgstr ""
+
+#: setkey.R:167
+msgid "x is a single vector, non-NULL 'by' doesn't make sense"
+msgstr ""
+
+#: setkey.R:199
+msgid "Attempting to order a 0-column data.table or data.frame."
+msgstr ""
+
+#: setkey.R:204
+msgid ""
+"The first item passed to [f]order is a plain list but there are more items. "
+"It should be a data.table or data.frame."
+msgstr ""
+
+#: setkey.R:221
+msgid "Internal code should not be being called on type double"
+msgstr ""
+
+#: setkey.R:229
+msgid ""
+"Input is not a vector of type double. New parallel sort has only been done "
+"for double vectors so far. Using one thread."
+msgstr ""
+
+#: setkey.R:230
+msgid ""
+"New parallel sort has not been implemented for decreasing=TRUE so far. Using"
+" one thread."
+msgstr ""
+
+#: setkey.R:231
+msgid ""
+"New parallel sort has not been implemented for vectors containing NA values "
+"so far. Using one thread."
+msgstr ""
+
+#: setkey.R:243 setkey.R:269
+msgid "x must be a data.frame or data.table"
+msgstr ""
+
+#: setkey.R:271
+msgid "na.last must be logical TRUE/FALSE"
+msgstr ""
+
+#: setkey.R:272
+msgid ""
+"cols is not a character vector. Please see further information in ?setorder."
+msgstr ""
+
+#: setkey.R:274
+msgid ""
+"cols is a character vector of zero length. Use NULL instead, or wrap with "
+"suppressWarnings() to avoid this warning."
+msgstr ""
+
+#: setkey.R:285
+msgid ""
+"Column '%s' is type '%s' which is not supported for ordering currently."
+msgstr ""
+
+#: setkey.R:329
+msgid ""
+"'sorted' is TRUE but element %d is non-atomic, which can't be sorted; try "
+"setting sorted = FALSE"
+msgstr ""
+
+#: setkey.R:344
+msgid ""
+"Cross product of elements provided to CJ() would result in %.0f rows which "
+"exceeds .Machine$integer.max == %d"
+msgstr ""
