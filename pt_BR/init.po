@@ -116,29 +116,29 @@ msgstr "A conversão de NA_INT64 via double falhou %<PRId64>!=%<PRId64>"
 
 #: init.c:228
 msgid "NA_INT64_D (negative -0.0) is not == 0.0."
-msgstr ""
+msgstr "NA_INT64_D (negativo -0.0) não é == 0.0."
 
 #: init.c:229
 msgid "NA_INT64_D (negative -0.0) is not ==-0.0."
-msgstr ""
+msgstr "NA_INT64_D (negativo -0.0) não é == -0.0."
 
 #: init.c:230
 msgid "ISNAN(NA_INT64_D) is TRUE but should not be"
-msgstr ""
+msgstr "ISNAN(NA_INT64_D) é TRUE, mas não deveria ser"
 
 #: init.c:231
 msgid "isnan(NA_INT64_D) is TRUE but should not be"
-msgstr ""
+msgstr "isnan(NA_INT64_D) é TRUE, mas não deveria ser"
 
 #: init.c:264
 #, c-format
 msgid "PRINTNAME(install(\"integer64\")) has returned %s not %s"
-msgstr ""
+msgstr "PRINTNAME(install(\"integer64\")) retornou %s não %s"
 
 #: init.c:318
 msgid "verbose option must be length 1 non-NA logical or integer"
-msgstr ""
+msgstr "A opção verbose deve ter comprimento 1 não-NA lógico ou inteiro"
 
 #: init.c:349
 msgid ".Last.value in namespace is not a length 1 integer"
-msgstr ""
+msgstr ".Last.value no namespace não é um inteiro de comprimento 1"
