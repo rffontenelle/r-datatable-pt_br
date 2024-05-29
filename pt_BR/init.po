@@ -1,0 +1,144 @@
+# 
+# Translators:
+# Italo Santos, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: init 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Italo Santos, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: init.c:163
+msgid ""
+"Pointers are %zu bytes, greater than 8. We have not tested on any "
+"architecture greater than 64bit yet."
+msgstr ""
+"Ponteiros são %zu bytes, maior que 8. Ainda não testamos em nenhuma "
+"arquitetura maior que 64 bits."
+
+#: init.c:177
+msgid "... failed. Please forward this message to maintainer('data.table')."
+msgstr ""
+"... falhou. Por favor, encaminhe esta mensagem para o "
+"maintainer('data.table')."
+
+#: init.c:178
+#, c-format
+msgid "Checking NA_INTEGER [%d] == INT_MIN [%d] %s"
+msgstr "Verificando se NA_INTEGER [%d] == INT_MIN [%d] %s"
+
+#: init.c:179
+#, c-format
+msgid "Checking NA_INTEGER [%d] == NA_LOGICAL [%d] %s"
+msgstr "Verificando se NA_INTEGER [%d] == NA_LOGICAL [%d] %s"
+
+#: init.c:180 init.c:181 init.c:183 init.c:186 init.c:187 init.c:188
+#: init.c:189 init.c:190 init.c:191 init.c:192
+#, c-format
+msgid "Checking sizeof(%s) [%zu] is %d %s"
+msgstr "Verificando se sizeof(%s) [%zu] é %d %s"
+
+#: init.c:184
+#, c-format
+msgid "Checking sizeof(pointer) [%zu] is 4 or 8 %s"
+msgstr "Verificando se sizeof(pointer) [%zu] é 4 ou 8 %s"
+
+#: init.c:185
+#, c-format
+msgid "Checking sizeof(SEXP) [%zu] == sizeof(pointer) [%zu] %s"
+msgstr "Verificando se sizeof(SEXP) [%zu] == sizeof(pointer) [%zu] %s"
+
+#: init.c:195
+#, c-format
+msgid "Checking LENGTH(allocVector(INTSXP,2)) [%d] is 2 %s"
+msgstr "Verificando se LENGTH(allocVector(INTSXP,2)) [%d] é 2 %s"
+
+#: init.c:197
+#, c-format
+msgid "Checking TRUELENGTH(allocVector(INTSXP,2)) [%lld] is 0 %s"
+msgstr "Verificando se TRUELENGTH(allocVector(INTSXP,2)) [%lld] é 0 %s"
+
+#: init.c:204
+#, c-format
+msgid "Checking memset(&i,0,sizeof(int)); i == (int)0 %s"
+msgstr "Verificando se memset(&i,0,sizeof(int)); i == (int)0 %s"
+
+#: init.c:207
+#, c-format
+msgid ""
+"Checking memset(&ui, 0, sizeof(unsigned int)); ui == (unsigned int)0 %s"
+msgstr ""
+"Verificando se memset(&ui, 0, sizeof(unsigned int)); ui == (unsigned int)0 "
+"%s"
+
+#: init.c:210
+#, c-format
+msgid "Checking memset(&d, 0, sizeof(double)); d == (double)0.0 %s"
+msgstr "Verificando se memset(&d, 0, sizeof(double)); d == (double)0.0 %s"
+
+#: init.c:213
+#, c-format
+msgid ""
+"Checking memset(&ld, 0, sizeof(long double)); ld == (long double)0.0 %s"
+msgstr ""
+"Verificando se memset(&ld, 0, sizeof(long double)); ld == (long double)0.0 "
+"%s"
+
+#: init.c:216
+msgid "The ascii character '/' is not just before '0'"
+msgstr "O caractere ASCII '/' não está logo antes de '0'"
+
+#: init.c:217
+msgid "The C expression (uint_fast8_t)('/'-'0')<10 is true. Should be false."
+msgstr ""
+"A expressão em C (uint_fast8_t)('/'-'0')<10 é verdadeira. Deveria ser falsa."
+
+#: init.c:218
+msgid "The ascii character ':' is not just after '9'"
+msgstr "O caractere ASCII ':' não está logo após '9'"
+
+#: init.c:219
+msgid "The C expression (uint_fast8_t)('9'-':')<10 is true. Should be false."
+msgstr ""
+"A expressão em C (uint_fast8_t)('9'-':')<10 é verdadeira. Deveria ser falsa."
+
+#: init.c:224
+#, c-format
+msgid "Conversion of NA_INT64 via double failed %<PRId64>!=%<PRId64>"
+msgstr "A conversão de NA_INT64 via double falhou %<PRId64>!=%<PRId64>"
+
+#: init.c:228
+msgid "NA_INT64_D (negative -0.0) is not == 0.0."
+msgstr ""
+
+#: init.c:229
+msgid "NA_INT64_D (negative -0.0) is not ==-0.0."
+msgstr ""
+
+#: init.c:230
+msgid "ISNAN(NA_INT64_D) is TRUE but should not be"
+msgstr ""
+
+#: init.c:231
+msgid "isnan(NA_INT64_D) is TRUE but should not be"
+msgstr ""
+
+#: init.c:264
+#, c-format
+msgid "PRINTNAME(install(\"integer64\")) has returned %s not %s"
+msgstr ""
+
+#: init.c:318
+msgid "verbose option must be length 1 non-NA logical or integer"
+msgstr ""
+
+#: init.c:349
+msgid ".Last.value in namespace is not a length 1 integer"
+msgstr ""
