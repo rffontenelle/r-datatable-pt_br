@@ -190,7 +190,7 @@ msgstr "Erro interno: gfirstlast headw só deve ser true quando w>1"
 #, c-format
 msgid ""
 "Internal error: unanticipated case in gfirstlast first=%d w=%d headw=%d"
-msgstr ""
+msgstr "Erro interno: caso não previsto em gfirstlast first=%d w=%d headw=%d"
 
 #: gsumm.c:979
 #, c-format
@@ -199,12 +199,18 @@ msgid ""
 "the namespace prefix (e.g. utils::head(.)) or turn off GForce optimization "
 "using options(datatable.optimize=1)"
 msgstr ""
+"Tipo '%s' não é suportado pelo GForce head/tail/first/last/`[`. Adicione o "
+"prefixo do namespace (por exemplo, utils::head(.)) ou desative a otimização "
+"GForce usando options(datatable.optimize=1)"
 
 #: gsumm.c:995 gsumm.c:1001
 msgid ""
 "Internal error, gtail is only implemented for n>0. This should have been "
 "caught before. please report to data.table issue tracker."
 msgstr ""
+"Erro interno, gtail só está implementado para n>0. Isso deveria ter sido "
+"detectado antes. Por favor, reporte ao rastreador de problemas do "
+"data.table."
 
 #: gsumm.c:1007
 msgid ""
@@ -212,6 +218,10 @@ msgid ""
 "with positive index, e.g., .SD[2]. This should have been caught before. "
 "please report to data.table issue tracker."
 msgstr ""
+"Erro interno, `g[` (gnthvalue) só está implementado para subconjuntos de "
+"valor único com índice positivo, por exemplo, .SD[2]. Isso deveria ter sido "
+"detectado antes. Por favor, reporte ao rastreador de problemas do "
+"data.table."
 
 #: gsumm.c:1017
 msgid ""
@@ -222,6 +232,12 @@ msgid ""
 "diagonal elements, 'DT[,lapply(.SD,var),by=,.SDcols=]' is the optimized way "
 "to do this."
 msgstr ""
+"GForce var/sd só pode ser aplicado a colunas, não a .SD ou similar. Para a "
+"matriz de covariância completa de todos os itens em uma lista como .SD, "
+"adicione o prefixo stats::var(.SD) (ou stats::sd(.SD)) ou desative a "
+"otimização GForce usando options(datatable.optimize=1). Alternativamente, se"
+" você precisar apenas dos elementos diagonais, "
+"'DT[,lapply(.SD,var),by=,.SDcols=]' é a maneira otimizada de fazer isso."
 
 #: gsumm.c:1111
 msgid ""
@@ -230,20 +246,25 @@ msgid ""
 "turn off GForce optimization using options(datatable.optimize=1). More "
 "likely, you may be looking for 'DT[,lapply(.SD,prod),by=,.SDcols=]'"
 msgstr ""
+"GForce prod só pode ser aplicado a colunas, não a .SD ou similar. Para "
+"multiplicar todos os itens em uma lista como .SD, adicione o prefixo "
+"base::prod(.SD) ou desative a otimização GForce usando "
+"options(datatable.optimize=1). Mais provavelmente, você pode estar "
+"procurando por 'DT[,lapply(.SD,prod),by=,.SDcols=]'"
 
 #: gsumm.c:1119
 #, c-format
 msgid "Unable to allocate %d * %zu bytes for gprod"
-msgstr ""
+msgstr "Não foi possível alocar %d * %zu bytes para gprod"
 
 #: gsumm.c:1188
 #, c-format
 msgid "Internal error: nrow [%d] != length(x) [%d] in %s"
-msgstr ""
+msgstr "Erro interno: nrow [%d] != length(x) [%d] em %s"
 
 #: gsumm.c:1193
 msgid "fill must be a vector of length 1"
-msgstr ""
+msgstr "fill deve ser um vetor de comprimento 1"
 
 #: gsumm.c:1196 gsumm.c:1201
 msgid ""
