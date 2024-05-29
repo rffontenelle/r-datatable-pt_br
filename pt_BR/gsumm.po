@@ -271,15 +271,17 @@ msgid ""
 "Internal error: invalid type for gshift(), should have been caught before. "
 "please report to data.table issue tracker"
 msgstr ""
+"Erro interno: tipo inválido para gshift(), deveria ter sido detectado "
+"anteriormente. Por favor, reporte ao rastreador de problemas do data.table"
 
 #: gsumm.c:1207
 msgid "Internal error: n must be integer"
-msgstr ""
+msgstr "Erro interno: n deve ser inteiro"
 
 #: gsumm.c:1209
 #, c-format
 msgid "Item %d of n is NA"
-msgstr ""
+msgstr "Item %d de n é NA"
 
 #: gsumm.c:1266
 #, c-format
@@ -288,3 +290,6 @@ msgid ""
 " (e.g. data.table::shift(.)) or turn off GForce optimization using "
 "options(datatable.optimize=1)"
 msgstr ""
+"Tipo '%s' não é suportado pelo GForce gshift. Adicione o prefixo do "
+"namespace (por exemplo, data.table::shift(.)) ou desative a otimização "
+"GForce usando options(datatable.optimize=1)"
