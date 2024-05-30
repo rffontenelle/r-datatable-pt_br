@@ -515,6 +515,9 @@ msgid ""
 "Internal error: %d column numbers to delete not now in strictly increasing "
 "order. No-dups were checked earlier."
 msgstr ""
+"Erro interno: %d números de coluna a serem excluídos agora não estão em "
+"ordem rigorosamente crescente. Verificação de não duplicata foi feita "
+"anteriormente."
 
 #: assign.c:690
 #, c-format
