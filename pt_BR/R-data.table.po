@@ -774,23 +774,23 @@ msgid ""
 "The column '.N' can't be grouped because it conflicts with the special .N "
 "variable. Try setnames(DT,'.N','N') first."
 msgstr ""
-"A coluna '.N' não pode ser agrupada porque entra em conflito com a variável "
-"especial .N. Tente setnames(DT,'.N','N') primeiro."
+"A coluna '.N' não pode ser agrupada porque conflita com a variável especial "
+".N. Tente setnames(DT,'.N','N') primeiro."
 
 #: data.table.R:1431
 msgid ""
 "The column '.I' can't be grouped because it conflicts with the special .I "
 "variable. Try setnames(DT,'.I','I') first."
 msgstr ""
-"A coluna '.I' não pode ser agrupada porque entra em conflito com a variável "
-"especial .I. Tente setnames(DT,'.I','I') primeiro."
+"A coluna '.I' não pode ser agrupada porque conflita com a variável especial "
+".I. Tente setnames(DT,'.I','I') primeiro."
 
 #: data.table.R:1448
 msgid ""
 "Note: forcing units=\"secs\" on implicit difftime by group; call difftime "
 "explicitly to choose custom units"
 msgstr ""
-"Nota: forçando units=\"secs\" em difftime implícito por grupo; chame "
+"Nota: forçando units=\"secs\" no difftime implícito por grupo; chame "
 "difftime explicitamente para escolher unidades personalizadas"
 
 #: data.table.R:1458
