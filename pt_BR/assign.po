@@ -130,7 +130,7 @@ msgid ""
 " type is '%s'."
 msgstr ""
 "getOption('datatable.alloccol') deveria ser um número, por padrão 1024. Mas "
-"seu tipo é \"%s\"."
+"seu tipo é '%s'."
 
 #: assign.c:241
 #, c-format
@@ -252,7 +252,7 @@ msgid ""
 "j is type '%s'. Must be integer, character, or numeric is coerced with "
 "warning."
 msgstr ""
-"j é do tipo \"%s\". Deve ser inteiro, caractere ou numérico é coagido com "
+"j é do tipo '%s'. Deve ser inteiro, caractere ou numérico sofre coerção com "
 "aviso."
 
 #: assign.c:386
@@ -482,8 +482,8 @@ msgid ""
 "Dropping index '%s' as it doesn't have '__' at the beginning of its name. It"
 " was very likely created by v1.9.4 of data.table.\n"
 msgstr ""
-"Descartando o índice \"%s\" porque ele não tem \"__\" no início do nome. "
-"Muito provavelmente foi criado pela versão 1.9.4 do data.table.\n"
+"Descartando o índice '%s' porque ele não tem '__' no início do nome. Muito "
+"provavelmente foi criado pela versão 1.9.4 do data.table.\n"
 
 #: assign.c:586
 msgid "Internal error: index name ends with trailing __"
@@ -500,14 +500,15 @@ msgstr "Erro interno: não foi possível alocar memória para s5."
 #: assign.c:623 assign.c:639
 #, c-format
 msgid "Dropping index '%s' due to an update on a key column\n"
-msgstr "Descartando o índice \"%s\" devido a uma atualização em uma coluna-chave\n"
+msgstr ""
+"Descartando o índice '%s' devido a uma atualização em uma coluna-chave\n"
 
 #: assign.c:632
 #, c-format
 msgid "Shortening index '%s' to '%s' due to an update on a key column\n"
 msgstr ""
-"Reduzindo o índice \"%s\" para \"%s\" devido a uma atualização em uma "
-"coluna-chave\n"
+"Reduzindo o índice '%s' para '%s' devido a uma atualização em uma coluna-"
+"chave\n"
 
 #: assign.c:662
 #, c-format
@@ -559,8 +560,8 @@ msgid ""
 "Cannot assign 'factor' to '%s'. Factors can only be assigned to factor, "
 "character or list columns."
 msgstr ""
-"Não é possível atribuir \"factor\" a \"%s\". Os fatores só podem ser "
-"atribuídos a colunas de fator, caractere ou lista."
+"Não é possível atribuir 'factor' a '%s'. Os fatores só podem ser atribuídos "
+"a colunas de fator, caractere ou lista."
 
 #: assign.c:738
 #, c-format
@@ -585,8 +586,8 @@ msgid ""
 "Cannot assign '%s' to 'factor'. Factor columns can be assigned factor, "
 "character, NA in any type, or level numbers."
 msgstr ""
-"Não é possível atribuir \"%s\" a \"factor\". As colunas de fator podem "
-"receber fator, caractere, NA em qualquer tipo ou números de nível."
+"Não é possível atribuir '%s' e 'factor'. As colunas de fator podem receber a"
+" atribuição de fator, caractere, NA em qualquer tipo ou números de nível."
 
 #: assign.c:774
 msgid ""
@@ -634,17 +635,17 @@ msgstr ""
 #: assign.c:958
 #, c-format
 msgid "type '%s' cannot be coerced to '%s'"
-msgstr "o tipo \"%s\" não pode ser coagido para \"%s\""
+msgstr "não é possível fazer coerção do tipo '%s' para '%s'"
 
 #: assign.c:1116
 #, c-format
 msgid "Unsupported column type in assign.c:memrecycle '%s'"
-msgstr "Tipo de coluna não suportado em assign.c:memrecycle \"%s\""
+msgstr "Tipo de coluna não suportado em assign.c:memrecycle '%s'"
 
 #: assign.c:1170
 #, c-format
 msgid "Internal error: writeNA passed a vector of type '%s'"
-msgstr ""
+msgstr "Erro interno: writeNA passou um vetor do tipo '%s'"
 
 #: assign.c:1201
 #, c-format
@@ -652,11 +653,13 @@ msgid ""
 "Internal error: savetl_init checks failed (%d %d %p %p). please report to "
 "data.table issue tracker."
 msgstr ""
+"Erro interno: verificação de savetl_init falhou ( %d %d %p %p). Por favor, "
+"reporte ao rastreador de problemas do data.table"
 
 #: assign.c:1209
 #, c-format
 msgid "Failed to allocate initial %d items in savetl_init"
-msgstr ""
+msgstr "Falha ao alocar %d itens iniciais em savetl_init"
 
 #: assign.c:1218
 #, c-format
@@ -664,33 +667,36 @@ msgid ""
 "Internal error: reached maximum %d items for savetl. Please report to "
 "data.table issue tracker."
 msgstr ""
+"Erro interno: atingiu o máximo de %d itens para savetl. Por favor, reporte "
+"ao rastreador de problemas do data.table."
 
 #: assign.c:1225
 #, c-format
 msgid "Failed to realloc saveds to %d items in savetl"
-msgstr ""
+msgstr "Falha ao realocar os saveds para %d itens no savetl"
 
 #: assign.c:1231
 #, c-format
 msgid "Failed to realloc savedtl to %d items in savetl"
-msgstr ""
+msgstr "Falha ao realocar os savedtl para %d itens no savetl"
 
 #: assign.c:1254
 msgid "x must be a character vector"
-msgstr ""
+msgstr "x deve ser um vetor de caracteres"
 
 #: assign.c:1255
 msgid "'which' must be an integer vector"
-msgstr ""
+msgstr "'which' deve ser um vetor de inteiros"
 
 #: assign.c:1256
 msgid "'new' must be a character vector"
-msgstr ""
+msgstr "'new' deve ser um vetor de caracteres"
 
 #: assign.c:1257
 #, c-format
 msgid "'new' is length %d. Should be the same as length of 'which' (%d)"
 msgstr ""
+"'new' tem comprimento %d. Deve ser igual ao comprimento de 'which' (%d)"
 
 #: assign.c:1260
 #, c-format
@@ -698,3 +704,5 @@ msgid ""
 "Item %d of 'which' is %d which is outside range of the length %d character "
 "vector"
 msgstr ""
+"Item %d de 'which' é %d, que está fora do intervalo do vetor de caracteres "
+"de comprimento %d"
