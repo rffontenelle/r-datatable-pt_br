@@ -278,6 +278,9 @@ msgid ""
 "RHS_list_of_columns revised to true because RHS list has 1 item which is "
 "NULL, or whose length %d is either 1 or targetlen (%d). Please unwrap RHS.\n"
 msgstr ""
+"RHS_list_of_columns revisado para true porque a lista no lado direito (RHS) "
+"tem 1 item que é NULL ou cujo comprimento %d é 1 ou targetlen (%d). Por "
+"favor, desembrulhe o lado direito.\n"
 
 #: assign.c:399
 #, c-format
@@ -296,6 +299,8 @@ msgstr ""
 #, c-format
 msgid "Recycling single RHS list item across %d columns. Please unwrap RHS.\n"
 msgstr ""
+"Reciclando um único item da lista lado direito (RHS) em %d colunas. Por "
+"favor, desembrulhe o lado direito.\n"
 
 #: assign.c:406
 #, c-format
@@ -339,6 +344,13 @@ msgid ""
 "full length RHS vector such as vector('list',nrow(DT)); i.e., 'plonk' in the"
 " new column."
 msgstr ""
+"O lado direito (RHS) da atribuição à coluna existente '%s' tem comprimento "
+"zero, mas não é NULL. Se você pretende excluir a coluna, use NULL. Caso "
+"contrário, o lado direito (RHS) deverá ter comprimento > 0; por exemplo, "
+"NA_integer_. Se você estiver tentando alterar o tipo de coluna para uma "
+"coluna de lista vazia, como acontece com todas as alterações de tipo de "
+"coluna, forneça no lado direito (RHS) um vetor de comprimento completo, como"
+" vector('list',nrow(DT)); ou seja, 'plonk' na nova coluna."
 
 #: assign.c:431
 #, c-format
