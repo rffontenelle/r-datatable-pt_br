@@ -865,11 +865,11 @@ msgstr ""
 
 #: data.table.R:1845
 msgid "Old mean optimization changed j from '%s' to '%s'"
-msgstr "A otimização antiga de média mudou j de '%s' para '%s'"
+msgstr "A otimização antiga do  mudou j de '%s' para '%s'"
 
 #: data.table.R:1847
 msgid "Old mean optimization is on, left j unchanged."
-msgstr "A otimização antiga de média está ativada, j deixado inalterado."
+msgstr "A otimização antiga de mean está ativada, j deixado inalterado."
 
 #: data.table.R:1857
 msgid "All optimizations are turned off"
@@ -936,8 +936,8 @@ msgid ""
 "rownames is TRUE but key has multiple columns %s; taking first column x[,1] "
 "as rownames"
 msgstr ""
-"rownames é TRUE, mas a chave possui múltiplas colunas %s; obtendo a primeira"
-" coluna x[,1] como rownames"
+"rownames é TRUE, mas a chave possui múltiplas colunas %s; usando primeira "
+"coluna x[,1] como rownames"
 
 #: data.table.R:2095
 msgid "'%s' is not a column of x"
