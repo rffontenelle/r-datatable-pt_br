@@ -1177,7 +1177,7 @@ msgid ""
 " id column will named '.id'."
 msgstr ""
 "idcol deve ser um vetor de valores lógicos ou caracteres de comprimento 1. "
-"Se for lógico TRUE, o id da coluna será denominada '.id'."
+"Se for lógico TRUE, a coluna de identificação denominada '.id'."
 
 #: data.table.R:2815
 msgid "use.names=NA invalid"
@@ -1199,7 +1199,7 @@ msgid ""
 "are defined for use in j, once only and in particular ways. See "
 "help(\":=\")."
 msgstr ""
-"Verifique se is.data.table(DT) == TRUE. Caso contrário, :=, `:=`(...) e "
+"Verifique se is.data.table(DT) == TRUE. De qualquer forma, :=, `:=`(...) e "
 "let(...) são definidos para uso em j, apenas uma vez e de maneiras "
 "específicas. Veja help(\":=\")."
 
@@ -1239,8 +1239,8 @@ msgstr ""
 "Não é possível converter '%1$s' em data.table por referência porque o "
 "vínculo está travado. É muito provável que '%1$s' resida em um pacote (ou "
 "ambiente) que esteja travado para evitar a modificação de seus vínculos de "
-"variáveis. Tente copiar o objeto para o seu ambiente atual, ex: var <- "
-"copy(var) e depois usar setDT novamente."
+"variáveis. Experimente copiar o objeto para o seu ambiente atual, ex: var <-"
+" copy(var) e depois usar setDT novamente."
 
 #: data.table.R:2908
 msgid ""
