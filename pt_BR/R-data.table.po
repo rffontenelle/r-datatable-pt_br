@@ -842,15 +842,15 @@ msgstr "a otimização de lapply está ativada, j inalterado como '%s'"
 
 #: data.table.R:1736 data.table.R:1821
 msgid "GForce optimized j to '%s' (see ?GForce)"
-msgstr "GForce otimizou j para '%s' (veja ?GForce)"
+msgstr "j otimizado com GForce para '%s' (veja ?GForce)"
 
 #: data.table.R:1822
 msgid ""
 "GForce is on, but not activated for this query; left j unchanged (see "
 "?GForce)"
 msgstr ""
-"O GForce está ativado, mas não disponível para esta consulta; deixou j "
-"inalterado (veja ?GForce)"
+"O GForce está ativado, mas não para esta consulta; deixou j inalterado (veja"
+" ?GForce)"
 
 #: data.table.R:1841
 msgid ""
@@ -859,9 +859,9 @@ msgid ""
 " 'trim' which is the 2nd argument of mean. 'trim' is not yet optimized."
 msgstr ""
 "Não foi possível otimizar a chamada de mean() e pode ser muito lento. Você "
-"deve nomear 'na.rm' desta forma, caso contrário, se você usar mean(x,TRUE), "
-"o TRUE é obtido para fazer uma média truncada, pois 'trim' é o 2º argumento "
-"de mean. 'trim' ainda não está otimizado."
+"deve nomear 'na.rm' como tal, caso contrário, se você usar mean(x,TRUE), o "
+"TRUE é obtido para fazer uma média truncada, pois 'trim' é o 2º argumento de"
+" mean. 'trim' ainda não está otimizado."
 
 #: data.table.R:1845
 msgid "Old mean optimization changed j from '%s' to '%s'"
