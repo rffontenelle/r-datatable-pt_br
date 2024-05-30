@@ -163,7 +163,8 @@ msgstr ""
 #: data.table.R:288
 msgid ""
 "Internal error:  DT[, ..var] should be dealt with by the branch above now."
-msgstr "Erro interno: DT[, ..var] deve ser resolvido pelo branch acima agora."
+msgstr ""
+"Erro interno: agora o branch acima deveria ter lidado com DT[, ..var]."
 
 #: data.table.R:290
 msgid ""
@@ -172,8 +173,8 @@ msgid ""
 "with=FALSE."
 msgstr ""
 "A variável '%s' não foi encontrada no escopo de chamada. Procurando no "
-"escopo de chamada porque você definiu with=FALSE. Além disso, use o prefixo "
-"de símbolo .. e remova with=FALSE."
+"escopo de chamada porque você definiu with=FALSE. Além disso, favor usr o "
+"prefixo de símbolo .. e remover with=FALSE."
 
 #: data.table.R:298
 msgid ""
@@ -182,10 +183,10 @@ msgid ""
 "{} on the RHS of := instead; e.g. "
 "DT[,someCol:={tmpVar1<-...;tmpVar2<-...;tmpVar1*tmpVar2}"
 msgstr ""
-"Você envolveu := com {} o que está tudo bem, mas := deve ser a única coisa "
+"Você envolveu := com {}, o que está tudo bem, mas := deve ser a única coisa "
 "dentro de {}. Você também tem algo mais dentro de {}. Considere colocar {} "
-"no RHS de :=; por exemplo, "
-"DT[,algumaCol:={tmpVar1<-...;tmpVar2<-...;tmpVar1*tmpVar2}"
+"ao lado direito de :=; por exemplo, "
+"DT[,algumaCol:={tmpVar1<-...;tmpVar2<-...;tmpVar1*tmpVar2}]"
 
 #: data.table.R:318
 msgid ""
@@ -193,7 +194,8 @@ msgid ""
 " on a subset of rows. Either change keyby to by or remove i"
 msgstr ""
 ":= com keyby só é possível quando i não é fornecido, pois você não pode "
-"setkey em um subconjunto de linhas. Altere keyby para by ou remova i"
+"definir a chave em um subconjunto de linhas. Ou altere keyby para by, ou "
+"remova i"
 
 #: data.table.R:320
 msgid "nomatch isn't relevant together with :=, ignoring nomatch"
@@ -204,8 +206,8 @@ msgid ""
 "not-join '!' prefix is present on i but nomatch is provided. Please remove "
 "nomatch."
 msgstr ""
-"prefixo '!', não de junção, está presente em i, mas nomatch é fornecido. Por"
-" favor, remova nomatch."
+"prefixo '!', não de junção, está presente em i, mas nomatch foi fornecido. "
+"Por favor, remova nomatch."
 
 #: data.table.R:405
 msgid ""
