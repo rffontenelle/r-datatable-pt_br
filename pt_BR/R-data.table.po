@@ -271,13 +271,13 @@ msgid ""
 "and i (i.e., a natural join). Keyed joins might have further speed benefits "
 "on very large data due to x being sorted in RAM."
 msgstr ""
-"Quando i é um data.table (ou vetor de caracteres), as colunas a serem "
-"juntada devem ser especificadas usando o argumento 'on=' (consulte "
+"Quando i é uma data.table (ou vetor de caracteres), as colunas nas quais "
+"fazer a junção devem ser especificadas usando o argumento 'on=' (consulte "
 "?data.table), por meio de chaveamento de x (ou seja, ordenado e marcado como"
-" ordenado, consulte ?setkey) ou de compartilhamento de nomes de colunas "
-"entre x e i (ou seja, uma junção natural). As junções chaveadas podem ter "
-"benefícios adicionais de velocidade em dados muito grandes devido ao fato de"
-" x ser ordenado na RAM."
+" ordenado, consulte ?setkey) ou compartilhando de nomes de colunas entre x e"
+" i (ou seja, uma junção natural). As junções chaveadas podem ter benefícios "
+"adicionais de velocidade em dados muito grandes devido ao x estar ordenado "
+"na RAM."
 
 #: data.table.R:465
 msgid "Attempting to do natural join but no common columns in provided tables"
@@ -300,7 +300,7 @@ msgstr ""
 msgid ""
 "not-join called with 'by=.EACHI'; Replacing !i with i=setdiff_(x,i) ..."
 msgstr ""
-"notjoin chamado com 'by=.EACHI'; substituindo !i por i=setdiff_(x,i) ..."
+"not-join chamado com 'by=.EACHI'; substituindo !i por i=setdiff_(x,i) ..."
 
 #: data.table.R:502
 msgid "done in %s"
@@ -330,11 +330,12 @@ msgstr "Reordenando %d linhas após bmerge feito em ..."
 
 #: data.table.R:597
 msgid "logical error. i is not a data.table, but 'on' argument is provided."
-msgstr "erro lógico. i não é um data.table, mas o argumento 'on' é fornecido."
+msgstr ""
+"erro lógico. i não é uma data.table, mas o argumento 'on' foi fornecido."
 
 #: data.table.R:601
 msgid "i has evaluated to type %s. Expecting logical, integer or double."
-msgstr "i é avaliado para o tipo %s. Esperava lógico, inteiro ou duplo."
+msgstr "i é avaliado para o tipo %s. Esperava lógico, inteiro ou 'double'."
 
 #: data.table.R:605
 msgid ""
