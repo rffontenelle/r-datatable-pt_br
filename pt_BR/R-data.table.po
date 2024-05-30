@@ -527,7 +527,7 @@ msgid ""
 "sure this warning is in error, please put the branching logic outside of [ "
 "for efficiency"
 msgstr ""
-"j não pode ser avaliado com o mesmo número de colunas para cada grupo; se "
+"j pode não ser avaliado com o mesmo número de colunas para cada grupo; se "
 "você tiver certeza de que este aviso está errado, coloque a lógica de "
 "branching fora de [ para eficiência"
 
@@ -541,12 +541,13 @@ msgid ""
 "or (3) use the same name for each branch and re-name it in a follow-up call."
 msgstr ""
 "Diferentes branches da expressão j produziram diferentes colunas nomeadas "
-"automaticamente: %s; usando a maioria dos \"últimos\" nomes. Se isso foi "
+"automaticamente: %s; usando os nomes definidos por último. Se isso foi "
 "intencional (por exemplo, você sabe que apenas um branch será usado em uma "
 "determinada consulta porque o branch é controlado por um argumento de "
-"função). Por favor, (1) retire esse branch da chamada; (2) forneça "
-"explicitamente os padrões ausentes para cada branch em todos os casos; ou "
-"(3) use o mesmo nome para cada branch e renomeie-o em uma chamada seguinte."
+"função), favor, (1) retirar esse branch da chamada; (2) fornecer "
+"explicitamente os valores padrão faltantes para cada branch em todos os "
+"casos; ou (3) use o mesmo nome para cada branch e renomeie-o em uma chamada "
+"seguinte."
 
 #: data.table.R:1031
 msgid ""
@@ -556,9 +557,8 @@ msgid ""
 "for: %s"
 msgstr ""
 "Quando .SDcols é uma função, ela é aplicada a cada coluna; a saída desta "
-"função deve ser um escalar booleano não ausente sinalizando "
-"inclusão/exclusão da coluna. No entanto, estas condições não foram cumpridas"
-" para: %s"
+"função deve ser um escalar booleano não NA sinalizando inclusão/exclusão da "
+"coluna. No entanto, estas condições não foram cumpridas para: %s"
 
 #: data.table.R:1037
 msgid ".SDcols missing at the following indices: %s"
@@ -570,7 +570,7 @@ msgstr ".SDcols tem um vetor lógico de comprimento %d, mas existem %d colunas"
 
 #: data.table.R:1045
 msgid ".SDcols is numeric but has both +ve and -ve indices"
-msgstr ".SDcols é numérico, mas possui índices +ve e -ve"
+msgstr ".SDcols é numérico, mas possui índices positivos e negativos"
 
 #: data.table.R:1047
 msgid ".SDcols is numeric but out of bounds [1, %d] at: %s"
@@ -578,7 +578,7 @@ msgstr ".SDcols é numérico, mas está fora dos limites [1, %d] em: %s"
 
 #: data.table.R:1051
 msgid ".SDcols should be column numbers or names"
-msgstr ".SDcols devem ser números ou nomes de colunas"
+msgstr ".SDcols deve consistir em números ou nomes de colunas"
 
 #: data.table.R:1053
 msgid "Some items of .SDcols are not column names: %s"
@@ -614,7 +614,7 @@ msgid ""
 "tortuously flexible way to modify by group. Use := in j directly to modify "
 "by group by reference."
 msgstr ""
-".SD está travado. O uso de := em .SD j está reservado para possível uso "
+".SD é travado. O uso de := no j de .SD está reservado para possível uso "
 "futuro; uma maneira tortuosamente flexível de modificar por grupo. Use := in"
 " j diretamente para modificar por grupo por referência."
 
@@ -628,24 +628,24 @@ msgstr ""
 msgid ""
 "LHS of := must be a symbol, or an atomic vector (column names or positions)."
 msgstr ""
-"LHS de := deve ser um símbolo ou um vetor atômico (nomes de colunas ou "
-"posições)."
+"O lado esquerdo de := deve ser um símbolo ou um vetor atômico (nomes de "
+"colunas ou posições)."
 
 #: data.table.R:1141
 msgid ""
 "LHS of := appears to be column positions but are outside [1,ncol] range. New"
 " columns can only be added by name."
 msgstr ""
-"LHS de := parecem ser posições de coluna, mas estão fora do intervalo "
-"[1,ncol]. Novas colunas só podem ser adicionadas por nome."
+"Parece que o lado esquerdo de := são posições de coluna, mas estão fora do "
+"intervalo [1,ncol]. Novas colunas só podem ser adicionadas por nome."
 
 #: data.table.R:1144
 msgid ""
 "LHS of := isn't column names ('character') or positions ('integer' or "
 "'numeric')"
 msgstr ""
-"LHS de := não são nomes de colunas ('character') ou posições ('integer' ou "
-"'numeric')"
+"O lado esquerdo de := não são nomes de colunas ('character') ou posições "
+"('integer' ou 'numeric')"
 
 #: data.table.R:1160
 msgid ""
