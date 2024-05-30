@@ -174,6 +174,12 @@ msgid ""
 " not for the first. Please use a typed empty vector instead, such as "
 "integer() or numeric()."
 msgstr ""
+"A coluna %d do resultado de j para o primeiro grupo é NULL. Contamos com os "
+"tipos de coluna do primeiro resultado para decidir o tipo esperado para os "
+"grupos restantes (e exigir consistência). Colunas com NULL são aceitáveis "
+"​​para grupos posteriores (e são substituídas por NA do tipo apropriado e "
+"recicladas), mas não para o primeiro. Em vez disso, use um vetor vazio "
+"tipado, como integer() ou numeric()."
 
 #: dogroups.c:368
 msgid ""
@@ -181,6 +187,9 @@ msgid ""
 "and over again for each group and slow things down. Try and pass a named "
 "list (which data.table optimizes) or an unnamed list() instead.\n"
 msgstr ""
+"j parece ser um vetor nomeado. Os mesmos nomes provavelmente serão criados "
+"repetidamente para cada grupo e tornarão as coisas mais lentas. Tente passar"
+" uma lista nomeada (que data.table otimiza) ou uma sem nome usando list().\n"
 
 #: dogroups.c:370
 #, c-format
@@ -198,16 +207,22 @@ msgid ""
 " Using j=transform(), for example, prevents that speedup (consider changing "
 "to :=). This message may be upgraded to warning in future.\n"
 msgstr ""
+"O resultado de j é uma lista nomeada. É muito ineficiente criar os mesmos "
+"nomes repetidamente para cada grupo. Quando j=list(...), quaisquer nomes são"
+" detectados, removidos e recolocados após a conclusão do agrupamento, para "
+"maior eficiência. Usar j=transform(), por exemplo, evita essa aceleração "
+"(considere mudar para :=). Esta mensagem pode ser atualizada para aviso no "
+"futuro.\n"
 
 #: dogroups.c:390
 #, c-format
 msgid "dogroups: growing from %d to %d rows\n"
-msgstr ""
+msgstr "dogroups: crescendo de %d para %d linhas\n"
 
 #: dogroups.c:391
 #, c-format
 msgid "dogroups: length(ans)[%d]!=ngrpcols[%d]+njval[%d]"
-msgstr ""
+msgstr "dogroups: length(ans)[%d]!=ngrpcols[%d]+njval[%d]"
 
 #: dogroups.c:409
 #, c-format
@@ -217,6 +232,10 @@ msgid ""
 "similar problem but only the first is reported to save filling the warning "
 "buffer."
 msgstr ""
+"O item %d do resultado de j para o grupo %d tem comprimento zero. Será "
+"preenchido com %d NAs para corresponder à coluna mais longa deste resultado."
+" Os grupos posteriores podem ter um problema semelhante, mas apenas o "
+"primeiro é relatado para salvar o preenchimento do buffer de avisos."
 
 #: dogroups.c:416
 #, c-format
@@ -224,6 +243,8 @@ msgid ""
 "Column %d of result for group %d is type '%s' but expecting type '%s'. "
 "Column types must be consistent for each group."
 msgstr ""
+"A coluna %d do resultado do grupo %d é do tipo '%s', mas espera o tipo '%s'."
+" Os tipos de coluna devem ser consistentes para cada grupo."
 
 #: dogroups.c:418
 #, c-format
