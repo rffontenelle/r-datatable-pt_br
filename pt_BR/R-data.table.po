@@ -457,8 +457,8 @@ msgid ""
 "i clause present but columns used in by not detected. Having to subset all "
 "columns before evaluating 'by': '%s'"
 msgstr ""
-"cláusula i presente, mas colunas usadas em by não detectadas. Necessário "
-"dividir em subconjuntos todas as colunas antes de avaliar 'by': '%s'"
+"cláusula i presente, mas colunas usadas em by não detectadas. Tendo que "
+"obter um subconjunto de todas as colunas antes de avaliar 'by': '%s'"
 
 #: data.table.R:887
 msgid ""
