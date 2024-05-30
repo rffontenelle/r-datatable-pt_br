@@ -198,6 +198,10 @@ msgid ""
 "somehow). Please remove those names for efficiency (to save creating them "
 "over and over for each group). They are ignored anyway.\n"
 msgstr ""
+"A coluna %d de j é um vetor nomeado (cada item nas linhas é nomeado, de "
+"alguma forma). Por favor, remova esses nomes para maior eficiência (para "
+"evitar criá-los repetidamente para cada grupo). Eles são ignorados de "
+"qualquer maneira.\n"
 
 #: dogroups.c:378
 msgid ""
@@ -254,16 +258,22 @@ msgid ""
 "exactly. If you wish to 'recycle' the RHS please use rep() explicitly to "
 "make this intent clear to readers of your code."
 msgstr ""
+"Foram fornecidos %d itens para a coluna %d do grupo %d que possui %d linhas."
+" O comprimento do lado direito (RHS) deve ser 1 (valores únicos são "
+"aceitáveis) ou corresponder exatamente ao comprimento do lado esquerdo "
+"(LHS). Se você deseja reciclar o lado direito (RHS), use rep() "
+"explicitamente para deixar essa intenção clara para os leitores do seu "
+"código."
 
 #: dogroups.c:439
 #, c-format
 msgid "Wrote less rows (%d) than allocated (%d).\n"
-msgstr ""
+msgstr "Foram escritas menos linhas (%d) do que alocadas (%d).\n"
 
 #: dogroups.c:461
 #, c-format
 msgid "Internal error: block 0 [%d] and block 1 [%d] have both run"
-msgstr ""
+msgstr "Erro interno: bloco 0 [%d] e bloco 1 [%d] foram executados"
 
 #: dogroups.c:463
 #, c-format
@@ -271,17 +281,19 @@ msgid ""
 "\n"
 "  %s took %.3fs for %d groups\n"
 msgstr ""
+"\n"
+"  %s levou %.3fs para %d grupos\n"
 
 #: dogroups.c:465
 #, c-format
 msgid "  eval(j) took %.3fs for %d calls\n"
-msgstr ""
+msgstr "  eval(j) levou %.3fs para %d chamadas\n"
 
 #: dogroups.c:489
 msgid "growVector passed NULL"
-msgstr ""
+msgstr "growVector passou NULL"
 
 #: dogroups.c:509
 #, c-format
 msgid "Internal error: growVector doesn't support type '%s'"
-msgstr ""
+msgstr "Erro interno: growVector não oferece suporte ao tipo '%s'"
