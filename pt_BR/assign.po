@@ -388,7 +388,7 @@ msgid ""
 "your code."
 msgstr ""
 "Fornecidos %d itens a serem atribuídos a %d itens da coluna '%s'. Se você "
-"deseja fazer 'recycle' o lado direito (RHS), use rep() para deixar essa "
+"deseja \"reciclar\" o lado direito (RHS), use rep() para deixar essa "
 "intenção clara para os leitores do seu código."
 
 #: assign.c:462
