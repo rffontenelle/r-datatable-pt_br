@@ -109,6 +109,8 @@ msgstr "length(xSD)[%d] != length(xjiscols)[%d]"
 #, c-format
 msgid "j evaluates to type '%s'. Must evaluate to atomic vector or list."
 msgstr ""
+"j é avaliado para o tipo '%s'. Deve ser avaliado para vetor atômico ou "
+"lista."
 
 #: dogroups.c:279
 msgid ""
@@ -116,12 +118,17 @@ msgid ""
 "trying something like j=list(.SD,newcol=mean(colA)) then use := by group "
 "instead (much quicker), or cbind or merge afterwards."
 msgstr ""
+"Todos os itens em j=list(...) devem ser vetores atômicos ou listas. Se você "
+"estiver tentando algo como j=list(.SD,newcol=mean(colA)) use := por grupo "
+"(muito mais rápido) ou cbind ou merge posteriormente."
 
 #: dogroups.c:288
 msgid ""
 "RHS of := is NULL during grouped assignment, but it's not possible to delete"
 " parts of a column."
 msgstr ""
+"O lado direito (RHS) de := é NULL durante a atribuição agrupada, mas não é "
+"possível excluir partes de uma coluna."
 
 #: dogroups.c:292
 #, c-format
@@ -131,6 +138,12 @@ msgid ""
 "exactly. If you wish to 'recycle' the RHS please use rep() explicitly to "
 "make this intent clear to readers of your code."
 msgstr ""
+"Foram fornecidos %d itens a serem atribuídos ao grupo %d de tamanho %d na "
+"coluna '%s'. O comprimento do lado direito (RHS) deve ser 1 (valores únicos "
+"são aceitáveis) ou corresponder exatamente ao comprimento do lado esquerdo "
+"(LHS). Se você deseja 'reciclar' o lado direito (RHS), use rep() "
+"explicitamente para deixar essa intenção clara para os leitores do seu "
+"código."
 
 #: dogroups.c:303
 msgid ""
@@ -138,15 +151,18 @@ msgid ""
 "setalloccol should have run first at R level before getting to this point in"
 " dogroups"
 msgstr ""
+"Erro interno: Tentando adicionar nova coluna por referência, mas tl está "
+"cheio; setalloccol deveria ter sido executado primeiro no nível R antes de "
+"chegar a este ponto em dogroups"
 
 #: dogroups.c:324
 #, c-format
 msgid "Group %d column '%s': %s"
-msgstr ""
+msgstr "Grupo %d coluna '%s': %s"
 
 #: dogroups.c:331
 msgid "j doesn't evaluate to the same number of columns for each group"
-msgstr ""
+msgstr "j não é avaliado para o mesmo número de colunas para cada grupo"
 
 #: dogroups.c:365
 #, c-format
