@@ -522,12 +522,12 @@ msgstr ""
 #: assign.c:690
 #, c-format
 msgid "target vector"
-msgstr ""
+msgstr "vetor alvo"
 
 #: assign.c:690
 #, c-format
 msgid "column %d named '%s'"
-msgstr ""
+msgstr "coluna %d de nome '%s'"
 
 #: assign.c:706
 #, c-format
@@ -546,6 +546,8 @@ msgstr "Erro interno de memrecycle: start=%d len=%d length(target)=%d"
 msgid ""
 "Internal error: recycle length error not caught earlier. slen=%d len=%d"
 msgstr ""
+"Erro interno: erro de comprimento de reciclagem não detectado anteriormente."
+" slen=%d len=%d"
 
 #: assign.c:715
 msgid "Internal error: memrecycle has received NULL colname"
@@ -565,6 +567,8 @@ msgstr ""
 msgid ""
 "Assigning factor numbers to %s. But %d is outside the level range [1,%d]"
 msgstr ""
+"Atribuindo números de fator a %s, mas %d está fora do intervalo de níveis "
+"[1,%d]"
 
 #: assign.c:747
 #, c-format
@@ -572,6 +576,8 @@ msgid ""
 "Assigning factor numbers to %s. But %f is outside the level range [1,%d], or"
 " is not a whole number."
 msgstr ""
+"Atribuindo números de fator a %s, mas %f está fora do intervalo de níveis "
+"[1,%d] ou não é de todo um número."
 
 #: assign.c:753
 #, c-format
@@ -592,6 +598,8 @@ msgstr ""
 msgid ""
 "Unable to allocate working memory of %zu bytes to combine factor levels"
 msgstr ""
+"Não foi possível alocar memória de trabalho de %zu bytes para combinar "
+"níveis de fator"
 
 #: assign.c:820
 msgid "Internal error: extra level check sum failed"
@@ -601,16 +609,22 @@ msgstr "Erro interno: falha na soma de verificação de nível extra"
 #, c-format
 msgid "Coercing 'character' RHS to '%s' to match the type of %s."
 msgstr ""
+"Fazendo coerção de 'character' do lado direito (RHS) para '%s' para "
+"corresponder ao tipo de %s."
 
 #: assign.c:846
 #, c-format
 msgid "Cannot coerce 'list' RHS to 'integer64' to match the type of %s."
 msgstr ""
+"Não foi possível fazer coerção de 'list' do lado direito (RHS) para "
+"'integer64' para corresponder ao tipo de %s."
 
 #: assign.c:851
 #, c-format
 msgid "Coercing 'list' RHS to '%s' to match the type of %s."
 msgstr ""
+"Fazendo coerção de 'list' do lado direito (RHS) para '%s' para corresponder "
+"ao tipo de %s."
 
 #: assign.c:856
 #, c-format
