@@ -1342,7 +1342,8 @@ msgid ""
 "which columns in 'i' should be joined with which columns in 'x'."
 msgstr ""
 "O argumento 'on' deve ser um vetor atômico nomeado de nomes de colunas "
-"indicando quais colunas em 'i' devem ser unidas a quais colunas em 'x'."
+"indicando quais colunas em 'i' correspondem a quais colunas em 'x' para a "
+"junção."
 
 #: data.table.R:3300
 msgid ""
@@ -1371,4 +1372,4 @@ msgstr ""
 #: data.table.R:3330
 msgid "Invalid join operators %s. Only allowed operators are %s."
 msgstr ""
-"Operadores de junção inválidos %s. Somente operadores permitidos são %s."
+"Operadores de junção inválidos: %s. Os únicos operadores permitidos são %s."
