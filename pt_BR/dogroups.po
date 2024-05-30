@@ -21,23 +21,23 @@ msgstr "Erro interno: ordem, não vetor de inteiros"
 
 #: dogroups.c:76
 msgid "Internal error: starts not integer"
-msgstr ""
+msgstr "Erro interno: starts não é inteiro"
 
 #: dogroups.c:77
 msgid "Internal error: lens not integer"
-msgstr ""
+msgstr "Erro interno: lens não é inteiro"
 
 #: dogroups.c:79
 msgid "Internal error: jiscols not NULL but o__ has length"
-msgstr ""
+msgstr "Erro interno: jiscols não é NULL, mas o__ tem comprimento"
 
 #: dogroups.c:80
 msgid "Internal error: xjiscols not NULL but o__ has length"
-msgstr ""
+msgstr "Erro interno: xjiscols não é NULL, mas o__ tem comprimento"
 
 #: dogroups.c:81
 msgid "env is not an environment"
-msgstr ""
+msgstr "env não é um ambiente"
 
 #: dogroups.c:100
 #, c-format
@@ -45,15 +45,17 @@ msgid ""
 "Internal error: unsupported size-0 type '%s' in column %d of 'by' should "
 "have been caught earlier"
 msgstr ""
+"Erro interno: o tipo não suportado '%s' de tamanho 0 na coluna %d de 'by' "
+"deveria ter sido detectado anteriormente"
 
 #: dogroups.c:105
 #, c-format
 msgid "!length(bynames)[%d]==length(groups)[%d]==length(grpcols)[%d]"
-msgstr ""
+msgstr "!length(bynames)[%d]==length(groups)[%d]==length(grpcols)[%d]"
 
 #: dogroups.c:127
 msgid "row.names attribute of .SD not found"
-msgstr ""
+msgstr "atributo row.names de .SD não encontrado"
 
 #: dogroups.c:129
 #, c-format
@@ -61,10 +63,12 @@ msgid ""
 "row.names of .SD isn't integer length 2 with NA as first item; i.e., "
 ".set_row_names(). [%s %d %d]"
 msgstr ""
+"row.names de .SD não é um inteiro de comprimento 2 com NA como primeiro "
+"item, ou seja, .set_row_names(). [%s %d %d]"
 
 #: dogroups.c:134
 msgid "length(names)!=length(SD)"
-msgstr ""
+msgstr "length(names)!=length(SD)"
 
 #: dogroups.c:140
 #, c-format
@@ -72,31 +76,34 @@ msgid ""
 "Internal error: size-0 type %d in .SD column %d should have been caught "
 "earlier"
 msgstr ""
+"Erro interno: tipo %d de tamanho 0 na coluna %d de .SD deveria ter sido "
+"detectado antes"
 
 #: dogroups.c:142
 #, c-format
 msgid "Internal error: SDall %d length = %d != %d"
-msgstr ""
+msgstr "Erro interno: SDall %d comprimento = %d != %d"
 
 #: dogroups.c:150
 msgid "length(xknames)!=length(xSD)"
-msgstr ""
+msgstr "length(xknames)!=length(xSD)"
 
 #: dogroups.c:154
 #, c-format
 msgid ""
 "Internal error: type %d in .xSD column %d should have been caught by now"
 msgstr ""
+"Erro interno: tipo %d na coluna %d de .xSD já deveria ter sido detectado"
 
 #: dogroups.c:158
 #, c-format
 msgid "length(iSD)[%d] != length(jiscols)[%d]"
-msgstr ""
+msgstr "length(iSD)[%d] != length(jiscols)[%d]"
 
 #: dogroups.c:159
 #, c-format
 msgid "length(xSD)[%d] != length(xjiscols)[%d]"
-msgstr ""
+msgstr "length(xSD)[%d] != length(xjiscols)[%d]"
 
 #: dogroups.c:271
 #, c-format
