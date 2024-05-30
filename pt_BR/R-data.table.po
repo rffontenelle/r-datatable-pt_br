@@ -342,7 +342,7 @@ msgid ""
 "internal error: notjoin and which=NA (non-matches), huh? please provide "
 "reproducible example to issue tracker"
 msgstr ""
-"erro interno: notjoin e which=NA (não correspondências). Mas hein? Por "
+"erro interno: not-join e which=NA (não correspondências). Mas hein? Por "
 "favor, forneça um exemplo reproduzível no rastreador de problemas"
 
 #: data.table.R:623
