@@ -1260,7 +1260,7 @@ msgid ""
 "and run setDT again. We do not recommend use of POSIXlt at all because it "
 "uses 40 bytes to store one date."
 msgstr ""
-"A coluna %d é do tipo POSIXlt. Por favor, converta-o para POSIXct usando "
+"A coluna %d é do tipo POSIXlt. Favor converta-a para POSIXct usando "
 "as.POSIXct e execute setDT novamente. Não recomendamos o uso de POSIXlt "
 "porque ele usa 40 bytes para armazenar uma data."
 
@@ -1281,7 +1281,7 @@ msgstr ""
 
 #: data.table.R:2978
 msgid "Item '%s' not found in names of input list"
-msgstr "Item '%s' não encontrado nos nomes da lista de entradas"
+msgstr "Item '%s' não encontrado nos nomes da lista recebida"
 
 #: data.table.R:3003 data.table.R:3028
 msgid "'prefix' must be NULL or a character vector of length 1."
