@@ -630,7 +630,7 @@ msgstr ""
 #: assign.c:856
 #, c-format
 msgid "Zero-copy coerce when assigning '%s' to '%s' %s.\n"
-msgstr ""
+msgstr "Fazendo coerção de zero cópia ao atribuir '%s' a %3$s '%2$s'.\n"
 
 #: assign.c:958
 #, c-format
