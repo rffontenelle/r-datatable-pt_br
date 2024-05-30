@@ -369,6 +369,7 @@ msgstr "A coluna '%s' não existe para ser removida"
 #, c-format
 msgid "%d column matrix RHS of := will be treated as one vector"
 msgstr ""
+"Coluna %d da matriz do lado direito (RHS) de := será tratada como um vetor"
 
 #: assign.c:446
 #, c-format
@@ -448,6 +449,7 @@ msgstr ""
 #, c-format
 msgid "Internal error: selfrefnames is ok but tl names [%lld] != tl [%d]"
 msgstr ""
+"Erro interno: selfrefnames está certo, mas names de tl [%lld] != tl [%d]"
 
 #: assign.c:493
 msgid ""
@@ -463,11 +465,16 @@ msgid ""
 "RHS for item %d has been duplicated because NAMED==%d MAYBE_SHARED==%d, but "
 "then is being plonked. length(values)==%d; length(cols)==%d)\n"
 msgstr ""
+"O lado direito (RHS) para o item %d foi duplicado porque NAMED==%d "
+"MAYBE_SHARED==%d, mas depois está sendo plonked. length(values)==%d; "
+"length(cols)==%d)\n"
 
 #: assign.c:509
 #, c-format
 msgid "Direct plonk of unnamed RHS, no copy. NAMED==%d, MAYBE_SHARED==%d\n"
 msgstr ""
+"Plonk direto de lado direito (RHS) sem nome, sem cópia. NAMED==%d, "
+"MAYBE_SHARED==%d\n"
 
 #: assign.c:578
 #, c-format
