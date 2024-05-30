@@ -335,7 +335,7 @@ msgstr ""
 
 #: data.table.R:601
 msgid "i has evaluated to type %s. Expecting logical, integer or double."
-msgstr "i é avaliado para o tipo %s. Esperava lógico, inteiro ou 'double'."
+msgstr "i foi avaliado para o tipo %s. Esperava lógico, inteiro ou 'double'."
 
 #: data.table.R:605
 msgid ""
