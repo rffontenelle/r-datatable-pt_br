@@ -51,13 +51,15 @@ msgstr "%.3f segundos evitáveis. %s este tempo para copiar.\n"
 #: fread.c:444
 #, c-format
 msgid "  File copy in RAM took %.3f seconds.\n"
-msgstr "A cópia do arquivo na RAM demorou %.3f segundos.\n"
+msgstr " A cópia do arquivo na RAM demorou %.3f segundos.\n"
 
 #: fread.c:1260
 msgid ""
 "Previous fread() session was not cleaned up properly. Cleaned up ok at the "
 "beginning of this fread() call.\n"
 msgstr ""
+"A sessão anterior do fread() não foi limpa corretamente. Limpeza bem-"
+"sucedida no início desta chamada do fread().\n"
 
 #: fread.c:1263
 msgid "[01] Check arguments\n"
