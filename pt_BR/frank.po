@@ -52,4 +52,4 @@ msgstr ""
 #: frank.c:177
 #, c-format
 msgid "Internal error: unknown ties value in frank: %d"
-msgstr ""
+msgstr "Erro interno: valor de 'ties' desconhecido em frank: %d"
