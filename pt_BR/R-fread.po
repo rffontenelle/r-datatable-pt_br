@@ -199,6 +199,9 @@ msgid ""
 "constitute the start to a valid YAML header (expecting something matching "
 "regex \"%s\"); please check your input and try again."
 msgstr ""
+"Encontrado <%s%s> na primeira linha não ignorada (%d), que não constitui o "
+"início de um cabeçalho YAML válido (esperando algo correspondente à regex "
+"\"%s\"); verifique sua entrada e tente novamente."
 
 #: fread.R:193
 msgid ""
@@ -206,21 +209,29 @@ msgid ""
 "A valid YAML header is bookended by lines matching the regex \"%s\". Please "
 "double check the input file is a valid csvy."
 msgstr ""
+"Chegou ao final do arquivo antes de encontrar uma conclusão no cabeçalho "
+"YAML. Um cabeçalho YAML válido é delimitado por linhas que correspondem à "
+"regex \"%s\". Verifique novamente se o arquivo de entrada é um csvy válido."
 
 #: fread.R:204
 msgid ""
 "Processed %d lines of YAML metadata with the following top-level fields: %s"
 msgstr ""
+"Processadas %d linhas de metadados YAML com os seguintes campos de nível "
+"superior: %s"
 
 #: fread.R:207
 msgid "User-supplied 'header' will override that found in metadata."
 msgstr ""
+"O 'header' fornecido pelo usuário substituirá o encontrado nos metadados."
 
 #: fread.R:225
 msgid ""
 "User-supplied column names in 'col.names' will override those found in YAML "
 "metadata."
 msgstr ""
+"Os nomes de colunas fornecidos pelo usuário em 'col.names' substituirão "
+"aqueles encontrados nos metadados YAML."
 
 #: fread.R:234
 msgid ""
@@ -230,22 +241,33 @@ msgid ""
 "the YAML header; please exclude the column(s) from colClasses if this was "
 "unintentional."
 msgstr ""
+"colClasses ditadas pela entrada do usuário e aquelas lidas do cabeçalho YAML"
+" estão em conflito (especificamente, para coluna(s) [%s]); o processo "
+"pressupõe que a entrada do(a) usuário(a) foi uma substituição intencional e "
+"ignorará o(s) tipo(s) implícito(s) no cabeçalho YAML; exclua a(s) coluna(s) "
+"de colClasses se isso não for intencional."
 
 #: fread.R:255
 msgid "User-supplied 'sep' will override that found in metadata."
 msgstr ""
+"O 'sep' fornecido pelo usuário substituirá o encontrado nos metadados."
 
 #: fread.R:260
 msgid "User-supplied 'quote' will override that found in metadata."
 msgstr ""
+"O 'quote' fornecido pelo(a) usuário(a) substituirá a encontrada nos "
+"metadados."
 
 #: fread.R:265
 msgid "User-supplied 'dec' will override that found in metadata."
 msgstr ""
+"O 'dec' fornecido pelo(a) usuário(a) substituirá o encontrado nos metadados."
 
 #: fread.R:269
 msgid "User-supplied 'na.strings' will override that found in metadata."
 msgstr ""
+"O 'na.strings' fornecido pelo(a) usuário(a) substituirá a encontrada nos "
+"metadados."
 
 #: fread.R:317
 msgid ""
