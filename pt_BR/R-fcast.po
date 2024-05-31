@@ -59,7 +59,7 @@ msgstr ""
 
 #: fcast.R:36
 msgid "data.table to cast must have unique column names"
-msgstr "a data.table a ser convertida deve ter nomes de coluna únicos"
+msgstr "a data.table a ser \"moldada\" deve ter nomes de coluna únicos"
 
 #: fcast.R:60
 msgid "value.var values %s are not found in 'data'."
