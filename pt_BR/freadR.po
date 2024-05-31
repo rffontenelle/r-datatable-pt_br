@@ -162,6 +162,8 @@ msgid ""
 "Column number %d (select[%d]) is negative but should be in the range "
 "[1,ncol=%d]. Consider drop= for column exclusion."
 msgstr ""
+"Número de coluna %d (select[%d]) é negativo mas deveria estar no intervalo "
+"[1,ncol=%d]. Considere drop= para exclusão de coluna."
 
 #: freadR.c:298
 #, c-format
@@ -169,6 +171,8 @@ msgid ""
 "select = 0 (select[%d]) has no meaning. All values of select should be in "
 "the range [1,ncol=%d]."
 msgstr ""
+"select = 0 (select[%d]) não tem significado. Todos os valores de select "
+"deveriam estar no intervalo [1,ncol=%d],"
 
 #: freadR.c:299
 #, c-format
@@ -176,11 +180,13 @@ msgid ""
 "Column number %d (select[%d]) is too large for this table, which only has %d"
 " columns."
 msgstr ""
+"Número de coluna %d (select[%d]) é grande demais para esta tabela, que só "
+"tem %d colunas."
 
 #: freadR.c:300
 #, c-format
 msgid "Column number %d ('%s') has been selected twice by select="
-msgstr ""
+msgstr "O número de coluna %d ('%s') foi selecionado duas vezes por select="
 
 #: freadR.c:323
 #, c-format
@@ -190,31 +196,37 @@ msgid ""
 "a named vector, list format, or specify types using select= instead of "
 "colClasses=. Please see examples in ?fread."
 msgstr ""
+"colClasses= é um  vator não nomeado de tipos, comprimento %d, mas há %d "
+"colunas na entrada. Para especificar tipos para um subconjunto de colunas, "
+"você pode usar um vetor nomeado, formato de lista, ou especificar tipos "
+"usando select= em vez de colClasses=. Favor ver exemplos em ?fread."
 
 #: freadR.c:343
 msgid "Internal error: selectInts is NULL but selectColClasses is true"
-msgstr ""
+msgstr "Erro interno: selectInts é NULL, mas selectColClasses é true"
 
 #: freadR.c:345
 msgid ""
 "Internal error: length(selectSxp)!=length(colClassesSxp) but "
 "selectColClasses is true"
 msgstr ""
+"Erro interno: length(selectSxp)!=length(colClassesSxp) mas selectColClasses "
+"é true"
 
 #: freadR.c:365
 #, c-format
 msgid "colClasses is type '%s' but should be list or character"
-msgstr ""
+msgstr "colClasses é do tipo '%s' mas deveria ser lista ou caractere"
 
 #: freadR.c:389
 #, c-format
 msgid "Column name '%s' (colClasses[[%d]][%d]) not found"
-msgstr ""
+msgstr "Nome de coluna '%s' (colClasses[[%d]][%d]) não encontrado "
 
 #: freadR.c:391
 #, c-format
 msgid "colClasses[[%d]][%d] is NA"
-msgstr ""
+msgstr "colClasses[[%d]][%d] é NA"
 
 #: freadR.c:395
 #, c-format
