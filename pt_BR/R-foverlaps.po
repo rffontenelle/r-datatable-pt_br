@@ -106,25 +106,34 @@ msgstr "Elementos listados em 'by.x' devem ser nomes válidos na data.table x"
 msgid ""
 "Duplicate columns are not allowed in overlap joins. This may change in the "
 "future."
-msgstr "Colunas duplicadas não são permitidas em junções "
+msgstr ""
+"Colunas duplicadas não são permitidas em junções de sobreposição. Isso pode "
+"mudar no futuro."
 
 #: foverlaps.R:46
 msgid ""
 "length(by.x) != length(by.y). Columns specified in by.x should correspond to"
 " columns specified in by.y and should be of same lengths."
 msgstr ""
+"length(by.x) != length(by.y). As colunas especificadas em by.x deveriam "
+"corresponder às colunas especificadas em by.y, e os argumentos deveriam ser "
+"do mesmo comprimento."
 
 #: foverlaps.R:48 foverlaps.R:50
 msgid ""
 "%s has some duplicated column name(s): %s. Please remove or rename the "
 "duplicate(s) and try again."
 msgstr ""
+"%s tem nome(s) de coluna duplicado(s): %s. Favor remover ou renomear a(s) "
+"duplicata(s) e tentar de novo."
 
 #: foverlaps.R:56
 msgid ""
 "The last two columns in by.x should correspond to the 'start' and 'end' "
 "intervals in data.table x and must be integer/numeric type."
 msgstr ""
+"As últimas duas colunas em by.x deveria às colunas de início e de fim dos "
+"intervalo na data.table x e devem ser do tipo inteiro/numérico."
 
 #: foverlaps.R:60 foverlaps.R:62 foverlaps.R:69 foverlaps.R:71
 msgid ""
