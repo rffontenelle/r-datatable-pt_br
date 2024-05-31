@@ -467,7 +467,7 @@ msgstr "  Regra de aspas escolhida = %d\n"
 #: fread.c:1760
 #, c-format
 msgid "  fill=%s and the most number of columns found is %d\n"
-msgstr ""
+msgstr "  fill=%s e o maior número de colunas encontradas é %d\n"
 
 #: fread.c:1766
 msgid ""
@@ -475,28 +475,36 @@ msgid ""
 "of-line (representing several NA at the end), and is a multiple of 4096, "
 "too."
 msgstr ""
+"Este arquivo é muito incomum: é uma única coluna, termina com 2 ou mais "
+"finais de linha (representando vários NA no final) e também é um múltiplo de"
+" 4096."
 
 #: fread.c:1767
 #, c-format
 msgid "  Copying file in RAM. %s\n"
-msgstr ""
+msgstr "  Copiando arquivo na RAM. %s\n"
 
 #: fread.c:1773
 msgid ""
 "  1-column file ends with 2 or more end-of-line. Restoring last eol using "
 "extra byte in cow page.\n"
 msgstr ""
+"  O arquivo de 1 coluna termina com 2 ou mais finais de linha. Restaurando o"
+" último fim de linha usando byte extra na página de cópia na gravação "
+"(cow).\n"
 
 #: fread.c:1792
 msgid ""
 "[07] Detect column types, good nrow estimate and whether first row is column"
 " names\n"
 msgstr ""
+"[07] Detectar tipos de colunas, boa estimativa de nrow e se a primeira linha"
+" contém nomes de colunas\n"
 
 #: fread.c:1793
 #, c-format
 msgid "  'header' changed by user from 'auto' to %s\n"
-msgstr ""
+msgstr "  'header' modificado pelo usuário de 'auto' para %s\n"
 
 #: fread.c:1797
 #, c-format
