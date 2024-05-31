@@ -83,26 +83,30 @@ msgstr ""
 #: foverlaps.R:36
 msgid "A non-empty vector of column names or numbers is required for by.x"
 msgstr ""
+"Um vetor não-vazio de nomes ou números de coluna é necessário para by.x"
 
 #: foverlaps.R:38
 msgid "A non-empty vector of column names or numbers is required for by.y"
 msgstr ""
+"Um vetor não-vazio de nomes ou números de coluna é necessário para by.y"
 
 #: foverlaps.R:40
 msgid ""
 "The first %d columns of y's key must be identical to the columns specified "
 "in by.y."
 msgstr ""
+"As primeiras %d colunas da chave de y devem ser idênticas às colunas "
+"especificadas em by.y"
 
 #: foverlaps.R:42
 msgid "Elements listed in 'by.x' must be valid names in data.table x"
-msgstr ""
+msgstr "Elementos listados em 'by.x' devem ser nomes válidos na data.table x"
 
 #: foverlaps.R:44
 msgid ""
 "Duplicate columns are not allowed in overlap joins. This may change in the "
 "future."
-msgstr ""
+msgstr "Colunas duplicadas não são permitidas em junções "
 
 #: foverlaps.R:46
 msgid ""
