@@ -89,25 +89,31 @@ msgid ""
 "function on list having variable length of elements call it for each field "
 "separately"
 msgstr ""
+"A função móvel adaptativa só pode processar 'x' com elementos de igual "
+"comprimento, como data.table ou data.frame. Se você quiser chamar uma função"
+" móvel em uma lista com elementos de comprimento variável, chame-a para cada"
+" elemento separadamente"
 
 #: frollR.c:127
 msgid ""
 "length of integer vector(s) provided as list to 'n' argument must be equal "
 "to number of observations provided in 'x'"
 msgstr ""
+"comprimento dos vetor(es) de inteiros fornecidos como lista para argumento "
+"'n' deve ser igual ao número de observações fornecidas em 'x'"
 
 #: frollR.c:145 frollR.c:257
 msgid "fill must be a vector of length 1"
-msgstr ""
+msgstr "fill deve ser um vetor de comprimento 1"
 
 #: frollR.c:147 frollR.c:259
 msgid "fill must be numeric or logical"
-msgstr ""
+msgstr "fill deve ser numérico ou lógico"
 
 #: frollR.c:168
 #, c-format
 msgid "Internal error: badaptive=%d but ik is not integer"
-msgstr ""
+msgstr "Erro interno: badaptative=%d mas sei que não é inteiro"
 
 #: frollR.c:176
 #, c-format
@@ -115,6 +121,8 @@ msgid ""
 "%s: %d column(s) and %d window(s), if product > 1 then entering parallel "
 "execution\n"
 msgstr ""
+"%s: %d coluna(s) e %d janela(s), se produto > 1 então entrando em execução "
+"paralela\n"
 
 #: frollR.c:178
 #, c-format
@@ -122,21 +130,23 @@ msgid ""
 "%s: %d column(s) and %d window(s), not entering parallel execution here "
 "because algo='exact' will compute results in parallel\n"
 msgstr ""
+"%s:  coluna(s) e %d janela(s), não entrando em execução paralela aqui porque"
+" algo='exact' vai computar os resultados em paralelo\n"
 
 #: frollR.c:197
 #, c-format
 msgid "Internal error: Unknown sfun value in froll: %d"
-msgstr ""
+msgstr "Erro interno: valor sfun desconhecido em froll: %d"
 
 #: frollR.c:205 frollR.c:296
 #, c-format
 msgid "%s: processing of %d column(s) and %d window(s) took %.3fs\n"
-msgstr ""
+msgstr "%s: processamento de %d coluna(s) e %d janela(s) levou %.3fs\n"
 
 #: frollR.c:216
 msgid "internal error: 'fun' must be a function"
-msgstr ""
+msgstr "erro interno: 'fun' deve ser uma função"
 
 #: frollR.c:218
 msgid "internal error: 'rho' should be an environment"
-msgstr ""
+msgstr "erro interno: 'rho' deve ser um ambiente"
