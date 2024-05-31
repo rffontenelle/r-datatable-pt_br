@@ -186,45 +186,48 @@ msgstr "Arquivo não encontrado: %s"
 #, c-format
 msgid "Opened file ok but couldn't obtain its size: %s"
 msgstr ""
+"Arquivo aberto com sucesso, mas não foi possível obter seu tamanho: %s"
 
 #: fread.c:1377 fread.c:1405
 #, c-format
 msgid "File is empty: %s"
-msgstr ""
+msgstr "Arquivo está vazio: %s"
 
 #: fread.c:1378 fread.c:1406
 #, c-format
 msgid "  File opened, size = %s.\n"
-msgstr ""
+msgstr "  Arquivo aberto, tamanho = %s.\n"
 
 #: fread.c:1401
 #, c-format
 msgid "Unable to open file after %d attempts (error %lu): %s"
-msgstr ""
+msgstr "Não foi possível abrir o arquivo após %d tentativas (erro %lu): %s"
 
 #: fread.c:1403
 #, c-format
 msgid "GetFileSizeEx failed (returned 0) on file: %s"
-msgstr ""
+msgstr "GetFileSizeEx falhou (retornou 0) no arquivo: %s"
 
 #: fread.c:1408
 #, c-format
 msgid "This is Windows, CreateFileMapping returned error %lu for file %s"
-msgstr ""
+msgstr "Este é o Windows, CreateFileMapping retornou erro %lu para arquivo %s"
 
 #: fread.c:1415
 #, c-format
 msgid ""
 "Opened %s file ok but could not memory map it. This is a %dbit process. %s."
 msgstr ""
+"O arquivo %s foi aberto corretamente, mas não foi possível mapeá-lo na "
+"memória. Este é um processo de %d bits. %s."
 
 #: fread.c:1416
 msgid "Please upgrade to 64bit"
-msgstr ""
+msgstr "Por favor, atualize para 64 bits"
 
 #: fread.c:1416
 msgid "There is probably not enough contiguous virtual memory available"
-msgstr ""
+msgstr "Provavelmente não há memória virtual contígua suficiente disponível"
 
 #: fread.c:1419
 msgid "  Memory mapped ok\n"
