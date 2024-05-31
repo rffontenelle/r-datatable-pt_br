@@ -275,19 +275,26 @@ msgid ""
 "\t%s\n"
 "so the column has been left as type '%s'"
 msgstr ""
+"Foi solicitado que a coluna '%s' seja '%s', mas fread encontrou o seguinte %s:\n"
+"\t%s\n"
+"então a coluna foi deixada como tipo '%s'"
 
 #: fread.R:332
 msgid "stringsAsFactors=%s converted %d column(s): %s"
-msgstr ""
+msgstr "stringsAsFactors=%s converteu %d coluna(s): %s"
 
 #: fread.R:340
 msgid ""
 "key argument of data.table() must be a character vector naming columns (NB: "
 "col.names are applied before this)"
 msgstr ""
+"O argumento keyde data.table() deve ser um vetor de caracteres que nomeia "
+"colunas (Nota: col.names são aplicados antes disso)"
 
 #: fread.R:349
 msgid ""
 "index argument of data.table() must be a character vector naming columns "
 "(NB: col.names are applied before this)"
 msgstr ""
+"O argumento index do data.table() deve ser um vetor de caracteres que nomeia"
+" colunas (Nota: col.names são aplicados antes disso)"
