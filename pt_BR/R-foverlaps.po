@@ -31,7 +31,7 @@ msgstr "maxgap deve ser um valor inteiro não-negativo de comprimento 1"
 
 #: foverlaps.R:11
 msgid "minoverlap must be a positive integer value of length 1"
-msgstr "mingap deve ser um valor inteiro positivo de comprimento 1"
+msgstr "minoverlap deve ser um valor inteiro positivo de comprimento 1"
 
 #: foverlaps.R:13
 msgid "which must be a logical vector of length 1. Either TRUE/FALSE"
@@ -132,8 +132,8 @@ msgid ""
 "The last two columns in by.x should correspond to the 'start' and 'end' "
 "intervals in data.table x and must be integer/numeric type."
 msgstr ""
-"As últimas duas colunas em by.x deveria às colunas de início e de fim dos "
-"intervalo na data.table x e devem ser do tipo inteiro/numérico."
+"As últimas duas colunas em by.x deveriam corresponder às colunas de início e"
+" de fim dos intervalos na data.table x e devem ser do tipo inteiro/numérico."
 
 #: foverlaps.R:60 foverlaps.R:62 foverlaps.R:69 foverlaps.R:71
 msgid ""
@@ -158,7 +158,7 @@ msgid ""
 "intervals in data.table y and must be integer/numeric type."
 msgstr ""
 "As últimas duas colunas em by.y deveriam corresponder às colunas de início e"
-" de fim dos intervalo na data.table y e devem ser do tipo inteiro/numérico."
+" de fim dos intervalos na data.table y e devem ser do tipo inteiro/numérico."
 
 #: foverlaps.R:72
 msgid ""
@@ -185,19 +185,25 @@ msgid ""
 "overlap but their internal representations do Please ensure that POSIXct "
 "type interval cols have identical 'tzone' attributes to avoid confusion."
 msgstr ""
+"Colunas de intervalo POSIXct têm fusos horários diferentes. As sobreposições"
+" são realizadas na representação numérica dos objetos POSIXct (sempre em "
+"UTC, era UNIX), de forma que os valores exibidos podem dar a impressão de "
+"que os valores não se sobrepõem mas suas representações internas se "
+"sobrepõem. Favor garantir que as colunas de intervalo do tipo POSIXct tenham"
+" atributos 'tzone' idênticos para evitar confusão."
 
 #: foverlaps.R:131
 msgid "unique() + setkey() operations done in ..."
-msgstr ""
+msgstr "operações unique() + setkey() feitas em …"
 
 #: foverlaps.R:157
 msgid "binary search(es) done in ..."
-msgstr ""
+msgstr "pesquisa(s) binária(s) feita(s) em …"
 
 #: foverlaps.R:164 foverlaps.R:166 foverlaps.R:170
 msgid "Not yet implemented"
-msgstr ""
+msgstr "Ainda não implementado"
 
 #: foverlaps.R:169
 msgid "maxgap > minoverlap. maxgap will have no effect here."
-msgstr ""
+msgstr "maxgap > minoverlap. maxgap não terá efeito aqui."
