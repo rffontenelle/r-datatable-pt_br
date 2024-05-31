@@ -1,0 +1,48 @@
+# 
+# Translators:
+# Leonardo Fontenelle, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: frank 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Leonardo Fontenelle, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: frank.R:3
+msgid "length(na.last) = 0"
+msgstr "length(na.last) = 0"
+
+#: frank.R:5
+msgid "length(na.last) > 1, only the first element will be used"
+msgstr "length(na.last) > 1, apenas o primeiro item será usado"
+
+#: frank.R:17
+msgid "x is a single vector, non-NULL 'cols' doesn't make sense"
+msgstr "x é um vetor simples, 'cols' não-NULL não faz sentido"
+
+#: frank.R:23
+msgid "x is a list, 'cols' can not be 0-length"
+msgstr "x é uma lista, 'cols' não pode ser de comprimento 0"
+
+#: frank.R:31
+msgid ""
+"Input column '..na_prefix..' conflicts with data.table internal usage; "
+"please rename"
+msgstr ""
+"Coluna de entrada '..na_prefix..' conflita com utilização interna por "
+"data.table; favor renomear"
+
+#: frank.R:46
+msgid ""
+"Input column '..stats_runif..' conflicts with data.table internal usage; "
+"please rename"
+msgstr ""
+"Coluna de entrada '..stats_runif..' conflita com utilização interna por "
+"data.table; favor renomear"
