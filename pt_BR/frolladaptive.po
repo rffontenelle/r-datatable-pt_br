@@ -1,0 +1,73 @@
+# 
+# Translators:
+# Leonardo Fontenelle, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: frolladaptive 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Leonardo Fontenelle, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: frolladaptive.c:19 frolladaptive.c:214
+#, c-format
+msgid "%s: processing algo %u took %.3fs\n"
+msgstr "%s: processar algo %u levou %.3fs\n"
+
+#: frolladaptive.c:29 frolladaptive.c:218
+#, c-format
+msgid "%s: running for input length %<PRIu64>, hasna %d, narm %d\n"
+msgstr "%s: rodando para entrada de comprimeto %<PRIu64>, hasna %d, narm %d\n"
+
+#: frolladaptive.c:35 frolladaptive.c:224
+#, c-format
+msgid "%s: Unable to allocate memory for cumsum"
+msgstr "%s: Não foi possível alocar memória para cumsum"
+
+#: frolladaptive.c:58 frolladaptive.c:147 frolladaptive.c:247
+#: frolladaptive.c:326
+#, c-format
+msgid ""
+"%s: hasNA=FALSE used but NA (or other non-finite) value(s) are present in "
+"input, use default hasNA=NA to avoid this warning"
+msgstr ""
+"%s: hasNA=FALSE usado mas valor(es) NA (ou outros não finitos) estão "
+"presentes na entrada, use o padrão hasNA=NA para evitar este aviso"
+
+#: frolladaptive.c:61 frolladaptive.c:151 frolladaptive.c:250
+#: frolladaptive.c:330
+#, c-format
+msgid ""
+"%s: NA (or other non-finite) value(s) are present in input, re-running with "
+"extra care for NAs\n"
+msgstr ""
+"%s: valor(es) NA (ou outros não finitos) estão presentes na entrada, "
+"executando de novo com cuidado extra para NAs\n"
+
+#: frolladaptive.c:71 frolladaptive.c:260
+#, c-format
+msgid "%s: Unable to allocate memory for cum NA counter"
+msgstr "%s: Não foi possível alocar memória para contator cumulativo de NA"
+
+#: frolladaptive.c:114 frolladaptive.c:298
+#, c-format
+msgid "%s: running in parallel for input length %<PRIu64>, hasna %d, narm %d\n"
+msgstr ""
+"%s: executando em paralelo para entrada de comprimento %<PRIu64>, hasha %d, "
+"narm %d\n"
+
+#: frolladaptive.c:153 frolladaptive.c:332
+#, c-format
+msgid ""
+"%s: NA (or other non-finite) value(s) are present in input, na.rm was FALSE "
+"so in 'exact' implementation NAs were handled already, no need to re-run\n"
+msgstr ""
+"%s: valor(es) NA (ou outros não finitos) estão presentes na entrada e na.rm "
+"foi FALSE, então a implementação 'exact' já lidou com os NAs, sem "
+"necessidade de executar novamente\n"
