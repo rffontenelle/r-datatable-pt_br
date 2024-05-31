@@ -150,45 +150,55 @@ msgid ""
 "in the measurev fun.list, each non-NULL element must be a function with at "
 "least one argument, problem: %s"
 msgstr ""
+"na fun.list de measurev, cada elemento não-NULL deve ser uma função com ao "
+"menos um argumento, problema? %s"
 
 #: fmelt.R:152
 msgid ""
 "each conversion function must return an atomic vector with same length as "
 "its first argument, problem: %s"
 msgstr ""
+"cada função de conversão deve retornar um vetor atômico com o mesmo "
+"comprimento  que seu primeiro argumento, problema: %s"
 
 #: fmelt.R:155
 msgid "%s conversion function returned vector of all NA"
-msgstr ""
+msgstr "função de conversão %s retornou um vetor inteiro de NA"
 
 #: fmelt.R:161
 msgid ""
 "number of unique groups after applying type conversion functions less than "
 "number of groups, change type conversion"
 msgstr ""
+"o número de grupos únicos depois de aplicar funções de conversão de tipo é "
+"menor do que o número de grupos, mude a conversão de tipo"
 
 #: fmelt.R:166
 msgid ""
 "%s column class=%s after applying conversion function, but must be character"
 msgstr ""
+"coluna %s com classe %s depois de aplicar função de conversão, mas tem que "
+"ser caractere"
 
 #: fmelt.R:170
 msgid "%s is the only group; fix by creating at least one more group"
-msgstr ""
+msgstr "%s é o único grupo; conserte criando ao menos mais um grupo"
 
 #: fmelt.R:193
 msgid "'data' must be a data.table"
-msgstr ""
+msgstr "'data' deve ser uma data.table"
 
 #: fmelt.R:212
 msgid ""
 "'value.name' provided in both 'measure.vars' and 'value.name argument'; "
 "value provided in 'measure.vars' is given precedence."
 msgstr ""
+"'value.name' fornecido tanto em 'measure.vars' quanto no argumento "
+"'value.name'; o valor fornecido em 'measure.vars' tem precedência"
 
 #: fmelt.R:215
 msgid "Please provide a name to each element of 'measure.vars'."
-msgstr ""
+msgstr "Favor fornecer um nome para cada elemento de 'measure.vars'"
 
 #: fmelt.R:226
 msgid ""
