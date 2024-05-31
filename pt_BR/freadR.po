@@ -128,31 +128,33 @@ msgstr "encoding='%s' inválido. Deve ser 'unknown', 'Latin-1' ou 'UTF-8'"
 #: freadR.c:234
 #, c-format
 msgid "Column name '%s' (%s) not found"
-msgstr ""
+msgstr "Nome de coluna '%s' (%s) não encontrado"
 
 #: freadR.c:236
 #, c-format
 msgid "%s is NA"
-msgstr ""
+msgstr "%s é NA"
 
 #: freadR.c:238
 #, c-format
 msgid "%s is %d which is out of range [1,ncol=%d]"
-msgstr ""
+msgstr "%s é %d, que está fora do intervalo [1,ncol=%d] "
 
 #: freadR.c:252
 msgid "Internal error: typeSize[CT_BOOL8_N] != 1"
-msgstr ""
+msgstr "Erro interno: typeSize[CT_BOOL8_N] != 1"
 
 #: freadR.c:253
 msgid "Internal error: typeSize[CT_STRING] != 1"
-msgstr ""
+msgstr "Erro interno: typeSize[CT_STRING] != 1"
 
 #: freadR.c:287
 #, c-format
 msgid ""
 "Column name '%s' not found in column name header (case sensitive), skipping."
 msgstr ""
+"Nome de coluna '%s' não encontrado no cabeçalho de nome de colunas (sensível"
+" a maiúsculas), pulando."
 
 #: freadR.c:297
 #, c-format
