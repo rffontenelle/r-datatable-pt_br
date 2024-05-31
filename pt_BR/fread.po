@@ -402,18 +402,20 @@ msgstr "  Usando sep fornecido '%s'\n"
 #: fread.c:1658
 #, c-format
 msgid "  with %d fields using quote rule %d\n"
-msgstr ""
+msgstr "  com campos %d usando regra de aspas %d\n"
 
 #: fread.c:1708
 #, c-format
 msgid "  with %d lines of %d fields using quote rule %d\n"
-msgstr ""
+msgstr "  com %d linhas de %d campos usando regra de aspas %d\n"
 
 #: fread.c:1715
 msgid ""
 "  No sep and quote rule found a block of 2x2 or greater. Single column "
 "input.\n"
 msgstr ""
+"  Nenhuma regra de aspas e sep encontrou um bloco de 2x2 ou superior. "
+"Entrada de coluna única.\n"
 
 #: fread.c:1731
 msgid ""
