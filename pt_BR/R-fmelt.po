@@ -117,7 +117,7 @@ msgid ""
 "pattern did not match any cols, so nothing would be melted; fix by changing "
 "pattern"
 msgstr ""
-"pattern não coincidiu com nenhuma coluna, então nada será processado; "
+"pattern não coincidiu com nenhuma coluna, então nada será \"derretido\"; "
 "corrija mudando o padrão"
 
 #: fmelt.R:115
@@ -138,12 +138,18 @@ msgid ""
 " all columns directly without using measure, or use a different sep/pattern "
 "specification"
 msgstr ""
+"cada nome de coluna resulta em apenas um item após dividir usando sep, o que"
+" significa que todas as colunas seriam \"derretidas\"; para consertar, favor"
+" ou especificar o \"derretimento\" em todas as colunas diretamente sem usar "
+"'measure', ou especifique um sep/pattern diferente"
 
 #: fmelt.R:138
 msgid ""
 "number of unique column IDs =%d is less than number of melted columns =%d; "
 "fix by changing pattern/sep"
 msgstr ""
+"o número de colunas de identificação únicas = %d é menor do que o número de "
+"colunas \"derretidas\" = %d; conserte trocando pattern/sep"
 
 #: fmelt.R:148
 msgid ""
@@ -205,3 +211,5 @@ msgid ""
 "Duplicate column names found in molten data.table. Setting unique names "
 "using 'make.names'"
 msgstr ""
+"Nomes de coluna duplicados encontrados na data.table \"derretida\". "
+"Definindo nomes únicos usando 'make.names'"
