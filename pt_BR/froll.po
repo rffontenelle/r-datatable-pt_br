@@ -25,17 +25,19 @@ msgstr ""
 #: froll.c:32 froll.c:240 froll.c:456
 #, c-format
 msgid "%s: align %d, shift answer by %d\n"
-msgstr ""
+msgstr "%s: align %d, deslocar resposta por %d\n"
 
 #: froll.c:39 froll.c:247
 #, c-format
 msgid "%s: processing algo %u took %.3fs\n"
-msgstr ""
+msgstr "%s: processar algo %u levou %.3fs\n"
 
 #: froll.c:48 froll.c:251
 #, c-format
 msgid "%s: running for input length %<PRIu64>, window %d, hasna %d, narm %d\n"
 msgstr ""
+"%s: rodando para entrada de comprimento %<PRIu64>, janela %d, hasna %d, narm"
+" %d\n"
 
 #: froll.c:68 froll.c:78 froll.c:169 froll.c:271 froll.c:281 froll.c:362
 #, c-format
@@ -43,6 +45,8 @@ msgid ""
 "%s: hasNA=FALSE used but NA (or other non-finite) value(s) are present in "
 "input, use default hasNA=NA to avoid this warning"
 msgstr ""
+"%s: hasNA=FALSE usado mas valor(es) NA (ou outros não finitos) estão "
+"presentes na entrada, use o padrão hasNA=NA para evitar este aviso"
 
 #: froll.c:71 froll.c:173 froll.c:274 froll.c:366
 #, c-format
@@ -50,6 +54,8 @@ msgid ""
 "%s: NA (or other non-finite) value(s) are present in input, re-running with "
 "extra care for NAs\n"
 msgstr ""
+"%s: valor(es) NA (ou outros não finitos) estão presentes na entrada, rodando"
+" de novo com cuidado extra com NAs\n"
 
 #: froll.c:81 froll.c:284
 #, c-format
@@ -57,6 +63,8 @@ msgid ""
 "%s: NA (or other non-finite) value(s) are present in input, skip non-NA "
 "attempt and run with extra care for NAs\n"
 msgstr ""
+"%s: valor(es) NA (ou outros não finitos) estão presentes na entrada, pular "
+"tentativa não-NA e rodar como cuidado extra para NAs\n"
 
 #: froll.c:137 froll.c:335
 #, c-format
@@ -64,6 +72,8 @@ msgid ""
 "%s: running in parallel for input length %<PRIu64>, window %d, hasna %d, "
 "narm %d\n"
 msgstr ""
+"%s: rodando em paralelo para entrada de largura %<PRIu64>, janela %d, hasna "
+"%d, narm %d\n"
 
 #: froll.c:175 froll.c:368
 #, c-format
@@ -71,11 +81,14 @@ msgid ""
 "%s: NA (or other non-finite) value(s) are present in input, na.rm was FALSE "
 "so in 'exact' implementation NAs were handled already, no need to re-run\n"
 msgstr ""
+"%s: valor(es) NA (ou outros não finitos) estão presentes na entrada, na.rm "
+"era FALSE então a implementação 'exact' já lidou com os NAs, sem necessidade"
+" de rodar de novo\n"
 
 #: froll.c:424
 #, c-format
 msgid "%s: results from provided FUN are not length 1"
-msgstr ""
+msgstr "%s: resultados da FUN fornecida não são de comprimento 1"
 
 #: froll.c:431
 #, c-format
