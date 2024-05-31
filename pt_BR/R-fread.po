@@ -288,7 +288,7 @@ msgid ""
 "key argument of data.table() must be a character vector naming columns (NB: "
 "col.names are applied before this)"
 msgstr ""
-"O argumento keyde data.table() deve ser um vetor de caracteres que nomeia "
+"O argumento key de data.table() deve ser um vetor de caracteres que nomeia "
 "colunas (Nota: col.names são aplicados antes disso)"
 
 #: fread.R:349
