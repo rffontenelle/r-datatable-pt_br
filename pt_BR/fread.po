@@ -41,17 +41,17 @@ msgstr "Erro interno: NUMTYPE(%d) > nLetters(%d)"
 #: fread.c:438
 #, c-format
 msgid "Unable to allocate %s of contiguous virtual RAM. %s allocation."
-msgstr "Não foi possível alocar %s de RAM virtual contígua. %s alocação."
+msgstr "Não foi possível alocar %s de RAM virtual contígua. %s esta alocação."
 
 #: fread.c:443
 #, c-format
 msgid "Avoidable %.3f seconds. %s time to copy.\n"
-msgstr ""
+msgstr "%.3f segundos evitáveis. %s este tempo para copiar.\n"
 
 #: fread.c:444
 #, c-format
 msgid "  File copy in RAM took %.3f seconds.\n"
-msgstr ""
+msgstr "A cópia do arquivo na RAM demorou %.3f segundos.\n"
 
 #: fread.c:1260
 msgid ""
@@ -289,6 +289,10 @@ msgid ""
 "also its size is a multiple of 4096 bytes. Please properly end the last row "
 "with a newline using for example 'echo >> file' to avoid this "
 msgstr ""
+"Este arquivo é muito incomum: termina abruptamente sem uma nova linha final "
+"e também seu tamanho é um múltiplo de 4096 bytes. Por favor, termine "
+"corretamente a última linha com uma nova linha usando, por exemplo, 'echo >>"
+" arquivo' para evitar"
 
 #: fread.c:1504
 #, c-format
