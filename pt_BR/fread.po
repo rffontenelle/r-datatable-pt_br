@@ -509,21 +509,21 @@ msgstr "  'header' modificado pelo usuário de 'auto' para %s\n"
 #: fread.c:1797
 #, c-format
 msgid "Failed to allocate 2 x %d bytes for type and tmpType: %s"
-msgstr ""
+msgstr "Falha ao alocar 2 x %d bytes para type e tmpType: %s"
 
 #: fread.c:1818
 #, c-format
 msgid "  Number of sampling jump points = %d because "
-msgstr ""
+msgstr "Número de pontos de pulo de amostragem = %d porque"
 
 #: fread.c:1819
 #, c-format
 msgid "nrow limit (%<PRIu64>) supplied\n"
-msgstr ""
+msgstr "Limite de nrow (%<PRIu64>) fornecido\n"
 
 #: fread.c:1820
 msgid "jump0size==0\n"
-msgstr ""
+msgstr "jump0size==0\n"
 
 #: fread.c:1821
 #, c-format
@@ -531,6 +531,8 @@ msgid ""
 "(%<PRIu64> bytes from row 1 to eof) / (2 * %<PRIu64> jump0size) == "
 "%<PRIu64>\n"
 msgstr ""
+"(%<PRIu64> bytes da linha 1 até o fim do arquivo) / (2 * %<PRIu64> jump0size) == %\n"
+"<PRIu64>\n"
 
 #: fread.c:1859
 #, c-format
