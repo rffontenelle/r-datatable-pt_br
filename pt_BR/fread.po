@@ -165,20 +165,22 @@ msgid ""
 "  `input` argument is provided rather than a file name, interpreting as raw "
 "text to read\n"
 msgstr ""
+"  O argumento `input` é fornecido em vez de um nome de arquivo, "
+"interpretando como texto bruto para leitura\n"
 
 #: fread.c:1363
 msgid "Internal error: last byte of character input isn't \\0"
-msgstr ""
+msgstr "Erro interno: o último byte do caractere inserido não é \\0"
 
 #: fread.c:1366
 #, c-format
 msgid "  Opening file %s\n"
-msgstr ""
+msgstr "  Abrindo arquivo %s\n"
 
 #: fread.c:1370 fread.c:1395
 #, c-format
 msgid "File not found: %s"
-msgstr ""
+msgstr "Arquivo não encontrado: %s"
 
 #: fread.c:1374
 #, c-format
