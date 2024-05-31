@@ -140,30 +140,42 @@ msgid ""
 "NA values in data.table %s '%s' column: '%s'. All rows with NA values in the"
 " range columns must be removed for foverlaps() to work."
 msgstr ""
+"Valores NA na coluna '%2$s' na coluna '%2%s' da data.table %1$s: '%3$s\". "
+"Todas as linhas com valores NA nas colunas de intervalo devem ser removidas "
+"para o foverlaps() funcionar."
 
 #: foverlaps.R:63
 msgid ""
 "All entries in column '%s' should be <= corresponding entries in column '%s'"
 " in data.table x."
 msgstr ""
+"Todas as entradas na coluna '%s' deveriam ser <= as entradas correspondentes"
+" na coluna '%s' na data.table x."
 
 #: foverlaps.R:66
 msgid ""
 "The last two columns in by.y should correspond to the 'start' and 'end' "
 "intervals in data.table y and must be integer/numeric type."
 msgstr ""
+"As últimas duas colunas em by.y deveriam corresponder às colunas de início e"
+" de fim dos intervalo na data.table y e devem ser do tipo inteiro/numérico."
 
 #: foverlaps.R:72
 msgid ""
 "All entries in column '%s' should be <= corresponding entries in column '%s'"
 " in data.table y."
 msgstr ""
+"Todas as entradas na coluna '%s' deveriam ser <= as entradas correspondentes"
+" na coluna '%s' na data.table y."
 
 #: foverlaps.R:77
 msgid ""
 "Some interval cols are of type POSIXct while others are not. Please ensure "
 "all interval cols are (or are not) of POSIXct type"
 msgstr ""
+"Algumas colunas de intervalo são do tipo POSIXct, enquanto outras não são. "
+"Favor garantir que todas as colunas de intervalo sejam (ou todas não sejam) "
+"to tipo POSIXct"
 
 #: foverlaps.R:83
 msgid ""
