@@ -96,11 +96,13 @@ msgid ""
 "%s: results from provided FUN are not of type double, coercion from integer "
 "or logical will be applied on each iteration\n"
 msgstr ""
+"%s: resultados da FUN fornecida não são do tipo double, será feita coerção "
+"de inteiro ou lógico em cada iteração\n"
 
 #: froll.c:434
 #, c-format
 msgid "%s: results from provided FUN are not of type double"
-msgstr ""
+msgstr "%s: resultados da FUN fornecida não são do tipo double"
 
 #: froll.c:463
 #, c-format
