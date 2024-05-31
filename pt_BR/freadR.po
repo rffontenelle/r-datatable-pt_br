@@ -234,23 +234,26 @@ msgid ""
 "Column %d ('%s') appears more than once in colClasses. The second time is "
 "colClasses[[%d]][%d]."
 msgstr ""
+"Coluna %d ('%s') aparece mais de uma vez em colClasses. A segunda vez é "
+"colClasses[[%d]][%d]."
 
 #: freadR.c:407
 #, c-format
 msgid "Column number %d (colClasses[[%d]][%d]) is out of range [1,ncol=%d]"
 msgstr ""
+"Número de coluna (colClasses[[%d]][%d]) está fora da faixa [1,ncol=%d]"
 
 #: freadR.c:625
 #, c-format
 msgid "Field size is 1 but the field is of type %d\n"
-msgstr ""
+msgstr "Tamanho do campo é 1 mas o campo é do tipo %d\n"
 
 #: freadR.c:634
 #, c-format
 msgid "Internal error: unexpected field of size %d\n"
-msgstr ""
+msgstr "Erro interno:  campo inesperado de tamanho %d\n"
 
 #: freadR.c:702
 #, c-format
 msgid "%s"
-msgstr ""
+msgstr "%s"
