@@ -73,11 +73,11 @@ msgstr "Erro interno: NAstringsArg é tipo '%s'. O nível R captura isso"
 #: freadR.c:157
 #, c-format
 msgid "nThread(%d)<1"
-msgstr ""
+msgstr "nThread(%d)<1"
 
 #: freadR.c:165
 msgid "'integer64' must be a single character string"
-msgstr ""
+msgstr "'integer64' deve ser uma única string de caracteres"
 
 #: freadR.c:173
 #, c-format
@@ -85,37 +85,45 @@ msgid ""
 "Invalid value integer64='%s'. Must be 'integer64', 'character', 'double' or "
 "'numeric'"
 msgstr ""
+"Valor integer64 inválido: '%s'. Deve ser 'integer64', 'character', 'double' "
+"ou 'numeric'"
 
 #: freadR.c:181
 msgid "Use either select= or drop= but not both."
-msgstr ""
+msgstr "Use ou select= ou drop= mas não ambos."
 
 #: freadR.c:184
 msgid ""
 "select= is type list for specifying types in select=, but colClasses= has "
 "been provided as well. Please remove colClasses=."
 msgstr ""
+"select= é do tipo lista para especificar tipos em select=, mas colClasses= "
+"também foi fornecido. Favor remover colClasses=."
 
 #: freadR.c:186
 msgid ""
 "select= is type list but has no names; expecting list(type1=cols1, "
 "type2=cols2, ...)"
 msgstr ""
+"select= é do tipo lista mas não tem nomes; esperando lista(tipo1=colulnas1, "
+"tipo2=colunas2, …)"
 
 #: freadR.c:193
 msgid ""
 "select= is a named vector specifying the columns to select and their types, "
 "but colClasses= has been provided as well. Please remove colClasses=."
 msgstr ""
+"select= é um vetor nomeado especificando as colunas a selecionar e seus "
+"tipos, mas colClasses= também foi fornecido. Favor remover colClasses=."
 
 #: freadR.c:201 freadR.c:367
 msgid "colClasses is type list but has no names"
-msgstr ""
+msgstr "colClasses é do tipo lista mas não tem nomes"
 
 #: freadR.c:211
 #, c-format
 msgid "encoding='%s' invalid. Must be 'unknown', 'Latin-1' or 'UTF-8'"
-msgstr ""
+msgstr "encoding='%s' inválido. Deve ser 'unknown', 'Latin-1' ou 'UTF-8'"
 
 #: freadR.c:234
 #, c-format
