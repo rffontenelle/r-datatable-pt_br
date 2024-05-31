@@ -34,12 +34,18 @@ msgid ""
 "'ftp[s]://' or 'file://', or, the input data itself containing at least one "
 "\\n or \\r"
 msgstr ""
+"input= deve ser uma única sequência de caracteres contendo um nome de "
+"arquivo, um comando do sistema contendo pelo menos um espaço, uma URL "
+"começando com 'http[s]://', ​​'ftp[s]://' ou 'file://', ou os próprios dados"
+" de entrada contendo pelo menos um entre \\n ou \\r"
 
 #: fread.R:58
 msgid ""
 "input= contains no \\n or \\r, but starts with a space. Please remove the "
 "leading space, or use text=, file= or cmd="
 msgstr ""
+"input= não contém \\n ou \\r, mas começa com um espaço. Por favor, remova o "
+"espaço inicial ou use text=, file= ou cmd="
 
 #: fread.R:62
 msgid ""
@@ -51,35 +57,50 @@ msgid ""
 " app is running as root. Please read item 5 in the NEWS file for v1.11.6 for"
 " more information and for the option to suppress this message."
 msgstr ""
+"Considerando input= como um comando do sistema porque contém um espaço "
+"('%s'). Se for um nome de arquivo, remova o espaço ou use file= "
+"explicitamente. Uma variável está sendo passada para input= e quando isso é "
+"considerado um comando do sistema, há uma preocupação de segurança se você "
+"estiver criando um aplicativo, o aplicativo pode ter um usuário mal-"
+"intencionado e o aplicativo não está sendo executado em um ambiente seguro; "
+"por exemplo. o aplicativo está sendo executado como root. Leia o item 5 no "
+"arquivo NEWS da versão 1.11.6 para obter mais informações e para a opção de "
+"suprimir esta mensagem."
 
 #: fread.R:75
 msgid ""
 "file= must be a single character string containing a filename, or URL "
 "starting 'http[s]://', 'ftp[s]://' or 'file://'"
 msgstr ""
+"file= deve ser uma única sequência de caracteres contendo um nome de arquivo"
+" ou URL começando com 'http[s]://', ​​'ftp[s]://' ou 'file://'"
 
 #: fread.R:80
 msgid ""
 "URL requires download.file functionalities from R >=3.2.2. You can still "
 "manually download the file and fread the downloaded file."
 msgstr ""
+"URL requer funcionalidades de download.file de R >=3.2.2. Você ainda pode "
+"baixar manualmente o arquivo e ler o arquivo baixado."
 
 #: fread.R:91
 msgid "File '%s' does not exist or is non-readable. getwd()=='%s'"
-msgstr ""
+msgstr "O arquivo '%s' não existe ou não é legível. getwd()=='%s'"
 
 #: fread.R:92
 msgid "File '%s' is a directory. Not yet implemented."
-msgstr ""
+msgstr "O arquivo '%s' é um diretório. Ainda não implementado."
 
 #: fread.R:94
 msgid "File '%s' has size 0. Returning a NULL %s."
-msgstr ""
+msgstr "O arquivo '%s' tem tamanho 0. Retornando NULL %s."
 
 #: fread.R:107
 msgid ""
 "Compressed files containing more than 1 file are currently not supported."
 msgstr ""
+"Arquivos compactados contendo mais de 1 arquivo não são suportados "
+"atualmente."
 
 #: fread.R:119
 msgid ""
@@ -87,11 +108,16 @@ msgid ""
 "cannot be found. Please install 'R.utils' using "
 "'install.packages('R.utils')'."
 msgstr ""
+"Para ler arquivos gz e bz2 diretamente, fread() requer o pacote 'R.utils' "
+"que não pôde ser encontrado. Instale 'R.utils' usando "
+"'install.packages('R.utils')'."
 
 #: fread.R:129
 msgid ""
 "'autostart' is now deprecated and ignored. Consider skip='string' or skip=n"
 msgstr ""
+"'autostart' agora está descontinuado e é ignorado. Considere skip='string' "
+"ou skip=n"
 
 #: fread.R:131
 msgid ""
