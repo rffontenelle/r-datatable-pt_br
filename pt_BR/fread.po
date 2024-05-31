@@ -130,35 +130,35 @@ msgstr "  pular para a string = <<%s>>\n"
 #: fread.c:1323
 #, c-format
 msgid "  show progress = %d\n"
-msgstr ""
+msgstr "  mostrar progresso = %d\n"
 
 #: fread.c:1324
 #, c-format
 msgid "  0/1 column will be read as %s\n"
-msgstr ""
+msgstr "  0/1 coluna será lida como %s\n"
 
 #: fread.c:1336
 #, c-format
 msgid "sep == quote ('%c') is not allowed"
-msgstr ""
+msgstr "sep == quote ('%c') não é permitido"
 
 #: fread.c:1337
 msgid "dec='' not allowed. Should be '.' or ','"
-msgstr ""
+msgstr "dec='' não permitido. Deveria ser '.' ou ','"
 
 #: fread.c:1338
 #, c-format
 msgid "sep == dec ('%c') is not allowed"
-msgstr ""
+msgstr "sep == dec ('%c') não é permitido"
 
 #: fread.c:1339
 #, c-format
 msgid "quote == dec ('%c') is not allowed"
-msgstr ""
+msgstr "quote == dec ('%c') não é permitido"
 
 #: fread.c:1356
 msgid "[02] Opening the file\n"
-msgstr ""
+msgstr "[02] Abrindo o arquivo\n"
 
 #: fread.c:1359
 msgid ""
