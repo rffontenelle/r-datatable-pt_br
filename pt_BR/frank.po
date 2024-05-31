@@ -1,0 +1,55 @@
+# 
+# Translators:
+# Leonardo Fontenelle, 2024
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: frank 0.0\n"
+"POT-Creation-Date: 2024-02-15 21:23-0300\n"
+"PO-Revision-Date: 2024-04-10 02:58+0000\n"
+"Last-Translator: Leonardo Fontenelle, 2024\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: frank.c:9 frank.c:10 frank.c:187 frank.c:188
+#, c-format
+msgid "Internal error. Argument '%s' to %s is type '%s' not '%s'"
+msgstr "Erro interno. Argumento '%s' para %s é do tipo '%s', não '%s'"
+
+#: frank.c:14 frank.c:192
+#, c-format
+msgid "Item %d of 'cols' is %d which is outside 1-based range [1,ncol(x)=%d]"
+msgstr ""
+"Item %d de 'cols' é %d, que está fora do intervalo (baseado em 1) "
+"[1,ncol(x)=%d]"
+
+#: frank.c:24 frank.c:200
+#, c-format
+msgid ""
+"Column %d of input list x is length %d, inconsistent with first column of "
+"that item which is length %d."
+msgstr ""
+"Coluna %d da lista x é do comprimento %d, inconsistente com a primeira "
+"coluna daquele item, a qual é de comprimento %d."
+
+#: frank.c:101 frank.c:234
+#, c-format
+msgid "Unsupported column type '%s'"
+msgstr "Sem suporte a colunas do tipo '%s'"
+
+#: frank.c:120
+msgid ""
+"Internal error: invalid ties.method for frankv(), should have been caught "
+"before. please report to data.table issue tracker"
+msgstr ""
+"Erro interno: ties.method inválido para frankv(), deveria ter sido capturado"
+" antes, favor informar ao rastreador de problemas do data.table"
+
+#: frank.c:177
+#, c-format
+msgid "Internal error: unknown ties value in frank: %d"
+msgstr ""
