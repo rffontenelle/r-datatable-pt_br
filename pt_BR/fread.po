@@ -270,15 +270,17 @@ msgstr ""
 #: fread.c:1455
 #, c-format
 msgid "  Last byte(s) of input found to be %s and removed.\n"
-msgstr ""
+msgstr "Último(s) byte(s) de entrada encontrado(s) como %s e removido(s).\n"
 
 #: fread.c:1458
 msgid "Input is empty or only contains BOM or terminal control characters"
 msgstr ""
+"A entrada está vazia ou contém apenas caracteres de BOM ou de controle de "
+"terminal"
 
 #: fread.c:1465
 msgid "[04] Arrange mmap to be \\0 terminated\n"
-msgstr ""
+msgstr "[04] Organizar mmap para que termine com \\0\n"
 
 #: fread.c:1472
 msgid ""
@@ -286,6 +288,9 @@ msgid ""
 "one line ending. This is unusual but will happen normally when there is no "
 "\\r either; e.g. a single line missing its end of line.\n"
 msgstr ""
+"  Não existe \\n no arquivo, então \\r único (se houver) será considerado "
+"como um final de linha. Isso é incomum, mas acontecerá normalmente quando "
+"não houver \\r; por exemplo. uma única linha faltando o final da linha.\n"
 
 #: fread.c:1473
 msgid ""
@@ -293,6 +298,9 @@ msgid ""
 " line endings (e.g. mixed \\n and \\r\\n in one file). This is common and "
 "ideal.\n"
 msgstr ""
+"  \\n foi encontrado na entrada e linhas diferentes podem terminar com "
+"finais de linha diferentes (por exemplo, \\n e \\r\\n misturados em um "
+"arquivo). Isso é comum e ideal.\n"
 
 #: fread.c:1497
 #, c-format
