@@ -555,6 +555,8 @@ msgstr "grande"
 msgid ""
 "Most likely this jump landed awkwardly so type bumps here will be skipped."
 msgstr ""
+"Muito provavelmente este pulo caiu de forma estranha, então os solavancos "
+"nos tipos aqui serão ignorados."
 
 #: fread.c:1886
 #, c-format
