@@ -414,7 +414,7 @@ msgid ""
 "  No sep and quote rule found a block of 2x2 or greater. Single column "
 "input.\n"
 msgstr ""
-"  Nenhuma regra de aspas e sep encontrou um bloco de 2x2 ou superior. "
+"  Nenhum sep é a regra de aspas encontrou um bloco de 2x2 ou superior. "
 "Entrada de coluna única.\n"
 
 #: fread.c:1731
@@ -422,6 +422,8 @@ msgid ""
 "Single column input contains invalid quotes. Self healing only effective "
 "when ncol>1"
 msgstr ""
+"Entrada de coluna única contém aspas inválidas. A autorreparação só é eficaz"
+" quando ncol>1"
 
 #: fread.c:1736
 #, c-format
@@ -430,17 +432,23 @@ msgid ""
 "quoted (e.g. field separator does not appear within any field), try "
 "quote=\"\" to avoid this warning."
 msgstr ""
+"Foram encontradas e resolvidas aspas inadequadas nas primeiras %d linhas. Se"
+" os campos não estiverem entre aspas (por exemplo, o separador de campo não "
+"aparece em nenhum campo), tente quote=\"\" para evitar este aviso."
 
 #: fread.c:1752
 #, c-format
 msgid ""
 "Internal error: ncol==%d line==%d after detecting sep, ncol and first line"
 msgstr ""
+"Erro interno: ncol==%d line==%d depois de detectar sep, ncol e a primeira "
+"linha"
 
 #: fread.c:1755
 #, c-format
 msgid "Internal error: first line has field count %d but expecting %d"
 msgstr ""
+"Erro interno: a primeira linha tem contagem de campos %d, mas esperava %d"
 
 #: fread.c:1757
 #, c-format
@@ -448,11 +456,13 @@ msgid ""
 "  Detected %d columns on line %d. This line is either column names or first "
 "data row. Line starts as: <<%s>>\n"
 msgstr ""
+"  %d colunas detectadas na linha %d. Esta linha contém nomes de colunas ou "
+"primeira linha de dados. A linha começa como: <<%s>>\n"
 
 #: fread.c:1759
 #, c-format
 msgid "  Quote rule picked = %d\n"
-msgstr ""
+msgstr "  Regra de aspas escolhida = %d\n"
 
 #: fread.c:1760
 #, c-format
