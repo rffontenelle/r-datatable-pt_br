@@ -31,17 +31,17 @@ msgstr "Erro de sistema %lu ao desmapear visualização do arquivo\n"
 #: fread.c:153
 #, c-format
 msgid "System errno %d unmapping file: %s\n"
-msgstr ""
+msgstr "Erro de sistema de número %d ao desmapear o arquivo: %s\n"
 
 #: fread.c:213
 #, c-format
 msgid "Internal error: NUMTYPE(%d) > nLetters(%d)"
-msgstr ""
+msgstr "Erro interno: NUMTYPE(%d) > nLetters(%d)"
 
 #: fread.c:438
 #, c-format
 msgid "Unable to allocate %s of contiguous virtual RAM. %s allocation."
-msgstr ""
+msgstr "Não foi possível alocar %s de RAM virtual contígua. %s alocação."
 
 #: fread.c:443
 #, c-format
