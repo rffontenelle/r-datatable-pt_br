@@ -51,7 +51,7 @@ msgstr "%.3f segundos evitáveis. %s este tempo para copiar.\n"
 #: fread.c:444
 #, c-format
 msgid "  File copy in RAM took %.3f seconds.\n"
-msgstr " A cópia do arquivo na RAM demorou %.3f segundos.\n"
+msgstr "  A cópia do arquivo na RAM demorou %.3f segundos.\n"
 
 #: fread.c:1260
 msgid ""
@@ -63,23 +63,25 @@ msgstr ""
 
 #: fread.c:1263
 msgid "[01] Check arguments\n"
-msgstr ""
+msgstr "[01] Verificar argumentos\n"
 
 #: fread.c:1270
 #, c-format
 msgid "  Using %d threads (omp_get_max_threads()=%d, nth=%d)\n"
-msgstr ""
+msgstr "  Usando %d threads (omp_get_max_threads()=%d, nth=%d)\n"
 
 #: fread.c:1278
 msgid ""
 "Internal error: NAstrings is itself NULL. When empty it should be pointer to"
 " NULL."
 msgstr ""
+"Erro interno: NAstrings é NULL. Quando vazio, deve ser um ponteiro para "
+"NULL."
 
 #: fread.c:1292
 #, c-format
 msgid "freadMain: NAstring <<%s>> has whitespace at the beginning or end"
-msgstr ""
+msgstr "freadMain: NAstring <<%s>> tem espaço em branco no início ou no final"
 
 #: fread.c:1296
 #, c-format
@@ -87,41 +89,43 @@ msgid ""
 "freadMain: NAstring <<%s>> is recognized as type boolean, this is not "
 "permitted."
 msgstr ""
+"freadMain: NAstring <<%s>> é reconhecido como tipo booleano, e isso não é "
+"permitido."
 
 #: fread.c:1298
 #, c-format
 msgid "freadMain: NAstring <<%s>> and logical01=TRUE, this is not permitted."
-msgstr ""
+msgstr "freadMain: NAstring <<%s>> e logic01=TRUE, e isso não é permitido."
 
 #: fread.c:1310
 msgid "  No NAstrings provided.\n"
-msgstr ""
+msgstr "  Nenhum NAstring fornecido.\n"
 
 #: fread.c:1312
 msgid "  NAstrings = ["
-msgstr ""
+msgstr "  NAstrings = ["
 
 #: fread.c:1315
 msgid "]\n"
-msgstr ""
+msgstr "]\n"
 
 #: fread.c:1317
 msgid "  One or more of the NAstrings looks like a number.\n"
-msgstr ""
+msgstr "  Uma ou mais das NAstrings se parecem com um número.\n"
 
 #: fread.c:1319
 msgid "  None of the NAstrings look like numbers.\n"
-msgstr ""
+msgstr "  Nenhuma das NAstrings se parece com números.\n"
 
 #: fread.c:1321
 #, c-format
 msgid "  skip num lines = %<PRId64>\n"
-msgstr ""
+msgstr "  pular número de linhas = %<PRId64>\n"
 
 #: fread.c:1322
 #, c-format
 msgid "  skip to string = <<%s>>\n"
-msgstr ""
+msgstr "  pular para a string = <<%s>>\n"
 
 #: fread.c:1323
 #, c-format
