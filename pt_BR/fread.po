@@ -231,34 +231,41 @@ msgstr "Provavelmente não há memória virtual contígua suficiente disponível
 
 #: fread.c:1419
 msgid "  Memory mapped ok\n"
-msgstr ""
+msgstr "  Memoria mapeada com sucesso\n"
 
 #: fread.c:1421
 msgid ""
 "Internal error: Neither `input` nor `filename` are given, nothing to read."
 msgstr ""
+"Erro interno: Nem `input` nem `filename` foram fornecidos, nada para ler."
 
 #: fread.c:1438
 msgid "[03] Detect and skip BOM\n"
-msgstr ""
+msgstr "[03] Detectar e pular BOM\n"
 
 #: fread.c:1442
 msgid ""
 "  UTF-8 byte order mark EF BB BF found at the start of the file and "
 "skipped.\n"
 msgstr ""
+"  Marca de ordem de byte UTF-8 EF BB BF encontrada no início do arquivo e "
+"ignorada.\n"
 
 #: fread.c:1447
 msgid ""
 "GB-18030 encoding detected, however fread() is unable to decode it. Some "
 "character fields may be garbled.\n"
 msgstr ""
+"Codificação GB-18030 detectada, porém fread() não consegue decodificá-la. "
+"Alguns campos de caracteres podem estar distorcidos.\n"
 
 #: fread.c:1450
 msgid ""
 "File is encoded in UTF-16, this encoding is not supported by fread(). Please"
 " recode the file to UTF-8."
 msgstr ""
+"O arquivo está codificado em UTF-16, esta codificação não é suportada por "
+"fread(). Codifique novamente o arquivo para UTF-8."
 
 #: fread.c:1455
 #, c-format
