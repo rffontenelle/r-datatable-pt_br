@@ -125,45 +125,60 @@ msgid ""
 "FALSE values in it which is not allowed. Please consider the drop= or "
 "select= argument instead. See ?fread."
 msgstr ""
+"colClasses é do tipo 'logical', o que está tudo bem se for todo NA, mas "
+"contiver alguns valores TRUE ou FALSE que não são permitidos. Por favor, "
+"considere o argumento drop= ou select=. Veja ?fread."
 
 #: fread.R:135
 msgid "colClasses is not type list or character vector"
-msgstr ""
+msgstr "colClasses não é lista de tipos ou vetor de caracteres"
 
 #: fread.R:140
 msgid ""
 "colClasses=\"NULL\" (quoted) is interpreted as colClasses=NULL (the default)"
 " as opposed to dropping every column."
 msgstr ""
+"colClasses=\"NULL\" (entre aspas) é interpretado como colClasses=NULL (o "
+"padrão) em vez de descartar todas as colunas."
 
 #: fread.R:152
 #, c-format
 msgid "na.strings[%d]==\"%s\" consists only of whitespace, ignoring"
-msgstr ""
+msgstr "na.strings[%d]==\"%s\" consiste apenas em espaços em branco, ignorando"
 
 #: fread.R:155
 msgid ""
 "%s. strip.white==TRUE (default) and \"\" is present in na.strings, so any "
 "number of spaces in string columns will already be read as <NA>."
 msgstr ""
+"%s. strip.white==TRUE (padrão) e \"\" está presente em na.strings, portanto "
+"qualquer número de espaços nas colunas de string já será lido como <NA>."
 
 #: fread.R:157
 msgid ""
 "%s. Since strip.white=TRUE (default), use na.strings=\"\" to specify that "
 "any number of spaces in a string column should be read as <NA>."
 msgstr ""
+"%s. Como strip.white=TRUE (padrão), use na.strings=\"\" para especificar que"
+" qualquer número de espaços em uma coluna de string deve ser lido como <NA>."
 
 #: fread.R:161
 msgid ""
 "%s. But strip.white=FALSE. Use strip.white=TRUE (default) together with "
 "na.strings=\"\" to turn any number of spaces in string columns into <NA>"
 msgstr ""
+"%s. Mas strip.white=FALSE. Use strip.white=TRUE (padrão) junto com "
+"na.strings=\"\" para transformar qualquer número de espaços em colunas de "
+"strings em <NA>"
 
 #: fread.R:167
 msgid ""
 "'data.table' relies on the package 'yaml' to parse the file header; please "
 "add this to your library with install.packages('yaml') and try again."
 msgstr ""
+"'data.table' depende do pacote 'yaml' para analisar o cabeçalho do arquivo; "
+"adicione isso à sua biblioteca com install.packages('yaml') e tente "
+"novamente."
 
 #: fread.R:171
 msgid ""
@@ -172,6 +187,11 @@ msgid ""
 " beginning of the file, NOT from the end of the metadata; please file an "
 "issue on GitHub if you'd like to see more intuitive behavior supported."
 msgstr ""
+"Combinar uma string de pesquisa como 'skip' e ler um cabeçalho YAML pode não"
+" funcionar como esperado -- atualmente, a leitura continuará a procurar por "
+"'skip' desde o início do arquivo, NÃO a partir do final dos metadados; por "
+"favor, registre um issue no GitHub se desejar ver suporte para um "
+"comportamento mais intuitivo."
 
 #: fread.R:181
 msgid ""
