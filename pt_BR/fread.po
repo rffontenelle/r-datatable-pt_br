@@ -540,14 +540,16 @@ msgid ""
 "  A line with too-%s fields (%d/%d) was found on line %d of sample jump %d. "
 "%s\n"
 msgstr ""
+"  Uma linha com %s quantidade de campos (%d/%d) foi encontrada na linha %d "
+"de amostra de pulo %d. %s\n"
 
 #: fread.c:1860
 msgid "few"
-msgstr ""
+msgstr "pouca"
 
 #: fread.c:1860
 msgid "many"
-msgstr ""
+msgstr "grande"
 
 #: fread.c:1860
 msgid ""
