@@ -390,7 +390,7 @@ msgstr "[06] Detectar separador, regra de aspas e número de colunas\n"
 #: fread.c:1598
 msgid "  sep='\\n' passed in meaning read lines as single character column\n"
 msgstr ""
-"  sep='\\n' passado no sentido de ler linhas como coluna de caractere "
+"  sep='\\n' recebido no sentido de ler linhas como coluna de caractere "
 "único\n"
 
 #: fread.c:1617
@@ -417,8 +417,8 @@ msgid ""
 "  No sep and quote rule found a block of 2x2 or greater. Single column "
 "input.\n"
 msgstr ""
-"  Nenhum sep é a regra de aspas encontrou um bloco de 2x2 ou superior. "
-"Entrada de coluna única.\n"
+"  Nenhum sep e regra de aspas encontrou um bloco de 2x2 ou maior. Entrada de"
+" coluna única.\n"
 
 #: fread.c:1731
 msgid ""
