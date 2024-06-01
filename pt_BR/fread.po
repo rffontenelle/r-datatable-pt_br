@@ -687,7 +687,7 @@ msgid ""
 "exactly\n"
 msgstr ""
 "  Todas as linhas foram amostradas porque o arquivo é pequeno, então sabemos"
-" exatamente nrow=%1\n"
+" exatamente nrow=%<PRIu64>\n"
 
 #: fread.c:1985 fread.c:1992
 msgid "  =====\n"
@@ -747,24 +747,25 @@ msgstr "[08] Atribuir nomes de coluna\n"
 #, c-format
 msgid "Unable to allocate %d*%d bytes for column name pointers: %s"
 msgstr ""
+"Não foi possível alocar %d*%d bytes para ponteiros de nome de coluna: %s"
 
 #: fread.c:2040
 #, c-format
 msgid "Internal error: reading colnames ending on '%c'"
-msgstr ""
+msgstr "Erro interno: lendo colnames que terminam em '%c'"
 
 #: fread.c:2058
 msgid "[09] Apply user overrides on column types\n"
-msgstr ""
+msgstr "[09] Aplicar substituições de usuário em tipos de colunas\n"
 
 #: fread.c:2062
 msgid "  Cancelled by user: userOverride() returned false."
-msgstr ""
+msgstr "  Cancelado pelo usuário: userOverride() retornou falso."
 
 #: fread.c:2072
 #, c-format
 msgid "Failed to allocate %d bytes for size array: %s"
-msgstr ""
+msgstr "Falha ao alocar %d bytes para array de tamanho: %s"
 
 #: fread.c:2079
 #, c-format
@@ -773,6 +774,10 @@ msgid ""
 "ignored. Only overrides to a higher type are currently supported. If this "
 "was intended, please coerce to the lower type afterwards."
 msgstr ""
+"Tentativa de substituir a coluna %d%s%.*s%s do tipo inerente '%s' até '%s' "
+"ignorada. Atualmente, apenas substituições para um tipo superior são "
+"suportadas. Se isso foi intencional, por favor, faça coação para o tipo "
+"inferior depois."
 
 #: fread.c:2094
 #, c-format
@@ -781,31 +786,32 @@ msgstr ""
 
 #: fread.c:2102
 msgid "[10] Allocate memory for the datatable\n"
-msgstr ""
+msgstr "[10] Alocar memória para o datatable\n"
 
 #: fread.c:2103
 #, c-format
 msgid "  Allocating %d column slots (%d - %d dropped) with %<PRIu64> rows\n"
 msgstr ""
+"  Alocando %d slots de coluna (%d - %d descartados) com %<PRIu64> linhas\n"
 
 #: fread.c:2157
 #, c-format
 msgid "Buffer size %<PRId64> is too large\n"
-msgstr ""
+msgstr "Tamanho de buffer %<PRId64> grande demais\n"
 
 #: fread.c:2160
 msgid "[11] Read the data\n"
-msgstr ""
+msgstr "[11] Ler os dados\n"
 
 #: fread.c:2163
 #, c-format
 msgid "  jumps=[%d..%d), chunk_size=%<PRIu64>, total_size=%<PRIu64>\n"
-msgstr ""
+msgstr "  jumps=[%d..%d), chunk_size=%<PRIu64>, total_size=%<PRIu64>\n"
 
 #: fread.c:2175
 #, c-format
 msgid "Internal error: Master thread is not thread 0 but thread %d.\n"
-msgstr ""
+msgstr "Erro interno: O thread mestre não é a thread 0, mas a thread %d.\n"
 
 #: fread.c:2386
 #, c-format
@@ -813,6 +819,8 @@ msgid ""
 "Column %d%s%.*s%s bumped from '%s' to '%s' due to <<%.*s>> on row "
 "%<PRIu64>\n"
 msgstr ""
+"Coluna %d%s%.*s%s passou de '%s' para '%s' devido a <<%.*s>> na linha "
+"%<PRIu64>\n"
 
 #: fread.c:2436
 #, c-format
@@ -820,6 +828,8 @@ msgid ""
 "Internal error: invalid head position. jump=%d, headPos=%p, "
 "thisJumpStart=%p, sof=%p"
 msgstr ""
+"Erro interno: posição inválida de head. jump=%d, headPos=%p, "
+"thisJumpStart=%p, sof=%p"
 
 #: fread.c:2509
 #, c-format
