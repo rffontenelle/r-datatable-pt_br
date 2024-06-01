@@ -655,12 +655,12 @@ msgid ""
 "  'header' determined to be %s because there are%s number fields in the "
 "first and only row\n"
 msgstr ""
-"  'header' determinado como %s porque há%s campo numérico na primeira e "
+"  'header' determinado como %s porque%s há campo numérico na primeira e "
 "única linha\n"
 
 #: fread.c:1943
 msgid " no"
-msgstr " nenhum"
+msgstr " não"
 
 #: fread.c:1946
 msgid ""
