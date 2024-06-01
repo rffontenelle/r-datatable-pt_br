@@ -931,6 +931,8 @@ msgid ""
 "%8.3fs (%3.0f%%) Allocation of %<PRIu64> rows x %d cols (%.3fGB) of which "
 "%<PRIu64> (%3.0f%%) rows used\n"
 msgstr ""
+"%8.3fs (%3.0f%%) Alocação de %<PRIu64> linhas x %d colunas (%.3fGB) das "
+"quais %<PRIu64> (%3.0f%%) linhas usadas\n"
 
 #: fread.c:2624
 #, c-format
@@ -938,30 +940,36 @@ msgid ""
 "%8.3fs (%3.0f%%) Reading %d chunks (%d swept) of %.3fMB (each chunk %d rows)"
 " using %d threads\n"
 msgstr ""
+"%8.3fs (%3.0f%%) Lendo %d pedaços (%d percorridos) de %.3fMB (cada pedaço %d"
+" linhas) usando %d threads\n"
 
 #: fread.c:2626
 #, c-format
 msgid ""
 "   + %8.3fs (%3.0f%%) Parse to row-major thread buffers (grown %d times)\n"
 msgstr ""
+"   + %8.3fs (%3.0f%%) Analisar para buffers de thread principais da linha "
+"(aumentados %d vezes)\n"
 
 #: fread.c:2627
 #, c-format
 msgid "   + %8.3fs (%3.0f%%) Transpose\n"
-msgstr ""
+msgstr "   + %8.3fs (%3.0f%%) Transpor\n"
 
 #: fread.c:2628
 #, c-format
 msgid "   + %8.3fs (%3.0f%%) Waiting\n"
-msgstr ""
+msgstr "   + %8.3fs (%3.0f%%) Esperando\n"
 
 #: fread.c:2629
 #, c-format
 msgid ""
 "%8.3fs (%3.0f%%) Rereading %d columns due to out-of-sample type exceptions\n"
 msgstr ""
+"%8.3fs (%3.0f%%) Relendo %d colunas devido a exceções de tipo fora da "
+"amostra\n"
 
 #: fread.c:2631
 #, c-format
 msgid "%8.3fs        Total\n"
-msgstr ""
+msgstr "%8.3fs        Total\n"
