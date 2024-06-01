@@ -291,7 +291,7 @@ msgid ""
 "one line ending. This is unusual but will happen normally when there is no "
 "\\r either; e.g. a single line missing its end of line.\n"
 msgstr ""
-"  Não existe \\n no arquivo, então \\r único (se houver) será considerado "
+"  Não existe \\n no arquivo, então \\r simples (se houver) será considerado "
 "como um final de linha. Isso é incomum, mas acontecerá normalmente quando "
 "não houver \\r; por exemplo. uma única linha faltando o final da linha.\n"
 
@@ -324,7 +324,7 @@ msgstr ""
 "Este arquivo é muito incomum: termina abruptamente sem uma nova linha final "
 "e também seu tamanho é um múltiplo de 4096 bytes. Por favor, termine "
 "corretamente a última linha com uma nova linha usando, por exemplo, 'echo >>"
-" arquivo' para evitar"
+" arquivo' para evitar isto "
 
 #: fread.c:1504
 #, c-format
@@ -376,7 +376,7 @@ msgstr ""
 #: fread.c:1575
 #, c-format
 msgid "  Moved forward to first non-blank line (%d)\n"
-msgstr "  Avançado para a primeira linha que não vazia (%d)\n"
+msgstr "  Avançado para a primeira linha não vazia (%d)\n"
 
 #: fread.c:1576
 #, c-format
