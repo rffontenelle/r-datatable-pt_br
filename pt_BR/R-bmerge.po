@@ -116,44 +116,45 @@ msgstr "Calculando índice ad hoc em %s"
 
 #: bmerge.R:152
 msgid "Non-equi join operators detected ..."
-msgstr ""
+msgstr "Operadores de junção por desigualdade detectados…"
 
 #: bmerge.R:153
 msgid "roll is not implemented for non-equi joins yet."
-msgstr ""
+msgstr "'roll' ainda não está implementado para junções por desigualdade."
 
 #: bmerge.R:154
 msgid "forder took ..."
-msgstr ""
+msgstr "forder levou…"
 
 #: bmerge.R:163
 msgid "Generating group lengths ..."
-msgstr ""
+msgstr "Gerando comprimentos dos grupos…"
 
 #: bmerge.R:166 bmerge.R:170 bmerge.R:177
 msgid "done in %s"
-msgstr ""
+msgstr "feito em %s"
 
 #: bmerge.R:168
 msgid "Generating non-equi group ids ..."
-msgstr ""
+msgstr "Gerando ids de grupo por desigualdade…"
 
 #: bmerge.R:173
 msgid "Column name '_nqgrp_' is reserved for non-equi joins."
 msgstr ""
+"O nome de coluna '_nqgrp_' está reservado para junções por desigualdade."
 
 #: bmerge.R:174
 msgid "Recomputing forder with non-equi ids ..."
-msgstr ""
+msgstr "Recomputando forder com ids por desigualdade…"
 
 #: bmerge.R:179
 msgid "Found %d non-equi group(s) ..."
-msgstr ""
+msgstr "Encontrados %d grupo(s) por desigualdade…"
 
 #: bmerge.R:182
 msgid "Starting bmerge ..."
-msgstr ""
+msgstr "Iniciando bmerge…"
 
 #: bmerge.R:184
 msgid "bmerge done in %s"
-msgstr ""
+msgstr "bmerge feito em %s"
