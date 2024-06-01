@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Rafael Fontenelle <rffontenelle@gmail.com>, 2024
+# Leonardo Fontenelle, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: bmerge 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:23-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2024\n"
+"Last-Translator: Leonardo Fontenelle, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,6 +25,9 @@ msgid ""
 "Attempting roll join on factor column when joining %s to %s. Only integer, "
 "double or character columns may be roll joined."
 msgstr ""
+"Tentando uma junção por \"rolamento\" na coluna de fatores ao fazer a junção"
+" entre %s e %s. Apenas colunas de inteiros, 'double'  ou caracteres podem "
+"ser usadas na junção. "
 
 #: bmerge.R:54
 msgid "Matching %s factor levels to %s factor levels."
@@ -54,8 +58,8 @@ msgstr "%s tem o mesmo tipo (%s) que %s. Não é necessário fazer coerção."
 #: bmerge.R:81 bmerge.R:86
 msgid "Coercing all-NA %s (%s) to type %s to match type of %s."
 msgstr ""
-"Fazendo coerção de all-NA %s (%s) para o tipo %s para corresponder ao tipo "
-"de %s."
+"Fazendo coerção de todos os %s não NA (%s) para o tipo %s para corresponder "
+"ao tipo de %s."
 
 #: bmerge.R:90
 msgid "Incompatible join types: %s (%s) and %s (%s)"
@@ -64,7 +68,7 @@ msgstr "Tipos de junção incompatíveis: %s (%s) e %s (%s)"
 #: bmerge.R:96
 msgid "Coercing %s column %s%s to type integer64 to match type of %s."
 msgstr ""
-"Fazendo coerção da coluna de %s %s%s para o tipo caractere para corresponder"
+"Fazendo coerção da coluna de %s %s%s para o tipo integer64 para corresponder"
 " ao tipo de %s."
 
 #: bmerge.R:98
