@@ -561,7 +561,7 @@ msgstr ""
 #: fread.c:1886
 #, c-format
 msgid "  Type codes (jump %03d)    : %s  Quote rule %d\n"
-msgstr ""
+msgstr "  Códigos de tipos (pulo %03d) : %s regra de pulo %d\n"
 
 #: fread.c:1898
 #, c-format
@@ -569,18 +569,25 @@ msgid ""
 "  'header' determined to be true due to column %d containing a string on row"
 " 1 and a lower type (%s) in the rest of the %<PRId64> sample rows\n"
 msgstr ""
+"'header' determinado como sendo verdadeiro devido à coluna %d conter uma "
+"string na linha 1 e um tipo inferior (%s) no restante das %<PRId64> linhas "
+"de amostra\n"
 
 #: fread.c:1910
 msgid ""
 "Internal error: row before first data row has the same number of fields but "
 "we're not using it."
 msgstr ""
+"Erro interno: a linha anterior à primeira linha de dados tem o mesmo número "
+"de campos, mas não a estamos usando."
 
 #: fread.c:1911
 msgid ""
 "Internal error: ch!=pos after counting fields in the line before the first "
 "data row."
 msgstr ""
+"Erro interno: ch!=pos após contar os campos na linha antes da primeira linha"
+" de dados."
 
 #: fread.c:1912
 #, c-format
@@ -588,6 +595,9 @@ msgid ""
 "Types in 1st data row match types in 2nd data row but previous row has %d "
 "fields. Taking previous row as column names."
 msgstr ""
+"Os tipos na 1ª linha de dados correspondem aos tipos na 2ª linha de dados, "
+"mas a linha anterior possui %d campos. Tomando a linha anterior como nomes "
+"de coluna."
 
 #: fread.c:1915
 #, c-format
@@ -595,6 +605,8 @@ msgid ""
 "Detected %d column names but the data has %d columns (i.e. invalid file). "
 "Added %d extra default column name%s\n"
 msgstr ""
+"Foram detectados %d nomes de colunas, mas os dados possuem %d colunas (ou "
+"seja, arquivo inválido). Adicionado(s) %d nome(s) de coluna padrão extra%s\n"
 
 #: fread.c:1916
 msgid ""
@@ -602,10 +614,14 @@ msgid ""
 "setnames() afterwards if this guess is not correct, or fix the file write "
 "command that created the file to create a valid file."
 msgstr ""
+" para a primeira coluna que se supõe ser nomes de linhas ou um índice. Use "
+"setnames() posteriormente se essa estimativa não estiver correta ou corrija "
+"o comando de gravação de arquivo que criou o arquivo para criar um arquivo "
+"válido."
 
 #: fread.c:1916
 msgid "s at the end."
-msgstr ""
+msgstr " ao final."
 
 #: fread.c:1918
 msgid ""
