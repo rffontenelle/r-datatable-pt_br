@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Rafael Fontenelle <rffontenelle@gmail.com>, 2024
+# Leonardo Fontenelle, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: fread 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:23-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2024\n"
+"Last-Translator: Leonardo Fontenelle, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +22,7 @@ msgid ""
 "Internal error in line %d of fread.c, please report on data.table GitHub:  "
 msgstr ""
 "Erro interno na linha %d de fread.c, por favor reporte no repositório GitHub"
-" do data.table:"
+" do data.table:  "
 
 #: fread.c:150
 #, c-format
@@ -782,7 +783,7 @@ msgstr ""
 #: fread.c:2094
 #, c-format
 msgid "  After %d type and %d drop user overrides : %s\n"
-msgstr ""
+msgstr "  Depois de substituição de usuário para %d tipos e %d descartes: %s\n"
 
 #: fread.c:2102
 msgid "[10] Allocate memory for the datatable\n"
