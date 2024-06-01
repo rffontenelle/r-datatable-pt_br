@@ -256,7 +256,7 @@ msgid ""
 "j is type '%s'. Must be integer, character, or numeric is coerced with "
 "warning."
 msgstr ""
-"j é do tipo '%s'. Deve ser inteiro, caractere ou numérico sofre coerção com "
+"j é do tipo '%s'. Deve ser inteiro/ caractere ou numérico sofre coerção com "
 "aviso."
 
 #: assign.c:386
@@ -303,7 +303,7 @@ msgstr ""
 #, c-format
 msgid "Recycling single RHS list item across %d columns. Please unwrap RHS.\n"
 msgstr ""
-"Reciclando um único item da lista lado direito (RHS) em %d colunas. Por "
+"Reciclando um único item da lista do lado direito (RHS) em %d colunas. Por "
 "favor, desembrulhe o lado direito.\n"
 
 #: assign.c:406
@@ -321,9 +321,9 @@ msgid ""
 "set() on a data.frame is for changing existing columns, not adding new ones."
 " Please use a data.table for that."
 msgstr ""
-"Item %d da coluna números em j é %d, o que está fora da faixa [1,ncol=%d]. "
-"set() em um data.frame é para alterar colunas existentes, não para adicionar"
-" novas. Por favor, use um data.table para isso."
+"Item %d dos números de comuna em j é %d, o que está fora da faixa "
+"[1,ncol=%d]. set() em um data.frame é para alterar colunas existentes, não "
+"para adicionar novas. Por favor, use uma data.table para isso."
 
 #: assign.c:415
 #, c-format
@@ -331,8 +331,9 @@ msgid ""
 "Item %d of column numbers in j is %d which is outside range [1,ncol=%d]. Use"
 " column names instead in j to add new columns."
 msgstr ""
-"Item %d da coluna números em j é %d, o que está fora da faixa [1,ncol=%d]. "
-"Use nomes de coluna em vez disso em j para adicionar novas colunas."
+"Item %d dos números de coluna em j é %d, o que está fora da faixa "
+"[1,ncol=%d]. Use nomes de coluna em vez disso em j para adicionar novas "
+"colunas."
 
 #: assign.c:420
 msgid "When deleting columns, i should not be provided"
@@ -352,9 +353,9 @@ msgstr ""
 "zero, mas não é NULL. Se você pretende excluir a coluna, use NULL. Caso "
 "contrário, o lado direito (RHS) deverá ter comprimento > 0; por exemplo, "
 "NA_integer_. Se você estiver tentando alterar o tipo de coluna para uma "
-"coluna de lista vazia, como acontece com todas as alterações de tipo de "
-"coluna, forneça no lado direito (RHS) um vetor de comprimento completo, como"
-" vector('list',nrow(DT)); ou seja, 'plonk' na nova coluna."
+"coluna de lista vazia então, como em todas as alterações de tipo de coluna, "
+"forneça no lado direito (RHS) um vetor de comprimento completo, como "
+"vector('list',nrow(DT)); ou seja, 'plonk' na nova coluna."
 
 #: assign.c:431
 #, c-format
