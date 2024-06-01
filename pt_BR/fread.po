@@ -789,7 +789,7 @@ msgstr "  Depois de substituição de usuário para %d tipos e %d descartes: %s\
 
 #: fread.c:2102
 msgid "[10] Allocate memory for the datatable\n"
-msgstr "[10] Alocar memória para o datatable\n"
+msgstr "[10] Alocar memória para a data.table\n"
 
 #: fread.c:2103
 #, c-format
@@ -814,7 +814,7 @@ msgstr "  jumps=[%d..%d), chunk_size=%<PRIu64>, total_size=%<PRIu64>\n"
 #: fread.c:2175
 #, c-format
 msgid "Internal error: Master thread is not thread 0 but thread %d.\n"
-msgstr "Erro interno: O thread mestre não é a thread 0, mas a thread %d.\n"
+msgstr "Erro interno: A thread mestre não é a thread 0, mas a thread %d.\n"
 
 #: fread.c:2386
 #, c-format
