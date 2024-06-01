@@ -561,7 +561,7 @@ msgstr ""
 #: fread.c:1886
 #, c-format
 msgid "  Type codes (jump %03d)    : %s  Quote rule %d\n"
-msgstr "  Códigos de tipos (pulo %03d) : %s regra de pulo %d\n"
+msgstr "  Códigos de tipos (pulo %03d)       : %s Regra de pulo %d\n"
 
 #: fread.c:1898
 #, c-format
@@ -628,6 +628,8 @@ msgid ""
 "Internal error: fill=true but there is a previous row which should already "
 "have been filled."
 msgstr ""
+"Erro interno: fill=true, mas há uma linha anterior que já deveria ter sido "
+"preenchida."
 
 #: fread.c:1919
 #, c-format
@@ -635,11 +637,14 @@ msgid ""
 "Detected %d column names but the data has %d columns. Filling rows "
 "automatically. Set fill=TRUE explicitly to avoid this warning.\n"
 msgstr ""
+"Foram detectados %d nomes de colunas, mas os dados têm %d colunas. "
+"Preenchendo linhas automaticamente. Defina fill=TRUE explicitamente para "
+"evitar esse aviso.\n"
 
 #: fread.c:1923
 #, c-format
 msgid "Failed to realloc 2 x %d bytes for type and tmpType: %s"
-msgstr ""
+msgstr "Falha ao realocar 2 x %d bytes para tipo e tmpType: %s"
 
 #: fread.c:1943
 #, c-format
@@ -647,27 +652,33 @@ msgid ""
 "  'header' determined to be %s because there are%s number fields in the "
 "first and only row\n"
 msgstr ""
+"  'header' determinado como %s porque há%s campo numérico na primeira e "
+"única linha\n"
 
 #: fread.c:1943
 msgid " no"
-msgstr ""
+msgstr " nenhum"
 
 #: fread.c:1946
 msgid ""
 "  'header' determined to be true because all columns are type string and a "
 "better guess is not possible\n"
 msgstr ""
+"  'header'' determinado como verdadeiro porque todas as colunas são do tipo "
+"string e uma estimativa melhor não é possível\n"
 
 #: fread.c:1948
 msgid ""
 "  'header' determined to be false because there are some number columns and "
 "those columns do not have a string field at the top of them\n"
 msgstr ""
+"  'header' determinado como falso porque existem algumas colunas numéricas e"
+" essas colunas não possuem um campo de string no topo delas\n"
 
 #: fread.c:1964
 #, c-format
 msgid "  Type codes (first row)   : %s  Quote rule %d\n"
-msgstr ""
+msgstr "  Códigos de tipos (primeira linha) : %s Regra de pulo %d\n"
 
 #: fread.c:1973
 #, c-format
@@ -675,10 +686,12 @@ msgid ""
 "  All rows were sampled since file is small so we know nrow=%<PRIu64> "
 "exactly\n"
 msgstr ""
+"  Todas as linhas foram amostradas porque o arquivo é pequeno, então sabemos"
+" exatamente nrow=%1\n"
 
 #: fread.c:1985 fread.c:1992
 msgid "  =====\n"
-msgstr ""
+msgstr "  =====\n"
 
 #: fread.c:1986
 #, c-format
@@ -686,22 +699,26 @@ msgid ""
 "  Sampled %<PRIu64> rows (handled \\n inside quoted fields) at %d jump "
 "points\n"
 msgstr ""
+"  Foram amostradas %<PRIu64> linhas (tratados \\n dentro dos campos entre "
+"aspas) em %d pontos de pulo\n"
 
 #: fread.c:1987
 #, c-format
 msgid ""
 "  Bytes from first data row on line %d to the end of last row: %<PRIu64>\n"
 msgstr ""
+"  Bytes da primeira linha de dados na linha %d até o final da última linha: "
+"%<PRIu64>\n"
 
 #: fread.c:1988
 #, c-format
 msgid "  Line length: mean=%.2f sd=%.2f min=%d max=%d\n"
-msgstr ""
+msgstr "  Tamanho da linha: mean=%.2f sd=%.2f min=%d max=%d\n"
 
 #: fread.c:1989
 #, c-format
 msgid "  Estimated number of rows: %<PRIu64> / %.2f = %<PRIu64>\n"
-msgstr ""
+msgstr "  Número estimado de linhas: %<PRIu64> / %.2f = %<PRIu64>\n"
 
 #: fread.c:1990
 #, c-format
@@ -709,20 +726,22 @@ msgid ""
 "  Initial alloc = %<PRIu64> rows (%<PRIu64> + %d%%) using "
 "bytes/max(mean-2*sd,min) clamped between [1.1*estn, 2.0*estn]\n"
 msgstr ""
+"  Alocação inicial = %<PRIu64> linhas (%<PRIu64> + %d%%) usando "
+"bytes/max(mean-2*sd,min) clampeados entre [1.1*estn, 2.0*estn]\n"
 
 #: fread.c:1994
 #, c-format
 msgid "Internal error: sampleLines(%<PRIu64>) > allocnrow(%<PRIu64>)"
-msgstr ""
+msgstr "Erro interno: sampleLines(%<PRIu64>) > allocnrow(%<PRIu64>)"
 
 #: fread.c:1998
 #, c-format
 msgid "  Alloc limited to lower nrows=%<PRIu64> passed in.\n"
-msgstr ""
+msgstr "  Alocação limitada a inferiores nrows=%<PRIu64> passadas.\n"
 
 #: fread.c:2010
 msgid "[08] Assign column names\n"
-msgstr ""
+msgstr "[08] Atribuir nomes de coluna\n"
 
 #: fread.c:2018
 #, c-format
