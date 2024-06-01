@@ -1,14 +1,14 @@
 # 
 # Translators:
-# Rafael Fontenelle <rffontenelle@gmail.com>, 2024
 # Leonardo Fontenelle, 2024
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: assign 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:22-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Leonardo Fontenelle, 2024\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -256,7 +256,7 @@ msgid ""
 "j is type '%s'. Must be integer, character, or numeric is coerced with "
 "warning."
 msgstr ""
-"j é do tipo '%s'. Deve ser inteiro/ caractere ou numérico sofre coerção com "
+"j é do tipo '%s'. Deve ser inteiro, caractere ou numérico sofre coerção com "
 "aviso."
 
 #: assign.c:386
@@ -321,7 +321,7 @@ msgid ""
 "set() on a data.frame is for changing existing columns, not adding new ones."
 " Please use a data.table for that."
 msgstr ""
-"Item %d dos números de comuna em j é %d, o que está fora da faixa "
+"Item %d dos números de coluna em j é %d, o que está fora da faixa "
 "[1,ncol=%d]. set() em um data.frame é para alterar colunas existentes, não "
 "para adicionar novas. Por favor, use uma data.table para isso."
 
@@ -404,7 +404,7 @@ msgid ""
 msgstr ""
 "Esta data.table foi carregada do disco (por exemplo, usando "
 "readRDS()/load()) ou construída manualmente (por exemplo, usando "
-"structure()). Fvor executar setDT() ou setalloccol() nela (para pré-alocar "
+"structure()). Favor executar setDT() ou setalloccol() nela (para pré-alocar "
 "espaço para novas colunas) antes de atribuir por referência a ela."
 
 #: assign.c:463
