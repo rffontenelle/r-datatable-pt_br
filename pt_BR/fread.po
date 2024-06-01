@@ -864,7 +864,7 @@ msgstr ""
 
 #: fread.c:2578
 msgid "[12] Finalizing the datatable\n"
-msgstr "[12] Finalizando o datatable\n"
+msgstr "[12] Finalizando a data.table\n"
 
 #: fread.c:2579
 msgid "  Type counts:\n"
@@ -897,7 +897,7 @@ msgid ""
 "%<PRIu64>: <<%s>>. If the fields are not quoted (e.g. field separator does "
 "not appear within any field), try quote=\"\" to avoid this warning."
 msgstr ""
-"Encontrada e resolvida aspas inadequadas fora da amostra. Primeira linha "
+"Encontradas e resolvidas aspas inadequadas fora da amostra. Primeira linha "
 "corrigida %<PRIu64>: <<%s>>. Se os campos não estiverem entre aspas (por "
 "exemplo, o separador de campo não aparece em nenhum campo), tente quote=\"\""
 " para evitar este aviso."
