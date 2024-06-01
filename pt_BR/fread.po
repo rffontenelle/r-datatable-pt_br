@@ -837,16 +837,18 @@ msgid ""
 "  Too few rows allocated. Allocating additional %<PRIu64> rows (now "
 "nrows=%<PRIu64>) and continue reading from jump %d\n"
 msgstr ""
+"  Poucas linhas alocadas. Alocando %<PRIu64> linhas adicionais (agora "
+"nrows=%<PRIu64>) e continuar lendo a partir do pulo %d\n"
 
 #: fread.c:2516
 #, c-format
 msgid "  Restarting team from jump %d. nSwept==%d quoteRule==%d\n"
-msgstr ""
+msgstr "  Reiniciando time a partir do pulo %d. nSwept==%d quoteRule==%d\n"
 
 #: fread.c:2536
 #, c-format
 msgid "  %d out-of-sample type bumps: %s\n"
-msgstr ""
+msgstr "  %d colisões do tipo fora da amostra: %s\n"
 
 #: fread.c:2571
 #, c-format
@@ -854,24 +856,26 @@ msgid ""
 "Read %<PRIu64> rows x %d columns from %s file in %02d:%06.3f wall clock "
 "time\n"
 msgstr ""
+"Leitura de %<PRIu64> linhas x %d colunas do arquivo %s em %02d:%06.3f do "
+"horário do wallclock\n"
 
 #: fread.c:2578
 msgid "[12] Finalizing the datatable\n"
-msgstr ""
+msgstr "[12] Finalizando o datatable\n"
 
 #: fread.c:2579
 msgid "  Type counts:\n"
-msgstr ""
+msgstr "  Contagens de tipo:\n"
 
 #: fread.c:2581
 #, c-format
 msgid "%10d : %-9s '%c'\n"
-msgstr ""
+msgstr "%10d : %-9s '%c'\n"
 
 #: fread.c:2597
 #, c-format
 msgid "Discarded single-line footer: <<%s>>"
-msgstr ""
+msgstr "Rodapé de linha única descartado: <<%s>>"
 
 #: fread.c:2602
 #, c-format
@@ -879,6 +883,9 @@ msgid ""
 "Stopped early on line %<PRIu64>. Expected %d fields but found %d. Consider "
 "fill=TRUE and comment.char=. First discarded non-empty line: <<%s>>"
 msgstr ""
+"Parou cedo na linha %<PRIu64>. %d campos esperados, mas foram encontrados "
+"%d. Considere fill=TRUE e comment.char=. Primeira linha não vazia "
+"descartada: <<%s>>"
 
 #: fread.c:2608
 #, c-format
@@ -887,30 +894,36 @@ msgid ""
 "%<PRIu64>: <<%s>>. If the fields are not quoted (e.g. field separator does "
 "not appear within any field), try quote=\"\" to avoid this warning."
 msgstr ""
+"Encontrada e resolvida aspas inadequadas fora da amostra. Primeira linha "
+"corrigida %<PRIu64>: <<%s>>. Se os campos não estiverem entre aspas (por "
+"exemplo, o separador de campo não aparece em nenhum campo), tente quote=\"\""
+" para evitar este aviso."
 
 #: fread.c:2612
 msgid "=============================\n"
-msgstr ""
+msgstr "=============================\n"
 
 #: fread.c:2614
 #, c-format
 msgid "%8.3fs (%3.0f%%) Memory map %.3fGB file\n"
-msgstr ""
+msgstr "%8.3fs (%3.0f%%) %.3fGB de arquivo de mapa de memória\n"
 
 #: fread.c:2615
 #, c-format
 msgid "%8.3fs (%3.0f%%) sep="
-msgstr ""
+msgstr "%8.3fs (%3.0f%%) sep="
 
 #: fread.c:2617
 #, c-format
 msgid " ncol=%d and header detection\n"
-msgstr ""
+msgstr " detecção de cabeçalho e ncol=%d\n"
 
 #: fread.c:2618
 #, c-format
 msgid "%8.3fs (%3.0f%%) Column type detection using %<PRIu64> sample rows\n"
 msgstr ""
+"%8.3fs (%3.0f%%) Detecção de tipo de coluna usando %<PRIu64> linhas de "
+"amostra\n"
 
 #: fread.c:2620
 #, c-format
