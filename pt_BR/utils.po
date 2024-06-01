@@ -29,7 +29,7 @@ msgstr "Tipo não suportado '%s' passado para allNA()"
 
 #: utils.c:104
 msgid "'x' argument must be data.table compatible"
-msgstr "o argumento 'x' deve ser compatível com data.table"
+msgstr "argumento 'x' deve ser compatível com data.table"
 
 #: utils.c:106
 #, c-format
@@ -53,7 +53,7 @@ msgstr ""
 
 #: utils.c:133
 msgid "'x' argument data.table has no names"
-msgstr "'x' argumento data.table não possui nomes"
+msgstr "data.table do argumento 'x' não possui nomes"
 
 #: utils.c:138
 #, c-format
@@ -85,7 +85,8 @@ msgstr "Erro interno: copyAsPlain retornando ALTREP para o tipo'%s'"
 #, c-format
 msgid "Found and copied %d column%s with a shared memory address\n"
 msgstr ""
-"Encontrada e copiada %d coluna%s com um endereço de memória compartilhado\n"
+"Encontrada(s) e copiada(s) %d coluna%s com um endereço de memória "
+"compartilhado\n"
 
 #: utils.c:358
 msgid "'x' is not atomic"
@@ -107,7 +108,7 @@ msgstr "copy=false e a entrada já é do tipo e classe esperados %s[%s]\n"
 #: utils.c:373
 #, c-format
 msgid "Coercing %s[%s] into %s[%s]\n"
-msgstr "Faça coerção %s[%s] em %s[%s]\n"
+msgstr "Faça coerção de %s[%s] para %s[%s]\n"
 
 #: utils.c:376
 #, c-format
