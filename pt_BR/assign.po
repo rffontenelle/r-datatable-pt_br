@@ -644,12 +644,12 @@ msgstr "não é possível fazer coerção do tipo '%s' para '%s'"
 #: assign.c:1116
 #, c-format
 msgid "Unsupported column type in assign.c:memrecycle '%s'"
-msgstr "Tipo de coluna não suportado em assign.c:memrecycle '%s'"
+msgstr "Sem suporte ao tipo de coluna em assign.c:memrecycle '%s'"
 
 #: assign.c:1170
 #, c-format
 msgid "Internal error: writeNA passed a vector of type '%s'"
-msgstr "Erro interno: writeNA passou um vetor do tipo '%s'"
+msgstr "Erro interno: writeNA recebeu um vetor do tipo '%s'"
 
 #: assign.c:1201
 #, c-format
@@ -657,8 +657,8 @@ msgid ""
 "Internal error: savetl_init checks failed (%d %d %p %p). please report to "
 "data.table issue tracker."
 msgstr ""
-"Erro interno: verificação de savetl_init falhou ( %d %d %p %p). Por favor, "
-"reporte ao rastreador de problemas do data.table"
+"Erro interno: verificaçóes de savetl_init falharam ( %d %d %p %p). Por "
+"favor, reporte ao rastreador de problemas do data.table"
 
 #: assign.c:1209
 #, c-format
