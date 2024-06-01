@@ -171,7 +171,7 @@ msgstr ""
 
 #: fread.c:1363
 msgid "Internal error: last byte of character input isn't \\0"
-msgstr "Erro interno: o último byte do caractere inserido não é \\0"
+msgstr "Erro interno: o último byte da entrada de caracteres não é \\0"
 
 #: fread.c:1366
 #, c-format
@@ -265,18 +265,20 @@ msgid ""
 "File is encoded in UTF-16, this encoding is not supported by fread(). Please"
 " recode the file to UTF-8."
 msgstr ""
-"O arquivo está codificado em UTF-16, esta codificação não é suportada por "
-"fread(). Codifique novamente o arquivo para UTF-8."
+"O arquivo está codificado em UTF-16, mas fread() não tem suporte a essa "
+"codificação. Favor recodificar o arquivo para UTF-8."
 
 #: fread.c:1455
 #, c-format
 msgid "  Last byte(s) of input found to be %s and removed.\n"
-msgstr "Último(s) byte(s) de entrada encontrado(s) como %s e removido(s).\n"
+msgstr ""
+"  Descobriu-se que os último(s) byte(s) de entrada eram %s , que foi(foram) "
+"removido(s).\n"
 
 #: fread.c:1458
 msgid "Input is empty or only contains BOM or terminal control characters"
 msgstr ""
-"A entrada está vazia ou contém apenas caracteres de BOM ou de controle de "
+"A entrada está vazia ou contém apenas BOM ou caracteres de controle de "
 "terminal"
 
 #: fread.c:1465
