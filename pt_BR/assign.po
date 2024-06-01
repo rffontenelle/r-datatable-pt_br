@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Rafael Fontenelle <rffontenelle@gmail.com>, 2024
+# Leonardo Fontenelle, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: assign 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:22-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2024\n"
+"Last-Translator: Leonardo Fontenelle, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,11 +37,11 @@ msgid ""
 "disk or you've already run setDT(), please report to data.table issue "
 "tracker.\n"
 msgstr ""
-"ptr de .internal.selfref é NULL. Isso é esperado e normal para um data.table"
-" carregado do disco. Lembre-se de sempre executar setDT() imediatamente após"
-" o carregamento para evitar comportamento inesperado. Se esta tabela não foi"
-" carregada do disco ou você já executou setDT(), informe ao rastreador de "
-"problemas do data.table.\n"
+"ptr de .internal.selfref é NULL. Isso é esperado e normal para uma "
+"data.table carregada do disco. Lembre-se de sempre executar setDT() "
+"imediatamente após o carregamento para evitar comportamento inesperado. Se "
+"esta tabela não foi carregada do disco ou você já executou setDT(), informe "
+"ao rastreador de problemas do data.table.\n"
 
 #: assign.c:124
 msgid "Internal error: .internal.selfref ptr is neither NULL nor R_NilValue"
@@ -58,18 +59,18 @@ msgstr "Erro interno: length(names)>0, mas <length(dt)"
 
 #: assign.c:207
 msgid "alloccol has been passed a NULL dt"
-msgstr "alloccol recebeu um dt NULL"
+msgstr "alloccol recebeu uma dt NULL"
 
 #: assign.c:208
 msgid "dt passed to alloccol isn't type VECSXP"
-msgstr "dt passado para alloccol não é do tipo VECSXP"
+msgstr "dt passada para alloccol não é do tipo VECSXP"
 
 #: assign.c:210
 msgid ""
 "dt passed to alloccol has no class attribute. Please report result of "
 "traceback() to data.table issue tracker."
 msgstr ""
-"dt passado para alloccol não possui nenhum atributo de classe. Por favor, "
+"dt passada para alloccol não possui nenhum atributo de classe. Por favor, "
 "relate o resultado de traceback() para o rastreador de problemas do "
 "data.table."
 
@@ -90,8 +91,9 @@ msgid ""
 "Internal error, please report (including result of sessionInfo()) to "
 "data.table issue tracker: tl (%d) < l (%d) but tl of class is marked."
 msgstr ""
-"Erro interno, relate (incluindo o resultado de sessionInfo()) ao rastreador "
-"de problemas data.table: tl (%d) < l (%d), mas tl da classe está marcado."
+"Erro interno, favor relatar (incluindo o resultado de sessionInfo()) ao "
+"rastreador de problemas data.table: tl (%d) < l (%d), mas tl da classe está "
+"marcado."
 
 #: assign.c:227
 #, c-format
@@ -153,11 +155,11 @@ msgstr "%s deve ser TRUE ou FALSE"
 
 #: assign.c:298
 msgid "assign has been passed a NULL dt"
-msgstr "à atribuição foi passado um dt NULL"
+msgstr "assign recebeu uma dt NULL"
 
 #: assign.c:299
 msgid "dt passed to assign isn't type VECSXP"
-msgstr "dt passado para a atribuição não é do tipo VECSXP"
+msgstr "dt passada para a assign não é do tipo VECSXP"
 
 #: assign.c:301
 msgid ""
@@ -165,25 +167,25 @@ msgid ""
 "future use. Use := in j directly. Or use copy(.SD) as a (slow) last resort, "
 "until shallow() is exported."
 msgstr ""
-".SD está bloqueado. A atualização de .SD por referência usando := ou set "
-"está reservada para uso futuro. Use := em j diretamente. Ou use copy(.SD) "
-"como um como último recurso (lento), até que shallow() seja exportado."
+".SD é travado. A atualização de .SD por referência usando := ou set está "
+"reservada para uso futuro. Use := em j diretamente. Ou use copy(.SD) como um"
+" último recurso (lento), até que shallow() seja exportado."
 
 #: assign.c:309
 msgid "Internal error: dt passed to Cassign is not a data.table or data.frame"
-msgstr "Erro interno: dt passado para Cassign não é data.table ou data.frame"
+msgstr "Erro interno: dt passada para Cassign não é data.table ou data.frame"
 
 #: assign.c:313
 msgid "dt passed to assign has no names"
-msgstr "dt passado para assign não tem nomes"
+msgstr "dt passada para assign não tem nomes"
 
 #: assign.c:317
 msgid ""
 "data.table is NULL; malformed. A null data.table should be an empty list. "
 "typeof() should always return 'list' for data.table."
 msgstr ""
-"data.table é NULL; malformado. Um data.table nulo deve ser uma lista vazia. "
-"typeof() deve sempre retornar \"list\" para data.table."
+"data.table é NULL; malformado. Uma data.table nula deve ser uma lista vazia."
+" typeof() deve sempre retornar \"list\" para data.table."
 
 #: assign.c:326
 #, c-format
