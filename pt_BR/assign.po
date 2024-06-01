@@ -208,8 +208,8 @@ msgid ""
 "the loop if possible for efficiency."
 msgstr ""
 "i é do tipo '%s'. Deve ser inteiro ou é feita coerção de numérico com aviso."
-" Se i for um subconjunto lógico, simplesmente envolva which() e obtenha "
-"which() por fora do loop, se possível, para maior eficiência."
+" Se i for um subconjunto lógico, simplesmente envolva which() e leve which()"
+" para fora, se possível, para maior eficiência."
 
 #: assign.c:340
 #, c-format
@@ -219,16 +219,18 @@ msgstr "i[%d] é %d, o qual está fora do intevalo [1,nrow=%d]"
 #: assign.c:343
 #, c-format
 msgid "Assigning to %d row subset of %d rows\n"
-msgstr "Atribuindo para a linha %d que é subconjunto de %d linhas\n"
+msgstr "Atribuindo para um subconjunto de %d linhas, de %d linhas\n"
 
 #: assign.c:351
 #, c-format
 msgid "Added %d new column%s initialized with all-NA\n"
-msgstr "Adicionada(s) %d nova(s) coluna%s inicializada toda com NA\n"
+msgstr "Adicionada(s) %d nova(s) coluna%s inicializada inteiramente NA\n"
 
 #: assign.c:356
 msgid "length(LHS)==0; no columns to delete or assign RHS to."
-msgstr "length(LHS)==0; nenhuma coluna para excluir ou atribuir RHS."
+msgstr ""
+"length(LHS)==0; nenhuma coluna para excluir ou para a qual atribuir o lado "
+"direito (RHS)."
 
 #: assign.c:370
 msgid ""
@@ -237,8 +239,8 @@ msgid ""
 " shallow copy."
 msgstr ""
 "set() em um data.frame serve para alterar colunas existentes, não para "
-"adicionar novas. Por favor, use um data.table para isso. data.table são "
-"superalocados e não são copiados superficialmente."
+"adicionar novas. Por favor, use uma data.table para isso. As data.tables são"
+" superalocadas e não sofrem cópias rasas."
 
 #: assign.c:381
 msgid ""
