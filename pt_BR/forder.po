@@ -233,35 +233,35 @@ msgstr ""
 
 #: forder.c:1264
 msgid "Internal error: issorted 'by' must be NULL or integer vector"
-msgstr ""
+msgstr "Erro interno: issorted 'by' deve ser NULL ou vetor de inteiros"
 
 #: forder.c:1268 forder.c:1319
 #, c-format
 msgid "issorted 'by' [%d] out of range [1,%d]"
-msgstr ""
+msgstr "issorted 'by' [%d] fora de intervalo [1,%d]"
 
 #: forder.c:1273
 msgid "is.sorted does not work on list columns"
-msgstr ""
+msgstr "is.sorted não funciona em colunas de lista"
 
 #: forder.c:1306 forder.c:1336 forder.c:1370
 #, c-format
 msgid "type '%s' is not yet supported"
-msgstr ""
+msgstr "tipo '%s' ainda não é suportado"
 
 #: forder.c:1383
 msgid "x must be either NULL or an integer vector"
-msgstr ""
+msgstr "x deve ser ou NULL ou um vetor de inteiros"
 
 #: forder.c:1385
 msgid "nrow must be integer vector length 1"
-msgstr ""
+msgstr "nrow deve ser um vetor de inteiros de comprimento 1"
 
 #: forder.c:1387
 #, c-format
 msgid "nrow==%d but must be >=0"
-msgstr ""
+msgstr "nrow==%d, mas deve ser >=0"
 
 #: forder.c:1404
 msgid "x must be type 'double'"
-msgstr ""
+msgstr "x deve ser do tipo 'double'"
