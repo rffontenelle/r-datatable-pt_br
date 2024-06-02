@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Italo Santos, 2024
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: transpose 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:23-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Italo Santos, 2024\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,8 +47,8 @@ msgstr ""
 "Quando o argumento 'type.convert' contém um elemento não nomeado, espera-se "
 "que seja o último elemento e deve ser uma função. Mais de um elemento não "
 "nomeado não é permitido, a menos que todos os elementos sejam funções com "
-"comprimento igual a %d (o comprimento da lista transposta ou 'keep' "
-"argumento se especificado)."
+"comprimento igual a %d (o comprimento da lista transposta ou argumento "
+"'keep', se especificado)."
 
 #: transpose.R:66
 msgid ""
@@ -69,7 +70,8 @@ msgid ""
 msgstr ""
 "Quando o argumento 'type.convert' contém índices de lista transposta, eles "
 "devem ser valores inteiros contidos no argumento 'keep' (se especificado) ou"
-" estar entre %d e %d (se não especificado). Mas não está contido em '%s'."
+" estar entre %d e %d (se não especificado). Mas '%s' não está(ão) contido(s)"
+" em '%s'."
 
 #: transpose.R:74
 msgid ""
@@ -89,8 +91,7 @@ msgid ""
 msgstr ""
 "O argumento 'type.convert' deve ser TRUE/FALSE, uma função, uma lista de "
 "funções ou uma lista nomeada de pares 'fun=indices' com opcionalmente um "
-"elemento não nomeado (uma função), mas foi fornecido um objeto do tipo '%s' "
-"."
+"elemento não nomeado (uma função), mas foi fornecido um objeto do tipo '%s'."
 
 #: transpose.R:88
 msgid "length(names) (= %d) is not equal to length(%s) (= %d)."
