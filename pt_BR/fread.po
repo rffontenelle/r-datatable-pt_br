@@ -951,8 +951,8 @@ msgstr ""
 msgid ""
 "   + %8.3fs (%3.0f%%) Parse to row-major thread buffers (grown %d times)\n"
 msgstr ""
-"   + %8.3fs (%3.0f%%) Analisar para buffers de thread principais da linha "
-"(aumentados %d vezes)\n"
+"   + %8.3fs (%3.0f%%) Analisar para buffers de thread com ordem principal de"
+" linha (aumentados %d vezes)\n"
 
 #: fread.c:2627
 #, c-format
