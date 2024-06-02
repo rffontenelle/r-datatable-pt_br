@@ -25,7 +25,7 @@ msgstr ""
 #: forder.c:121
 #, c-format
 msgid "Failed to realloc group size result to %d*4bytes"
-msgstr ""
+msgstr "Falha ao realocar o resultado de tamanho de grupo para %d*4bytes"
 
 #: forder.c:255
 #, c-format
@@ -33,14 +33,16 @@ msgid ""
 "Logical error. counts[0]=%d in cradix but should have been decremented to 0."
 " radix=%d"
 msgstr ""
+"Erro lógico. counts[0]=%d em cradix, mas deveria ter sido decrementado para "
+"0. radix=%d"
 
 #: forder.c:270
 msgid "Failed to alloc cradix_counts"
-msgstr ""
+msgstr "Falha ao alocar cradix_counts"
 
 #: forder.c:272
 msgid "Failed to alloc cradix_tmp"
-msgstr ""
+msgstr "Falha ao alocar cradix_tmp"
 
 #: forder.c:283
 #, c-format
@@ -48,46 +50,51 @@ msgid ""
 "Internal error: ustr isn't empty when starting range_str: ustr_n=%d, "
 "ustr_alloc=%d"
 msgstr ""
+"Erro interno: o ustr não está vazio ao iniciar range_str: ustr_n=%d, "
+"ustr_alloc=%d"
 
 #: forder.c:284
 msgid "Internal error: ustr_maxlen isn't 0 when starting range_str"
-msgstr ""
+msgstr "Erro interno: ustr_maxlen não é 0 ao iniciar range_str"
 
 #: forder.c:304
 #, c-format
 msgid "Unable to realloc %d * %d bytes in range_str"
-msgstr ""
+msgstr "Não foi possível realocar %d * %d bytes em range_str"
 
 #: forder.c:322
 msgid "Failed to alloc ustr3 when converting strings to UTF8"
-msgstr ""
+msgstr "Falha ao alocar ustr3 ao converter strings para UTF8"
 
 #: forder.c:340
 msgid "Failed to alloc tl when converting strings to UTF8"
-msgstr ""
+msgstr "Falha ao alocar tl ao converter strings para UTF8"
 
 #: forder.c:369
 msgid "Must an integer or numeric vector length 1"
-msgstr ""
+msgstr "Deve um vetor inteiro ou numérico de comprimento 1"
 
 #: forder.c:370
 msgid "Must be 2, 1 or 0"
-msgstr ""
+msgstr "Deve ser 2, 1 ou 0"
 
 #: forder.c:404
 msgid "Unknown non-finite value; not NA, NaN, -Inf or +Inf"
-msgstr ""
+msgstr "Valor não finito desconhecido; não é NA, NaN, -Inf ou +Inf"
 
 #: forder.c:426
 msgid ""
 "Internal error: input is not either a list of columns, or an atomic vector."
 msgstr ""
+"Erro interno: a entrada não é uma lista de colunas nem um vetor atômico."
 
 #: forder.c:428
 msgid ""
 "Internal error: input is an atomic vector (not a list of columns) but by= is"
 " not NULL"
 msgstr ""
+"Erro interno: a entrada é um vetor atômico (não uma lista de colunas), mas "
+"by= não é NULL"
 
 #: forder.c:430
 msgid ""
