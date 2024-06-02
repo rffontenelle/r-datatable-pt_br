@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Rafael Fontenelle <rffontenelle@gmail.com>, 2024
+# Leonardo Fontenelle, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: devel 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:23-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2024\n"
+"Last-Translator: Leonardo Fontenelle, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,9 +28,9 @@ msgid ""
 "installation."
 msgstr ""
 "Nenhuma informação de revisão encontrada no arquivo DESCRIPTION para o "
-"pacote %s. Certifique-se de que '%s' seja o campo correto no arquivo "
-"PACKAGES em seu repositório de pacotes '%s'. Caso contrário, o pacote será "
-"reinstalado todas as vezes, procedendo à instalação."
+"pacote %s. Certifique-se de que o campo '%s' esteja no arquivo PACKAGES em "
+"seu repositório de pacotes '%s'. Caso contrário, o pacote será reinstalado "
+"todas as vezes, procedendo à instalação."
 
 #: devel.R:53
 msgid ""
