@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Leonardo Fontenelle, 2024
+# Italo Santos, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: frank 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:23-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Leonardo Fontenelle, 2024\n"
+"Last-Translator: Italo Santos, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr "Erro interno. Argumento '%s' para %s é do tipo '%s', não '%s'"
 #, c-format
 msgid "Item %d of 'cols' is %d which is outside 1-based range [1,ncol(x)=%d]"
 msgstr ""
-"Item %d de 'cols' é %d, que está fora do intervalo (baseado em 1) "
+"Item %d de 'cols' é %d, que está fora do intervalo baseado em 1 "
 "[1,ncol(x)=%d]"
 
 #: frank.c:24 frank.c:200
