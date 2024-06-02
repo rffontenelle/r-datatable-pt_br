@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Italo Santos, 2024
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: openmp-utils 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:23-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Italo Santos, 2024\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +22,7 @@ msgid ""
 "Ignoring invalid %s==\"%s\". Not an integer >= 1. Please remove any "
 "characters that are not a digit [0-9]. See ?data.table::setDTthreads."
 msgstr ""
-"Ignorando inválido %s==\"%s\". Não é um inteiro >= 1. Por favor, remova "
+"Ignorando %s==\"%s\" inválido. Não é um inteiro >= 1. Por favor, remova "
 "quaisquer caracteres que não sejam um dígito [0-9]. Veja "
 "?data.table::setDTthreads."
 
@@ -31,7 +32,7 @@ msgid ""
 "Ignoring invalid R_DATATABLE_NUM_PROCS_PERCENT==%d. If used it must be an "
 "integer between 2 and 100. Default is 50. See ?setDTtheads."
 msgstr ""
-"Ignorando inválido R_DATATABLE_NUM_PROCS_PERCENT==%d. Se usado, deve ser um "
+"Ignorando R_DATATABLE_NUM_PROCS_PERCENT==%d inválido. Se usado, deve ser um "
 "inteiro entre 2 e 100. O padrão é 50. Veja ?setDTthreads."
 
 #: openmp-utils.c:79
@@ -105,12 +106,12 @@ msgid ""
 "restore_after_fork= must be TRUE, FALSE, or NULL (default). "
 "getDTthreads(verbose=TRUE) reports the current setting.\n"
 msgstr ""
-"restore_after_fork= deve ser TRUE, FALSE, ou NULL (padrão). "
+"restore_after_fork= deve ser TRUE, FALSE ou NULL (padrão). "
 "getDTthreads(verbose=TRUE) relata a configuração atual.\n"
 
 #: openmp-utils.c:112
 msgid "'throttle' must be a single number, non-NA, and >=1"
-msgstr "'throttle' deve ser um único número, non-NA e >=1"
+msgstr "'throttle' deve ser um único número, não-NA e >=1"
 
 #: openmp-utils.c:126
 msgid ""
