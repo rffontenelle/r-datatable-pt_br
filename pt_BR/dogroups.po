@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Rafael Fontenelle <rffontenelle@gmail.com>, 2024
+# Leonardo Fontenelle, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: dogroups 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:23-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2024\n"
+"Last-Translator: Leonardo Fontenelle, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,15 +18,15 @@ msgstr ""
 
 #: dogroups.c:75
 msgid "Internal error: order not integer vector"
-msgstr "Erro interno: ordem, não vetor de inteiros"
+msgstr "Erro interno: 'order' não é vetor de inteiros"
 
 #: dogroups.c:76
 msgid "Internal error: starts not integer"
-msgstr "Erro interno: starts não é inteiro"
+msgstr "Erro interno: 'starts' não é inteiro"
 
 #: dogroups.c:77
 msgid "Internal error: lens not integer"
-msgstr "Erro interno: lens não é inteiro"
+msgstr "Erro interno: 'lens' não é vetor de inteiros"
 
 #: dogroups.c:79
 msgid "Internal error: jiscols not NULL but o__ has length"
@@ -37,7 +38,7 @@ msgstr "Erro interno: xjiscols não é NULL, mas o__ tem comprimento"
 
 #: dogroups.c:81
 msgid "env is not an environment"
-msgstr "env não é um ambiente"
+msgstr "'env' não é um ambiente"
 
 #: dogroups.c:100
 #, c-format
