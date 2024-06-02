@@ -177,8 +177,8 @@ msgid ""
 msgstr ""
 "A coluna %d do resultado de j para o primeiro grupo é NULL. Contamos com os "
 "tipos de coluna do primeiro resultado para decidir o tipo esperado para os "
-"grupos restantes (e exigir consistência). Colunas com NULL são aceitáveis "
-"​​para grupos posteriores (e são substituídas por NA do tipo apropriado e "
+"grupos restantes (e exigir consistência). Colunas NULL são aceitáveis ​​para"
+" grupos posteriores (e são substituídas por NA do tipo apropriado e "
 "recicladas), mas não para o primeiro. Em vez disso, use um vetor vazio "
 "tipado, como integer() ou numeric()."
 
@@ -274,7 +274,7 @@ msgstr "Foram escritas menos linhas (%d) do que alocadas (%d).\n"
 #: dogroups.c:461
 #, c-format
 msgid "Internal error: block 0 [%d] and block 1 [%d] have both run"
-msgstr "Erro interno: bloco 0 [%d] e bloco 1 [%d] foram executados"
+msgstr "Erro interno: bloco 0 [%d] e bloco 1 [%d] foram ambos executados"
 
 #: dogroups.c:463
 #, c-format
@@ -292,7 +292,7 @@ msgstr "  eval(j) levou %.3fs para %d chamadas\n"
 
 #: dogroups.c:489
 msgid "growVector passed NULL"
-msgstr "growVector passou NULL"
+msgstr "growVector recebeu NULL"
 
 #: dogroups.c:509
 #, c-format
