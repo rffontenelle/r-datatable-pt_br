@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Italo Santos, 2024
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: rbindlist 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:23-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Italo Santos, 2024\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -61,7 +62,7 @@ msgid ""
 "length %d. Only length-1 columns are recycled."
 msgstr ""
 "Coluna %d do item %d tem comprimento %d inconsistente com a coluna %d que "
-"tem comprimento %d. Apenas colunas de length-1 são recicladas."
+"tem comprimento %d. Apenas colunas de comprimento 1 são recicladas."
 
 #: rbindlist.c:57
 #, c-format
@@ -69,9 +70,9 @@ msgid ""
 "Column %d ['%s'] of item %d is length 0. This (and %d other%s like it) has "
 "been filled with NA (NULL for list columns) to make each item uniform."
 msgstr ""
-"Coluna %d ['%s'] do item %d tem comprimento 0. Esta (e %d outras%s "
-"semelhantes) foi preenchida com NA (NULL para colunas de lista) para tornar "
-"cada item uniforme."
+"Coluna %d ['%s'] do item %d tem comprimento 0. Esta (e %d outra%s como ela) "
+"foi preenchida com NA (NULL para colunas de lista) para tornar cada item "
+"uniforme."
 
 #: rbindlist.c:61
 #, c-format
