@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Italo Santos, 2024
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: onLoad 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:23-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Italo Santos, 2024\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +22,8 @@ msgid ""
 " in v1.12.4 NEWS (Oct 2019), and note 14 in v1.14.2."
 msgstr ""
 "Opção 'datatable.nomatch' está definida, mas agora é ignorada. Por favor, "
-"veja a nota 11 em noticias v1.12.4 (Outubro de 2019) e a nota 14 em v1.14.2."
+"veja a nota 11 nas notícias de v1.12.4 (Outubro de 2019) e a nota 14 em "
+"v1.14.2."
 
 #: onLoad.R:26
 msgid ""
@@ -65,8 +67,8 @@ msgid ""
 "years. It is now ignored. Manually name `...` entries as needed if you still"
 " prefer the old behavior."
 msgstr ""
-"Opção 'datatable.CJ.names' não tem mais efeito, conforme prometido há 4 "
-"anos. Agora é ignorada. Nomeie manualmente `...` as entradas conforme "
+"Opção 'datatable.CJ.names' não tem mais efeito, conforme prometido por 4 "
+"anos. Agora é ignorada. Nomeie manualmente as entradas `...` conforme "
 "necessário se ainda preferir o comportamento antigo."
 
 #: onLoad.R:100
