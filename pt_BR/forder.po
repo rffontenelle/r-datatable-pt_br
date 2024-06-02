@@ -101,20 +101,22 @@ msgid ""
 "Input is an atomic vector (not a list of columns) but order= is not a length"
 " 1 integer"
 msgstr ""
+"A entrada é um vetor atômico (não uma lista de colunas), mas order= não é um"
+" número inteiro de comprimento 1"
 
 #: forder.c:432
 #, c-format
 msgid "forder.c received a vector type '%s' length %d\n"
-msgstr ""
+msgstr "forder.c recebeu um tipo de vetor '%s' comprimento %d\n"
 
 #: forder.c:440
 #, c-format
 msgid "forder.c received %d rows and %d columns\n"
-msgstr ""
+msgstr "forder.c recebeu %d linhas e %d colunas\n"
 
 #: forder.c:443
 msgid "Internal error: DT is an empty list() of 0 columns"
-msgstr ""
+msgstr "Erro interno: DT é um list() vazio de 0 colunas"
 
 #: forder.c:445
 #, c-format
@@ -122,6 +124,7 @@ msgid ""
 "Internal error: DT has %d columns but 'by' is either not integer or is "
 "length 0"
 msgstr ""
+"Erro interno: DT tem %d colunas, mas 'by' não é inteiro ou tem comprimento 0"
 
 #: forder.c:447
 #, c-format
@@ -129,11 +132,13 @@ msgid ""
 "Either order= is not integer or its length (%d) is different to by='s length"
 " (%d)"
 msgstr ""
+"Ou order= não é inteiro ou seu comprimento (%d) é diferente do comprimento "
+"de by= (%d)"
 
 #: forder.c:453
 #, c-format
 msgid "internal error: 'by' value %d out of range [1,%d]"
-msgstr ""
+msgstr "erro interno: valor 'by' %d fora do intervalo [1,%d]"
 
 #: forder.c:455
 #, c-format
@@ -141,6 +146,8 @@ msgid ""
 "Column %d is length %d which differs from length of column 1 (%d), are you "
 "attempting to order by a list column?\n"
 msgstr ""
+"A coluna %d tem comprimento %d que difere do comprimento da coluna 1 (%d). "
+"Você está tentando ordenar por uma coluna de lista?\n"
 
 #: forder.c:459 forder.c:462
 #, c-format
@@ -149,21 +156,21 @@ msgstr "%s deve ser TRUE ou FALSE"
 
 #: forder.c:465
 msgid "At least one of retGrp= or sort= must be TRUE"
-msgstr ""
+msgstr "Pelo menos um de retGrp= ou sort= deve ser TRUE"
 
 #: forder.c:467
 msgid "na.last must be logical TRUE, FALSE or NA of length 1"
-msgstr ""
+msgstr "na.last deve ser lógico TRUE, FALSE ou NA de comprimento 1"
 
 #: forder.c:495 forder.c:599
 #, c-format
 msgid "Unable to allocate %<PRIu64> bytes of working memory"
-msgstr ""
+msgstr "Não é possível alocar %<PRIu64> bytes de memória de trabalho"
 
 #: forder.c:511
 #, c-format
 msgid "Item %d of order (ascending/descending) is %d. Must be +1 or -1."
-msgstr ""
+msgstr "O item %d da ordem (crescente/decrescente) é %d. Deve ser +1 ou -1."
 
 #: forder.c:537
 #, c-format
