@@ -178,50 +178,58 @@ msgid ""
 "\n"
 "*** Column %d passed to forder is a date stored as an 8 byte double but no fractions are present. Please consider a 4 byte integer date such as IDate to save space and time.\n"
 msgstr ""
+"\n"
+"*** A coluna %d passada para forder é uma data armazenada como um double de 8 bytes, mas nenhuma fração está presente. Considere uma data inteira de 4 bytes, como IDate, para economizar espaço e tempo.\n"
 
 #: forder.c:553
 #, c-format
 msgid "Column %d passed to [f]order is type '%s', not yet supported."
 msgstr ""
+"A coluna %d passada para [f]order é do tipo '%s', ainda não suportado."
 
 #: forder.c:706
 msgid "Internal error: column not supported, not caught earlier"
-msgstr ""
+msgstr "Erro interno: coluna não suportada, não detectada anteriormente"
 
 #: forder.c:714
 #, c-format
 msgid "nradix=%d\n"
-msgstr ""
+msgstr "nradix=%d\n"
 
 #: forder.c:721
 #, c-format
 msgid ""
 "Failed to allocate TMP or UGRP or they weren't cache line aligned: nth=%d"
 msgstr ""
+"Falha ao alocar TMP ou UGRP ou eles não estavam alinhados com a linha de "
+"cache: nth=%d"
 
 #: forder.c:727
 msgid "Could not allocate (very tiny) group size thread buffers"
 msgstr ""
+"Não foi possível alocar buffers de thread de tamanho de grupo (muito "
+"pequenos)"
 
 #: forder.c:788
 #, c-format
 msgid "Timing block %2d%s = %8.3f   %8d\n"
-msgstr ""
+msgstr "Bloco de tempo %2d%s = %8.3f   %8d\n"
 
 #: forder.c:791
 #, c-format
 msgid "stat[%03d]==%20<PRIu64>\n"
-msgstr ""
+msgstr "stat[%03d]==%20<PRIu64>\n"
 
 #: forder.c:1047
 #, c-format
 msgid "Failed to allocate parallel counts. my_n=%d, nBatch=%d"
-msgstr ""
+msgstr "Falha ao alocar contagens paralelas. my_n=%d, nBatch=%d"
 
 #: forder.c:1156
 #, c-format
 msgid "Unable to allocate TMP for my_n=%d items in parallel batch counting"
 msgstr ""
+"Não é possível alocar TMP para my_n=%d itens na contagem paralela em lote"
 
 #: forder.c:1264
 msgid "Internal error: issorted 'by' must be NULL or integer vector"
