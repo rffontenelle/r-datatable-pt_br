@@ -3,6 +3,8 @@ on:
     branches: main
   pull_request:
     branches: main
+  schedule:
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -27,19 +29,30 @@ jobs:
       - name: Run 0_separa.R
         run: Rscript 0_separa.R
 
-      - name: See difference
+      - name: Print differences
         run: |
           git diff -I'^"POT-Creation-Date: ' --numstat pot/*.pot
 
-      - name: Commit results
+      - name: Commit changes
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git diff -I'^"POT-Creation-Date: ' --numstat pot/*.pot | cut -f3 | xargs -r git add -v
           git add -v $(git ls-files -o --exclude-standard *.pot) || :
-          git commit -m 'Data updated' || echo "No changes to commit"
+          git commit -m 'Update translation templates' || echo "No changes to commit"
+          git checkout .
 
-      - name: Push changes
-        if: github.event_name == 'workflow_dispatch'
+      - name: Create pull request
+        id: cpr
+        if: ${{ contains(fromJSON('["schedule", "workflow_dispatch"]'), github.event_name) }}
+        uses: peter-evans/create-pull-request@v6
+        with:
+          add-paths: pot/*.pot
+          title: 'Update translation templates'
+          assignees: rffontenelle
+
+      - name: Check outputs
+        if: ${{ steps.cpr.outputs.pull-request-number }}
         run: |
-          git push || echo "No commit to push"
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
