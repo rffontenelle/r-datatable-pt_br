@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Leonardo Fontenelle, 2024
+# Italo Santos, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: fmelt 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:23-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Leonardo Fontenelle, 2024\n"
+"Last-Translator: Italo Santos, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,7 +56,7 @@ msgstr "Um ou mais valores em 'measure.vars' são inválidos."
 
 #: fmelt.c:189
 msgid "One or more values in 'id.vars' is invalid."
-msgstr "Um ou mais valores in 'id.vars' são inválidos."
+msgstr "Um ou mais valores em 'id.vars' são inválidos."
 
 #: fmelt.c:212
 #, c-format
@@ -189,7 +190,7 @@ msgstr ""
 #: fmelt.c:572
 #, c-format
 msgid "Unknown column type '%s' for column '%s'."
-msgstr "Tipo de coluna desconhecido ('%s') para coluna '%s'."
+msgstr "Tipo de coluna desconhecido '%s' para coluna '%s'."
 
 #: fmelt.c:593
 #, c-format
@@ -205,7 +206,7 @@ msgstr ""
 #: fmelt.c:773
 #, c-format
 msgid "Unknown column type '%s' for column '%s' in 'data'"
-msgstr "Tipo de coluna '%s' desconhecido para a coluna '%s' em 'data'."
+msgstr "Tipo de coluna '%s' desconhecido para a coluna '%s' em 'data'"
 
 #: fmelt.c:784
 msgid "Input is not of type VECSXP, expected a data.table, data.frame or list"
@@ -223,7 +224,7 @@ msgstr "Argumento 'variable.factor' deveria ser lógico TRUE/FALSE"
 
 #: fmelt.c:787
 msgid "Argument 'na.rm' should be logical TRUE/FALSE."
-msgstr "Argumento 'na.rm' deveria ser lógico TRUE/FALSE"
+msgstr "Argumento 'na.rm' deveria ser lógico TRUE/FALSE."
 
 #: fmelt.c:788
 msgid "Argument 'variable.name' must be a character vector"
