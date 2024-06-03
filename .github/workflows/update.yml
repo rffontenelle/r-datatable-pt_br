@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -52,6 +53,7 @@ jobs:
         with:
           add-paths: pot/*.pot
           assignees: rffontenelle
+          base: main
           branch: cpr/update-templates
           title: 'Update translation templates'
 
