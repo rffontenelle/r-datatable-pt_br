@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Leonardo Fontenelle, 2024
+# Italo Santos, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: froll 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:23-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Leonardo Fontenelle, 2024\n"
+"Last-Translator: Italo Santos, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -107,4 +108,4 @@ msgstr "%s: resultados da FUN fornecida não são do tipo double"
 #: froll.c:463
 #, c-format
 msgid "%s: took %.3fs\n"
-msgstr ""
+msgstr "%s: levou %.3fs\n"
