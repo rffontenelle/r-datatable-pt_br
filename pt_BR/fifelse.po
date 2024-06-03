@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Leonardo Fontenelle, 2024
+# Italo Santos, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: fifelse 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:23-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Leonardo Fontenelle, 2024\n"
+"Last-Translator: Italo Santos, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,7 +29,7 @@ msgstr "Sem suporte a objetos de classe S4 (exceto nanotime)."
 msgid ""
 "Length of 'yes' is %<PRId64> but must be 1 or length of 'test' (%<PRId64>)."
 msgstr ""
-"Comprimento de 'yes' é <PRId64> mas deve ser 1 ou o comprimento de 'test' "
+"Comprimento de 'yes' é %<PRId64> mas deve ser 1 ou o comprimento de 'test' "
 "(%<PRId64>)"
 
 #: fifelse.c:26
@@ -183,7 +184,7 @@ msgid ""
 "Argument #%d has different class than argument #2, Please make sure all "
 "output values have the same class."
 msgstr ""
-"Argumento #%d tem classe diferente do argumento #1. Favor garantir que todos"
+"Argumento #%d tem classe diferente do argumento #2. Favor garantir que todos"
 " os valores de saída tenham a mesma classe."
 
 #: fifelse.c:281
