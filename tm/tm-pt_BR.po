@@ -9569,7 +9569,7 @@ msgid "-- processing imports for"
 msgstr "-- processando importações para"
 
 msgid "-- done processing imports for"
-msgstr "-- processamento de importações conluído para"
+msgstr "-- processamento de importações realizado para"
 
 msgid "-- loading code for"
 msgstr "-- carregando código para"
