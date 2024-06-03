@@ -42,10 +42,10 @@ for (nome in nomes) {
 
 }
 
-if (!dir.exists("po")) dir.create("po")
+if (!dir.exists("pot")) dir.create("pot")
 arquivos_po <- list.dirs(recursive = TRUE) |>
                  grep(pattern = "^\\./[^/]+/po$", value = TRUE) |>
                  list.files(pattern = "\\.pot$", full.names = TRUE)
-file.copy(arquivos_po, file.path("po", basename(arquivos_po)))
+file.copy(arquivos_po, file.path("pot", basename(arquivos_po)))
 unlink(nomes, recursive = TRUE)
 
