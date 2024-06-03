@@ -45,14 +45,14 @@ msgstr "Erro interno: mult desconhecido na pesquisa: %d"
 #, c-format
 msgid "First pass on calculating lengths in lookup ... done in %8.3f seconds\n"
 msgstr ""
-"Primeira passagem no cálculo de comprimentos na pesquisa. .. realizada em "
+"Primeira passagem no cálculo de comprimentos na pesquisa. ... concluída em "
 "%8.3f segundos\n"
 
 #: ijoin.c:141
 #, c-format
 msgid "Second pass on allocation in lookup ... done in %8.3f seconds\n"
 msgstr ""
-"Segunda passagem na alocação na pesquisa. .. realizada em %8.3f segundos\n"
+"Segunda passagem na alocação na pesquisa. ... concluída em %8.3f segundos\n"
 
 #: ijoin.c:160
 #, c-format
@@ -74,7 +74,7 @@ msgstr ""
 #: ijoin.c:220
 #, c-format
 msgid "Final step in generating lookup ... done in %8.3f seconds\n"
-msgstr "Etapa final na geração da pesquisa... realizada em %8.3f segundos\n"
+msgstr "Etapa final na geração da pesquisa... concluída em %8.3f segundos\n"
 
 #: ijoin.c:325
 #, c-format
@@ -86,7 +86,7 @@ msgstr "Erro interno: tipo desconhecido em mult=ALL em sobreposições: %d"
 msgid ""
 "First pass on calculating lengths in overlaps ... done in %8.3f seconds\n"
 msgstr ""
-"Primeira passagem no cálculo de comprimentos em sobreposições ... realizada "
+"Primeira passagem no cálculo de comprimentos em sobreposições ... concluída "
 "em %8.3f segundos\n"
 
 #: ijoin.c:466 ijoin.c:573 ijoin.c:722
@@ -103,5 +103,5 @@ msgstr "Erro interno: mult desconhecido em sobreposições: %d"
 #, c-format
 msgid "Final step, fetching indices in overlaps ... done in %8.3f seconds\n"
 msgstr ""
-"Etapa final, busca de índices em sobreposições ... realizada em %8.3f "
+"Etapa final, busca de índices em sobreposições ... concluída em %8.3f "
 "segundos\n"
