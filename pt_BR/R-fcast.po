@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Leonardo Fontenelle, 2024
+# Italo Santos, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: fcast 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:23-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Leonardo Fontenelle, 2024\n"
+"Last-Translator: Italo Santos, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +33,7 @@ msgstr ""
 "entrada seja uma data.table, com setDT(%3$s) ou as.data.table(%3$s). Se você"
 " pretende usar um método de reshape2, tente instalar aquele pacote primeiro,"
 " mas note que reshape2 foi substituído e não está mais em desenvolvimento "
-"ativo"
+"ativo."
 
 #: fcast.R:21
 msgid ""
@@ -63,15 +64,15 @@ msgstr "a data.table a ser \"moldada\" deve ter nomes de coluna únicos"
 
 #: fcast.R:60
 msgid "value.var values %s are not found in 'data'."
-msgstr "os valores de value.var  %s não se encontram em 'data'"
+msgstr "os valores de value.var  %s não se encontram em 'data'."
 
 #: fcast.R:76
 msgid ""
 "When 'fun.aggregate' and 'value.var' are both lists, 'value.var' must be "
 "either of length =1 or =length(fun.aggregate)."
 msgstr ""
-"Quando tanto 'fun.aggregate' quanto 'value.var' são listas, o comprimento de"
-" 'value.var' deve ser ou =1 ou  =length(fun.aggregate)."
+"Quando 'fun.aggregate' e 'value.var' são listas, o comprimento de "
+"'value.var' deve ser ou =1 ou  =length(fun.aggregate)."
 
 #: fcast.R:109
 msgid "'data' must be a data.table."
@@ -91,7 +92,7 @@ msgstr "Colunas especificadas na formula não podem ser do tipo lista"
 
 #: fcast.R:159
 msgid "Aggregate function missing, defaulting to 'length'"
-msgstr "Função de agregação faltante faltante, usando 'length'por padrão"
+msgstr "Função de agregação faltante, usando 'length'por padrão"
 
 #: fcast.R:165
 msgid ""
@@ -102,11 +103,11 @@ msgid ""
 "function to handle this case appropriately."
 msgstr ""
 "Funções de agregação deveriam receber vetores e retornar valores únicos "
-"(comprimento 1). No entanto, o retorno da(s) função(ões) tem comprimento != "
-"1. Esse valor terá que ser usado para preencher quaisquer combinações "
-"faltantes, e portanto deve ter comprimento = 1. Ou contorne isso definindo o"
-" argumento 'fill' explicitamente, ou modifique sua função para lidar com "
-"esse caso apropriadamente."
+"(comprimento=1). No entanto, o retorno da(s) função(ões) tem comprimento!=1."
+" Esse valor terá que ser usado para preencher quaisquer combinações "
+"faltantes, e portanto deve ter comprimento=1. Ou contorne isso definindo o "
+"argumento 'fill' explicitamente, ou modifique sua função para lidar com esse"
+" caso apropriadamente."
 
 #: fcast.R:222
 msgid "Internal error -- empty rhsnames in dcast; please report"
