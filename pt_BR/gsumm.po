@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Italo Santos, 2024
+# Rafael Fontenelle <rffontenelle@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: gsumm 0.0\n"
 "POT-Creation-Date: 2024-02-15 21:23-0300\n"
 "PO-Revision-Date: 2024-04-10 02:58+0000\n"
-"Last-Translator: Italo Santos, 2024\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle@gmail.com>, 2024\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/rafaelff1/teams/190680/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,12 +37,12 @@ msgstr "length(f)=%d != length(l)=%d"
 #: gsumm.c:66
 #, c-format
 msgid "o has length %d but sum(l)=%d"
-msgstr "o tem comprimento %d mas sum(l)=%d"
+msgstr "o tem comprimento %d, mas sum(l)=%d"
 
 #: gsumm.c:69
 msgid "Internal error: o's maxgrpn attribute mismatches recalculated maxgrpn"
 msgstr ""
-"Erro interno: o's maxgrpn atributo não corresponde ao maxgrpn recalculado"
+"Erro interno: atributo maxgrpn de o não corresponde ao maxgrpn recalculado"
 
 #: gsumm.c:89
 #, c-format
@@ -55,7 +56,7 @@ msgstr ""
 #: gsumm.c:98
 #, c-format
 msgid "gforce initial population of grp took %.3f\n"
-msgstr "gforce população inicial do grp levou %.3f\n"
+msgstr "população inicial de gforce do grp levou %.3f\n"
 
 #: gsumm.c:116
 msgid ""
@@ -114,8 +115,8 @@ msgid ""
 "convenience."
 msgstr ""
 "A soma de uma coluna de inteiros para um grupo foi maior do que o tipo "
-"'integer' pode suportar, então o resultado foi feita coerção para 'numeric' "
-"automaticamente por conveniência."
+"'integer' pode suportar, então foi feita coerção do resultado para 'numeric'"
+" automaticamente por conveniência."
 
 #: gsumm.c:566 gsumm.c:838 gsumm.c:904 gsumm.c:1090 gsumm.c:1161
 #, c-format
