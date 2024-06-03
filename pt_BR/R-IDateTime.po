@@ -21,8 +21,8 @@ msgid ""
 "Internal error -- difftime objects may not be added to IDate, but Ops "
 "dispatch should have intervened to prevent this"
 msgstr ""
-"Erro interno -- objetos difftime não podem ser adicionados a IDate, mas a "
-"Ops dispatch deveria ter intervindo para evitar isso"
+"Erro interno -- objetos difftime não podem ser adicionados a IDate, mas o "
+"despacho de Ops deveria ter intervindo para evitar isso"
 
 #: IDateTime.R:107
 msgid "binary + is not defined for \"IDate\" objects"
@@ -47,8 +47,8 @@ msgid ""
 "Internal error -- difftime objects may not be subtracted from IDate, but Ops"
 " dispatch should have intervened to prevent this"
 msgstr ""
-"Erro interno -- objetos difftime não podem ser subtraidos de IDate, mas a "
-"Ops dispatch deveria ter intervindo para evitar isso"
+"Erro interno -- objetos difftime não podem ser subtraidos de IDate, mas "
+"despacho de Ops deveria ter intervindo para evitar isso"
 
 #: IDateTime.R:309
 msgid "Valid options for ms are 'truncate', 'nearest', and 'ceil'."
