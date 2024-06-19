@@ -38,7 +38,8 @@ jobs:
       # 2- Extract strings from source files and update POT files in the source code
       
       - name: Run 0_separa.R
-        run: Rscript 0_separa.R
+        run: |
+          Rscript 0_separa.R
 
       - name: Print differences
         run: |
@@ -82,8 +83,14 @@ jobs:
             -e '/Language-Team: /s/none/Brazilian Portuguese/' \
             -e "1s;^;$header;"
 
+      - name: Put files in the initial directory
+        run: |
+          cp ../data.table/po/{R-,}pt_BR.po .
+
       - name: Upload artifacts pt_BR.po and R-pt_BR.po
         uses: actions/upload-artifact@v4
         with:
           name: generated-pofiles
-          path: ../data.table/po/*pt_BR.po
+          path: |
+            pt_BR.po
+            R-pt_BR.po
