@@ -94,7 +94,7 @@ msgid ""
 "tracker"
 msgstr ""
 "Erro interno: valor inválido para 'mult'. Por favor, relate isso no "
-"rastreador de problemas do data.table."
+"rastreador de problemas do data.table"
 
 #: bmerge.c:106
 msgid ""
