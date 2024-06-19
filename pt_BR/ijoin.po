@@ -21,7 +21,7 @@ msgid ""
 "before. please report to data.table issue tracker"
 msgstr ""
 "Erro interno: valor inválido para 'mult'; isso deveria ter sido detectado "
-"antes. informe ao rastreador de problemas do data.table"
+"antes. Por favor, relate isso no rastreador de problemas do data.table"
 
 #: ijoin.c:29 ijoin.c:250
 msgid ""
@@ -29,7 +29,7 @@ msgid ""
 "before. please report to data.table issue tracker"
 msgstr ""
 "Erro interno: valor inválido para 'type'; isso deveria ter sido detectado "
-"antes. informe ao rastreador de problemas do data.table"
+"antes. Por favor, relate isso no rastreador de problemas do data.table"
 
 #: ijoin.c:56 ijoin.c:121
 #, c-format
