@@ -58,4 +58,4 @@ msgstr "Item %d de n é NA"
 #: shift.c:171
 #, c-format
 msgid "Type '%s' is not supported"
-msgstr "Tipo '%s' não é suportado"
+msgstr "Sem suporte ao tipo '%s'"
