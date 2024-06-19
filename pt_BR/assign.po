@@ -213,7 +213,7 @@ msgstr ""
 #: assign.c:340
 #, c-format
 msgid "i[%d] is %d which is out of range [1,nrow=%d]"
-msgstr "i[%d] é %d, que está fora do intevalo [1,nrow=%d]"
+msgstr "i[%d] é %d, que está fora do intervalo [1,nrow=%d]"
 
 #: assign.c:343
 #, c-format
