@@ -8,12 +8,15 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-templates:
+  ci:
     runs-on: ubuntu-latest
     permissions:
       contents: write
       pull-requests: write
     steps:
+    
+      # 1- Set up environment and dependencies
+      
       - name: Check out repository
         uses: actions/checkout@v4
         with:
@@ -26,9 +29,14 @@ jobs:
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
 
-      - name: Install gettext
-        run: sudo apt install -y gettext
+      - name: Install dependencies
+        run: \
+          sudo apt install -y gettext
+          pip install -U pip setuptools
+          pip install pomerge
 
+      # 2- Extract strings from source files and update POT files in the source code
+      
       - name: Run 0_separa.R
         run: Rscript 0_separa.R
 
@@ -48,3 +56,34 @@ jobs:
         if: ${{ contains(fromJSON('["schedule", "workflow_dispatch"]'), github.event_name) }}
         run: |
           git push
+
+      # 3- Generate pt_BR.po and R-pt_BR.po and upload them as artifacts to be submitted to data.table's source code
+      
+      - name: Generate PO files
+        run: |
+          cd ../data.table
+          R -e 'potools::po_extract()'
+          cd po
+          msginit --no-translator -l pt_BR -i data.table.pot -o pt_BR.po
+          msginit --no-translator -l pt_BR -i R-data.table.pot -o R-pt_BR.po
+
+      - name: Populate pt_BR.po and R-pt_BR.po
+        run: |
+          pomerge --from-files pt_BR/*.po --to-files ../data.table/po/pt_BR.po
+          pomerge --from-files ../../pt_BR/*.po --to-files ../data.table/po/R-pt_BR.po
+
+      - name: Fill PO files header
+        run: |
+          cd ../data.table/po
+          last_translator='Rafael Fontenelle <rffontenelle@gmail.com>'
+          header='#\n# Translators:\n# Italo Santos, 2024\n# Leonardo Fontenelle, 2024\n# Rafael Fontenelle <rffontenelle@gmail.com>, 2024\n'
+          sed -i pt_BR.po R-pt_BR.po \
+            -e "/Last-Translator/s/Automatically generated/$last_translator/" \
+            -e '/Language-Team: /s/none/Brazilian Portuguese/' \
+            -e "1s;^;$header;"
+
+      - name: Upload artifacts pt_BR.po and R-pt_BR.po
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-pofiles
+          path: ../data.table/po/*pt_BR.po
