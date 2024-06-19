@@ -66,7 +66,7 @@ msgstr "Erro interno: allowNAArg deve ser TRUE/FALSE"
 #: subset.c:165
 #, c-format
 msgid "i[%d] is %d which is out of range [1,nrow=%d]"
-msgstr "i[%d] é %d que está fora do intervalo [1, nrow=%d]"
+msgstr "i[%d] é %d, que está fora do intervalo [1,nrow=%d]"
 
 #: subset.c:177
 #, c-format
