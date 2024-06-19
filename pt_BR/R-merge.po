@@ -37,8 +37,8 @@ msgid ""
 "%s has some duplicated column name(s): %s. Please remove or rename the "
 "duplicate(s) and try again."
 msgstr ""
-"%s tem alguns nome(s) de colunas duplicados: %s. Por favor, remova ou "
-"renomeie os duplicado(s) e tente novamente."
+"%s tem alguns nomes de coluna duplicados: %s. Por favor, remova ou renomeie "
+"as duplicatas e tente novamente."
 
 #: merge.R:31
 msgid "`by.x` and `by.y` must be of same length."
