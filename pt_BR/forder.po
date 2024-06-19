@@ -247,7 +247,7 @@ msgstr "is.sorted não funciona em colunas de lista"
 #: forder.c:1306 forder.c:1336 forder.c:1370
 #, c-format
 msgid "type '%s' is not yet supported"
-msgstr "tipo '%s' ainda não é suportado"
+msgstr "Sem suporte no momento ao tipo '%s'"
 
 #: forder.c:1383
 msgid "x must be either NULL or an integer vector"
