@@ -38,8 +38,8 @@ msgstr "%s: processar algo %u levou %.3fs\n"
 #, c-format
 msgid "%s: running for input length %<PRIu64>, window %d, hasna %d, narm %d\n"
 msgstr ""
-"%s: rodando para entrada de comprimento %<PRIu64>, janela %d, hasna %d, narm"
-" %d\n"
+"%s: executando para entrada de comprimento %<PRIu64>, janela %d, hasna %d, "
+"narm %d\n"
 
 #: froll.c:68 froll.c:78 froll.c:169 froll.c:271 froll.c:281 froll.c:362
 #, c-format
@@ -56,8 +56,8 @@ msgid ""
 "%s: NA (or other non-finite) value(s) are present in input, re-running with "
 "extra care for NAs\n"
 msgstr ""
-"%s: valor(es) NA (ou outros não finitos) estão presentes na entrada, rodando"
-" de novo com cuidado extra com NAs\n"
+"%s: valor(es) NA (ou outros não finitos) estão presentes na entrada, "
+"executando de novo com cuidado extra com NAs\n"
 
 #: froll.c:81 froll.c:284
 #, c-format
@@ -74,8 +74,8 @@ msgid ""
 "%s: running in parallel for input length %<PRIu64>, window %d, hasna %d, "
 "narm %d\n"
 msgstr ""
-"%s: rodando em paralelo para entrada de largura %<PRIu64>, janela %d, hasna "
-"%d, narm %d\n"
+"%s: executando em paralelo para entrada de largura %<PRIu64>, janela %d, "
+"hasna %d, narm %d\n"
 
 #: froll.c:175 froll.c:368
 #, c-format
