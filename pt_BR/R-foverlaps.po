@@ -126,8 +126,8 @@ msgid ""
 "%s has some duplicated column name(s): %s. Please remove or rename the "
 "duplicate(s) and try again."
 msgstr ""
-"%s tem nome(s) de coluna duplicado(s): %s. Favor remover ou renomear a(s) "
-"duplicata(s) e tentar de novo."
+"%s tem alguns nomes de coluna duplicados: %s. Por favor, remova ou renomeie "
+"as duplicatas e tente novamente."
 
 #: foverlaps.R:56
 msgid ""
