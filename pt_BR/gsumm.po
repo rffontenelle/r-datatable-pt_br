@@ -210,7 +210,7 @@ msgid ""
 "caught before. please report to data.table issue tracker."
 msgstr ""
 "Erro interno, gtail só está implementado para n>0. Isso deveria ter sido "
-"detectado antes. Por favor, reporte ao rastreador de problemas do "
+"detectado antes. Por favor, relate isso no rastreador de problemas do "
 "data.table."
 
 #: gsumm.c:1007
@@ -221,7 +221,7 @@ msgid ""
 msgstr ""
 "Erro interno, `g[` (gnthvalue) só está implementado para subconjuntos de "
 "valor único com índice positivo, por exemplo, .SD[2]. Isso deveria ter sido "
-"detectado antes. Por favor, reporte ao rastreador de problemas do "
+"detectado antes. Por favor, relate isso no rastreador de problemas do "
 "data.table."
 
 #: gsumm.c:1017
@@ -273,7 +273,8 @@ msgid ""
 "please report to data.table issue tracker"
 msgstr ""
 "Erro interno: tipo inválido para gshift(), deveria ter sido detectado "
-"anteriormente. Por favor, reporte ao rastreador de problemas do data.table"
+"anteriormente. Por favor, relate isso no rastreador de problemas do "
+"data.table."
 
 #: gsumm.c:1207
 msgid "Internal error: n must be integer"
