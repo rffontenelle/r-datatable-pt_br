@@ -45,8 +45,8 @@ msgid ""
 "Internal error: invalid %s argument in %s function should have been caught "
 "earlier. Please report to the data.table issue tracker."
 msgstr ""
-"Erro interno: argumento inválido %s na função %s deveria ter sido detectado "
-"anteriormente. Por favor, reporte ao rastreador de problemas do data.table."
+"Erro interno: argumento %s inválido na função %s deveria ter sido capturado "
+"antes. Por favor, relate isso no rastreador de problemas do data.table."
 
 #: nafill.c:179
 msgid "fill must be a vector of length 1 or a list of length of x"
