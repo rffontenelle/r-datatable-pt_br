@@ -1182,7 +1182,7 @@ msgstr "vetores longos não são suportados para resultados de matriz/array"
 #: src/main/apply.c:129
 #, c-format
 msgid "type '%s' is not supported"
-msgstr "tipo '%s' não é suportado"
+msgstr "sem suporte ao tipo '%s'"
 
 #: src/main/apply.c:177
 #, c-format
@@ -15610,7 +15610,7 @@ msgid "invalid browser name, check options(\"browser\")."
 msgstr "nome de navegador inválido, verifique options(\"browser\")."
 
 msgid "help.start() requires the HTTP server to be running"
-msgstr "help.start() requer que o servidor HTTP esteja rodando"
+msgstr "help.start() requer que o servidor HTTP esteja executando"
 
 msgid ""
 "If nothing happens, you should open\n"
@@ -15623,8 +15623,8 @@ msgid ""
 "If the browser launched by '%s' is already running, it is *not* restarted, "
 "and you must switch to its window."
 msgstr ""
-"Se o navegador aberto por '%s' já está rodando, ele *não* é reinicializado e"
-" você precisa trocar para a sua janela."
+"Se o navegador aberto por '%s' já está em execução, ele *não* é "
+"reinicializado e você precisa trocar para a sua janela."
 
 msgid "Otherwise, be patient ..."
 msgstr "Caso contrário, seja paciente ..."
