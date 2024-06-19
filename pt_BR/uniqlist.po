@@ -37,7 +37,7 @@ msgstr "Erro interno: uniqlist recebeu length(order)==%d, mas nrow==%d"
 #: uniqlist.c:98 uniqlist.c:130 uniqlist.c:211 uniqlist.c:248 uniqlist.c:321
 #, c-format
 msgid "Type '%s' is not supported"
-msgstr "Tipo '%s' não é suportado"
+msgstr "Sem suporte ao tipo '%s'"
 
 #: uniqlist.c:151
 msgid "Input argument 'x' to 'uniqlengths' must be an integer vector"
@@ -85,8 +85,8 @@ msgid ""
 "Internal error: invalid value for 'mult'. please report to data.table issue "
 "tracker"
 msgstr ""
-"Erro interno: valor inválido para 'mult'. Por favor, reporte ao rastreador "
-"de problemas do data.table"
+"Erro interno: valor inválido para 'mult'. Por favor, relate isso no "
+"rastreador de problemas do data.table"
 
 #: uniqlist.c:352
 msgid "x is not a logical vector"
