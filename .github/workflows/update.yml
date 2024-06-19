@@ -71,7 +71,7 @@ jobs:
       - name: Populate pt_BR.po and R-pt_BR.po
         run: |
           pomerge --from-files pt_BR/*.po --to-files ../data.table/po/pt_BR.po
-          pomerge --from-files ../../pt_BR/*.po --to-files ../data.table/po/R-pt_BR.po
+          pomerge --from-files pt_BR/*.po --to-files ../data.table/po/R-pt_BR.po
 
       - name: Fill PO files header
         run: |
