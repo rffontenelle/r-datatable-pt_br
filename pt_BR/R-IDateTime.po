@@ -47,7 +47,7 @@ msgid ""
 "Internal error -- difftime objects may not be subtracted from IDate, but Ops"
 " dispatch should have intervened to prevent this"
 msgstr ""
-"Erro interno -- objetos difftime não podem ser subtraidos de IDate, mas "
+"Erro interno -- objetos difftime não podem ser subtraídos de IDate, mas "
 "despacho de Ops deveria ter intervindo para evitar isso"
 
 #: IDateTime.R:309
