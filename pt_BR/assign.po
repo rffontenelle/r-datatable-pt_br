@@ -40,8 +40,8 @@ msgstr ""
 "ptr de .internal.selfref é NULL. Isso é esperado e normal para uma "
 "data.table carregada do disco. Lembre-se de sempre executar setDT() "
 "imediatamente após o carregamento para evitar comportamento inesperado. Se "
-"esta tabela não foi carregada do disco ou você já executou setDT(), informe "
-"ao rastreador de problemas do data.table.\n"
+"esta tabela não foi carregada do disco ou você já executou setDT(), por "
+"favor, relate isso no rastreador de problemas do data.table.\n"
 
 #: assign.c:124
 msgid "Internal error: .internal.selfref ptr is neither NULL nor R_NilValue"
@@ -71,8 +71,7 @@ msgid ""
 "traceback() to data.table issue tracker."
 msgstr ""
 "dt passada para alloccol não possui nenhum atributo de classe. Por favor, "
-"relate o resultado de traceback() para o rastreador de problemas do "
-"data.table."
+"relate o resultado de traceback() no rastreador de problemas do data.table."
 
 #: assign.c:215 assign.c:315
 #, c-format
@@ -91,9 +90,9 @@ msgid ""
 "Internal error, please report (including result of sessionInfo()) to "
 "data.table issue tracker: tl (%d) < l (%d) but tl of class is marked."
 msgstr ""
-"Erro interno, favor relatar (incluindo o resultado de sessionInfo()) ao "
-"rastreador de problemas data.table: tl (%d) < l (%d), mas tl da classe está "
-"marcado."
+"Erro interno. Por favor, relate isso (incluindo o resultado de "
+"sessionInfo()) no rastreador de problemas data.table: tl (%d) < l (%d), mas "
+"tl da classe está marcado."
 
 #: assign.c:227
 #, c-format
@@ -214,7 +213,7 @@ msgstr ""
 #: assign.c:340
 #, c-format
 msgid "i[%d] is %d which is out of range [1,nrow=%d]"
-msgstr "i[%d] é %d, o qual está fora do intevalo [1,nrow=%d]"
+msgstr "i[%d] é %d, que está fora do intevalo [1,nrow=%d]"
 
 #: assign.c:343
 #, c-format
@@ -413,8 +412,9 @@ msgid ""
 "Internal error: oldtncol(%d) < oldncol(%d). Please report to data.table "
 "issue tracker, including result of sessionInfo()."
 msgstr ""
-"Erro interno: oldncol(%d) < oldncol(%d). Por favor, relate ao rastreador de "
-"problemas do data.table, incluindo o resultado de sessionInfo()."
+"Erro interno: oldncol(%d) < oldncol(%d). Por favor, relate isso no "
+"rastreador de problemas do data.table, incluindo o resultado de "
+"sessionInfo()."
 
 #: assign.c:465
 #, c-format
@@ -426,8 +426,8 @@ msgid ""
 msgstr ""
 "truelength (%d) é maior que 10.000 itens superalocados (length = %d). "
 "Consulte ?truelength. Se você não definiu a opção datatable.alloccol muito "
-"grande, relate no rastreador de problemas do data.table incluindo o "
-"resultado de sessionInfo()."
+"grande, por favor, relate isso no rastreador de problemas do data.table "
+"incluindo o resultado de sessionInfo()."
 
 #: assign.c:467
 #, c-format
@@ -446,8 +446,8 @@ msgid ""
 msgstr ""
 "Parece que em algum momento anterior, os nomes desta data.table foram "
 "reatribuídos. Certifique-se de usar setnames() em vez de names<- ou "
-"colnames<-. Caso contrário, informe no rastreador de problemas do "
-"data.table."
+"colnames<-. Caso contrário, por favor, relate isso no rastreador de "
+"problemas do data.table"
 
 #: assign.c:474
 #, c-format
@@ -657,8 +657,8 @@ msgid ""
 "Internal error: savetl_init checks failed (%d %d %p %p). please report to "
 "data.table issue tracker."
 msgstr ""
-"Erro interno: verificaçóes de savetl_init falharam ( %d %d %p %p). Por "
-"favor, reporte ao rastreador de problemas do data.table"
+"Erro interno: verificações de savetl_init falharam ( %d %d %p %p). Por "
+"favor, relate isso no rastreador de problemas do data.table."
 
 #: assign.c:1209
 #, c-format
@@ -671,8 +671,8 @@ msgid ""
 "Internal error: reached maximum %d items for savetl. Please report to "
 "data.table issue tracker."
 msgstr ""
-"Erro interno: atingiu o máximo de %d itens para savetl. Por favor, reporte "
-"ao rastreador de problemas do data.table."
+"Erro interno: atingiu o máximo de %d itens para savetl. Por favor, relate "
+"isso no rastreador de problemas do data.table."
 
 #: assign.c:1225
 #, c-format
