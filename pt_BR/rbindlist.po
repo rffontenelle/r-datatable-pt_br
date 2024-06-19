@@ -80,7 +80,7 @@ msgid ""
 "Total rows in the list is %<PRId64> which is larger than the maximum number "
 "of rows, currently %d"
 msgstr ""
-"Total de linhas na lista é %<PRId64> o que é maior que o número máximo de "
+"Total de linhas na lista é %<PRId64>, que é maior que o número máximo de "
 "linhas, atualmente %d"
 
 #: rbindlist.c:62
@@ -177,7 +177,7 @@ msgid ""
 "options()$datatable.rbindlist.check=='%s' which is not "
 "'message'|'warning'|'error'|'none'. See news item 5 in v1.12.2."
 msgstr ""
-"options()$datatable.rbindlist.check=='%s' que não é "
+"options()$datatable.rbindlist.check=='%s', que não é "
 "'message'|'warning'|'error'|'none'. Veja o item 5 das notícias em v1.12.2."
 
 #: rbindlist.c:297
