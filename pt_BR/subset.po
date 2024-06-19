@@ -34,7 +34,7 @@ msgstr ""
 #: subset.c:110 subset.c:274 subset.c:287
 #, c-format
 msgid "Internal error. Argument '%s' to %s is type '%s' not '%s'"
-msgstr "Erro interno. Argumento '%s' para %s é do tipo '%s' não '%s'"
+msgstr "Erro interno. Argumento '%s' para %s é do tipo '%s', não '%s'"
 
 #: subset.c:135
 #, c-format
