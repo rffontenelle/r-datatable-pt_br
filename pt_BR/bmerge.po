@@ -60,7 +60,7 @@ msgstr "typeof x.%s (%s) != typeof i.%s (%s)"
 #: bmerge.c:70 bmerge.c:380
 #, c-format
 msgid "Type '%s' is not supported for joining/merging"
-msgstr "Tipo '%s' não é suportado para junção/combinação"
+msgstr "Sem suporte ao tipo '%s' para junção/combinação"
 
 #: bmerge.c:76
 msgid "roll is character but not 'nearest'"
@@ -93,8 +93,8 @@ msgid ""
 "Internal error: invalid value for 'mult'. please report to data.table issue "
 "tracker"
 msgstr ""
-"Erro interno: valor inválido para 'mult'. informe ao rastreador de problemas"
-" do data.table"
+"Erro interno: valor inválido para 'mult'. Por favor, relate isso no "
+"rastreador de problemas do data.table."
 
 #: bmerge.c:106
 msgid ""
