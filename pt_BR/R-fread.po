@@ -125,7 +125,7 @@ msgid ""
 "FALSE values in it which is not allowed. Please consider the drop= or "
 "select= argument instead. See ?fread."
 msgstr ""
-"colClasses é do tipo 'logical', o que está tudo bem se for todo NA, mas "
+"colClasses é do tipo 'logical', que está tudo bem se for todo NA, mas "
 "contiver alguns valores TRUE ou FALSE que não são permitidos. Por favor, "
 "considere o argumento drop= ou select=. Veja ?fread."
 
