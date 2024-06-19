@@ -987,7 +987,7 @@ msgid ""
 " by name, instead. This logic intends to catch (most likely) user errors."
 msgstr ""
 "Tentativa de atribuir a uma posição de coluna maior que ncol(x). Em vez "
-"disso, crie a coluna por nome. Esta lógica pretende capturar (provaváveis) "
+"disso, crie a coluna por nome. Esta lógica pretende capturar (prováveis) "
 "erros do usuário."
 
 #: data.table.R:2289
