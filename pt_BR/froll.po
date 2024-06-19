@@ -57,7 +57,7 @@ msgid ""
 "extra care for NAs\n"
 msgstr ""
 "%s: valor(es) NA (ou outros não finitos) estão presentes na entrada, "
-"executando de novo com cuidado extra com NAs\n"
+"executando de novo com cuidado extra para NAs\n"
 
 #: froll.c:81 froll.c:284
 #, c-format
