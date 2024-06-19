@@ -18,4 +18,4 @@ msgstr ""
 #: cj.c:89
 #, c-format
 msgid "Type '%s' is not supported by CJ."
-msgstr "Tipo '%s' não é suportado por CJ."
+msgstr "Sem suporte ao tipo '%s' por CJ."
