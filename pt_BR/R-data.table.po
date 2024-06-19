@@ -671,9 +671,9 @@ msgstr ""
 "Anteriormente, este data.table foi copiado por R (ou foi criado manualmente "
 "usando structure() ou similar). Evite names<- e attr<- que, atualmente (e "
 "estranhamente) no R podem copiar toda a data.table. Use a sintaxe set* para "
-"evitar copiar: ?set, ?setnames e ?setattr. Se esta mensagem não ajudar, "
-"relate seu caso de uso ao rastreador de problemas data.table para que a "
-"causa raiz possa ser corrigida ou esta mensagem melhorada."
+"evitar copiar: ?set, ?setnames e ?setattr. Se esta mensagem não ajudar, por "
+"favor, relate isso no rastreador de problemas do data.table para que a causa"
+" raiz possa ser corrigida ou esta mensagem melhorada."
 
 #: data.table.R:1183
 msgid ""
@@ -1153,8 +1153,8 @@ msgid ""
 "x has some duplicated column name(s): %s. Please remove or rename the "
 "duplicate(s) and try again."
 msgstr ""
-"x tem alguns nomes de coluna duplicados: %s. Remova ou renomeie as "
-"duplicatas e tente novamente."
+"x tem alguns nomes de coluna duplicados: %s. Por favor, remova ou renomeie "
+"as duplicatas e tente novamente."
 
 #: data.table.R:2749
 msgid "Provide either before= or after= but not both"
